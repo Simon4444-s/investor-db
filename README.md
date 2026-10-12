@@ -36,14 +36,16 @@ Navrhnout spolehlivou databázi investorů (VC fondy, private equity, family off
 | 6 | `src/06_presnost.mjs` | Metriky přesnosti |
 | 7 | `src/07_naklady.mjs` | Tokeny a cena ze záznamů sezení |
 
+Bez sítě a bez snapshotů fungují kroky 3, 4 a 6, které čtou jen soubory repozitáře, a krok 7, který čte záznamy sezení z `~/.claude/projects/` (jen na počítači, kde práce probíhala). Kroky 1, 2 a 5 stahují zdroje a ověřují je proti dnešní verzi stránek, takže potřebují síť (stejně jako `npm install`) a jiný den mohou dát jiný výsledek; kroky 3 a 5 v hotovém repozitáři záměrně odmítnou běžet znovu, aby nepřepsaly verdikty a opravy.
+
 **Kde co najdu:**
 
 | Cesta | Obsah |
 |-------|-------|
-| `results/investori.csv`, `investice.csv`, `fakta.csv`, `kurzy.csv` | Databáze vzorku (fakta s URL, datem a citací) |
-| `results/rucni-kontrola.csv`, `rucni-kontrola-rozbor.md`, `presnost.md` | Ruční a AI kontrola, metriky |
+| `results/investori.csv`, `results/investice.csv`, `results/fakta.csv`, `results/kurzy.csv` | Databáze vzorku (fakta s URL, datem a citací) |
+| `results/rucni-kontrola.csv`, `results/rucni-kontrola-rozbor.md`, `results/presnost.md` | Ruční a AI kontrola, metriky |
 | `results/opravy.md` | Co se po kontrole opravilo a co ne, s důvody |
-| `results/naklady.md`, `naklady-tokeny.csv` | Spotřeba tokenů a odhad nákladů |
+| `results/naklady.md`, `results/naklady-tokeny.csv` | Spotřeba tokenů a odhad nákladů |
 | `data/kandidati.csv`, `data/kandidati_rozhodnuti.csv` | Kandidáti a rozhodnutí o duplicitách |
 | `data/overeni/kandidati/*.json` | Výstupy AI agentů (jeden soubor na kandidáta) |
 | `data/raw/zdroje.csv`, `data/raw/snapshoty.csv` | Ověřené zdroje plánu a evidence snapshotů (samotné kopie stránek jsou mimo git) |
@@ -81,3 +83,4 @@ Navrhnout spolehlivou databázi investorů (VC fondy, private equity, family off
 - **Investice mohou chybět** u 10 subjektů, u kterých se při sběru vyčerpal limit webového vyhledávání.
 - **Ostatní typy investorů** (PE, family office, andělé, velcí soukromí investoři), informování fyzických osob podle GDPR a pole jen v návrhu (fondy, LP, regulace ČNB) nejsou implementované.
 - **Výstupní tokeny agentů** záznamy sezení neukládají celé, náklady jsou proto rozsah.
+- **Historie commitů je nárazová:** commitoval jsem jen na začátku a na konci, protože jsem průběžně pracoval v Claude Code a commity dělal ručně v GitHub Desktop. Skutečný průběh práce krok za krokem ukazují exporty konverzací v `ai-log/`.

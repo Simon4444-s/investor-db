@@ -5605,3 +5605,346 @@
     - results/ (presnost.md, opravy.md, naklady.md, naklady-tokeny.csv a
       přegenerované výstupy),
     - notes/, ai-log/, PLAN.md a README.md.
+
+❯ <ide_selection>The user selected the lines 18 to 18 from
+  /Users/simonstaniek/investor-db/results/rucni-kontrola.csv:
+  brain
+
+  This may or may not be related to the current task.</ide_selection>
+❯ Poslední kontrola před odevzdáním, data neměň:
+  1. Zkopíruj soubory repozitáře (bez node_modules, .git a data/raw/snapshoty)
+  do dočasné
+     složky a zkus tam npm install a postupně skripty z README. Zjisti, které
+  kroky v čisté
+     kopii fungují a které potřebují snapshoty nebo síť.
+  2. Do README k tabulce skriptů doplň jednou dvěma větami, co jde spustit bez
+  snapshotů
+     a co ne.
+  3. Zkontroluj, že všechny odkazy na soubory v README a PLAN.md vedou na
+  existující soubory.
+
+⏺ Zkopíruji repozitář bez node_modules, .git a snapshotů do dočasné složky ve
+  scratchpadu. Skripty pak budu spouštět jen v kopii, takže data v repozitáři
+  zůstanou beze změny.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Kopie má 1,8 MB a npm install proběhl úspěšně, ale balíček potřebuje síť kvůli
+  stahování z npm registru. Teď zkusím nasimulovat stav bez sítě, abych
+  zjistil, které skripty síť vyžadují.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Simulace funguje: s proxy na neexistující port fetch selže s ECONNREFUSED. Teď
+  spustím v kopii postupně všech 7 kroků z README bez sítě a u každého zapíšu
+  výsledek.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Na macOS příkaz timeout chybí, takže skripty vůbec neproběhly. Spustím je
+  znovu bez něj.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Skripty 04, 06 a 07 fungují i bez sítě, zatímco 03 a 05 správně odmítly běžet
+  (podklady už mají verdikty a opravy). Skripty 01 a 02 spadly – ověřím, že je
+  to kvůli síti, a porovnám výstupy funkčních kroků s repozitářem.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Bez sítě spadly 01 a 02 na fetch failed, 04 a 06 sedí s repozitářem a 07 se
+  liší jen kvůli nárůstu sezení (funguje jen lokálně). Teď spustím 01 a 02 v
+  kopii se sítí na pozadí, ať ověřím jejich výsledky v čistém prostředí.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Zatímco kroky 01 a 02 běží na pozadí, zkontroluji odkazy v README a PLAN.md –
+  jak markdownové odkazy, tak cesty v apostrofech – a ověřím, že vedou na
+  existující soubory.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Kontrola odkazů v PLAN.md je v pořádku. V README najdu šest zkrácených cest k
+  souborům, které doplním na úplné, a ověřím, že data/raw/snapshoty.csv je
+  falešně hlášen jako chybějící kvůli .gitignore — pak počkám na výsledek
+  síťových kroků 01 a 02.
+
+  Read 1 file (ctrl+o to expand)
+
+⏺ Krok 01 pořád stahuje zdroje (asi 83 stránek s prodlevou mezi požadavky). Až
+  kroky 01 a 02 doběhnou, upravím README.
+
+⏺ Background command "Run steps 01 and 02 online in clean copy" completed (exit
+code 0)
+
+⏺ V čisté kopii se sítí oba kroky prošly. Krok 01 trval 1:37 a dal 74 kandidátů,
+  krok 02 trval 247 s a dal stejný souhrn jako repozitář (29 aktivních, 405/406
+  faktů, 98/98 investic). Ještě porovnám samotné výstupní soubory s
+  repozitářem.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Výstupy z čisté kopie jsou bajtově shodné s těmi v repozitáři, protože byly
+  spuštěny stejný den. Teď upravím README – doplním dvě věty pod tabulku skriptů
+  a celé cesty v tabulce souborů.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Kontrola je hotová. V repozitáři jsem změnil jen README, všechny skripty
+  běžely pouze v dočasné kopii.
+
+  1. Čistá kopie (bez node_modules, .git a data/raw/snapshoty)
+
+  npm install prošel, ale potřebuje síť (registr npm). Jednotlivé kroky:
+
+  Krok: 1 kandidáti
+  Bez sítě: spadne (fetch failed)
+  Se sítí: ✓, 1:37 min, 74 kandidátů
+  Poznámka: stahuje zdroje K1–K4
+  ────────────────────────────────────────
+  Krok: 2 ověření
+  Bez sítě: spadne hned při stažení kurzů ECB
+  Se sítí: ✓, 247 s, stejný souhrn
+  Poznámka: stahuje 282 stránek a ARES
+  ────────────────────────────────────────
+  Krok: 3 podklady k ruční kontrole
+  Bez sítě: odmítne běžet
+  Se sítí: –
+  Poznámka: záměrně, soubor už má verdikty; síť nepotřebuje
+  ────────────────────────────────────────
+  Krok: 4 výběr řádků
+  Bez sítě: ✓
+  Se sítí: –
+  Poznámka: výstup shodný s repozitářem
+  ────────────────────────────────────────
+  Krok: 5 opravy
+  Bez sítě: odmítne běžet
+  Se sítí: –
+  Poznámka: záměrně, log oprav existuje; při prvním běhu stahuje stránky
+  ────────────────────────────────────────
+  Krok: 6 přesnost
+  Bez sítě: ✓
+  Se sítí: –
+  Poznámka: výstup shodný s repozitářem
+  ────────────────────────────────────────
+  Krok: 7 náklady
+  Bez sítě: ✓
+  Se sítí: –
+  Poznámka: čte záznamy sezení z ~/.claude/projects/, takže jinde nepoběží;
+  čísla
+  se liší jen tím, že hlavní sezení mezitím narostlo
+
+  - Výstupy kroků 1 a 2 (kandidáti, investoři, investice, fakta, kurzy) jsou
+    bajtově shodné s repozitářem.
+  - Jiný den ale kroky 1 a 2 ověřují proti tehdejší verzi stránek, které se
+    mohou změnit. Uložené snapshoty se použijí jen v den stažení.
+
+  2. README: pod tabulku skriptů jsem doplnil dvě věty o tom, co běží bez sítě a
+  snapshotů, co ne a proč kroky 3 a 5 odmítnou běžet znovu.
+
+  3. Odkazy: všech 30 cest v README a 14 v PLAN.md vede na existující soubory.
+  - V tabulce souborů README byly zkrácené názvy (investice.csv místo
+    results/investice.csv), doplnil jsem celé cesty.
+  - PLAN.md odkazuje na data/raw/snapshoty/. Ta složka je záměrně mimo git,
+    takže v čerstvém klonu nebude, dokud se nespustí krok 1 nebo 2.
+
+  Dočasná kopie leží ve scratchpadu a do repozitáře nepatří.
+
+❯ <ide_selection>The user selected the lines 1 to 83 from
+  /Users/simonstaniek/investor-db/README.md:
+  # Spolehlivá databáze investorů (zadání A)
+
+  Řešení praktické úlohy pro pozici Junior AI Developer.
+
+  # Zadání
+
+  Navrhnout spolehlivou databázi investorů (VC fondy, private equity, family
+  office, angel investoři) a ověřit postup na vzorku VC fondů v ČR. Každý údaj
+  musí mít URL a datum zdroje; co nejde doložit, zůstane prázdné s označením
+  „neověřeno“.
+
+  # Řešení
+
+  **Plán:** [PLAN.md](PLAN.md) obsahuje typy investorů, pravidla zařazení a
+  vyřazení, datový model, postup ověření, měření přesnosti, odhad rozsahu pro
+  ČR a svět a GDPR.
+
+  **Vzorek VC v ČR (stav 2026-10-12):**
+  - Ze 4 veřejných seznamů vzniklo 74 kandidátů.
+  - Výsledek: **29 aktivních VC**, 7 neaktivních, 26 investorů mimo rozsah
+  vzorku (PE, family office, zahraniční fondy bez týmu v ČR) a 12 vyřazených
+  (crowdfunding, andělské kluby, asociace).
+  - Doloženo 98 investic za posledních 24 měsíců.
+  - Každý údaj má URL, datum zdroje a doslovnou citaci. Skript ověřuje citaci v
+  uložené kopii stránky a identitu v ARES. Částky jsou v EUR kurzem ECB k datu
+  zdroje.
+
+  **Přesnost:**
+  - 158–162 ze 166 kontrolních řádků správně (95,2–97,6 %).
+  - Při ruční kontrole 20 náhodných řádků bylo obsahově správně všech 20 a AI
+  kontrolor se se mnou shodl ve všech 20.
+  - Celou citaci napoprvé našlo hledání v prohlížeči jen u 14 z 22 řádků. Proč,
+  rozebírá
+  [results/rucni-kontrola-rozbor.md](results/rucni-kontrola-rozbor.md).
+
+  **Náklady:**
+  - Ve vzorku: sběr a ověření 0,68–0,75 USD na kandidáta, AI kontrola 0,14–0,15
+  USD na řádek, ruční kontrola 1,8 minuty na řádek.
+  - Celý svět: 28–124 tisíc záznamů. AI práce by stála 38–350 tisíc USD, k tomu
+  11–58 hodin ruční kontroly ([results/naklady.md](results/naklady.md)).
+
+  **Postup ve skriptech** (Node.js; `npm install`, potom `npm run <krok>`):
+
+  | Krok | Skript | Co dělá |
+  |------|--------|---------|
+  | 1 | `src/01_kandidati.mjs` | Kandidáti ze zdrojů K1–K4, deduplikace |
+  | 2 | `src/02_overeni.mjs` | Kontrola výstupů AI agentů: snapshoty, doslovné
+  citace, ARES, kurzy ECB, výstupy do `results/` |
+  | 3–4 | `src/03_rucni_kontrola.mjs`, `src/04_vyber_rucni_kontroly.mjs` |
+  Podklady a výběr řádků k ruční kontrole |
+  | 5 | `src/05_opravy.mjs` | Opravy po kontrole, se záznamem každé změny |
+  | 6 | `src/06_presnost.mjs` | Metriky přesnosti |
+  | 7 | `src/07_naklady.mjs` | Tokeny a cena ze záznamů sezení |
+
+  **Kde co najdu:**
+
+  | Cesta | Obsah |
+  |-------|-------|
+  | `results/investori.csv`, `investice.csv`, `fakta.csv`, `kurzy.csv` |
+  Databáze vzorku (fakta s URL, datem a citací) |
+  | `results/rucni-kontrola.csv`, `rucni-kontrola-rozbor.md`, `presnost.md` |
+  Ruční a AI kontrola, metriky |
+  | `results/opravy.md` | Co se po kontrole opravilo a co ne, s důvody |
+  | `results/naklady.md`, `naklady-tokeny.csv` | Spotřeba tokenů a odhad
+  nákladů |
+  | `data/kandidati.csv`, `data/kandidati_rozhodnuti.csv` | Kandidáti a
+  rozhodnutí o duplicitách |
+  | `data/overeni/kandidati/*.json` | Výstupy AI agentů (jeden soubor na
+  kandidáta) |
+  | `data/raw/zdroje.csv`, `data/raw/snapshoty.csv` | Ověřené zdroje plánu a
+  evidence snapshotů (samotné kopie stránek jsou mimo git) |
+  | `ai-log/` | Exporty konverzací z Claude Code (`/export`), pokyny pro
+  agenty, měření času a tokenů |
+  | `notes/` | Chyby AI, číselník sektorů, mezery v pokrytí |
+
+  # Jak jsem pracoval s AI
+
+  - **Nástroje:** Claude Code (Opus 5.5) ve VS Code dělal veškerou práci v
+  repozitáři. Claude v chatu (claude.ai) jsem používal jako oponenta:
+  kontroloval plán a mezivýsledky.
+  - **Pokyny:** pravidla projektu v [CLAUDE.md](CLAUDE.md) (nevymýšlet, URL a
+  datum u každé hodnoty, „neověřeno“, EUR s kurzem, čeština, žádný git) a
+  prompty po krocích. Pokyny pro ověřovací agenty jsou v
+  `ai-log/krok2-pokyny-agentum.md`.
+  - **Rozhodování:** sporné případy (duplicity, šedá zóna, nové kategorie) AI
+  navrhla a já jsem je schválil nebo změnil. Rozhodnutí jsou v
+  `data/kandidati_rozhodnuti.csv` a v PLAN.md.
+  - **Kontrola výstupů:** změny jsem procházel v GitHub Desktop před commity.
+  Opravy dat po kontrole nejsou přepsané potichu: každá změna je zaznamenaná v
+  `results/opravy.md` a `data/overeni/opravy-log.json`.
+  - **Nezávislý AI kontrolor v samostatném sezení:** prošel všech 166
+  kontrolních řádků proti živým stránkám. Viděl jen podklady ke kontrole a
+  pravidla, ne průběh sběru.
+  - **Ruční kontrola** 22 řádků (20 losovaných a 2 spory) ve dvou krocích:
+    1. Na živých stránkách jsem hledal uložené citace (10 minut). Napoprvé jsem
+  jich našel 14 z 22, rozbor ukázal, že na stránkách jsou všechny.
+    2. U každého řádku jsem posoudil, zda z citace plyne tvrzení (30 minut).
+  Správně bylo všech 22.
+
+    Verdikty AI kontrolora jsem přitom neviděl. Dva řádky, u kterých AI svůj
+  verdikt prozradila (A034, B097), jsme z výběru vyřadili.
+  - **Claude v chatu jako oponent:** navrhl mimo jiné kapitolu „Kdo co dělá“
+  (podklad pro odhad nákladů), úpravu definice VC pro firmy investující vlastní
+  kapitál, pravidlo pro andělské kluby (V9), stav „mimo rozsah vzorku“ a
+  kombinaci AI a ruční kontroly. Odhalil také podhodnocenou horní mez pro svět.
+  - **Zákaz gitu vynucený oprávněním:** na mém Macu nejsou vývojářské nástroje
+  Applu, commity proto dělám v GitHub Desktop a Claude Code git spouštět nemá.
+  Pravidlo v CLAUDE.md nestačilo, AI jednou git spustila. Zákaz proto vynucuje
+  pravidlo `deny: Bash(git *)` v `.claude/settings.json`, které další pokus už
+  zablokovalo.
+
+  **Nejzajímavější chyby AI** (všechny v
+  [notes/ai-chyby.md](notes/ai-chyby.md)):
+  1. **Kontrola, která kontrolovala sama sebe.** Převod HTML na text vkládal
+  mezery kolem odkazů a nedekódoval entity, takže dvě citace nebyly doslovné
+  (B087, B099). Kontrolní skript používal stejný převod, a proto hlásil 99,8%
+  úspěšnost. Ruční hledání v prohlížeči našlo celou citaci napoprvé jen u 14 z
+  22 řádků. Kromě chyby převodu šlo o citace složené z více prvků stránky (4×),
+  zalomení řádku a citaci jen z názvu stránky. Převod je opravený a 49 citací
+  je převedeno na viditelný text.
+  2. **Podhodnocený odhad pro svět.** Horní mez pro VC a PE vznikla bez zdroje
+  („zbytek světa 0–100 %“) a vynechala Asii. Odhalil to oponent v chatu. Po
+  doplnění zdrojů vzrostla horní mez z 8 500 na 21 000 VC firem.
+  3. **AI kontrolor nahlásil dvě chyby neprávem.** Posuzoval řádky izolovaně a
+  přehlédl doklady z obchodního rejstříku, které sám jinde uznal. Zároveň ale
+  našel 4 skutečné chyby, například započítání dokupu 4% podílu v dceřiné firmě
+  jako VC investice.
+  4. **Vymyšlený subjekt v zadání rešerše.** AI zadala agentovi hledat „Národní
+  inovační fond“, který nikdy nevznikl. Agent to zjistil sám a do plánu se to
+  nedostalo.
+
+  # Co chybí
+
+  - **Pokrytí** není změřené: referenční seznam K5 (CEE Funding Map) zatím není
+  vytěžený. United Founders je příklad investora, který ve zdrojích chybí.
+  - **Ruční obsahová kontrola** posuzovala tvrzení podle uložené citace (její
+  přítomnost na stránce jsem ověřil v prvním kroku), ne podle celého obsahu
+  stránky.
+  - **Schopnost AI kontrolora najít chyby** není změřená: ručně kontrolované
+  náhodné řádky neobsahovaly žádnou chybu. 8 chyb, které AI kontrolor nahlásil,
+  ověřoval ve zdroji hlavní agent, ne já.
+  - **28 % citací** spojuje více prvků stránky. Hodnoty ve zdroji jsou, ale
+  citace je potřeba nahradit souvislými úryvky.
+  - **Nerozhodnuté případy:** typ KB SmartSolutions (CVC?), Impulse Ventures,
+  tým Heartcore v ČR, typ AgriBoom, sektory Soulmates, Flying Founders podle
+  V9, správce Rockaway Ventures.
+  - **Investice mohou chybět** u 10 subjektů, u kterých se při sběru vyčerpal
+  limit webového vyhledávání.
+  - **Ostatní typy investorů** (PE, family office, andělé, velcí soukromí
+  investoři), informování fyzických osob podle GDPR a pole jen v návrhu (fondy,
+  LP, regulace ČNB) nejsou implementované.
+  - **Výstupní tokeny agentů** záznamy sezení neukládají celé, náklady jsou
+  proto rozsah.
+
+  This may or may not be related to the current task.</ide_selection>
+
+❯ Doplň do README do části "Co chybí" tuto odrážku:
+  - Historie commitů je nárazová: commitoval jsem jen na začátku a na konci,
+  protože jsem
+    průběžně pracoval v Claude Code a commity dělal ručně v GitHub Desktop.
+  Skutečný průběh
+    práce krok za krokem ukazují exporty konverzací v ai-log/.
+
+  Read 1 file (ctrl+o to expand)
+
+⏺ Update(README.md)
+  ⎿  Added 2 lines, removed 1 line
+      82  - **Nerozhodnuté případy:** typ KB SmartSolutions (CVC?), Impul
+          se Ventures, tým Heartcore v ČR, typ AgriBoom, sektory Soulmate
+          s, Flying Founders podle V9, správce Rockaway Ventures.
+      83  - **Investice mohou chybět** u 10 subjektů, u kterých se při sb
+          ěru vyčerpal limit webového vyhledávání.
+      84  - **Ostatní typy investorů** (PE, family office, andělé, velcí 
+          soukromí investoři), informování fyzických osob podle GDPR a po
+          le jen v návrhu (fondy, LP, regulace ČNB) nejsou implementované
+          .
+      85 -- **Výstupní tokeny agentů** záznamy sezení neukládají celé, ná
+         -klady jsou proto rozsah.                                       
+      85   No newline at end of file
+      86 +- **Výstupní tokeny agentů** záznamy sezení neukládají celé, ná
+         +klady jsou proto rozsah.                                       
+      87 +- **Historie commitů je nárazová:** commitoval jsem jen na začá
+         +tku a na konci, protože jsem průběžně pracoval v Claude Code a 
+         +commity dělal ručně v GitHub Desktop. Skutečný průběh práce kro
+         +k za krokem ukazují exporty konverzací v `ai-log/`.            
+      88   No newline at end of file
+
+  Listed 1 directory (ctrl+o to expand)
+
+⏺ Odrážku jsem doplnil na konec části „Co chybí“ v README.md (README.md#L86)
+  přesně ve vašem znění.
+
+  Exporty, na které odkazuje, v ai-log/ opravdu jsou
+  (sezeni-1-plan-sber-vysledky.txt a sezeni-2-nezavisla-kontrola.txt). Jsou ale
+  z 19:23, takže konec tohoto sezení (kontrola čisté kopie, úpravy README) v
+  nich chybí. Jestli ho tam chcete mít, před commitem export zopakujte.
