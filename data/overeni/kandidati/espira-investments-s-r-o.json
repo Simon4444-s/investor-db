@@ -1,0 +1,31 @@
+{
+  "kandidat": "Espira Investments s.r.o.",
+  "znacka": "ESPIRA Investments",
+  "stav": "mimo_rozsah",
+  "duvod": "PE",
+  "typ": "PE",
+  "fakta": [
+    {"pole": "typ", "hodnota": "PE",
+     "url": "https://www.espirainvestments.com/",
+     "citace": "ESPIRA Investments is a private equity fund investing in CEE businesses that have a proven business model, annual revenue exceeding €2,000,000, and a positive EBITDA.",
+     "hodnota_v_citaci": "private equity fund",
+     "datum_zdroje": "2025-06-30", "datum_v_textu": "dateModified: 2025-06-30T15:39:24+00:00"},
+    {"pole": "zeme_sidla", "hodnota": "CZ",
+     "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05528089",
+     "citace": "\"ico\":\"05528089\",\"obchodniJmeno\":\"ESPIRA Investments s.r.o.\",\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+     "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+     "datum_zdroje": "2025-08-05", "datum_v_textu": "\"datumAktualizace\":\"2025-08-05\""},
+    {"pole": "nazev", "hodnota": "ESPIRA Investments s.r.o.",
+     "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05528089",
+     "citace": "\"ico\":\"05528089\",\"obchodniJmeno\":\"ESPIRA Investments s.r.o.\"",
+     "hodnota_v_citaci": "ESPIRA Investments s.r.o.",
+     "datum_zdroje": "2025-08-05", "datum_v_textu": "\"datumAktualizace\":\"2025-08-05\""},
+    {"pole": "ico", "hodnota": "05528089",
+     "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05528089",
+     "citace": "\"ico\":\"05528089\",\"obchodniJmeno\":\"ESPIRA Investments s.r.o.\"",
+     "hodnota_v_citaci": "05528089",
+     "datum_zdroje": "2025-08-05", "datum_v_textu": "\"datumAktualizace\":\"2025-08-05\""}
+  ],
+  "investice": [],
+  "poznamka": "Fond private equity pro zralé SME (tržby nad 2 mil. EUR, kladná EBITDA, tiket 1–3 mil. EUR, i většinové podíly), sídlo správce v Praze. Investice nehledány (mimo rozsah vzorku). Poslední tiskové zprávy na webu jsou z let 2021–2022, aktivita za 24 měsíců (Z2) proto není ověřena."
+}

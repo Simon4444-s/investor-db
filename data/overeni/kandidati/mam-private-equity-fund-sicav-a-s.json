@@ -1,0 +1,56 @@
+{
+  "kandidat": "MAM Private Equity Fund SICAV a.s.",
+  "znacka": "MAM Private Equity",
+  "stav": "mimo_rozsah",
+  "duvod": "PE",
+  "typ": "PE",
+  "fakta": [
+    {
+      "pole": "typ",
+      "hodnota": "PE",
+      "url": "https://cvca.cz/mam-private-equity-fund-sicav-a-s-2/",
+      "citace": "Typ investic manažerské odkupy (MBO, MBI), akvizice společností LBO, růstový kapitál Preferovaná výše jedné investice EUR 2-8 mil (vlastní equity)",
+      "hodnota_v_citaci": "manažerské odkupy (MBO, MBI), akvizice společností LBO",
+      "datum_zdroje": "2025-03-12",
+      "datum_v_textu": "dateModified: 2025-03-12T13:31:13+00:00"
+    },
+    {
+      "pole": "typ",
+      "hodnota": "PE",
+      "url": "http://www.mam-equity.cz/",
+      "citace": "portfolio fondu Vlastnický podíl 90 % Skupina Raycom, patří mezi přední value-added distributory komponent pro výstavbu telekomunikačních sítí v ČR.",
+      "hodnota_v_citaci": "Vlastnický podíl 90 %",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://cvca.cz/mam-private-equity-fund-sicav-a-s-2/",
+      "citace": "MAM Private Equity Fund SICAV a.s. Adresa Klimentská 1216/46 110 00 Praha 1 www.mam-equity.cz",
+      "hodnota_v_citaci": "110 00 Praha 1",
+      "datum_zdroje": "2025-03-12",
+      "datum_v_textu": "dateModified: 2025-03-12T13:31:13+00:00"
+    },
+    {
+      "pole": "nazev",
+      "hodnota": "MAM Private Equity Fund SICAV a.s.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19381603",
+      "citace": "\"ico\":\"19381603\",\"obchodniJmeno\":\"MAM Private Equity Fund SICAV a.s.\"",
+      "hodnota_v_citaci": "MAM Private Equity Fund SICAV a.s.",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "19381603",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19381603",
+      "citace": "\"ico\":\"19381603\",\"obchodniJmeno\":\"MAM Private Equity Fund SICAV a.s.\"",
+      "hodnota_v_citaci": "19381603",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    }
+  ],
+  "investice": [],
+  "poznamka": "Fond kvalifikovaných investorů zaměřený na manažerské odkupy, LBO a většinové podíly v zavedených firmách (Raycom 90 %, Comguard 70,4 %), bez sektorové preference; jde o PE, proto mimo rozsah vzorku. Web fondu uvádí i novější akvizice (Unipap 9/2025, PJ EXPEDIS a MUFF Logistics 9/2026), fond je tedy aktivní; investice podle pokynů nezapisovány. Název a IČO jsou údaje fondu (SICAV); správcovská společnost nebyla ověřována."
+}

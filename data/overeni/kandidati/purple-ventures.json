@@ -1,0 +1,182 @@
+{
+  "kandidat": "Purple Ventures",
+  "znacka": "Purple Ventures",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "Purple Ventures s.r.o.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05775574",
+      "citace": "{\"ico\":\"05775574\",\"obchodniJmeno\":\"Purple Ventures s.r.o.\"",
+      "hodnota_v_citaci": "Purple Ventures s.r.o.",
+      "datum_zdroje": "2026-04-06",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-04-06\""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "05775574",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05775574",
+      "citace": "{\"ico\":\"05775574\",\"obchodniJmeno\":\"Purple Ventures s.r.o.\"",
+      "hodnota_v_citaci": "05775574",
+      "datum_zdroje": "2026-04-06",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-04-06\""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05775574",
+      "citace": "\"obchodniJmeno\":\"Purple Ventures s.r.o.\",\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "2026-04-06",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-04-06\""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://www.purple-ventures.com/",
+      "url": "https://www.purple-ventures.com/",
+      "citace": "© 2025 Purple Ventures s.r.o., Masarykova 26, 602 00 Brno, ID no: 05775574",
+      "hodnota_v_citaci": "Purple Ventures s.r.o.",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://www.finance.cz/aktuality/druhy-fond-purple-ventures-jiz-ziskal-pres-700-milionu-korun-a-proinvestoval-ctvrt-miliardy-miri-k-portfoliu-50-firem/",
+      "citace": "Venture kapitálový fond Purple Ventures v loňském roce podpořil dalších 13 startupů a dohromady do jeho portfolia patří již 22 firem (8 pre-seed a 14 seed).",
+      "hodnota_v_citaci": "Venture kapitálový fond",
+      "datum_zdroje": "2026-03-12",
+      "datum_v_textu": "12. 3. 2026"
+    },
+    {
+      "pole": "faze",
+      "hodnota": "pre-seed;seed",
+      "url": "https://www.purple-ventures.com/",
+      "citace": "We are a venture capital fund investing into CEE+ tech-enabled innovations in pre-seed and seed stages.",
+      "hodnota_v_citaci": "pre-seed and seed stages",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "250000-400000 EUR",
+      "url": "https://www.purple-ventures.com/",
+      "citace": "Pre-seed & Seed investment rounds €250k to €400k initial ticket size, later follow-ons",
+      "hodnota_v_citaci": "€250k to €400k initial ticket size",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "kapital_celkem",
+      "hodnota": "700000000 CZK; druh=committed",
+      "url": "https://www.finance.cz/aktuality/druhy-fond-purple-ventures-jiz-ziskal-pres-700-milionu-korun-a-proinvestoval-ctvrt-miliardy-miri-k-portfoliu-50-firem/",
+      "citace": "Od svého založení získal fond přes 700 milionů korun (30 milionů euro) od 52 investorů a doposud proinvestoval 250 milionů korun (10,2 milionu euro).",
+      "hodnota_v_citaci": "získal fond přes 700 milionů korun",
+      "datum_zdroje": "2026-03-12",
+      "datum_v_textu": "12. 3. 2026"
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "Comparables.ai",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-10-06",
+      "faze_kola": "seed",
+      "castka_kola": {
+        "castka": 6000000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "ai",
+      "url": "https://tech.eu/2026/10/06/comparablesai-secures-6m-seed-to-scale-its-ai-platform-for-dealmakers/",
+      "citace": "Comparables.ai, an AI platform for private and public market intelligence, has raised $6 million in seed funding to support its expansion across multiple markets and further develop its core AI engine. The round was led by Pragmatech and Araya Ventures, with participation from Purple Ventures, Gorilla Capital, hi5 Ventures, Somersault Ventures and other investors.",
+      "hodnota_v_citaci": "Comparables.ai",
+      "datum_zdroje": "2026-10-06",
+      "datum_v_textu": "06 October 2026"
+    },
+    {
+      "cilova_firma": "Fether Labs",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-05-27",
+      "faze_kola": "neověřeno",
+      "castka_kola": null,
+      "castka_investora": {
+        "castka": 11000000,
+        "mena": "CZK"
+      },
+      "role": "neuvedeno",
+      "typ_dokladu": "media",
+      "sektor": "prumysl",
+      "url": "https://www.euro.cz/clanky/cesky-fond-purple-ventures-sazi-na-technologii-ovladanou-pohybem-prstu-do-britskeho-startupu-posilaji-11-milionu-korun/",
+      "citace": "vyvíjí britský startup Fether Labs. Jeho chytrý náramek nové generace je založen na snímání pohybu šlach v zápěstí, díky čemuž dokáže rozpoznat i velmi jemná gesta. Do společnosti nyní investuje jedenáct milionů korun také český fond Purple Ventures společně s mezinárodními investory",
+      "hodnota_v_citaci": "Fether Labs",
+      "datum_zdroje": "2026-05-27",
+      "datum_v_textu": "27. 5. 2026"
+    },
+    {
+      "cilova_firma": "Vetstor",
+      "ico_cilove_firmy": "21314675",
+      "datum_investice": "2025-12-09",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 1000000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "spotrebitel",
+      "url": "https://cc.cz/vedla-miliardovou-sit-zverimexu-po-rodicovske-hlida-zdravi-mazlicku-desitky-milionu-ted-ma-i-od-kijonkove/",
+      "citace": "První investici Vetstor oznamoval v letošním dubnu, kdy mu v tzv. pre-seedovém, úvodním kole 13 milionů korun poslaly české fondy Zaka VC a Purple Ventures. Ty se účastní i aktuálního kola, které dosáhlo celkové výše jeden milion eur, v přepočtu 24 milionů korun.",
+      "hodnota_v_citaci": "Vetstor",
+      "datum_zdroje": "2025-12-09",
+      "datum_v_textu": "09. 12. 2025"
+    },
+    {
+      "cilova_firma": "Kilde",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-10-20",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 29000000,
+        "mena": "CZK"
+      },
+      "castka_investora": {
+        "castka": 12000000,
+        "mena": "CZK"
+      },
+      "role": "neuvedeno",
+      "typ_dokladu": "media",
+      "sektor": "fintech",
+      "url": "https://cc.cz/prosel-stacemi-v-londyne-i-moskve-ted-je-v-singapuru-meni-poradky-ve-financovani-a-uz-spravuje-miliardy/",
+      "citace": "Do Kilde teď již podruhé investuje brněnský fond Purple Ventures, tentokrát jde o dvanáct milionů korun. Dalších sedmnáct milionů pak přidalo sedm nejmenovaných investorů. Celkem tak Klide získal necelých třicet milionů.",
+      "hodnota_v_citaci": "Kilde",
+      "datum_zdroje": "2025-10-20",
+      "datum_v_textu": "20. 10. 2025"
+    },
+    {
+      "cilova_firma": "Talentiqa",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-09-29",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 25000000,
+        "mena": "CZK"
+      },
+      "castka_investora": null,
+      "role": "neuvedeno",
+      "typ_dokladu": "media",
+      "sektor": "prace",
+      "url": "https://cc.cz/prvni-kolo-pohovoru-dela-umela-inteligence-v-cezu-i-bageterii-boulevard-jeji-tvurci-ted-ziskali-25-milionu/",
+      "citace": "Do česko-slovenské Talentiqy posílají pětadvacet milionů korun fondy Purple Ventures z Česka a Venture to Future Fund ze Slovenska.",
+      "hodnota_v_citaci": "Talentiqy",
+      "datum_zdroje": "2025-09-29",
+      "datum_v_textu": "29. 9. 2025"
+    }
+  ],
+  "poznamka": "Správce Purple Ventures s.r.o. (Brno) podle patičky webu; druhý fond je lucemburská struktura PURPLE VENTURES 2 FUND (v ARES VR uvedena jako společník VETSTOR CZ s.r.o. bez IČO, sídlo Capellen, LU) – kontrola společníků proto nemusí najít IČO správce. kapital_celkem = jen druhý fond („přes 700 milionů korun“ od 52 investorů k 2026-03-12, dolní mez); velikost prvního fondu nedoložena. sektory_deklarovane vynechány: web uvádí jen „tech-enabled innovations“ bez výčtu sektorů. Faze kol u Fether Labs, Vetstor (navazující kolo po pre-seedu z 04/2025), Kilde a Talentiqa zdroje neuvádějí. Kilde: castka_kola 29 mil. CZK = 12 mil. od Purple + 17 mil. od dalších investorů podle citace (text uvádí „necelých třicet milionů“); Kilde i Fether Labs jsou zahraniční firmy (SG, UK), Talentiqa česko-slovenská, v ARES nenalezena. Fether Labs: E15 (2026-05-27) uvádí 15 mil. Kč společně s PurposeTech, euro.cz 11 mil. Kč od Purple. Další investice v okně podle portfolia na webu (TASS Vision, Clearly, Vetstor pre-seed, Artie – vše „Invested in 2025“) a Buylo (CzechCrunch 2025-08-26) jsem kvůli limitu 5 nejnovějších neověřoval ani nezapsal."
+}

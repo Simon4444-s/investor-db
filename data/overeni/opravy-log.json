@@ -1,0 +1,459 @@
+{
+  "statistika_prevodu": {
+    "celkem": 525,
+    "beze_zmeny": 475,
+    "prevedeno": 49,
+    "nenalezeno": 1,
+    "nedostupne": 0
+  },
+  "zmeny": [
+    {
+      "soubor": "startup-yard.json",
+      "polozka": "fakt typ",
+      "zmena": "citace „Do you invest in start-ups? Teams that are selected can receive, if they want, a €25,000 cash investment via a convertible note. We also offer follow-on funds to our best performing startups.“ (https://startupyard.com/faq/) → „Teams that are selected can receive, if they want, a €25,000 cash investment via a convertible note. We also offer follow-on funds to our best performing startups.“ (https://startupyard.com/faq/)",
+      "duvod": "A005. Rozbor ruční kontroly: citace byla poskládaná z více prvků stránky; nahrazena souvislým úryvkem jednoho prvku.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "tilia-impact-ventures.json",
+      "polozka": "fakt typ",
+      "zmena": "citace „Tilia Impact Ventures backs Czech and CEE region founders to make systemic environmental and social change, on a global scale. 0.3 - 1.2m EUR initial ticket Equity / Convertible debt Early stage Sector-agnostic, Impact-driven CEE+“ (https://tiliaimpactventures.cz/en/) → „Tilia Impact Ventures backs Czech and CEE region founders to make systemic environmental and social change, on a global scale.“ (https://tilia.vc/)",
+      "duvod": "A008. Rozbor ruční kontroly: citace byla poskládaná z více prvků stránky; nahrazena souvislým úryvkem jednoho prvku. Původní URL přesměrovává na tilia.vc, proto je uvedena cílová adresa.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "n1.json",
+      "polozka": "fakt typ",
+      "zmena": "citace „N1 | Early-Stage VC Backing AI & Healthtech Founders Across Europe & the US“ (https://www.n1.rocks/) → „We invest early and stay for the journey. We bring capital, experience, and access across Europe and the US.“ (https://www.n1.rocks/)",
+      "duvod": "A027. Rozbor ruční kontroly: doklad byl jen v <title> stránky; nahrazen viditelným textem.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "enterprise-investors.json",
+      "polozka": "fakt typ",
+      "zmena": "citace „Typ investic buyout (MBO & MBI), expansion capital“ (https://cvca.cz/enterprise-investors/) → „buyout (MBO & MBI), expansion capital“ (https://cvca.cz/enterprise-investors/)",
+      "duvod": "A041. Rozbor ruční kontroly: citace byla poskládaná z více prvků stránky; nahrazena souvislým úryvkem jednoho prvku.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "czech-business-angel-association-cbaa.json",
+      "polozka": "fakt duvod",
+      "zmena": "citace „01 Andělští investoři CBAA spojuje andělské investory působící v ČR. Podporujeme investorské prostředí a jsme silným partnerem ve vztahu k institucím.“ (https://www.cbaa.cz/) → „CBAA spojuje andělské investory působící v ČR. Podporujeme investorské prostředí a jsme silným partnerem ve vztahu k institucím.“ (https://www.cbaa.cz/)",
+      "duvod": "A062. Rozbor ruční kontroly: citace byla poskládaná z více prvků stránky; nahrazena souvislým úryvkem jednoho prvku.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "3ts-capital-partners.json",
+      "polozka": "fakt typ",
+      "zmena": "citace „3TS Capital Partners - Leading European technology-focused venture growth investment adviser 25 Years of Technology Investment Excellence“ (https://3tscapital.com/) → „With over 25 years and multiple fund generations, we know how to navigate market cycles, lead and co-lead growth rounds, execute cross-border expansion across Europe, the US and Asia, and drive value creation from entry to exit.“ (https://3tscapital.com/)",
+      "duvod": "Stejná vada jako A027 z rozboru: citace pocházela z <title> nebo spojovala více prvků; nahrazena viditelným úryvkem jednoho prvku.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "3ts-capital-partners.json",
+      "polozka": "fakt zeme_sidla",
+      "zmena": "citace „Company Information 3TS Capital Partners Oy Salomonkatu 17 A 6d 00100 Helsinki Finland Contact Information Email: info@3tscapital.com“ (https://3tscapital.com/imprint) → „Salomonkatu 17 A 6d 00100 Helsinki Finland“ (https://3tscapital.com/imprint)",
+      "duvod": "Stejná vada jako A027 z rozboru: citace pocházela z <title> nebo spojovala více prvků; nahrazena viditelným úryvkem jednoho prvku.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "3ts-capital-partners.json",
+      "polozka": "fakt web",
+      "zmena": "citace „Contact Information Email: info@3tscapital.com Website: www.3tscapital.com Media Owner 3TS Capital Partners Oy“ (https://3tscapital.com/imprint) → „Website:www.3tscapital.com“ (https://3tscapital.com/imprint)",
+      "duvod": "Stejná vada jako A027 z rozboru: citace pocházela z <title> nebo spojovala více prvků; nahrazena viditelným úryvkem jednoho prvku.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "tilia-impact-ventures.json",
+      "polozka": "fakt tiket_deklarovany",
+      "zmena": "URL https://tiliaimpactventures.cz/en/ → https://tilia.vc/",
+      "duvod": "Rozbor ruční kontroly (A008): původní adresa přesměrovává na tilia.vc.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "tilia-impact-ventures.json",
+      "polozka": "fakt sektory_deklarovane",
+      "zmena": "URL https://tiliaimpactventures.cz/en/ → https://tilia.vc/",
+      "duvod": "Rozbor ruční kontroly (A008): původní adresa přesměrovává na tilia.vc.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "kb-smartsolutions.json",
+      "polozka": "investice Upvest",
+      "zmena": "investice vyřazena jako doklad Z2",
+      "duvod": "B097 (AI kontrolor), ověřeno v citaci a v ARES: KB SmartSolutions je společníkem Upvestu od 2020-07-01, podíl postupně až 100 %.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "kb-smartsolutions.json",
+      "polozka": "stav",
+      "zmena": "aktivni → neaktivni (V4)",
+      "duvod": "Důsledek opravy B097: bez platného dokladu investice v okně. Typ (A023) neměněn, není jasné, zda jde o CVC.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "cvi.json",
+      "polozka": "stav",
+      "zmena": "vyrazen (V5) → mimo_rozsah (PE)",
+      "duvod": "A064 (AI kontrolor), ověřeno ve zdroji: CVI nabízí i „convertible debt and private equity“ a drží menšinové podíly, takže V5 neplatí. Sídlo Varšava (fakt zeme_sidla PL).",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "limerock-ventures.json",
+      "polozka": "stav",
+      "zmena": "vyrazen (nesplňuje Z2) → neaktivni (V4)",
+      "duvod": "A070 (AI kontrolor): pro fond bez investice za 24 měsíců předepisuje PLAN.md (V4) stav „neaktivní“; doklad (SFDR: žádné investiční rozhodnutí od 1. 11. 2016) beze změny.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "agriboom-ventures.json",
+      "polozka": "fakt sektory_deklarovane",
+      "zmena": "citace převedena na viditelný text: „Primárně se zaměřujeme na zemědělství , sekundárně na zahradnictví , agrobiotechnologie , agrochemii , biotechnologie , odpadové hospodářství , strojírenství a elektrotechniku (včetně zemědělských strojů a výroby ).“ → „Primárně se zaměřujeme na zemědělství, sekundárně na zahradnictví, agrobiotechnologie, agrochemii, biotechnologie, odpadové hospodářství, strojírenství a elektrotechniku (včetně zemědělských strojů a výroby).“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "credo-ventures.json",
+      "polozka": "investice Picogrid",
+      "zmena": "citace převedena na viditelný text: „Americký startup Picogrid , který vyvíjí technologie pro propojení moderních vojenských systémů, získal od investorů 45 milionů dolarů (skoro miliardu Kč). Mezi investory se objevuje také český fond Credo Ventures , který už do Picogridu peníze dříve posílal.“ → „Americký startup Picogrid, který vyvíjí technologie pro propojení moderních vojenských systémů, získal od investorů 45 milionů dolarů (skoro miliardu Kč). Mezi investory se objevuje také český fond Credo Ventures, který už do Picogridu peníze dříve posílal.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "credo-ventures.json",
+      "polozka": "investice Modeinspect",
+      "zmena": "citace převedena na viditelný text: „Startup Modeinspect rozpřažený mezi Prahu a San Francisco ohlásil, že získal investici ve výši 3,4 milionu dolarů (skoro 71 milionů korun). Kolo vede pařížský fond Partech , účastní se také pražské Credo Ventures a německý fond Angelinvest“ → „Startup Modeinspect rozpřažený mezi Prahu a San Francisco ohlásil, že získal investici ve výši 3,4 milionu dolarů (skoro 71 milionů korun). Kolo vede pařížský fond Partech, účastní se také pražské Credo Ventures a německý fond Angelinvest“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "czech-founders-vc.json",
+      "polozka": "investice Merchantee",
+      "zmena": "citace převedena na viditelný text: „Merchantee oznámilo rozšíření svého původního, takzvaného seed investičního kola ve výši patnáct milionů korun z roku 2024 , o dalších třicet milionů. Kolo vedl fond Reflex Capital za účasti Czech Founders VC a Lighthouse Ventures.“ → „Merchantee oznámilo rozšíření svého původního, takzvaného seed investičního kola ve výši patnáct milionů korun z roku 2024, o dalších třicet milionů. Kolo vedl fond Reflex Capital za účasti Czech Founders VC a Lighthouse Ventures.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "czech-founders-vc.json",
+      "polozka": "investice Every Health",
+      "zmena": "citace převedena na viditelný text: „Czech Founders VC led the funding, with participation from Atlantic Labs , N1 Ventures, Ultra Ventures, ZAS Ventures, and Taimi , one of the world's largest LGBTQ+ dating apps. \"Our investment in Every Health was driven by the opportunity to solve a massive, underserved healthcare need affecting tens of millions of Europeans,\"“ → „Czech Founders VC led the funding, with participation from Atlantic Labs, N1 Ventures, Ultra Ventures, ZAS Ventures, and Taimi, one of the world's largest LGBTQ+ dating apps. \"Our investment in Every Health was driven by the opportunity to solve a massive, underserved healthcare need affecting tens of millions of Europeans,\"“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "depo-ventures.json",
+      "polozka": "investice ArcSpace",
+      "zmena": "citace převedena na viditelný text: „Fondée en 2022 à Paris, ARCSPACE vient de lever plus de 2 millions d&rsquo;euros lors d&rsquo;un tour mené par DEPO Ventures , via son fonds DEPO Ventures One, avec SCE Freiraum Ventures , IRDI Capital Investissement et un réseau français de business angels.“ → „Fondée en 2022 à Paris, ARCSPACE vient de lever plus de 2 millions d’euros lors d’un tour mené par DEPO Ventures, via son fonds DEPO Ventures One, avec SCE Freiraum Ventures, IRDI Capital Investissement et un réseau français de business angels.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "enern.json",
+      "polozka": "investice Jutro Medical",
+      "zmena": "citace převedena na viditelný text: „Jutro Medical raised €12 million in Series A funding, led by KAYA VC and RIO ASI, to further develop its medical AI agents and modernise traditional telemedicine workflows. Details of the deal The extended Series A was led by Warsaw Equity Group , with participation from Vinci , naturalX Health Ventures , Fluent Ventures , Aternus , KAYA VC , and Inovo VC“ → „Jutro Medical raised €12 million in Series A funding, led by KAYA VC and RIO ASI, to further develop its medical AI agents and modernise traditional telemedicine workflows. Details of the deal The extended Series A was led by Warsaw Equity Group, with participation from Vinci, naturalX Health Ventures, Fluent Ventures, Aternus, KAYA VC, and Inovo VC“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "i-i-biotech-investments.json",
+      "polozka": "fakt nazev",
+      "zmena": "citace převedena na viditelný text: „Headquarters i&i Biotech Fund I SCSp 42, rue de la Vall&eacute;e, L-2661 Luxembourg BP 908 L-2019, Luxembourg Investment Adviser Biotech Investments, s. r. o. Pobřežn&iacute; 394/12, 186 00 Praha 8 Czech Republic“ → „Headquarters i&i Biotech Fund I SCSp 42, rue de la Vallée, L-2661 Luxembourg BP 908 L-2019, Luxembourg Investment Adviser Biotech Investments, s. r. o. Pobřežní 394/12, 186 00 Praha 8 Czech Republic“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "i-i-biotech-investments.json",
+      "polozka": "fakt sektory_deklarovane",
+      "zmena": "citace převedena na viditelný text: „Focus As a life sciences fund, we are comfortable with drug discovery , medtech , diagnostics , and AI verticals.“ → „Focus As a life sciences fund, we are comfortable with drug discovery, medtech, diagnostics, and AI verticals.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "i-i-biotech-investments.json",
+      "polozka": "fakt tiket_deklarovany",
+      "zmena": "citace převedena na viditelný text: „Stage Ready to create? We can start at &euro;150k to support business creation. Ready to grow? Our sweet spot lies between &euro;0.5M and &euro;2M .“ → „Stage Ready to create? We can start at €150k to support business creation. Ready to grow? Our sweet spot lies between €0.5M and €2M.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "i-i-biotech-investments.json",
+      "polozka": "fakt kapital_celkem",
+      "zmena": "citace převedena na viditelný text: „Investment fund i&i Biotech Fund (i&i Bio) was established in 2021 in cooperation with the European Investment Fund (EIF) and i&i Prague . The fund commenced operation with more than 45 million EUR and specializes in investments in academic spinoffs.“ → „Investment fund i&i Biotech Fund (i&i Bio) was established in 2021 in cooperation with the European Investment Fund (EIF) and i&i Prague. The fund commenced operation with more than 45 million EUR and specializes in investments in academic spinoffs.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "i-i-biotech-investments.json",
+      "polozka": "investice Theorema",
+      "zmena": "citace převedena na viditelný text: „Theorema’s €2.85 million pre-seed round was supported by Tilia Impact Ventures, InvestEU , Credo Ventures, KAYA VC , Amino Collective, NAVEC Investment Management, and i&i Biotech Fund.“ → „Theorema’s €2.85 million pre-seed round was supported by Tilia Impact Ventures, InvestEU, Credo Ventures, KAYA VC, Amino Collective, NAVEC Investment Management, and i&i Biotech Fund.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "i-i-biotech-investments.json",
+      "polozka": "investice KyDo Therapeutics",
+      "zmena": "citace převedena na viditelný text: „KyDo announced today the successful completion of a €4.45 million seed financing round. The financing round was successfully spearheaded by I&I Bio together with KHAN-II, and with notable participation of VOR N vc, and TU capital.“ → „KyDo announced today the successful completion of a €4.45 million seed financing round. The financing round was successfully spearheaded by I&I Bio together with KHAN-II, and with notable participation of VORNvc, and TU capital.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "inven-capital.json",
+      "polozka": "investice Vytal",
+      "zmena": "citace převedena na viditelný text: „Der tschechische ClimateTech-Investor Inven Capital und Co. investieren eine weitere Millionensumme in Vytal .“ → „Der tschechische ClimateTech-Investor Inven Capital und Co. investieren eine weitere Millionensumme in Vytal.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "inven-capital.json",
+      "polozka": "investice Vytal",
+      "zmena": "citace převedena na viditelný text: „Der tschechische ClimateTech-Investor Inven Capital (auch bei Forto, Hydrogrid und Zolar investiert), und NRW.Venture sowie Altinvestoren wie Emerald Technology Ventures, Grazia, Rubio, Chi Impact Capital und Kiko investieren 14,2 Millionen Euro in Vytal .“ → „Der tschechische ClimateTech-Investor Inven Capital (auch bei Forto, Hydrogrid und Zolar investiert), und NRW.Venture sowie Altinvestoren wie Emerald Technology Ventures, Grazia, Rubio, Chi Impact Capital und Kiko investieren 14,2 Millionen Euro in Vytal.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "j-t-ventures.json",
+      "polozka": "investice Definic",
+      "zmena": "citace převedena na viditelný text: „Slovak-based firm Definic, formerly Nordics, which develops a Vendor Intelligence platform for IT procurement, has announced its rebrand and closed a €2.5 million seed round led by J&T Ventures , with participation from Seed Starter ČS and Slovak Investment Holding (SIH), as Vestbee was informed.“ → „Slovak-based firm Definic, formerly Nordics, which develops a Vendor Intelligence platform for IT procurement, has announced its rebrand and closed a €2.5 million seed round led by J&T Ventures, with participation from Seed Starter ČS and Slovak Investment Holding (SIH), as Vestbee was informed.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "j-t-ventures.json",
+      "polozka": "investice Choice",
+      "zmena": "citace převedena na viditelný text: „Choice teď informace potvrdil s tím, že v nejnovější investici získal 7,1 milionu dolarů. Kolo vedl portugalský fond Alea Capital společně s polským Smartlink Partners, který startup podpořil pětadvaceti miliony korun také loni . Přidaly se také zdejší fondy Reflex Capital a J&T Ventures“ → „Choice teď informace potvrdil s tím, že v nejnovější investici získal 7,1 milionu dolarů. Kolo vedl portugalský fond Alea Capital společně s polským Smartlink Partners, který startup podpořil pětadvaceti miliony korun také loni. Přidaly se také zdejší fondy Reflex Capital a J&T Ventures“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "jet-investment.json",
+      "polozka": "fakt sektory_deklarovane",
+      "zmena": "citace převedena na viditelný text: „We look for dynamic teams passionate about AI , big data , machine learning , advanced manufacturing , IoT , supply chain , robotics , cybersecurity , across the industrial heartland of Europe : Czechia, Germany, Austria, Slovakia, and Poland.“ → „We look for dynamic teams passionate about AI, big data, machine learning, advanced manufacturing, IoT, supply chain, robotics, cybersecurity, across the industrial heartland of Europe: Czechia, Germany, Austria, Slovakia, and Poland.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "jic-ventures.json",
+      "polozka": "fakt faze",
+      "zmena": "citace převedena na viditelný text: „Our invesment focus ventures1 Pre-seed / Seed stage ventures5 Tickets up to &euro;1M ventures3 Deep tech, SaaS, and other ventures4 CEE region (CZE & SVK priority)“ → „Our invesment focus ventures1 Pre-seed / Seed stage ventures5 Tickets up to €1M ventures3 Deep tech, SaaS, and other ventures4 CEE region (CZE & SVK priority)“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "jic-ventures.json",
+      "polozka": "fakt tiket_deklarovany",
+      "zmena": "citace převedena na viditelný text: „Our invesment focus ventures1 Pre-seed / Seed stage ventures5 Tickets up to &euro;1M ventures3 Deep tech, SaaS, and other ventures4 CEE region (CZE & SVK priority)“ → „Our invesment focus ventures1 Pre-seed / Seed stage ventures5 Tickets up to €1M ventures3 Deep tech, SaaS, and other ventures4 CEE region (CZE & SVK priority)“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "jic-ventures.json",
+      "polozka": "fakt sektory_deklarovane",
+      "zmena": "citace převedena na viditelný text: „Our invesment focus ventures1 Pre-seed / Seed stage ventures5 Tickets up to &euro;1M ventures3 Deep tech, SaaS, and other ventures4 CEE region (CZE & SVK priority)“ → „Our invesment focus ventures1 Pre-seed / Seed stage ventures5 Tickets up to €1M ventures3 Deep tech, SaaS, and other ventures4 CEE region (CZE & SVK priority)“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "jic-ventures.json",
+      "polozka": "investice Carebot",
+      "zmena": "citace převedena na viditelný text: „The fund joined Carebot&rsquo;s largest round to date, more than &euro;1.5 million led by Garage Angels and Electron Capital Partners.“ → „The fund joined Carebot’s largest round to date, more than €1.5 million led by Garage Angels and Electron Capital Partners.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "jic-ventures.json",
+      "polozka": "investice Webout",
+      "zmena": "citace převedena na viditelný text: „The Brno-born fund joined a &euro;1.65 million seed round led by Seed Starter SK with Energy Venture Pals also participating.“ → „The Brno-born fund joined a €1.65 million seed round led by Seed Starter SK with Energy Venture Pals also participating.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "kaya-vc.json",
+      "polozka": "investice Minerva Humanoids",
+      "zmena": "citace převedena na viditelný text: „Mezi další a o něco menší investory do Minervy patří třeba Hugging Face (Nvidia) a hlavně další český fond Kaya , který drží pozice v E2B, Rohlíku a dalších.“ → „Mezi další a o něco menší investory do Minervy patří třeba Hugging Face (Nvidia) a hlavně další český fond Kaya, který drží pozice v E2B, Rohlíku a dalších.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "kaya-vc.json",
+      "polozka": "investice Riptides",
+      "zmena": "citace převedena na viditelný text: „The pre-seed round was led by PortfoLion Capital Partners , a Budapest-based venture capital and private equity arm of OTP Bank, which manages €440 million in assets and invests in startups across various sectors in the CEE region. Czech KAYA VC also joined the round.“ → „The pre-seed round was led by PortfoLion Capital Partners, a Budapest-based venture capital and private equity arm of OTP Bank, which manages €440 million in assets and invests in startups across various sectors in the CEE region. Czech KAYA VC also joined the round.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "lighthouse-ventures.json",
+      "polozka": "investice Hermetiq",
+      "zmena": "citace převedena na viditelný text: „That is exactly why we are excited to announce our participation in Hermetiq ‘s $2.2M pre-seed round.“ → „That is exactly why we are excited to announce our participation in Hermetiq‘s $2.2M pre-seed round.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "lighthouse-ventures.json",
+      "polozka": "investice Ranketta",
+      "zmena": "citace převedena na viditelný text: „We’re excited to announce our investment in Ranketta , a fast-growing AI platform that helps e-commerce and D2C brands measure and improve how their products are represented across AI-driven search and shopping experiences. The pre-seed round was led by Lighthouse Ventures with participation from Gi21 Capital.“ → „We’re excited to announce our investment in Ranketta, a fast-growing AI platform that helps e-commerce and D2C brands measure and improve how their products are represented across AI-driven search and shopping experiences. The pre-seed round was led by Lighthouse Ventures with participation from Gi21 Capital.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "limerock-ventures.json",
+      "polozka": "fakt zeme_sidla",
+      "zmena": "citace převedena na viditelný text: „Registered seat: Plan&eacute;t 5, 811 09 Bratislava, Slovakia“ → „Registered seat: Planét 5, 811 09 Bratislava, Slovakia“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "look-ai-ventures-laiv.json",
+      "polozka": "investice Embodied AI",
+      "zmena": "citace převedena na viditelný text: „Look AI Ventures has backed Embodied AI , a Lausanne-based robotics startup building robots that learn new tasks directly on factory production lines. The round was led by Faber VC, with participation from Techshop Capital, Kickfund, Plug and Play San Francisco, Excellis, and Vento.“ → „Look AI Ventures has backed Embodied AI, a Lausanne-based robotics startup building robots that learn new tasks directly on factory production lines. The round was led by Faber VC, with participation from Techshop Capital, Kickfund, Plug and Play San Francisco, Excellis, and Vento.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "look-ai-ventures-laiv.json",
+      "polozka": "investice Sodex Innovations",
+      "zmena": "citace převedena na viditelný text: „Sodex Innovations , an Austrian construction tech startup developing AI-powered surveying technology for construction sites, mines, and infrastructure projects, has closed a funding round of €4 million. The round was led by Capmont Technology, with participation from Bloomhaus, Look AI Ventures, Superangels, SOSV, and 12 Rounds Capital.“ → „Sodex Innovations, an Austrian construction tech startup developing AI-powered surveying technology for construction sites, mines, and infrastructure projects, has closed a funding round of €4 million. The round was led by Capmont Technology, with participation from Bloomhaus, Look AI Ventures, Superangels, SOSV, and 12 Rounds Capital.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "look-ai-ventures-laiv.json",
+      "polozka": "investice Checkstep",
+      "zmena": "citace převedena na viditelný text: „Checkstep , the AI content moderation platform transforming Trust and Safety infrastructure for online platforms, raised £3 million in funding . The round was led by Alea Capital Partners , with participation from Slow Ventures and Look AI Ventures.“ → „Checkstep, the AI content moderation platform transforming Trust and Safety infrastructure for online platforms, raised £3 million in funding. The round was led by Alea Capital Partners, with participation from Slow Ventures and Look AI Ventures.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "look-ai-ventures-laiv.json",
+      "polozka": "investice Surveily",
+      "zmena": "citace převedena na viditelný text: „Surveily , a Wrocław-based edge AI company bringing real-time computer vision into industrial safety, has raised a €2.5 million Series A round. The round was led by Swiss industrial technology investor Momenta , with participation from our Look AI Ventures fund and other investors.“ → „Surveily, a Wrocław-based edge AI company bringing real-time computer vision into industrial safety, has raised a €2.5 million Series A round. The round was led by Swiss industrial technology investor Momenta, with participation from our Look AI Ventures fund and other investors.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "mam-private-equity-fund-sicav-a-s.json",
+      "polozka": "fakt typ",
+      "zmena": "citace převedena na viditelný text: „portfolio fondu Vlastnický podíl 90 % Skupina Raycom , patří mezi přední value-added distributory komponent pro výstavbu telekomunikačních sítí v ČR.“ → „portfolio fondu Vlastnický podíl 90 % Skupina Raycom, patří mezi přední value-added distributory komponent pro výstavbu telekomunikačních sítí v ČR.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "newton-university-angels.json",
+      "polozka": "investice NerveCor s.r.o.",
+      "zmena": "citace převedena na viditelný text: „Společník: NEWTON University Angels s.r.o. , IČ: 108 78 131 5. května 1640/65, Nusle, 140 00 Praha 4 zapsáno 1. července 2025 Podíl: Vklad: 770 ,- Kč Splaceno: 100 % Obchodní podíl: 7,7 %“ → „Společník: NEWTON University Angels s.r.o., IČ: 108 78 131 5. května 1640/65, Nusle, 140 00 Praha 4 zapsáno 1. července 2025 Podíl: Vklad: 770,- Kč Splaceno: 100% Obchodní podíl: 7,7%“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "newton-university-angels.json",
+      "polozka": "investice Flexible Frame s.r.o.",
+      "zmena": "citace převedena na viditelný text: „Společník: NEWTON University Angel Fund s.r.o. , IČ: 108 78 131 5. května 1640/65, Nusle, 140 00 Praha 4 zapsáno 6. prosince 2024 vymazáno 3. května 2025 Podíl: Vklad: 2 800 ,- Kč Splaceno: 100 % Obchodní podíl: 14 %“ → „Společník: NEWTON University Angel Fund s.r.o., IČ: 108 78 131 5. května 1640/65, Nusle, 140 00 Praha 4 zapsáno 6. prosince 2024 vymazáno 3. května 2025 Podíl: Vklad: 2 800,- Kč Splaceno: 100% Obchodní podíl: 14%“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "orbit-capital.json",
+      "polozka": "fakt duvod",
+      "zmena": "citace převedena na viditelný text: „The fund will provide non-dilutive financing to technology companies that have moved beyond Series A , targeting businesses generating at least €3 million in annual revenue and growing by more than 30% year over year .“ → „The fund will provide non-dilutive financing to technology companies that have moved beyond Series A, targeting businesses generating at least €3 million in annual revenue and growing by more than 30% year over year.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "orbit-capital.json",
+      "polozka": "fakt faze",
+      "zmena": "citace převedena na viditelný text: „Investment ticket : EUR 6-15m Company stage : Growth Stage Product type : Software and tech-enabled businesses“ → „Investment ticket: EUR 6-15m Company stage: Growth Stage Product type: Software and tech-enabled businesses“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "orbit-capital.json",
+      "polozka": "fakt tiket_deklarovany",
+      "zmena": "citace převedena na viditelný text: „Investment ticket : EUR 6-15m Company stage : Growth Stage Product type : Software and tech-enabled businesses“ → „Investment ticket: EUR 6-15m Company stage: Growth Stage Product type: Software and tech-enabled businesses“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "orbit-capital.json",
+      "polozka": "fakt sektory_deklarovane",
+      "zmena": "citace převedena na viditelný text: „Preferred industries : Sector-agnostic, with focus on consumer services, small-business automation & collaboration software, logistics and supply chain, healthcare“ → „Preferred industries: Sector-agnostic, with focus on consumer services, small-business automation & collaboration software, logistics and supply chain, healthcare“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "purple-ventures.json",
+      "polozka": "investice Comparables.ai",
+      "zmena": "citace převedena na viditelný text: „Comparables.ai , an AI platform for private and public market intelligence, has raised $6 million in seed funding to support its expansion across multiple markets and further develop its core AI engine. The round was led by Pragmatech and Araya Ventures , with participation from Purple Ventures, Gorilla Capital, hi5 Ventures, Somersault Ventures and other investors.“ → „Comparables.ai, an AI platform for private and public market intelligence, has raised $6 million in seed funding to support its expansion across multiple markets and further develop its core AI engine. The round was led by Pragmatech and Araya Ventures, with participation from Purple Ventures, Gorilla Capital, hi5 Ventures, Somersault Ventures and other investors.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "purple-ventures.json",
+      "polozka": "investice Vetstor",
+      "zmena": "citace převedena na viditelný text: „První investici Vetstor oznamoval v letošním dubnu , kdy mu v tzv. pre-seedovém, úvodním kole 13 milionů korun poslaly české fondy Zaka VC a Purple Ventures. Ty se účastní i aktuálního kola, které dosáhlo celkové výše jeden milion eur, v přepočtu 24 milionů korun.“ → „První investici Vetstor oznamoval v letošním dubnu, kdy mu v tzv. pre-seedovém, úvodním kole 13 milionů korun poslaly české fondy Zaka VC a Purple Ventures. Ty se účastní i aktuálního kola, které dosáhlo celkové výše jeden milion eur, v přepočtu 24 milionů korun.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "reflex-capital.json",
+      "polozka": "investice Merchantee",
+      "zmena": "citace převedena na viditelný text: „Merchantee oznámilo rozšíření svého původního, takzvaného seed investičního kola ve výši patnáct milionů korun z roku 2024 , o dalších třicet milionů. Kolo vedl fond Reflex Capital za účasti Czech Founders VC a Lighthouse Ventures.“ → „Merchantee oznámilo rozšíření svého původního, takzvaného seed investičního kola ve výši patnáct milionů korun z roku 2024, o dalších třicet milionů. Kolo vedl fond Reflex Capital za účasti Czech Founders VC a Lighthouse Ventures.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "reflex-capital.json",
+      "polozka": "investice FaceUp",
+      "zmena": "citace převedena na viditelný text: „The raise also included strong participation from returning investors, Tilia Impact V entures (supported by the InvestEU Fund) and Reflex Capital, alongside a group of angel investors and employees, demonstrating their continued confidence in FaceUp’s growth.“ → „The raise also included strong participation from returning investors, Tilia Impact Ventures (supported by the InvestEU Fund) and Reflex Capital, alongside a group of angel investors and employees, demonstrating their continued confidence in FaceUp’s growth.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "sandberg-capital.json",
+      "polozka": "fakt zeme_sidla",
+      "zmena": "citace převedena na viditelný text: „Spoločnosť Sandberg Capital, správ. spol., a.s., so sídlom: Dvořákovo nábrežie 8, 811 02 Bratislava, Slovenská republika, IČO: 47 255 277, zapísaná v Obchodnom registri Mestského súdu Bratislava III, oddiel: Sa, vložka č.: 5994/B („Sandberg Capital ”), je regulovanou finančnou inštitúciou.“ → „Spoločnosť Sandberg Capital, správ. spol., a.s., so sídlom: Dvořákovo nábrežie 8, 811 02 Bratislava, Slovenská republika, IČO: 47 255 277, zapísaná v Obchodnom registri Mestského súdu Bratislava III, oddiel: Sa, vložka č.: 5994/B („Sandberg Capital”), je regulovanou finančnou inštitúciou.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "springtide-ventures.json",
+      "polozka": "fakt cvc",
+      "zmena": "citace převedena na viditelný text: „Established in 2014, Springtide Ventures is a 100% subsidiary of KKCG Group . We benefit from access to KKCG’s capital, know-how and worldwide business network.“ → „Established in 2014, Springtide Ventures is a 100% subsidiary of KKCG Group. We benefit from access to KKCG’s capital, know-how and worldwide business network.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "starcube.json",
+      "polozka": "fakt duvod",
+      "zmena": "citace převedena na viditelný text: „Jihomoravské centrum dosud svým klientům nabízelo půjčky, ale dceřiná společnost mu umožní přejít k investicím do startupů, které prošly programem Starcube .“ → „Jihomoravské centrum dosud svým klientům nabízelo půjčky, ale dceřiná společnost mu umožní přejít k investicím do startupů, které prošly programem Starcube.“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "startovac.json",
+      "polozka": "fakt duvod",
+      "zmena": "citace v textu stránky není ani po převodu",
+      "duvod": "Neopraveno: stránka se od 2026-10-11 změnila nebo citace nebyla viditelný text; kontrola ji označí „neověřeno“.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "up271.json",
+      "polozka": "fakt web",
+      "zmena": "citace převedena na viditelný text: „Office UP271 s.r.o. Zapova 18, Praha 5, 150 00 Česká republika IČ : 06816339 DIČ : CZ06816339 IČ 06816339 DIČ CZ06816339 Napište nám info@up271.com“ → „Office UP271 s.r.o. Zapova 18, Praha 5, 150 00 Česká republika IČ: 06816339 DIČ: CZ06816339 IČ 06816339 DIČ CZ06816339 Napište nám info@up271.com“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "y-soft-ventures.json",
+      "polozka": "investice RoboTwin s.r.o.",
+      "zmena": "citace převedena na viditelný text: „Společník: Y Soft Ventures II, a.s. , IČ: 078 90 150 Technická 2948/13, Královo Pole, 616 00 Brno zapsáno 11. června 2025 Podíl: Vklad: 4 327 ,- Kč Splaceno: 100 % Obchodní podíl: 4327/174520 Druh podílu: Preferenční podíl č. 3“ → „Společník: Y Soft Ventures II, a.s., IČ: 078 90 150 Technická 2948/13, Královo Pole, 616 00 Brno zapsáno 11. června 2025 Podíl: Vklad: 4 327,- Kč Splaceno: 100% Obchodní podíl: 4327/174520 Druh podílu: Preferenční podíl č. 3“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    },
+    {
+      "soubor": "y-soft-ventures.json",
+      "polozka": "investice Sentien HQ s.r.o.",
+      "zmena": "citace převedena na viditelný text: „Společník: Y Soft Ventures II, a.s. , IČ: 078 90 150 Technická 2948/13, Královo Pole, 616 00 Brno zapsáno 24. srpna 2023 Podíl: Vklad: 8 799 ,- Kč Splaceno: 100 % Obchodní podíl: 8799/175973 zapsáno 24. srpna 2023 vymazáno 12. prosince 2024 Podíl: Vklad: 16 843 ,- Kč Splaceno: 100 % Obchodní podíl: 16843/277483 zapsáno 12. prosince 2024“ → „Společník: Y Soft Ventures II, a.s., IČ: 078 90 150 Technická 2948/13, Královo Pole, 616 00 Brno zapsáno 24. srpna 2023 Podíl: Vklad: 8 799,- Kč Splaceno: 100% Obchodní podíl: 8799/175973 zapsáno 24. srpna 2023 vymazáno 12. prosince 2024 Podíl: Vklad: 16 843,- Kč Splaceno: 100% Obchodní podíl: 16843/277483 zapsáno 12. prosince 2024“",
+      "duvod": "Technická oprava po rozboru citací (B087, B099): entity a mezery kolem odkazů.",
+      "datum": "2026-10-12"
+    }
+  ]
+}

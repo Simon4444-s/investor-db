@@ -1,0 +1,138 @@
+{
+  "kandidat": "Tilia Impact Ventures",
+  "znacka": "Tilia Impact Ventures",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "Tilia Impact Partners s.r.o.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17621615",
+      "citace": "\"ico\":\"17621615\",\"obchodniJmeno\":\"Tilia Impact Partners s.r.o.\"",
+      "hodnota_v_citaci": "Tilia Impact Partners s.r.o.",
+      "datum_zdroje": "2024-10-15",
+      "datum_v_textu": "\"datumAktualizace\":\"2024-10-15\""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "17621615",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17621615",
+      "citace": "\"ico\":\"17621615\",\"obchodniJmeno\":\"Tilia Impact Partners s.r.o.\"",
+      "hodnota_v_citaci": "17621615",
+      "datum_zdroje": "2024-10-15",
+      "datum_v_textu": "\"datumAktualizace\":\"2024-10-15\""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17621615",
+      "citace": "\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "2024-10-15",
+      "datum_v_textu": "\"datumAktualizace\":\"2024-10-15\""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://tiliaimpactventures.cz/en/",
+      "url": "https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf",
+      "citace": "Tilia Impact Ventures Fund II Tilia Impact Partners Czech Republic IEU - Equity - LP Agriculture, Food, natural capital preservation and use of land resources;Energy and built-environment solutions;Industrial decarbonisation & environmental sustainability;Mobility and transport solutions;Skills & Education;Social impact Investing & Social Innovation Multi-Country Venture Capital ICT Early Stage Fund Fund 01/08/2028 https://tiliaimpactventures.cz/en/",
+      "hodnota_v_citaci": "https://tiliaimpactventures.cz/en/",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://tilia.vc/",
+      "citace": "Tilia Impact Ventures backs Czech and CEE region founders to make systemic environmental and social change, on a global scale.",
+      "hodnota_v_citaci": "backs Czech and CEE region founders",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "300000-1200000 EUR",
+      "url": "https://tilia.vc/",
+      "citace": "Tilia Impact Ventures backs Czech and CEE region founders to make systemic environmental and social change, on a global scale. 0.3 - 1.2m EUR initial ticket Equity / Convertible debt Early stage Sector-agnostic, Impact-driven CEE+",
+      "hodnota_v_citaci": "0.3 - 1.2m EUR initial ticket",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "generalista",
+      "url": "https://tilia.vc/",
+      "citace": "Tilia Impact Ventures backs Czech and CEE region founders to make systemic environmental and social change, on a global scale. 0.3 - 1.2m EUR initial ticket Equity / Convertible debt Early stage Sector-agnostic, Impact-driven CEE+",
+      "hodnota_v_citaci": "Sector-agnostic",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "kapital_celkem",
+      "hodnota": "26000000 EUR; druh=committed",
+      "url": "https://cc.cz/cesky-fond-urceny-na-investice-se-spolecenskymi-dopady-ma-dalsich-600-milionu-podporili-ho-winkler-ci-barta/",
+      "citace": "Prozatím má Tilia potvrzených 26 milionů eur, tedy 634 milionů korun. První transakce jsou již prý v pokročilé fázi a měly by být brzo oznámeny.",
+      "hodnota_v_citaci": "potvrzených 26 milionů eur",
+      "datum_zdroje": "2023-09-21",
+      "datum_v_textu": "datePublished: 2023-09-21T17:53:01+02:00"
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "Flox Intelligence",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-08-18",
+      "faze_kola": "seed",
+      "castka_kola": {
+        "castka": 3000000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "media",
+      "sektor": "ai",
+      "url": "https://cc.cz/ceska-nasla-zpusob-jak-mluvit-se-zviraty-a-zachranovat-jejich-zivoty-oceneni-ma-i-od-svedskeho-krale/",
+      "citace": "Startup oceňují také investoři, kteří mu v letošním roce poslali tři miliony dolarů (v přepočtu 62,6 milionu korun) v rámci investičního kola Seed+, a to pod vedením českého fondu Tilia Impact Ventures.",
+      "hodnota_v_citaci": "pod vedením českého fondu Tilia Impact Ventures",
+      "datum_zdroje": "2026-08-18",
+      "datum_v_textu": "datePublished: 2026-08-18T06:15:15+02:00"
+    },
+    {
+      "cilova_firma": "Repairsys CZ s. r. o. (Opravárna)",
+      "ico_cilove_firmy": "03546926",
+      "datum_investice": "2025-05-14",
+      "faze_kola": "neověřeno",
+      "castka_kola": null,
+      "castka_investora": null,
+      "role": "neuvedeno",
+      "typ_dokladu": "rejstrik",
+      "sektor": "spotrebitel",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-vr/03546926",
+      "citace": "\"ico\":\"17848911\",\"obchodniJmeno\":\"Tilia Impact Ventures, osoba rizikového kapitálu, s.r.o.\",\"pravniForma\":\"112\"",
+      "hodnota_v_citaci": "Tilia Impact Ventures, osoba rizikového kapitálu, s.r.o.",
+      "datum_zdroje": "2025-05-14",
+      "datum_v_textu": "{\"datumZapisu\":\"2025-05-14\",\"podil\":[{\"datumZapisu\":\"2025-05-14\",\"vklad\":{\"typObnos\":\"KORUNY\",\"hodnota\":\"635;25\"},\"velikostPodilu\":{\"typObnos\":\"ZLOMEK\",\"hodnota\":\"63525;1242163\"}"
+    },
+    {
+      "cilova_firma": "Alvie",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2024-12-20",
+      "faze_kola": "seed",
+      "castka_kola": {
+        "castka": 2100000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "media",
+      "sektor": "agri",
+      "url": "https://cc.cz/francouzsky-startup-ktery-spoluzakladala-ceska-pomaha-farmarum-proti-nadmernemu-uzivani-pesticidu/",
+      "citace": "Zainvestovaný startup: Alvie Kdo investuje: Kolo vedl český fond Tilia Impact Ventures s přispěním Better Angels, Leia Capital, Climate Club, BeAngels a TechMind Kolik a v jakém kole: 2,1 milionu eur (53 milionů korun) v seed kole",
+      "hodnota_v_citaci": "Kolo vedl český fond Tilia Impact Ventures",
+      "datum_zdroje": "2024-12-20",
+      "datum_v_textu": "datePublished: 2024-12-20T06:37:41+01:00"
+    }
+  ],
+  "poznamka": "Správcem fondu Tilia Impact Ventures Fund II je podle seznamu EIF Tilia Impact Partners s.r.o.; první fond je Tilia Impact Ventures, osoba rizikového kapitálu, s.r.o. (IČO 17848911, dříve Tilia Impact Ventures - Fund 1 s.r.o.), Fund II je v ARES zapsán bez IČO. Kontrola společníků podle IČO správce proto vehikly nenajde. Flox Intelligence: článek CzechCrunch z 2026-08-18 uvádí kolo Seed+ „v letošním roce“ bez přesného data, jako datum investice použito datum článku. Repairsys (Opravárna): v ARES VR je od 2025-05-14 nový zápis podílu fondu 17848911 (vklad 635,25 Kč, podíl 63525/1242163, předtím 294,12 Kč a 29412/1007346) – navýšení podílu, tedy follow-on; částka a fáze nezjištěny. FaceUp (série A 5 mil. USD, CzechCrunch 2026-05-19, účast stávajících investorů včetně Tilia) vynechán, protože věta s Tilií obsahuje jména fyzických osob a v ARES zatím změna podílu fondu není. Další portfoliové firmy přidané na web v roce 2026 (Theorema, Minimist) a v roce 2025 (Lifeyear, Letsdata) bez datovaného dokladu; vyčerpán limit vyhledávání. Fáze na webu jen „Early stage“, proto nezapsána (druhý fond se podle CzechCrunch jmenuje Impact Seed Fund). Kapitál 26 mil. EUR = potvrzené závazky druhého fondu k 2023-09-21 (cíl 32 mil. EUR)."
+}

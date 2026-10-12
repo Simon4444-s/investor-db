@@ -1,0 +1,188 @@
+{
+  "kandidat": "JIC Ventures",
+  "znacka": "JIC Ventures",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "JIC General Partner s.r.o.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24074004",
+      "citace": "\"ico\":\"24074004\",\"obchodniJmeno\":\"JIC General Partner s.r.o.\"",
+      "hodnota_v_citaci": "JIC General Partner s.r.o.",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "24074004",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24074004",
+      "citace": "\"ico\":\"24074004\",\"obchodniJmeno\":\"JIC General Partner s.r.o.\"",
+      "hodnota_v_citaci": "24074004",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24074004",
+      "citace": "\"obchodniJmeno\":\"JIC General Partner s.r.o.\",\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://www.jic.cz/jic-ventures",
+      "url": "https://www.jic.cz/jic-ventures",
+      "citace": "JIC Ventures is a Brno-born VC fund backing technology founders from pre-seed to exit. We focus on CEE startup founders with global potential.",
+      "hodnota_v_citaci": "JIC Ventures is a Brno-born VC fund",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://www.jic.cz/jic-ventures",
+      "citace": "JIC Ventures is a Brno-born VC fund backing technology founders from pre-seed to exit. We focus on CEE startup founders with global potential.",
+      "hodnota_v_citaci": "VC fund backing technology founders",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "faze",
+      "hodnota": "pre-seed;seed",
+      "url": "https://www.jic.cz/jic-ventures",
+      "citace": "Our invesment focus ventures1 Pre-seed / Seed stage ventures5 Tickets up to €1M ventures3 Deep tech, SaaS, and other ventures4 CEE region (CZE & SVK priority)",
+      "hodnota_v_citaci": "Pre-seed / Seed stage",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "1000000 EUR",
+      "url": "https://www.jic.cz/jic-ventures",
+      "citace": "Our invesment focus ventures1 Pre-seed / Seed stage ventures5 Tickets up to €1M ventures3 Deep tech, SaaS, and other ventures4 CEE region (CZE & SVK priority)",
+      "hodnota_v_citaci": "Tickets up to €1M",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "software;ostatni",
+      "url": "https://www.jic.cz/jic-ventures",
+      "citace": "Our invesment focus ventures1 Pre-seed / Seed stage ventures5 Tickets up to €1M ventures3 Deep tech, SaaS, and other ventures4 CEE region (CZE & SVK priority)",
+      "hodnota_v_citaci": "Deep tech, SaaS, and other",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "kapital_celkem",
+      "hodnota": "400000000 CZK; druh=velikost fondu",
+      "url": "https://ctp.eu/wp-content/uploads/2026/04/TZ_CTP_JIC-Ventures.pdf",
+      "citace": "Fond o objemu 400 milionů korun, který iniciovalo Jihomoravské inovační centrum (JIC), bude investovat do technologických startupů v raných fázích, tedy pre-seed a seed, z Česka a střední Evropy.",
+      "hodnota_v_citaci": "Fond o objemu 400 milionů korun",
+      "datum_zdroje": "2026-04-07",
+      "datum_v_textu": "7. dubna 2026"
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "Elredo Voice",
+      "ico_cilove_firmy": "19190387",
+      "datum_investice": "2026-09-30",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 1000000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "TZ",
+      "sektor": "ai",
+      "url": "https://www.jic.cz/en/about-us/pro-media/jic-ventures-vsadil-na-startup-elredo-ktery-meni-e",
+      "citace": "JIC Ventures has led an investment round in Elredo Voice, a Czech startup that has built AI technology for audiobook production while reshaping the economics of how those books are made and distributed.",
+      "hodnota_v_citaci": "JIC Ventures has led an investment round in Elredo Voice",
+      "datum_zdroje": "2026-09-30",
+      "datum_v_textu": "30. 9. 2026"
+    },
+    {
+      "cilova_firma": "Carebot",
+      "ico_cilove_firmy": "10898263",
+      "datum_investice": "2026-08-03",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 1500000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "TZ",
+      "sektor": "zdravi",
+      "url": "https://www.jic.cz/en/about-us/pro-media/carebot-uzavira-investici-s-jicventures",
+      "citace": "The fund joined Carebot’s largest round to date, more than €1.5 million led by Garage Angels and Electron Capital Partners.",
+      "hodnota_v_citaci": "The fund joined Carebot’s largest round to date",
+      "datum_zdroje": "2026-08-03",
+      "datum_v_textu": "3. 8. 2026"
+    },
+    {
+      "cilova_firma": "HTG Medical",
+      "ico_cilove_firmy": "17759447",
+      "datum_investice": "2026-07-14",
+      "faze_kola": "pre-seed",
+      "castka_kola": {
+        "castka": 450000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "TZ",
+      "sektor": "zdravi",
+      "url": "https://www.jic.cz/en/about-us/pro-media/jic-ventures-investuje-do-htg-medical-ktery-automa",
+      "citace": "JIC Ventures has joined the pre-seed round of Czech medtech startup HTG Medical, which automates urine output monitoring in intensive care units.",
+      "hodnota_v_citaci": "JIC Ventures has joined the pre-seed round of Czech medtech startup HTG Medical",
+      "datum_zdroje": "2026-07-14",
+      "datum_v_textu": "14. 7. 2026"
+    },
+    {
+      "cilova_firma": "Webout",
+      "ico_cilove_firmy": "11659467",
+      "datum_investice": "2026-05-27",
+      "faze_kola": "seed",
+      "castka_kola": {
+        "castka": 1650000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "TZ",
+      "sektor": "software",
+      "url": "https://www.jic.cz/en/about-us/pro-media/from-cee-to-silicon-valley-jic-ventures-backs-webo",
+      "citace": "The Brno-born fund joined a €1.65 million seed round led by Seed Starter SK with Energy Venture Pals also participating.",
+      "hodnota_v_citaci": "joined a €1.65 million seed round",
+      "datum_zdroje": "2026-05-27",
+      "datum_v_textu": "27. 5. 2026"
+    },
+    {
+      "cilova_firma": "FaceUp",
+      "ico_cilove_firmy": "06142630",
+      "datum_investice": "2026-05-19",
+      "faze_kola": "A",
+      "castka_kola": {
+        "castka": 5000000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "TZ",
+      "sektor": "software",
+      "url": "https://www.jic.cz/en/about-us/pro-media/prvni-investice-noveho-fondu-jic-ventures-miri-do",
+      "citace": "Six weeks after launching its new fund, JIC Ventures has made its first startup investment – in FaceUp, a technology platform that helps companies build an ethical culture and prevent risk. The fund joined a Series A round totalling $5 million, led by Croatian fund Fil Rouge Capital, bringing not only capital but also knowing the company from its very beginnings.",
+      "hodnota_v_citaci": "JIC Ventures has made its first startup investment – in FaceUp",
+      "datum_zdroje": "2026-05-19",
+      "datum_v_textu": "19. 5. 2026"
+    }
+  ],
+  "poznamka": "Nový fond JIC Ventures (spuštěn 7. 4. 2026, cílová velikost 400 mil. Kč; podle Forbes 2026-04-08 bylo v dubnu upsáno 320 mil. Kč) z iniciativy inovační agentury JIC. Fondem je JIC Ventures 2 a.s., osoba rizikového kapitálu (IČO 24320358), jejím statutárním orgánem (členem správní rady) je podle veřejného rejstříku JIC General Partner s.r.o. (IČO 24074004), kterou uvádím jako správce. Starší společnost JIC Ventures, s.r.o. (IČO 04156293, jediný společník JIC, zájmové sdružení) je původní investiční vehikl JIC; její novější investice jsem nehledal. Příznak verejny nevyplněn: většinu kapitálu tvoří podle tiskové zprávy CTP soukromí investoři, Jihomoravský kraj je jedním z investorů (40 mil. Kč podle Forbes) a JIC zřizují kraj, město Brno a univerzity – o příznaku by měl rozhodnout člověk. Tiket: web uvádí jen horní mez „up to €1M“. Sektory: ostatni = deep tech (bez bližšího určení). Částky kol Elredo Voice („more than €1 million“) a Carebot („more than €1.5 million“) jsou dolní meze; fáze těchto kol nejsou uvedeny. HTG Medical: částka 450 000 EUR je v následující větě tiskové zprávy („The €450,000 investment“). Sektor Elredo Voice zařazen jako ai (AI produkce audioknih), alternativně media. Rejstřík k 2026-10-11: JIC Ventures 2 a.s. je společníkem Webout You s.r.o. (od 2026-05-12); u FaceUp Technology s.r.o., Carebot s.r.o., HTG medical s.r.o. a Elredo s.r.o. zatím společníkem není (investice mohla proběhnout jiným nástrojem nebo zápis chybí). IČO Elredo s.r.o. (dříve Librity digital s.r.o.) přiřazeno podle shody názvu se značkou Elredo Voice, není ověřeno, že jde o tutéž firmu."
+}

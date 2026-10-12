@@ -1,0 +1,26 @@
+{
+  "kandidat": "Index Ventures",
+  "znacka": "Index Ventures",
+  "stav": "mimo_rozsah",
+  "duvod": "bez_tymu_v_CR",
+  "typ": "VC",
+  "fakta": [
+    {"pole": "typ", "hodnota": "VC",
+     "url": "https://www.indexventures.com/philosophy/",
+     "citace": "You might think VC is all about money. For us, it’s about people.",
+     "hodnota_v_citaci": "VC",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""},
+    {"pole": "zeme_sidla", "hodnota": "GB",
+     "url": "https://www.indexventures.com/privacy-policy/",
+     "citace": "1.1 — Index Ventures (UK) LLP with its registered office at 5–8 Lower John Street, London W1F 9DY and other companies in the Index Ventures group collect and use certain Personal Data.",
+     "hodnota_v_citaci": "registered office at 5–8 Lower John Street, London",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""},
+    {"pole": "tym_v_CR", "hodnota": "ne",
+     "url": "https://www.indexventures.com/",
+     "citace": "San Francisco New York London CONTACT Offices Team",
+     "hodnota_v_citaci": "San Francisco New York London",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""}
+  ],
+  "investice": [],
+  "poznamka": "Zahraniční VC (Index Ventures (UK) LLP, Londýn); web uvádí kanceláře jen San Francisco, New York a London, slova Prague/Czech se na úvodní stránce nevyskytují – stálý investiční tým v ČR nenalezen. Kandidát pochází z K4 (zmínka v analýze startupového ekosystému), zřejmě kvůli investici do české firmy. Investice nehledány (mimo rozsah). Žádná stránka neuvádí datum vydání."
+}

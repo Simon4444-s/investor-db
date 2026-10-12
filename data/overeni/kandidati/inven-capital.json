@@ -1,0 +1,175 @@
+{
+  "kandidat": "INVEN Capital",
+  "znacka": "Inven Capital",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "Inven Capital, SICAV, a.s.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02059533",
+      "citace": "\"ico\":\"02059533\",\"obchodniJmeno\":\"Inven Capital, SICAV, a.s.\"",
+      "hodnota_v_citaci": "Inven Capital, SICAV, a.s.",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "02059533",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02059533",
+      "citace": "\"ico\":\"02059533\",\"obchodniJmeno\":\"Inven Capital, SICAV, a.s.\"",
+      "hodnota_v_citaci": "02059533",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02059533",
+      "citace": "\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://www.invencapital.cz/",
+      "url": "https://www.invencapital.cz/",
+      "citace": "Talk to us Inven Capital, SICAV, a.s., Pod Křížkem 1773/2 Praha 4 - Braník 147 00 contact@invencapital.cz",
+      "hodnota_v_citaci": "contact@invencapital.cz",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://www.invencapital.cz/",
+      "citace": "As a venture capital fund we invest EUR 500m from institutional investors and global corporates in the most innovative startups in the world.",
+      "hodnota_v_citaci": "As a venture capital fund",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "cvc",
+      "hodnota": "ano",
+      "url": "https://www.prnewswire.com/news-releases/wint-raises-36-million-in-series-d-funding-to-scale-ai-powered-water-intelligence-globally-302873443.html",
+      "citace": "About Inven Capital Inven Capital is a EUR 500m European VC fund focused on later-stage climate tech investments in Europe & Israel, backed by CEZ Group and European Investment Bank (EIB).",
+      "hodnota_v_citaci": "backed by CEZ Group",
+      "datum_zdroje": "2026-09-09",
+      "datum_v_textu": "datePublished: 2026-09-09T09:00:00-04:00"
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "energie",
+      "url": "https://www.invencapital.cz/",
+      "citace": "Topic Climate tech Geography Europe and Israel Ticket size 2-30m EUR",
+      "hodnota_v_citaci": "Climate tech",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "faze",
+      "hodnota": "B+;growth",
+      "url": "https://www.prnewswire.com/news-releases/wint-raises-36-million-in-series-d-funding-to-scale-ai-powered-water-intelligence-globally-302873443.html",
+      "citace": "About Inven Capital Inven Capital is a EUR 500m European VC fund focused on later-stage climate tech investments in Europe & Israel, backed by CEZ Group and European Investment Bank (EIB).",
+      "hodnota_v_citaci": "later-stage climate tech investments",
+      "datum_zdroje": "2026-09-09",
+      "datum_v_textu": "datePublished: 2026-09-09T09:00:00-04:00"
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "2000000-30000000 EUR",
+      "url": "https://www.invencapital.cz/",
+      "citace": "Topic Climate tech Geography Europe and Israel Ticket size 2-30m EUR",
+      "hodnota_v_citaci": "Ticket size 2-30m EUR",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "kapital_celkem",
+      "hodnota": "500000000 EUR; druh=committed",
+      "url": "https://www.invencapital.cz/",
+      "citace": "Inven Capital raises additional €50 million from the European Investment bank for their new fund, bringing the total committed capital to €500 million",
+      "hodnota_v_citaci": "total committed capital to €500 million",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "Wint",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-09-09",
+      "faze_kola": "B+",
+      "castka_kola": {
+        "castka": 36000000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "TZ",
+      "sektor": "nemovitosti",
+      "url": "https://www.prnewswire.com/news-releases/wint-raises-36-million-in-series-d-funding-to-scale-ai-powered-water-intelligence-globally-302873443.html",
+      "citace": "Wint, the leading provider of water management solutions for the built environment, today announced it has raised $36 million in Series D funding co-led by LIP Ventures and Inven Capital.",
+      "hodnota_v_citaci": "Wint",
+      "datum_zdroje": "2026-09-09",
+      "datum_v_textu": "Sept. 9, 2026"
+    },
+    {
+      "cilova_firma": "Vytal",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-07-06",
+      "faze_kola": "neověřeno",
+      "castka_kola": null,
+      "castka_investora": null,
+      "role": "neuvedeno",
+      "typ_dokladu": "media",
+      "sektor": "energie",
+      "url": "https://www.deutsche-startups.de/2026/07/06/andercore-erhaelt-30-millionen-stenon-sammelt-18-millionen-ein-alqem-bekommt-8-millionen/",
+      "citace": "Der tschechische ClimateTech-Investor Inven Capital und Co. investieren eine weitere Millionensumme in Vytal.",
+      "hodnota_v_citaci": "Vytal",
+      "datum_zdroje": "2026-07-06",
+      "datum_v_textu": "Montag, 6. Juli 2026"
+    },
+    {
+      "cilova_firma": "Andercore",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-02-11",
+      "faze_kola": "B+",
+      "castka_kola": {
+        "castka": 40000000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "TZ",
+      "sektor": "logistika",
+      "url": "https://www.andercore.com/press/andercore-secures-40m-series-b-for-ai-driven-industrial-trade-platform",
+      "citace": "Andercore, the AI-driven trade platform for industrial supply, has raised $40m in equity and debt to accelerate its European expansion. Participating investors include long-term partners Atomico and Project A, with Inven Capital joining this round, alongside institutional financing from Commerzbank and KfW.",
+      "hodnota_v_citaci": "Andercore",
+      "datum_zdroje": "2026-02-11",
+      "datum_v_textu": "11.02.2026"
+    },
+    {
+      "cilova_firma": "Vytal",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-03-11",
+      "faze_kola": "growth",
+      "castka_kola": {
+        "castka": 14200000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "media",
+      "sektor": "energie",
+      "url": "https://www.deutsche-startups.de/2025/03/11/vytal-sammelt-142-millionen-ein-reshape-energy-erhaelt-5-millionen/",
+      "citace": "Der tschechische ClimateTech-Investor Inven Capital (auch bei Forto, Hydrogrid und Zolar investiert), und NRW.Venture sowie Altinvestoren wie Emerald Technology Ventures, Grazia, Rubio, Chi Impact Capital und Kiko investieren 14,2 Millionen Euro in Vytal.",
+      "hodnota_v_citaci": "Vytal",
+      "datum_zdroje": "2025-03-11",
+      "datum_v_textu": "Dienstag, 11. März 2025"
+    }
+  ],
+  "poznamka": "Korporátní VC skupiny ČEZ (příznak cvc). Andercore: tisková zpráva cílové firmy uvádí, že se Inven „připojil“, web investora ale uvádí „Inven co-leads $40M Series B in Andercore“, proto role lead; částka 40 mil. USD zahrnuje i dluhové financování (Commerzbank, KfW). Deutsche-startups o Inven v Andercore psal už 2025-11-25 (pravděpodobně totéž kolo). Vytal 2026: tisková zpráva Vytal je z 2. 7. 2026, citace z článku 6. 7. 2026; částka nezveřejněna („weitere Millionensumme“), fáze neuvedena. Vytal 2025: roli lead a fázi growth uvádí článek https://techfundingnews.com/vytal-lands-e14-2m-to-expand-smart-reusable-packaging-solution-to-the-us/ („The investment was led by Inven Capital“, „growth funding“) i web investora („Inven leads VYTAL’s growth round extension to EUR 14.2m“). Fáze B+;growth odvozena z deklarace „later-stage“. Datum webu invencapital.cz se nepodařilo doložit. Sektor Wint (voda v budovách) zařazen jako nemovitosti, Vytal (vratné obaly) jako energie/ESG."
+}

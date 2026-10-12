@@ -1,0 +1,38 @@
+{
+  "kandidat": "Czech Business Angel Association (CBAA)",
+  "znacka": "CBAA",
+  "stav": "vyrazen",
+  "duvod": "V9",
+  "typ": null,
+  "fakta": [
+    {
+      "pole": "duvod",
+      "hodnota": "V9",
+      "url": "https://www.cbaa.cz/",
+      "citace": "CBAA spojuje andělské investory působící v ČR. Podporujeme investorské prostředí a jsme silným partnerem ve vztahu k institucím.",
+      "hodnota_v_citaci": "CBAA spojuje andělské investory působící v ČR",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "nazev",
+      "hodnota": "Czech Business Angel Association z.s.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08772444",
+      "citace": "\"ico\":\"08772444\",\"obchodniJmeno\":\"Czech Business Angel Association z.s.\"",
+      "hodnota_v_citaci": "Czech Business Angel Association z.s.",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "08772444",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08772444",
+      "citace": "\"ico\":\"08772444\",\"obchodniJmeno\":\"Czech Business Angel Association z.s.\"",
+      "hodnota_v_citaci": "08772444",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    }
+  ],
+  "investice": [],
+  "poznamka": "Národní asociace (zapsaný spolek) andělských investorů; zastupuje zájmy členů, investují jednotliví členové (V9, Z3). Na webu cbaa.cz ani ve vyhledávání jsem nenašel vlastní fond asociace. Investice proto nehledány."
+}

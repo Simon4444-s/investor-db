@@ -1,0 +1,16 @@
+{
+  "kandidat": "Fundlift",
+  "znacka": "Fundlift",
+  "stav": "vyrazen",
+  "duvod": "V2",
+  "typ": null,
+  "fakta": [
+    {"pole": "duvod", "hodnota": "V2",
+     "url": "https://czechstartups.gov.cz/?investori=fundlift",
+     "citace": "Fundlift je investment-crowdfundingová platforma, která propojuje investory a zajímané projekty. Firmám nabízí nový způsob, jak získat financování, napojení na investory a cenný marketingový kanál.",
+     "hodnota_v_citaci": "investment-crowdfundingová platforma",
+     "datum_zdroje": "2020-08-04", "datum_v_textu": "dateModified: 2020-08-04T20:15:24+00:00"}
+  ],
+  "investice": [],
+  "poznamka": "Crowdfundingová platforma, o investicích rozhodují jednotliví investoři (V2). Vlastní fond platformy jsem nenašel. Web fundlift.cz se načítá JavaScriptem (v textu stránky je jen šablona), proto citace z profilu na CzechStartups.gov.cz."
+}

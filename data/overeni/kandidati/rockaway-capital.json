@@ -1,0 +1,166 @@
+{
+  "kandidat": "Rockaway Capital",
+  "znacka": "Rockaway Ventures",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "AMISTA investiční společnost, a.s.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/27437558",
+      "citace": "\"ico\":\"27437558\",\"obchodniJmeno\":\"AMISTA investiční společnost, a.s.\"",
+      "hodnota_v_citaci": "AMISTA investiční společnost, a.s.",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "nazev",
+      "hodnota": "AMISTA investiční společnost, a.s.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-vr/14235781",
+      "citace": "\"ico\":\"27437558\",\"obchodniJmeno\":\"AMISTA investiční společnost, a.s.\"",
+      "hodnota_v_citaci": "AMISTA investiční společnost, a.s.",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "27437558",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/27437558",
+      "citace": "\"ico\":\"27437558\",\"obchodniJmeno\":\"AMISTA investiční společnost, a.s.\"",
+      "hodnota_v_citaci": "27437558",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://rockawayventures.com/contact/",
+      "citace": "WE ARE OPEN TO YOUR IDEAS: contact@rockawayventures.com Rockaway Capital Gen. Píky 430/26 160 00 Praha 6 – Dejvice",
+      "hodnota_v_citaci": "160 00 Praha 6 – Dejvice",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://rockawayventures.com/",
+      "url": "https://rockawayventures.com/contact/",
+      "citace": "We are proud to be a part of the Rockaway Capital group Copyright © 2026 Rockaway Ventures Fund",
+      "hodnota_v_citaci": "Rockaway Ventures Fund",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://www.rockawaycapital.com/cs/fond/rockaway-ventures",
+      "citace": "Rockaway Ventures je venture kapitálový fond spadající pod skupinu Rockaway Capital, který investuje do oblastí, ve kterých má silné know-how – především do transformativních technologií v čele s umělou inteligencí, deep techem, defense & dual-use řešeními, průmyslovou a výrobní AI a energetiky.",
+      "hodnota_v_citaci": "Rockaway Ventures je venture kapitálový fond spadající pod skupinu Rockaway Capital",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "ai;ostatni;obrana;prumysl;energie",
+      "url": "https://www.rockawaycapital.com/cs/fond/rockaway-ventures",
+      "citace": "Rockaway Ventures je venture kapitálový fond spadající pod skupinu Rockaway Capital, který investuje do oblastí, ve kterých má silné know-how – především do transformativních technologií v čele s umělou inteligencí, deep techem, defense & dual-use řešeními, průmyslovou a výrobní AI a energetiky.",
+      "hodnota_v_citaci": "umělou inteligencí, deep techem, defense & dual-use řešeními, průmyslovou a výrobní AI a energetiky",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "faze",
+      "hodnota": "seed;A",
+      "url": "https://www.rockawaycapital.com/cs/fond/rockaway-ventures",
+      "citace": "Fond investuje převážně v rané fázi – od seedových investic po Series A.",
+      "hodnota_v_citaci": "od seedových investic po Series A",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "kapital_celkem",
+      "hodnota": "53000000 EUR; druh=velikost fondu",
+      "url": "https://www.rockawaycapital.com/cs/fond/rockaway-ventures",
+      "citace": "Velikost fondu €53 m Počet společností v portfoliu 15",
+      "hodnota_v_citaci": "Velikost fondu €53 m",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "Filuta AI",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-06-24",
+      "faze_kola": "seed",
+      "castka_kola": {
+        "castka": 4200000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "TZ",
+      "sektor": "ai",
+      "url": "https://rockawayventures.com/rockaway-ventures-leads-4-2m-seed-round-in-czech-ai-startup-filuta-ai/",
+      "citace": "Rockaway Ventures has led a $4.2 million (approximately €3.9 million) seed round in Filuta AI, a Czech startup based in Prague that is developing advanced AI solutions for automated game testing.",
+      "hodnota_v_citaci": "Rockaway Ventures has led a $4.2 million (approximately €3.9 million) seed round in Filuta AI",
+      "datum_zdroje": "2025-06-24",
+      "datum_v_textu": "June 24, 2025"
+    },
+    {
+      "cilova_firma": "CulturePulse",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-02-06",
+      "faze_kola": "neověřeno",
+      "castka_kola": null,
+      "castka_investora": null,
+      "role": "neuvedeno",
+      "typ_dokladu": "TZ",
+      "sektor": "ai",
+      "url": "https://rockawayventures.com/rockaway-ventures-invests-in-culturepulse-driving-innovation-in-behavioral-analysis-and-security-risk-prediction-across-europe-and-beyond/",
+      "citace": "Rockaway Ventures, a European investment fund under the Rockaway Capital group, has announced its investment in CulturePulse, an innovative American startup specializing in advanced behavioral modeling.",
+      "hodnota_v_citaci": "has announced its investment in CulturePulse",
+      "datum_zdroje": "2025-02-06",
+      "datum_v_textu": "February 6, 2025"
+    },
+    {
+      "cilova_firma": "Cruxo",
+      "ico_cilove_firmy": "14134683",
+      "datum_investice": "2025-01-31",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 15000000,
+        "mena": "CZK"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "TZ",
+      "sektor": "software",
+      "url": "https://rockawayventures.com/cruxo-revolutionizes-supplier-advertising-on-e-commerce-platforms-boosts-e-shop-profits-across-6-countries-and-secures-a-new-czk-15-million-investment/",
+      "citace": "Cruxo’s founders now report further achievements: The platform has customers in 6 countries, supports multiple languages, and has secured investment from Czech Founders VC, Rockaway Ventures, and angel investors for further growth.",
+      "hodnota_v_citaci": "has secured investment from Czech Founders VC, Rockaway Ventures, and angel investors",
+      "datum_zdroje": "2025-01-31",
+      "datum_v_textu": "January 31, 2025"
+    },
+    {
+      "cilova_firma": "Apaleo",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2024-11-25",
+      "faze_kola": "growth",
+      "castka_kola": {
+        "castka": 20000000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "TZ",
+      "sektor": "software",
+      "url": "https://rockawayventures.com/apaleo-secures-e20-million-growth-equity-investment-led-by-psg-to-accelerate-global-expansion/",
+      "citace": "Existing investors Redalpine, FOMCAP IV, and Rockaway Ventures also participated in the round.",
+      "hodnota_v_citaci": "Rockaway Ventures also participated in the round",
+      "datum_zdroje": "2024-11-25",
+      "datum_v_textu": "November 25, 2024"
+    }
+  ],
+  "poznamka": "Jak určeno: skupina Rockaway Capital spravuje více fondů (PE: Rockaway Alpha a Rockaway Defense; RockawayQ – od menšinových podílů po odkup 100 %; RockawayX – digitální aktiva; Rockaway Fund – celé portfolio skupiny). Do startupů investuje Rockaway Ventures: web skupiny ho označuje jako „venture kapitálový fond spadající pod skupinu Rockaway Capital“ s investicemi „od seedových investic po Series A“ (https://www.rockawaycapital.com/cs/fond/rockaway-ventures) a rockawayventures.com dokládá investice do startupů v okně Z2. Vozidla značky podle https://www.rockawaycapital.com/cs/pravni-informace: Rockaway Ventures Fund SICAV a.s. (IČO 14235781, CZ) a Rockaway Ventures Fund SCSp (B263215, LUX). Správcovská společnost: statutárním orgánem a obhospodařovatelem české SICAV je podle veřejného rejstříku AMISTA investiční společnost, a.s. (IČO 27437558) – externí investiční společnost, která obhospodařuje i fondy jiných značek. Zakladatelským akcionářem SICAV je Rockaway GP a.s. (IČO 23278757). Společníkem CRUXO group s.r.o. (od 2026-08-24) je ale lucemburský Rockaway Ventures Fund SCSp, jehož GP ani AIFM jsem nezjistil. Roli Rockaway Ventures Advisors a.s. (IČO 14125129) jako poradce nic nedokládá. Zda má záznam vést formálního obhospodařovatele, nebo společnost investičního týmu, musí rozhodnout člověk. Druhý VC fond skupiny, United Founders (United Founders SCSp, LUX; United Founders Advisors s.r.o., IČO 21594813), investuje do nejranějších fází, např. do seedového kola Wonderful (zpráva Rockaway z 2026-09-03). Doporučuji ho posoudit jako samostatného kandidáta. Investice: Filuta AI CZ s.r.o. je dceřinou společností Filuta AI Inc. (USA), proto IČO nevyplněno. CulturePulse (USA): první kolo, dosud 1,5 mil. USD a otevřené dalším investorům, proto bez částky a fáze. Částka Cruxo (15 mil. Kč) je z titulku zprávy. Apaleo (DE): Rockaway Ventures jako stávající investor. Investice z roku 2026 jsem nenašel (poslední zpráva na rockawayventures.com je z 2025-07-14). Sektory jsou převzaty z webu skupiny (ostatni = deep tech). rockawayventures.com uvádí starší výčet (e-commerce, cestování, logistika, média, kyberbezpečnost, CleanTech, PropTech). Limit webového vyhledávání se během práce vyčerpal, proto jsem k lucemburskému fondu a United Founders další zdroje nehledal."
+}

@@ -1,0 +1,188 @@
+{
+  "kandidat": "J&T Ventures",
+  "znacka": "J&T Ventures",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "J&T Ventures CG SICAV a.s.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08220867",
+      "citace": "\"ico\":\"08220867\",\"obchodniJmeno\":\"J&T Ventures CG SICAV a.s.\"",
+      "hodnota_v_citaci": "\"obchodniJmeno\":\"J&T Ventures CG SICAV a.s.\"",
+      "datum_zdroje": "2026-09-21",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-09-21\""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "08220867",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08220867",
+      "citace": "\"ico\":\"08220867\",\"obchodniJmeno\":\"J&T Ventures CG SICAV a.s.\"",
+      "hodnota_v_citaci": "\"ico\":\"08220867\"",
+      "datum_zdroje": "2026-09-21",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-09-21\""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08220867",
+      "citace": "\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "2026-09-21",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-09-21\""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://www.jtventures.cz/",
+      "url": "https://www.jtventures.cz/zasady-zpracovani-osobnich-udaju",
+      "hodnota_v_citaci": "https://www.jtventures.cz/",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "Provozovatelem webových stránek https://www.jtventures.cz/ a správcem osobních údajů zpracovávaných prostřednictvím těchto webových stránek je společnost J&T Ventures CG SICAV a.s., IČ: 082 20 867,"
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://www.jtventures.cz/",
+      "hodnota_v_citaci": "Fáze Pre-seed až Series A",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "Investiční kritéria Region CEE & SEE & Baltics Fáze Pre-seed až Series A Velikost investice €300K – €3M"
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "generalista",
+      "url": "https://www.jtventures.cz/",
+      "hodnota_v_citaci": "Sector Agnostic",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "Zajímají nás B2B B2C Marketplaces Sector Agnostic"
+    },
+    {
+      "pole": "faze",
+      "hodnota": "pre-seed;seed;A",
+      "url": "https://www.jtventures.cz/",
+      "hodnota_v_citaci": "Fáze Pre-seed až Series A",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "Investiční kritéria Region CEE & SEE & Baltics Fáze Pre-seed až Series A Velikost investice €300K – €3M"
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "300000-3000000 EUR",
+      "url": "https://www.jtventures.cz/",
+      "hodnota_v_citaci": "Velikost investice €300K – €3M",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "Investiční kritéria Region CEE & SEE & Baltics Fáze Pre-seed až Series A Velikost investice €300K – €3M"
+    },
+    {
+      "pole": "kapital_celkem",
+      "hodnota": "120000000 EUR; druh=AUM",
+      "url": "https://www.jtventures.cz/",
+      "hodnota_v_citaci": "€120M Výše aktiv",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "Portfolio €120M Výše aktiv 31 Startupů 5 Exitů"
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "Wultra",
+      "ico_cilove_firmy": "03643174",
+      "datum_investice": "2026-06-29",
+      "faze_kola": "A",
+      "castka_kola": {
+        "castka": 6800000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "bezpecnost",
+      "url": "https://pulse2.com/wultra-raises-e6-8-million-series-a-to-expand-post-quantum-digital-identity-solutions/",
+      "hodnota_v_citaci": "Returning investors J&T Ventures",
+      "datum_zdroje": "2026-06-29",
+      "datum_v_textu": "datePublished: 2026-06-29T17:10:25+00:00",
+      "citace": "Returning investors J&T Ventures and Elevator Ventures also joined the round."
+    },
+    {
+      "cilova_firma": "grid.online",
+      "ico_cilove_firmy": "22194487",
+      "datum_investice": "2026-06-23",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 4000000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "logistika",
+      "url": "https://vestbee.com/insights/articles/grid-online-raises-4-m",
+      "hodnota_v_citaci": "with participation from Reflex Capital, J&T Ventures",
+      "datum_zdroje": "2026-06-23",
+      "datum_v_textu": "datePublished: 2026-06-23T09:37:13.760Z",
+      "citace": "Czech Republic-based firm grid.online has raised €4 million from DFF Ventures, Movens Capital, with participation from Reflex Capital, J&T Ventures, and angel investors linked to early teams at Wolt."
+    },
+    {
+      "cilova_firma": "Definic",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-06-12",
+      "faze_kola": "seed",
+      "castka_kola": {
+        "castka": 2500000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "media",
+      "sektor": "software",
+      "url": "https://vestbee.com/insights/articles/definic-raises-2-5-m-to-scale-ai-powered-vendor-intelligence-platform",
+      "hodnota_v_citaci": "seed round led by J&T Ventures",
+      "datum_zdroje": "2026-06-12",
+      "datum_v_textu": "datePublished: 2026-06-12T09:23:00.712Z",
+      "citace": "Slovak-based firm Definic, formerly Nordics, which develops a Vendor Intelligence platform for IT procurement, has announced its rebrand and closed a €2.5 million seed round led by J&T Ventures, with participation from Seed Starter ČS and Slovak Investment Holding (SIH), as Vestbee was informed."
+    },
+    {
+      "cilova_firma": "Choice",
+      "ico_cilove_firmy": "09517600",
+      "datum_investice": "2026-03-16",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 7100000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "software",
+      "url": "https://cc.cz/v-prosinci-mluvil-o-vyzve-ziskat-investici-ted-uz-ma-dalsich-150-milionu-a-dobyva-novy-kus-evropy/",
+      "hodnota_v_citaci": "Přidaly se také zdejší fondy Reflex Capital a J&T Ventures",
+      "datum_zdroje": "2026-03-16",
+      "datum_v_textu": "datePublished: 2026-03-16T12:01:07+01:00",
+      "citace": "Choice teď informace potvrdil s tím, že v nejnovější investici získal 7,1 milionu dolarů. Kolo vedl portugalský fond Alea Capital společně s polským Smartlink Partners, který startup podpořil pětadvaceti miliony korun také loni. Přidaly se také zdejší fondy Reflex Capital a J&T Ventures"
+    },
+    {
+      "cilova_firma": "ValkaAI",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-02-24",
+      "faze_kola": "pre-seed",
+      "castka_kola": {
+        "castka": 12000000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "ai",
+      "url": "https://www.startbase.com/news/e12-millionen-pre-seed-fuer-valkaai/",
+      "hodnota_v_citaci": "with J&T Ventures",
+      "datum_zdroje": "2026-02-24",
+      "datum_v_textu": "datePublished: 2026-02-24T15:49:23+01:00",
+      "citace": "The AI startup ValkaAI has closed a pre-seed round of 12 million euros. The financing is led by Rockaway Ventures, with J&T Ventures, Tensor Ventures, BD Partners and Fond Naše Česko also participating."
+    }
+  ],
+  "poznamka": "Název a IČO podle stránky Kontakt a zásad zpracování osobních údajů na webu (provozovatel J&T Ventures CG SICAV a.s.); zda je obhospodařovatelem fondů tato SICAV nebo jiná investiční společnost, nebylo ověřeno. Fondy pod značkou v ARES: J&T Ventures III SICAV a.s. (IČO 22175903), J&T VENTURES I otevřený podílový fond, J&T Ventures CG, podfond J&T Ventures II. Tiket, fáze, sektory a AUM jsou z webu bez data. Wultra: citace neobsahuje název firmy, protože okolní věty obsahují jména fyzických osob; firma je v titulku článku. V ARES je J&T Ventures CG SICAV a.s. společníkem Wultra s.r.o. a Choice QR s.r.o., u grid.online s.r.o. je společníkem J&T Ventures III SICAV a.s. Definic (Slovensko) a ValkaAI (česká Valka.AI s.r.o. je ze 100 % vlastněna Valka.AI B.V.) bez IČO. Starší doložené investice v okně: Supernova (Series A, tech.eu 2025-09-30), grid.online (1,5 mil. EUR, Forbes 2025-02-12), Wultra (3 mil. EUR, 2025-01-15)."
+}

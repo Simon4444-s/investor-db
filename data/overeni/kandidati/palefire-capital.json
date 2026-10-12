@@ -1,0 +1,56 @@
+{
+  "kandidat": "Palefire capital",
+  "znacka": "Pale Fire Capital",
+  "stav": "mimo_rozsah",
+  "duvod": "PE",
+  "typ": "PE",
+  "fakta": [
+    {
+      "pole": "typ",
+      "hodnota": "PE",
+      "url": "https://palefirecapital.com/en/",
+      "citace": "You have built a strong business. Now you feel it is time for the next major step: new regions, stronger technology, better management, and the ambition to become a major international player.",
+      "hodnota_v_citaci": "You have built a strong business",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "duvod",
+      "hodnota": "PE",
+      "url": "https://palefirecapital.com/en/",
+      "citace": "We have supported successful companies with multi-billion valuations, such as ePojisteni.cz, FAVI, and Aukro. Our investments typically range in the tens of millions of euros of our own capital.",
+      "hodnota_v_citaci": "Our investments typically range in the tens of millions of euros of our own capital",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "nazev",
+      "hodnota": "Pale Fire Capital SE",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04165918",
+      "citace": "\"ico\":\"04165918\",\"obchodniJmeno\":\"Pale Fire Capital SE\"",
+      "hodnota_v_citaci": "Pale Fire Capital SE",
+      "datum_zdroje": "2026-08-11",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-08-11\""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "04165918",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04165918",
+      "citace": "\"ico\":\"04165918\",\"obchodniJmeno\":\"Pale Fire Capital SE\"",
+      "hodnota_v_citaci": "04165918",
+      "datum_zdroje": "2026-08-11",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-08-11\""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04165918",
+      "citace": "\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "2026-08-11",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-08-11\""
+    }
+  ],
+  "investice": [],
+  "poznamka": "Investiční skupina s vlastním kapitálem; web cílí na zavedené firmy před další velkou fází růstu (expanze, digitalizace) s investicemi typicky v desítkách milionů eur, česká verze uvádí stovky milionů až přes miliardu Kč (portfolio např. ePojisteni.cz, FAVI, Aukro) → typ PE, mimo rozsah vzorku. Tiket nelze převést na rozsah min-max (jen „tens of millions of euros“), proto nezapsán; citace o velikosti investic slouží jako doklad důvodu PE. Česká verze webu má v textu nedekódované HTML entity, citace jsou z anglické verze. Ve skupině jsou i Pale Fire Capital investiční společnost a.s. (IČO 21671478) a SICAV fondy; jako hlavní subjekt uveden Pale Fire Capital SE. Investice nehledány."
+}

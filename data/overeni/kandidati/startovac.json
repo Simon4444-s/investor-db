@@ -1,0 +1,31 @@
+{
+  "kandidat": "Startovač",
+  "znacka": "Startovač",
+  "stav": "vyrazen",
+  "duvod": "V2",
+  "typ": null,
+  "fakta": [
+    {"pole": "duvod", "hodnota": "V2",
+     "url": "https://www.startovac.cz/",
+     "citace": "5-9% commission on successful campaigns. For unsuccessful campaigns we return 100% to backers (no hidden bank fees)",
+     "hodnota_v_citaci": "5-9% commission on successful campaigns",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""},
+    {"pole": "duvod", "hodnota": "V2",
+     "url": "https://czechstartups.gov.cz/?investori=startovac",
+     "citace": "Startovač nabízí možnost prezentovat jednotlivé kreativní projekty hledající finanční podporu přímo od lidí.",
+     "hodnota_v_citaci": "hledající finanční podporu přímo od lidí",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""},
+    {"pole": "nazev", "hodnota": "Army of Darkness, s.r.o.",
+     "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/29411700",
+     "citace": "\"ico\":\"29411700\",\"obchodniJmeno\":\"Army of Darkness, s.r.o.\"",
+     "hodnota_v_citaci": "Army of Darkness, s.r.o.",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""},
+    {"pole": "ico", "hodnota": "29411700",
+     "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/29411700",
+     "citace": "\"ico\":\"29411700\",\"obchodniJmeno\":\"Army of Darkness, s.r.o.\"",
+     "hodnota_v_citaci": "29411700",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""}
+  ],
+  "investice": [],
+  "poznamka": "Odměnová (reward-based) crowdfundingová platforma pro kreativní projekty; přispívají jednotlivci, platforma bere provizi z úspěšných kampaní (V2, Z3). Provozovatele (Army of Darkness, s.r.o.) uvádí patička webu startovac.cz. Vlastní investiční fond platformy jsem nenašel. Investice nehledány. Profil na czechstartups.gov.cz má v metadatech datePublished 2020-08-04 a dateModified 2021-01-22; jako datum zdroje je ponecháno neověřeno, protože nejde o datum obsahu."
+}

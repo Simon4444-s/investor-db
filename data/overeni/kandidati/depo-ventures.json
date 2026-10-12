@@ -1,0 +1,138 @@
+{
+  "kandidat": "DEPO Ventures",
+  "znacka": "DEPO Ventures",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "DEPO VENTURES, s.r.o.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04753101",
+      "citace": "\"ico\":\"04753101\",\"obchodniJmeno\":\"DEPO VENTURES, s.r.o.\"",
+      "hodnota_v_citaci": "DEPO VENTURES, s.r.o.",
+      "datum_zdroje": "2026-05-13",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-05-13\""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "04753101",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04753101",
+      "citace": "\"ico\":\"04753101\",\"obchodniJmeno\":\"DEPO VENTURES, s.r.o.\"",
+      "hodnota_v_citaci": "04753101",
+      "datum_zdroje": "2026-05-13",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-05-13\""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04753101",
+      "citace": "\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "2026-05-13",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-05-13\""
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://www.depoventures.cz/novinky",
+      "citace": "DEPO Ventures je venture kapitálová skupina investující do raných startupů z regionu střední a východní Evropy.",
+      "hodnota_v_citaci": "venture kapitálová skupina",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "faze",
+      "hodnota": "pre-seed",
+      "url": "https://www.depoventures.cz/",
+      "citace": "Fáze Inception & Pre-seed Investice €250K - 500K Valuace Až €7M Geografie Evropa, CEE & Diaspora Sektory Obrana, Vesmír, FinTech, Průmysl 4.0, Energetika",
+      "hodnota_v_citaci": "Inception & Pre-seed",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "250000-500000 EUR",
+      "url": "https://www.depoventures.cz/",
+      "citace": "Fáze Inception & Pre-seed Investice €250K - 500K Valuace Až €7M Geografie Evropa, CEE & Diaspora Sektory Obrana, Vesmír, FinTech, Průmysl 4.0, Energetika",
+      "hodnota_v_citaci": "Investice €250K - 500K",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "obrana;vesmir;fintech;prumysl;energie",
+      "url": "https://www.depoventures.cz/",
+      "citace": "Fáze Inception & Pre-seed Investice €250K - 500K Valuace Až €7M Geografie Evropa, CEE & Diaspora Sektory Obrana, Vesmír, FinTech, Průmysl 4.0, Energetika",
+      "hodnota_v_citaci": "Obrana, Vesmír, FinTech, Průmysl 4.0, Energetika",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "kapital_celkem",
+      "hodnota": "5500000 EUR; druh=AUM",
+      "url": "https://cvca.cz/depo-ventures/",
+      "citace": "Objem prostředků ve správě 5,5 milionů EUR Typ investic VC",
+      "hodnota_v_citaci": "5,5 milionů EUR",
+      "datum_zdroje": "2023-01-12",
+      "datum_v_textu": "dateModified: 2023-01-12T10:52:11+00:00"
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "ArcSpace",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-08-26",
+      "faze_kola": "neověřeno",
+      "castka_kola": null,
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "media",
+      "sektor": "vesmir",
+      "url": "https://www.frenchweb.fr/arcspace-leve-plus-de-2-millions-deuros-pour-faire-passer-les-satellites-du-jetable-au-reparable/463048",
+      "citace": "Fondée en 2022 à Paris, ARCSPACE vient de lever plus de 2 millions d’euros lors d’un tour mené par DEPO Ventures, via son fonds DEPO Ventures One, avec SCE Freiraum Ventures, IRDI Capital Investissement et un réseau français de business angels.",
+      "hodnota_v_citaci": "ARCSPACE",
+      "datum_zdroje": "2026-08-26",
+      "datum_v_textu": "datePublished: 2026-08-26T07:25:15+00:00"
+    },
+    {
+      "cilova_firma": "Tapaya",
+      "ico_cilove_firmy": "23476541",
+      "datum_investice": "2026-04-29",
+      "faze_kola": "pre-seed",
+      "castka_kola": {
+        "castka": 1000000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "media",
+      "sektor": "fintech",
+      "url": "https://vestbee.com/blog/articles/tapaya-secures-1-m",
+      "citace": "Prague-based startup Tapaya, which enables banks, fintechs, and software platforms to embed in-person payments directly into their apps, has raised €1 million in a pre-seed round led by Passion Capital and co-led by Depo Ventures, with follow-on participation from BADideas.fund, Vestbee was told.",
+      "hodnota_v_citaci": "Tapaya",
+      "datum_zdroje": "2026-04-29",
+      "datum_v_textu": "datePublished: 2026-04-29T10:50:51.847Z"
+    },
+    {
+      "cilova_firma": "WanderWallet",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-03-18",
+      "faze_kola": "pre-seed",
+      "castka_kola": {
+        "castka": 500000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "neuvedeno",
+      "typ_dokladu": "media",
+      "sektor": "fintech",
+      "url": "https://www.lupa.cz/clanky/smlouvy-pres-whatsapp-a-obchodni-hlasovky-cech-buduje-fintech-z-platebniho-chaosu-latinske-ameriky-ktery-nerozpletl-ani-mastercard/",
+      "citace": "A k tomu nyní oznámil pre-seedovou investici půl milionu dolarů od fondů BD Partners a Depo Ventures. WanderWallet funguje tak, že uživatel si do aplikace nahraje eura nebo dolary přes virtuální evropský účet.",
+      "hodnota_v_citaci": "WanderWallet",
+      "datum_zdroje": "2026-03-18",
+      "datum_v_textu": "18. 3. 2026"
+    }
+  ],
+  "poznamka": "Správce značky DEPO Ventures je DEPO VENTURES, s.r.o.; v ARES jsou i fondy DEPO VENTURES AF II. (IČO 11726377) a AF III. (IČO 17765838), osoby rizikového kapitálu. Investice: ArcSpace – kolo „plus de 2 millions d’euros“ (přes 2 mil. EUR, přesná částka neuvedena, proto castka_kola null; fáze ve zdroji neuvedena), investováno přes fond DEPO Ventures One. Tapaya – DEPO byl co-lead (vedl Passion Capital), role zapsána jako lead; v obchodním rejstříku Tapaya s.r.o. k dnešku nejsou žádní společníci-právnické osoby, investice mohla proběhnout nástrojem typu SAFE/CLA nebo přes jiný subjekt – kontrola společníků ji proto nepotvrdí. WanderWallet – americká společnost (Delaware) s českým zakladatelem, IČO nemá; vlastní TZ DEPO uvádí 430 tis. EUR a co-lead, ale stránka nemá datum, proto doklad z Lupy (role tam neuvedena). Další investice bez data nebo mimo vybrané: Plexo (TZ DEPO bez data), BlueQubit (prosinec 2024). Weby DEPO neuvádějí data článků. kapital_celkem je údaj CVCA z ledna 2023 (andělské fondy), novější velikost fondu DEPO Ventures One jsem z primárního zdroje nedoložil."
+}

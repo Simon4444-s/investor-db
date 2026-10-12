@@ -1,0 +1,1710 @@
+
+❯ Jsi nezávislý kontrolor výstupu jiného agenta.
+
+  Smíš číst jen results/rucni-kontrola.csv a PLAN.md (pravidla). Neotevírej nic
+  ve složce
+  data/, ostatní soubory v results/ ani ai-log/, aby tě neovlivnily.
+
+  1. U každého řádku v results/rucni-kontrola.csv otevři živou stránku z URL
+  (ne uložený
+     snapshot) a posuď, jestli tvrzení v řádku z textu stránky opravdu plyne.
+     - Oddíl A: odpovídají stav a důvod pravidlům z PLAN.md? U subjektů s
+       limit_vyhledavani = ano zkus vyhledat investice za posledních 24 měsíců.
+     - Oddíl B: proběhla investice opravdu a je novější než 24 měsíců?
+     - Oddíl C: odpovídá hodnota textu stránky?
+       Vyplň nové sloupce verdikt_ai (správně / špatně / nelze ověřit) a
+  zduvodneni_ai
+       (jedna věta). Můj sloupec verdikt nepřepisuj, dva řádky už mám vyplněné.
+  2. Vyber 20 náhodných řádků (pevný seed, poměrně z oddílů A, B, C; dva už
+  vyplněné
+     započítej) a označ je novým sloupcem rucne = ano. Ty zkontroluji já.
+  3. Do kap. 6 PLAN.md popiš postup: ruční kontrola 20 řádků, zbytek nezávislý
+  AI agent
+     v samostatném sezení, spolehlivost agenta měříme shodou s ruční kontrolou.
+  4. Zapiš, kolik času a tokenů kontrola zabrala.
+
+  Read 1 file, ran 4 shell commands (ctrl+o to expand)
+
+⏺ Načetl jsem PLAN.md a CSV (166 řádků: A 75, B 31, C 60). Teď procházím řádky a
+  hledám dva ručně vyplněné verdikty, které jsi zmínil.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Nenašel jsem žádný řádek s vyplněným verdiktem (všech 166 je prázdných), takže
+  výběr napíšu tak, aby se vyplněné řádky počítaly automaticky, jakmile se
+  objeví. Teď připravím dávky řádků pro kontrolory.
+
+  Ran 2 shell commands (ctrl+o to expand)
+
+⏺ Dávky jsou připravené (9 dávek po 15–20 řádcích). Teď sepíšu společné
+  instrukce pro kontrolory a pustím je paralelně.
+
+  Made 1 scratchpad edit +71 (ctrl+o to expand)
+
+⏺ 9 background agents launched (↓ to manage)
+   ├ Kontrola dávky a1
+   ├ Kontrola dávky a2
+   ├ Kontrola dávky a3
+   ├ Kontrola dávky a4
+   ├ Kontrola dávky b1
+   ├ Kontrola dávky b2
+   ├ Kontrola dávky c1
+   ├ Kontrola dávky c2
+   └ Kontrola dávky c3
+
+⏺ Devět kontrolorů běží na pozadí. Mezitím připravím náhodný výběr 20 řádků pro
+  ruční kontrolu (krok 2).
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Write(src/04_vyber_rucni_kontroly.mjs)
+  ⎿  Wrote 87 lines to src/04_vyber_rucni_kontroly.mjs
+       1 // Výběr 20 řádků z results/rucni-kontrola.csv, které zkontroluj
+       2 // Ostatní řádky kontroluje nezávislý AI agent; shoda obou kontr
+         ol měří spolehlivost agenta (PLAN.md, kap. 6).
+       4 // Postup:
+         metodou největšího zbytku.
+       6 // 2. Řádky s vyplněným sloupcem verdikt (už ručně zkontrolované
+       7 //    započítají se do kvóty svého oddílu.
+       8 // 3. Zbytek kvóty se losuje generátorem mulberry32 s pevným see
+       9 //    řádky v oddílu seřazené podle id, zamíchané Fisher-Yatesem
+      10 //
+     … +99 lines (ctrl+o to expand)
+
+  Ran 2 shell commands (ctrl+o to expand)
+
+⏺ Výběr je deterministický a ručně vyplněné řádky se započítají (ověřeno na
+  kopii). Spouštím ho na skutečném souboru.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Výběr je zapsán (20 položek: A007–A062, B087–B097, C113–C164). Teď spočítám
+  Wilsonovy intervaly pro shodu na těchto řádcích do kapitoly 6.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Teď přepíšu kap. 6 v PLAN.md.
+
+⏺ Update(PLAN.md)
+  ⎿  Added 15 lines, removed 3 lines
+      111  
+      112  ## 6. Měření přesnosti
+      113  
+      114 -**Referenční pravda:** ruční kontrola člověkem nad zmrazeným v
+          -ýstupem. **Před ruční kontrolou výstup sběru zmrazíme commitem
+          -** (commit dělá uživatel v GitHub Desktop). Opravy jdou do dal
+          -šího commitu; rozdíl mezi nimi ukáže ruční zásahy (kap. 11).  
+      114 +**Referenční pravda:** ruční kontrola člověkem na náhodném vzo
+          +rku 20 řádků; ostatní řádky kontroluje nezávislý AI agent, jeh
+          +ož spolehlivost měříme shodou s ruční kontrolou. **Před kontro
+          +lou výstup sběru zmrazíme commitem** (commit dělá uživatel v G
+          +itHub Desktop). Opravy jdou do dalšího commitu; rozdíl mezi ni
+          +mi ukáže ruční zásahy (kap. 11).                              
+      115  
+      116 -**Postup.** Podklady `results/rucni-kontrola.csv` generuje `sr
+          -c/03_rucni_kontrola.mjs`:                                     
+      116 +**Podklady.** `results/rucni-kontrola.csv` (166 řádků) generuj
+          +e `src/03_rucni_kontrola.mjs`:                                
+      117  - **A – všichni kandidáti (75):** stav, důvod a hlavní doklad.
+      118  - **B – aktivní VC (31):** u každého nejnovější investice, kte
+           rá dokládá Z2.
+      119  - **C – náhodný vzorek 60 faktů:** 6 polí, která AI vykládala 
+           (typ, IČO, deklarované sektory, fáze, deklarovaný tiket, celko
+           vý kapitál), po 10 faktech, pevný seed 20261011 **[VOLBA]**.
+      120  
+      121 -Verdikty: správně / špatně / nelze ověřit, s poznámkou a minut
+          -ami práce na řádek. Nahoře jsou subjekty, u kterých mohl vyčer
+          -paný limit vyhledávání způsobit chybějící investice. Přesnost 
+          -= správně / (správně + špatně); „nelze ověřit“ uvádíme zvlášť 
+          -a v konzervativní variantě ho počítáme jako špatně.           
+      121 +Nahoře jsou subjekty, u kterých mohl vyčerpaný limit vyhledává
+          +ní způsobit chybějící investice.                              
+      122  
+      123 +**Postup kontroly:**                                          
+      124 +1. **Nezávislý AI agent v samostatném sezení** zkontroluje vše
+          +ch 166 řádků. Nezná průběh sběru: smí číst jen `results/rucni-
+          +kontrola.csv` a PLAN.md (ne `data/`, ostatní soubory v `result
+          +s/` ani `ai-log/`). U každého řádku otevře živou stránku z URL
+          + (ne uložený snapshot) a posoudí, jestli tvrzení z textu strán
+          +ky plyne:                                                     
+      125 +   - A: stav a důvod odpovídají Z1–Z5, V1–V9 a rozsahu vzorku;
+          + u `limit_vyhledavani = ano` a u neaktivních navíc hledá inves
+          +tice za posledních 24 měsíců.                                 
+      126 +   - B: investice proběhla, investorem je tento subjekt a datu
+          +m spadá do okna Z2.                                           
+      127 +   - C: hodnota odpovídá textu stránky včetně převodu (číselní
+          +k, měna, druh kapitálu, IČO správné entity).                  
+      128 +                                                              
+      129 +   Zapíše `verdikt_ai` (správně / špatně / nelze ověřit) a `zd
+          +uvodneni_ai` (jedna věta, u jiného zdroje než `url` s jeho URL
+          +). Sloupce člověka nemění. Verdikt „nelze ověřit“ dává, když s
+          +e stránka nenačte (403, CAPTCHA, obsah jen přes JavaScript).  
+      130 +2. **Ruční kontrola 20 řádků** (`rucne = ano`): člověk vyplní 
+          +`verdikt`, `poznamka` a `minuty`, a to bez čtení `verdikt_ai`,
+          + aby ho agent neovlivnil **[VOLBA]**. Výběr dělá `src/04_vyber
+          +_rucni_kontroly.mjs`: kvóty úměrně velikosti oddílů (A 9, B 4,
+          + C 7, metoda největšího zbytku); řádky s už vyplněným `verdikt
+          +` jsou ve výběru vždy a započítají se do kvóty; zbytek losuje 
+          +generátor mulberry32 se seedem 20261011 **[VOLBA]**.          
+      131 +3. **Spolehlivost agenta** = shoda s ruční kontrolou na 20 řád
+          +cích, tj. podíl řádků, kde `verdikt_ai` = `verdikt`. Zvlášť uv
+          +ádíme nezachycené chyby (agent „správně“, člověk „špatně“), pr
+          +otože nadhodnocují přesnost. Každý rozdíl rozebereme v `poznam
+          +ka`. Shoda z 20 řádků je jen hrubý odhad **[VÝPOČET]** (95 %, 
+          +Wilson): 20/20 → 84–100 %, 18/20 → 70–97 %.                   
+      132 +                                                              
+      133 +**Přesnost** = správně / (správně + špatně); u 20 ručních řádk
+          +ů platí `verdikt`, u ostatních `verdikt_ai`. „Nelze ověřit“ uv
+          +ádíme zvlášť a v konzervativní variantě ho počítáme jako špatn
+          +ě.                                                            
+      134 +                                                              
+      135  **Metriky:**
+      136  - **Přesnost záznamů** (A): správný stav, typ a důvod podle Z1
+           –Z5, V1–V9 a rozsahu vzorku.
+      137  - **Doložení aktivity** (B): investice je doložená a spadá do 
+           okna Z2.
+
+⏺ Update(PLAN.md)
+  ⎿  Added 1 line, removed 1 line
+       7  - **V databázi:** VC, PE, family office, angel investoři a velc
+          í soukromí investoři s aspoň jednou veřejně doloženou investicí
+           do soukromé firmy za posledních 24 měsíců (kap. 1–3).
+       8  - **Mimo databázi:** poradci a M&A boutiky, crowdfundingové pla
+          tformy, andělské kluby bez vlastního fondu, grantové agentury, 
+          čistě dluhové financování a neaktivní fondy. Fondy fondů eviduj
+          eme zvlášť.
+       9  - **Ověření:** každá hodnota má URL, datum zdroje a doslovnou c
+          itaci; skript zkontroluje citaci v uložené kopii stránky a iden
+          titu v ARES. Nedoložené zůstane prázdné s „neověřeno“ (kap. 4, 
+          5, 11).
+      10 -- **Přesnost:** ručně zkontrolujeme 100 % vzorku VC v ČR a změř
+         -íme přesnost záznamů a polí, vyplněnost a pokrytí (kap. 6).    
+      10 +- **Přesnost:** všech 166 kontrolních řádků vzorku VC v ČR zkon
+         +troluje nezávislý AI agent, 20 náhodných řádků člověk; shoda ob
+         +ou měří spolehlivost agenta. Měříme přesnost záznamů a polí, vy
+         +plněnost a pokrytí (kap. 6).                                   
+      11  - **Rozsah [PŘEDPOKLAD]:** VC v ČR 20–70 subjektů, všechny typy
+           v ČR 130–440, VC ve světě 5 000–21 000 (odvození v 7.4).
+      12  - **Spolehlivost [PŘEDPOKLAD]:** nejvyšší u VC, nejnižší u fami
+          ly office a velkých soukromých investorů; skutečnou přesnost zm
+          ěří vzorek.
+      13  - **Proč vlastní ověřování:** Crunchbase a Dealroom se shodují 
+          jen asi u 30 % subjektů (OECD 2026, kap. 7.3).
+
+⏺ Update(PLAN.md)
+  ⎿  Added 1 line, removed 1 line
+      262  8. **Převod na EUR – skript.** Kurzy ECB z `eurofxref-hist.zip
+           `.
+      263  9. **Konflikt zdrojů – skript + člověk.** Pořadí z kap. 5; roz
+           pory na stejné úrovni rozhodne člověk.
+      264  
+      265 -**Ruční kontrola (kap. 6) – člověk**, po zmrazení výstupu comm
+          -item.                                                         
+      265 +**Kontrola (kap. 6) – nezávislý AI agent (všechny řádky) + člo
+          +věk (20 řádků)**, po zmrazení výstupu commitem.               
+      266  
+      267  **Co ve vzorku měříme pro odhad nákladů na celý svět** (po záz
+           namech, log v `ai-log/`):
+      268  
+
+⏺ Kapitola 6 je přepsaná, včetně odpovídajících úprav v odrážce Shrnutí a řádku
+  v kap. 11, které dřív tvrdily 100% ruční kontrolu. Teď připravím skript na
+  sloučení výsledků a počkám na kontrolory.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Slučovací skript je hotový, zatím nedoběhla žádná dávka. Čekám na notifikace
+  od kontrolorů.
+
+⏺ Monitor nepotřebuju, doběhnutí kontrolorů mi přijde jako notifikace. Mám
+  hotové kroky 2 a 3, krok 1 běží:
+
+  - Krok 2: src/04_vyber_rucni_kontroly.mjs přidal do CSV sloupce verdikt_ai,
+    zduvodneni_ai a rucne. Sloupce rucne = ano označil u 20 řádků (A 9, B 4, C
+    7, seed 20261011).
+  - Krok 3: kap. 6 v PLAN.md je přepsaná.
+  - Krok 1: devět kontrolorů ověřuje 166 řádků proti živým stránkám. Až
+    doběhnou, výsledky sloučím do CSV a zapíšu čas a tokeny (krok 4).
+
+  Ve sloupci verdikt jsem nenašel ani jeden vyplněný řádek. Pokud máš ty dva
+  řádky vyplněné v neuloženém okně editoru, při uložení dojde ke konfliktu,
+  protože jsem soubor mezitím změnil. Po uložení stačí spustit node
+  src/04_vyber_rucni_kontroly.mjs a výběr je započítá. Vybrané řádky se tím ale
+  změní.
+
+› Message from general-purpose
+  Dávka b1 je zkontrolovaná: 16 řádků (B076–B091, všechny z oddílu B, investice
+  Z2). Všech 16 má verdikt „správně“, žádný „špatně“ ani „nelze ověřit“. Výstup
+  je v /private/tmp/claude-502/-Users-simonstaniek-investor-db/0a83fd0d-5141-4ec
+  3-b9f2-d88d1a60bf39/scratchpad/out/b1.json; JSON je platný a každý řádek má
+  právě jeden záznam.
+
+  Nejdůležitější nálezy:
+  - **B089 Flying Founders** (V9 jsem posoudil podle zadání uživatele): Tiny
+  Empires šlo do Flying Founders 2025-09-17. Příspěvek ho nazývá „an investment
+  fund“ a web flyingfounders.com uvádí „We invest our own capital“. Podle těchto
+  zdrojů tedy V9 (andělský klub bez vlastního fondu) neplatí. Jde ale o
+  akvizici, tedy spíš buyout (znak PE) než menšinovou VC investici, a to je
+  potřeba zohlednit u typu v oddílu A. Sídlo nebo tým v ČR stránky nedokládají.
+  - **Řádky z rejstříku (B080, B081, B084)** jsou potvrzené v živém ARES a na
+  or.justice.cz:
+    - wopee labs: StartupYard Batch 14 s.r.o., zapsáno 2025-04-02; jejím
+  společníkem je Startup Yard Limited.
+    - Boost.space: Tachles VC Fund I, LP, zapsáno 2025-11-12.
+    - RoboTwin s.r.o.: Y Soft Ventures II, a.s., zapsáno 11. 6. 2025.
+  - **Datum u B078 a B088 na stránce viditelné není.** Vzal jsem ho z metadat
+  stránky (datePublished): Soulmates 2026-09-07, Forbes 2025-09-16.
+  - **Řádky s limitem vyhledávání (B076–B084):** u každého je investice v okně
+  doložená samotnou ověřenou stránkou daného řádku. Samostatné vyhledávání jsem
+  udělal jen u dvou: Fether Labs a Springtide. Vyhledávání k PurposeTech a
+  Fether Labs vazbu mimo Vestbee nenašlo, ale článek Vestbee PurposeTech
+  výslovně jmenuje. Pod jménem „Springtide“ se objevuje i jiný, americký fond. U
+  ThreatMark ho ale stránka uvádí jako „Springtide Ventures Fund“ s pokračující
+  podporou firmy.
+  - **B083 Flox Intelligence:** článek z 2026-08-18 uvádí jen „v letošním roce“,
+  přesné datum kola nezná. Investice je přesto v okně.
+
+⏺ Dávka b1 je hotová: 16 řádků z oddílu B, všechny „správně“. Kontrolor
+  upozornil, že Flying Founders podle živých stránek investují vlastní kapitál
+  (V9 tedy asi neplatí), ale Tiny Empires je spíš akvizice než menšinová VC
+  investice. Počkám na zbylých osm dávek.
+
+⏺ Agent "Kontrola dávky b1" finished · 3m 37s
+
+› Message from general-purpose
+  Dávka b2 je hotová: 15 řádků (B092–B106, vše oddíl B). Výsledek je v
+  /private/tmp/claude-502/-Users-simonstaniek-investor-db/0a83fd0d-5141-4ec3-b9f
+  2-d88d1a60bf39/scratchpad/out/b2.json, stažené soubory v
+  .../scratchpad/dl/b2/.
+
+  Počty verdiktů: správně 14, špatně 1, nelze ověřit 0.
+
+  Nejzávažnější nálezy:
+  - **B097 KB SmartSolutions / Upvest (špatně):** Článek CzechCrunch z 21. 8.
+  2025 popisuje jen dokončení převzetí. KB SmartSolutions držela 96 % od roku
+  2022 a po vypršení vestingu odkoupila od zakladatelů zbylá 4 % na 100 %. Podle
+  kap. 3 PLAN.md je to strategická akvizice korporace, ne VC investice, takže
+  Z2 tím doložené není.
+  - **B095 a B096 (Kaya VC a KAYA, dříve Enern):** Jde o tentýž subjekt, takže
+  je potřeba je sloučit. Dokládá to věta „Kaya VC (formerly Enern)“ na
+  globalprivatecapital.org (2021-03-31). Obě investice (Viktor 2026-05-19,
+  Minerva 2026-10-08) jsou v okně.
+  - **B102 NUA:** Úplný výpis z OR potvrzuje NEWTON University Angels s.r.o.
+  jako společníka NerveCor s.r.o. (7,7 %) od 1. 7. 2025. Stav podle V9 je
+  sporný: web NUA uvádí vlastní společný fond („Our fund brings together
+  investor capital“), takže nejde jen o klub, ve kterém investují členové.
+  - **B103 Presto:** Doklad jmenuje „Presto Tech Horizons“, ne Presto Ventures.
+  Podle tech.eu (2024-06-26) tento fond spustily Presto Ventures a CSG, proto
+  verdikt správně.
+  - **B098 Lighthouse Ventures:** Na stránce není viditelné datum. Datum
+  2026-08-31 plyne jen z metadatu article:published_time v HTML.
+
+⏺ Dávka b2 je hotová: 14 „správně“, 1 „špatně“. Chybný řádek je B097 KB
+  SmartSolutions / Upvest: jde o dokoupení zbylých 4 % do 100 %, tedy
+  strategickou akvizici, ne VC investici. Kontrolor také potvrdil, že Kaya VC a
+  KAYA (dříve Enern) jsou tentýž subjekt. Hotové jsou 2 dávky z 9.
+
+⏺ Agent "Kontrola dávky b2" finished · 3m 43s
+
+› Message from general-purpose
+  Dávka c3 je hotová. Výstup je v /private/tmp/claude-502/-Users-simonstaniek-in
+  vestor-db/0a83fd0d-5141-4ec3-b9f2-d88d1a60bf39/scratchpad/out/c3.json: 20
+  záznamů, ID odpovídají dávce a JSON je platný.
+
+  **Počty verdiktů:** správně 20, špatně 0, nelze ověřit 0.
+
+  Všech 19 zdrojových URL se načetlo celé (HTTP 200). PDF CTP o JIC Ventures
+  jsem přečetl přímo. Ve všech případech je hodnota doslova v textu živé
+  stránky.
+
+  **Nejzávažnější nálezy:**
+  1. **C153 (Jet Ventures):** web uvádí „up to 2M EUR“ a průměrný tiket 1,5 mil.
+  EUR. Hodnota „2000000 EUR“ vypadá jako pevný tiket, správně by měla být
+  zapsaná jako horní mez „do 2 000 000 EUR“.
+  2. **C156 (KAYA):** hodnota 1–3 mil. EUR odpovídá článku na Vestbee (25. 6.
+  2025). Web investora kaya.vc ale uvádí „$1–3M Ticket“ v USD. Podle kap. 5 bodu
+  9 PLAN.md má web investora přednost, měna je tedy sporná.
+  3. **Řádky s limitem vyhledávání:** u všech čtyř jsem investici v okně našel:
+     - Springtide: ThreatMark, konvertibilní úvěr 8 mil. USD, pulse2.com, 13. 1.
+  2025.
+     - Soulmates: vedla Series A v Antiverse, pulse2.com, 3. 3. 2026.
+     - Tachles VC: kolo Boost.space, cc.cz, 9. 10. 2025.
+     - Taiwania Capital: vedla Series A v Supernově, lupa.cz, 30. 9. 2025.
+  4. **C163 (Taiwania):** podle nalezené investice je aktivní. Doklad o týmu
+  nebo kanceláři v ČR jsem nenašel, takže stav „mimo rozsah vzorku
+  (bez_tymu_v_CR)“ nevyvracím.
+  5. **Drobné poznámky:**
+     - U C160 (Enterprise Investors) jsou 2,5 mld. EUR jen dolní mez („přes“).
+  Zařazení jako PE sedí (buyout, sídlo ve Varšavě).
+     - U C157 jde jen o velikost třetího fondu Reflexu, což je správně označeno
+  jako druh „velikost fondu“.
+
+⏺ Dávka c3 je hotová: všech 20 řádků „správně“. Kontrolor ale označil dvě sporné
+  hodnoty, které přesto nechal jako „správně“:
+
+  - C153 Jet Ventures: web uvádí „up to 2M EUR“, tedy horní mez, ne pevný tiket.
+  - C156 KAYA: web investora uvádí tiket v USD, ne v EUR.
+
+  Hotové jsou 3 dávky z 9.
+⏺ Agent "Kontrola dávky c3" finished · 4m 9s
+
+› Message from general-purpose
+  Dávka c2 je hotová. Výstup je v /private/tmp/claude-502/-Users-simonstaniek-in
+  vestor-db/0a83fd0d-5141-4ec3-b9f2-d88d1a60bf39/scratchpad/out/c2.json (20
+  záznamů, JSON je platný). Výsledek: 19× správně, 1× špatně, 0× nelze ověřit.
+
+  Všech 16 URL se přes curl načetlo s HTTP 200 a ve všech je citace doslova.
+  Stažené stránky jsou v dl/c2/.
+
+  Nejdůležitější nálezy:
+  - **C127 Soulmates Ventures, sektory – špatně.** Stránka uvádí 8 oblastí,
+  hodnota převádí jen 5. Air, water a circular economy chybějí a nejsou ani jako
+  „ostatni“, které agent v jiných řádcích (Tensor, Fazole, Rockaway) pro
+  oblasti mimo číselník používá.
+  - **C131 Tensor, sektory – správně, s výhradou.** Převod „Sustainable Tech“ na
+  „energie“ je volnější výklad. Číselník v notes/ jsem podle zadání nečetl,
+  takže převody posuzuji jen podle zdravého rozumu.
+  - **C145 StartupYard (aktivní, limit vyhledávání ano): investice v okně Z2
+  nenalezena.** Hledal jsem 4×. Našel jsem jen oznámení Batch 15 s volitelnou
+  investicí 25 tis. EUR, bez jmen startupů a bez data. Fakt o fázi je správně,
+  ale stav „aktivní“ je slabě doložený.
+  - **Ostatní řádky s limitem vyhledávání mají investici v okně doloženou:**
+    - Soulmates: Better Medicine, 2025-08-14
+    - Tensor: DYNANIC, 2024-11-29
+    - Rockaway Ventures: Filuta AI, 2025-06-25
+    - Springtide: konvertibilní nota pro ThreatMark, 2025-01-07
+    - Tachles: Boost.space, 2025-10-09
+  - **Výklad zadání:** Pravidlo „u stavu aktivní je nalezená investice podmínkou
+  verdiktu správně“ jsem bral jen pro oddíl A. U řádků C jsem verdikt dával
+  podle správnosti faktu a výsledek hledání uvádím v odůvodnění.
+
+⏺ Dávka c2 je hotová: 19 „správně“, 1 „špatně“. Chybný řádek je C127 Soulmates:
+  ze 8 deklarovaných sektorů převádí hodnota jen 5.
+
+  U StartupYardu kontrolor c2 investici v okně nenašel. Dávka b1 ji ale v
+  rejstříku doložila: StartupYard Batch 14 je od 2. 4. 2025 společníkem ve wopee
+  labs. Hotové jsou 4 dávky z 9.
+
+⏺ Agent "Kontrola dávky c2" finished · 4m 13s
+
+› Message from general-purpose
+  Dávka a4 je zkontrolovaná: 19 řádků (A057–A075), 17× správně, 2× špatně, 0×
+  nelze ověřit. Všech 19 živých URL vrátilo HTTP 200 a citace na stránkách jsou.
+  Výstup je v /private/tmp/claude-502/-Users-simonstaniek-investor-db/0a83fd0d-
+  5141-4ec3-b9f2-d88d1a60bf39/scratchpad/out/a4.json.
+
+  **Špatně:**
+  - **A064 CVI (V5, čistě dluhové financování):** Domovská stránka mluví o
+  „private debt“. Stránka
+  https://cvi.pl/en/looking-for-financing/how-can-we-help/ (načtena 2026-10-11)
+  ale uvádí „convertible debt and private equity“ a přímé menšinové podíly. CVI
+  tedy splňuje Z1 a V5 nesedí. Vhodnější je spíš „mimo rozsah vzorku“, protože
+  sídlí ve Varšavě a kancelář v ČR na webu neuvádí.
+  - **A070 Limerock (vyřazen, nesplňuje Z2):** Věcně to sedí. Fond nepřijal
+  investiční rozhodnutí od 1. 11. 2016 a investici v okně jsem nenašel. Podle
+  PLAN.md (V4) ale neaktivní fond dostává stav „neaktivní (V4)“, ne „vyřazen“.
+  Chyba je jen v kódu stavu.
+
+  **Hraniční:**
+  - **A069 JIC STARCUBE (V7):** Označil jsem ho jako správně, ale doklad je z
+  roku 2015. Investovala samostatná dceřiná firma JIC Ventures a podle lupa.cz z
+  2. 6. 2015 si akcelerátor tehdy bral 2% podíl za služby. Investici Starcube v
+  okně jsem nenašel a aktuální stránka programu na jic.cz neexistuje, takže V7
+  odpovídá pravidlu pro akcelerátory v kap. 3.
+
+  Ostatní řádky jsou v pořádku:
+  - **Mimo rozsah vzorku (PE):** SkyLimit, Stratum, Thein, V4C a Versute podle
+  stránek opravdu dělají odkupy, LBO nebo kupují většinové podíly.
+  - **V2 (crowdfunding):** Fundlift, Hithit, Penězdroj a Startovač jsou
+  crowdfundingové platformy. Vlastní fond Fundliftu jsem nenašel.
+  - **V9 (andělské kluby a sítě):** CBAA, EBAN, Garage Angels, Lumus a The
+  Seeders. Vlastní fond nemají; Lumus investuje přes SPV pro každý deal zvlášť.
+  - **CVCA (nesplňuje Z1):** Je to asociace a sama neinvestuje.
+  - **Startupstart.cz (nesplňuje Z3):** Jen zprostředkovává mezi startupy a
+  investory.
+
+⏺ Dávka a4 je hotová: 17 „správně“, 2 „špatně“. Obě chyby se týkají stavu:
+
+  - A064 CVI: CVI podle svého webu nabízí i konvertibilní úvěry a private
+    equity, takže důvod V5 (čistě dluhové financování) neplatí.
+  - A070 Limerock: neaktivní fond má mít podle pravidel stav „neaktivní (V4)“,
+    ne „vyřazen“.
+
+  Hotových je 5 dávek z 9.
+
+⏺ Agent "Kontrola dávky a4" finished · 5m 19s
+
+› Message from general-purpose
+  Dávka c1 je zkontrolovaná a uložená v /private/tmp/claude-502/-Users-simonstan
+  iek-investor-db/0a83fd0d-5141-4ec3-b9f2-d88d1a60bf39/scratchpad/out/c1.json:
+  20 záznamů, 19 „správně“, 1 „špatně“, 0 „nelze ověřit“.
+
+  Nejzávažnější nálezy:
+  - **C116 AgriBoom Ventures, typ VC: špatně.** Citovaný nadpis je jen na české
+  verzi stránky (agriboom.com/cs), kořenová URL vrací angličtinu. Stránka se
+  popisuje jako „AgTech fund investing in venture capital and private equity“ a
+  uvádí „the fund's shift toward Private Equity“. Má i PE strategii (kontrolní
+  podíly ve firmách s tržbami 10–150 mil. EUR). Typ VC z textu jednoznačně
+  neplyne, spíš odpovídá PE.
+  - **C119 Startovač:** IČO 29411700 patří firmě „Army of Darkness, s.r.o.“. Na
+  první pohled to vypadá jako chyba, ale patička startovac.cz uvádí „© 2026 Army
+  of Darkness, s.r.o.“, jde tedy o provozovatele. Verdikt správně.
+  - **C122 Look AI Ventures a C126 Presto Ventures:** IČO patří fondům (SICAV,
+  resp. Presto Ventures II a.s.), ne správcovským společnostem. Jména odpovídají
+  značce investora, proto správně, ale PLAN kap. 10 chce v záznamu firmu nebo
+  správce. Doména presto.vc je navíc parkovaná.
+  - **C125 PurposeTech (vyhledání investic za 24 měsíců):** datovanou investici
+  z primárního zdroje jsem nenašel. Investice v okně (Lifeyear 2025-06-24,
+  Tingit 2026-02-10) uvádí jen agregátor CB Insights. Samotné IČO je správně,
+  sídlo potvrzuje i patička purposetech.vc.
+  - **Ostatní řádky s vyhledáním investic:** investici z primárního zdroje v
+  okně jsem našel u všech:
+    - Rockaway Ventures: Filuta AI, Vestbee 2025-06-24.
+    - Springtide Ventures: ThreatMark, AIN 2025-01-07.
+    - Taiwania Capital: Supernova, Lupa 2025-09-30. Tým v ČR jsem nenašel, stav
+  „bez týmu v ČR“ tomu odpovídá.
+    - Y Soft Ventures: RoboTwin, EIT Jumpstarter 2025-07-02.
+
+  U C109 (KB SmartSolutions) typ VC sedí jen s příznakem cvc (korporátní
+  program, kap. 3). Velikost podílů stránka neuvádí a ENVIROS je spíš akvizice.
+
+⏺ Dávka c1 je hotová: 19 „správně“, 1 „špatně“. Chybný je C116 AgriBoom: typ VC,
+  ale fond podle svého webu přešel k private equity.
+
+  U Startovače IČO patří firmě Army of Darkness, s.r.o., která je podle patičky
+  webu provozovatelem, takže to sedí. Zbývají dávky a1, a2 a a3.
+
+⏺ Agent "Kontrola dávky c1" finished · 5m 52s
+
+› Message from general-purpose
+  Kontrola dávky a3 je hotová: 19 řádků (A038–A056), z toho 18 „správně“, 1
+  „špatně“ a 0 „nelze ověřit“. Výstup je v
+  /private/tmp/claude-502/-Users-simonstaniek-investor-db/0a83fd0d-5141-4ec3-b9f
+  2-d88d1a60bf39/scratchpad/out/a3.json.
+
+  Nejzávažnější nálezy:
+  - **A045 Heartcore Capital, „špatně“:** Stav „bez týmu v ČR“ neodpovídá
+  vlastnímu webu fondu. Týmová stránka https://www.heartcore.com/team a profil
+  /team/tomas-fanta uvádějí investora Tomáše Fantu s lokalitou „Prague“
+  (2026-10-11). Jestli jeden investor v Praze stačí na „stálý investiční tým“
+  podle kap. 10, musí rozhodnout člověk.
+  - **A049 mAccelerator:** Nenašel jsem žádný doklad o týmu v ČR, proto
+  „správně“. Web maccelerator.vc je ale jen stránka hostingu „strona w budowie“
+  a investice po roce 2024 jsem nenašel, takže fond může být neaktivní nebo
+  zaniklý (Z2/Z5).
+  - **Obhajitelné, ale ne jednoznačné (verdikt „správně“):**
+    - **A052 Novira (FO):** Web se jako family office výslovně neoznačuje. Píše
+  jen o dědictví „for our children“ a „We are not a VC“.
+    - **A055 RSJ (PE):** Jde o smíšenou skupinu (nemovitosti, PE a VC hlavně
+  přes fondy fondů).
+  - **Bez výhrad:** Ostatní zařazení jako PE (Abris, ARX, Enterprise, ESPIRA,
+  EVERITA, Genesis, Innova, Integral, MAM, MidEuropa, Pale Fire, Sandberg) i FO
+  (QQ Capital) živé stránky dokládají. U 3TS a Index Ventures je seznam
+  kanceláří bez Prahy.
+
+  PLAN.md se během práce na disku změnil. Kapitoly 1, 2, 3, 5 a 10 jsem si
+  přečetl znovu a s pravidly, podle kterých jsem hodnotil, jsou v souladu.
+  Stažené soubory jsou jen v dl/a3/. Pomocný skript pro převod HTML na text jsem
+  dal do samostatné složky scripts_a3/ ve scratchpadu.
+
+⏺ Dávka a3 je hotová: 18 „správně“, 1 „špatně“. Chybný je A045 Heartcore se
+  stavem „bez týmu v ČR“: tým fondu podle jeho webu zahrnuje investora Tomáše
+  Fantu s lokalitou Praha. Jestli jeden člověk v Praze stačí na „stálý
+  investiční tým“, rozhodneš ty.
+
+  Kontrolor dál upozornil, že web mAccelerator je ve výstavbě a investice po
+  roce 2024 nenašel. Zbývají dávky a1 a a2.
+
+⏺ Agent "Kontrola dávky a3" finished · 6m 24s
+
+› Message from general-purpose
+  Dávka a2 je zkontrolovaná. Výstup je v /private/tmp/claude-502/-Users-simonsta
+  niek-investor-db/0a83fd0d-5141-4ec3-b9f2-d88d1a60bf39/scratchpad/out/a2.json a
+  má 18 záznamů (A020–A037), u každého řádku právě jeden.
+
+  Verdikty: 15 „správně“, 3 „špatně“, 0 „nelze ověřit“.
+
+  Nejzávažnější nálezy:
+  - **A023 KB SmartSolutions (aktivní, VC) – špatně.** Podle ARES drží 100 % ve
+  Finbricks (od 2021). V upvest měla 96 % od 2022 a od 2025-08-04 má 100 % (Bird
+  & Bird, 2025-08-26). Jde o strategické většinové podíly banky, ne o VC s
+  menšinovými podíly (kap. 1 a 3). Jinou investici v okně jsem nenašel.
+  - **A034 Impulse Ventures (neaktivní V4) – špatně.** Podle
+  https://en.ain.ua/2025/01/24/safetica-announces-a-4m-investment (2025-01-24)
+  vedl kolo Safetiky za 4 mil. USD „Ondrej Tomek, co-founder and CEO at Impulse
+  Ventures“. Tisková zpráva Safetiky uvádí investora jako Impulse Capital, který
+  je podle ARES jediným akcionářem Impulse Ventures, a.s. Follow-on v okně tedy
+  existuje, i když přiřazení ke značce není úplně čisté.
+  - **A028 NEWTON University Angels (aktivní) – špatně.** Web popisuje vlastní
+  fond, takže V9 sama nestačí. Investici od 2024-10-11 jsem ale nenašel, seznam
+  financovaných projektů je bez dat a v ARES jsem nenašel IČO fondu (Z4).
+  - **A021 a A022 jsou tentýž subjekt.** Jde o KAYA (fka Enern) s.r.o., IČO
+  10838821, takže je třeba je sloučit. Obě mají stav „aktivní“ správně, doklad
+  je pre-seed Riptides z 2025-04-23.
+  - **U aktivních VC pochází doklad Z2 z jiných URL, než má řádek.** U A024,
+  A026, A027, A029 a A031 citovaná stránka sama investici v okně nedokládá,
+  doklad jsem dohledal zvlášť a URL s datem je ve zdůvodnění. U A033 (AgriBoom)
+  je navíc prázdné pole `duvod`, ačkoli stav uvádí V4.
+
+⏺ Dávka a2 je hotová: 15 „správně“, 3 „špatně“. Chybné řádky:
+
+  - A023 KB SmartSolutions: banka drží strategické většinové podíly, nejde o VC.
+  - A034 Impulse Ventures: stav „neaktivní“ neplatí, Ondrej Tomek z Impulse
+    Ventures vedl v lednu 2025 kolo do Safetiky.
+  - A028 NEWTON University Angels: kontrolor investici v okně nenašel.
+
+  A028 je v rozporu s dávkou b2, která v rejstříku našla NUA jako společníka
+  NerveCor od 1. 7. 2025. Je to rozpor mezi kontrolory, kteří pracovali
+  odděleně. Verdikty agentů měním až po tvém pokynu, rozpor ti jen ohlásím.
+
+  Čekám ještě na poslední dávku a1.
+
+⏺ Agent "Kontrola dávky a2" finished · 11m 41s
+
+› Message from general-purpose
+  Dávka a1 je hotová: 19 řádků z oddílu A, verdikty 18× správně, 1× špatně, 0×
+  nelze ověřit. Výstup je v /private/tmp/claude-502/-Users-simonstaniek-investor
+  -db/0a83fd0d-5141-4ec3-b9f2-d88d1a60bf39/scratchpad/out/a1.json; každý řádek
+  dávky má právě jeden záznam a zdůvodnění je vždy jedna věta bez zalomení. U
+  všech správných řádků jsem našel investici v okně od 2024-10-11 a uvedl její
+  URL a datum.
+
+  Nejzávažnější nálezy:
+  1. **A005 StartupYard – špatně.** Typ VC s příznakem akcelerátor sedí, ale ani
+  po asi 8 vyhledáváních jsem nenašel žádnou doloženou investici od 2024-10-11.
+  V okně je jen oznámení Batch 15 (2025-09-11) a profily startupů z let 2026,
+  které investici nezmiňují. Poslední datované investice v agregátorech jsou z
+  04/2024 a 07/2023, takže stav „aktivní“ podle Z2 doložený není.
+  2. **A015 Flying Founders – správně, s výhradou.** V9 se podle mě neuplatní:
+  CzechCrunch (2024-09-03) ho popisuje jako fond, který investuje přímo, web
+  uvádí „We invest our own capital“ a v ARES je Flying Founders s.r.o. v Praze 8
+  (IČO 21828377). V okně je akvizice Tiny Empires (2025-09-17) a investice 500
+  tis. € do ROIVIS (květen 2026). Typ je ale na hranici VC/PE: článek sám píše
+  „na pomezí VC a PE“ a novější cíle jsou zralejší firmy.
+  3. **A010 Taiwania Capital – správně, s výhradou.** Status bez týmu v ČR sedí:
+  ARES nevrací žádný subjekt a karta CzechStartups kancelář v ČR neuvádí. Na
+  LinkedInu je ale jeden pracovník Taiwania s lokalitou Česko (Tomas Vanco,
+  Global Investment Manager). Samo o sobě to stálý tým nedokládá.
+  4. **A019 Jet Investment – správně, s výhradou.** Typ VC platí jen pro značku
+  Jet Ventures, mateřská skupina Jet Investment je PE. Doklad v okně: kolo
+  Boost.space, které Jet Investment vedl (cc.cz, 2025-10-09).
+  5. **A006 Tachles VC – správně, s výhradou.** Web uvádí jen adresu v USA,
+  správce Tachles VC Management s.r.o. ale sídlí v Praze 10 (IČO 14376032).
+
+  Při kontrole jsem použil jen PLAN.md, svoji dávku a živý web. Stažené soubory
+  jsou v dl/a1/.
+
+⏺ Dávka a1 je hotová: 18 „správně“, 1 „špatně“. Chybný je A005 StartupYard, u
+  kterého kontrolor ani po zhruba 8 vyhledáváních nenašel investici v okně. To
+  je další rozpor s dávkou b1, která ji našla v rejstříku (wopee labs, 2. 4.
+  2025). Zkontroluji, že všech 166 výsledků sedí.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Agent "Kontrola dávky a1" finished · 17m 51s
+
+⏺ Všech 166 výsledků je platných: A 68 „správně“ / 7 „špatně“, B 30 / 1, C 58 /
+  2, žádné „nelze ověřit“. Zapisuji je do CSV.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ CSV je zapsané a sloupec verdikt zůstal nedotčený. Teď spočítám tokeny: z
+  přepisů agentů sečtu jen čísla o spotřebě, jejich obsah do kontextu nenačítám.
+
+  Ran 2 shell commands (ctrl+o to expand)
+
+⏺ Kontrola je hotová a zapsaná v CSV (start 21:18:13, verdikty zapsány v
+  21:39:12). Zapíšu spotřebu času a tokenů do kap. 6.
+
+⏺ Update(PLAN.md)
+  ⎿  Added 5 lines
+      130  2. **Ruční kontrola 20 řádků** (`rucne = ano`): člověk vyplní 
+           `verdikt`, `poznamka` a `minuty`, a to bez čtení `verdikt_ai`,
+            aby ho agent neovlivnil **[VOLBA]**. Výběr dělá `src/04_vyber
+           _rucni_kontroly.mjs`: kvóty úměrně velikosti oddílů (A 9, B 4,
+            C 7, metoda největšího zbytku); řádky s už vyplněným `verdikt
+           ` jsou ve výběru vždy a započítají se do kvóty; zbytek losuje 
+           generátor mulberry32 se seedem 20261011 **[VOLBA]**.
+      131  3. **Spolehlivost agenta** = shoda s ruční kontrolou na 20 řád
+           cích, tj. podíl řádků, kde `verdikt_ai` = `verdikt`. Zvlášť uv
+           ádíme nezachycené chyby (agent „správně“, člověk „špatně“), pr
+           otože nadhodnocují přesnost. Každý rozdíl rozebereme v `poznam
+           ka`. Shoda z 20 řádků je jen hrubý odhad **[VÝPOČET]** (95 %, 
+           Wilson): 20/20 → 84–100 %, 18/20 → 70–97 %.
+      132  
+      133 +**Spotřeba AI kontroly (změřeno 2026-10-11, model claude-opus-
+          +5-5):**                                                       
+      134 +- **Čas:** 21 min od zadání do zápisu všech 166 verdiktů (21:1
+          +8–21:39). Kontrolu dělalo 9 agentů souběžně po dávkách 15–20 ř
+          +ádků; jejich čas dohromady 63 min, tj. asi 23 s na řádek, nejd
+          +elší dávka 18 min.                                            
+      135 +- **Tokeny agentů:** 385 volání API, vstup celkem 39,9 mil. to
+          +kenů (z toho 38,7 mil. čtení z cache, 1,2 mil. zápis do cache)
+          +, tj. asi 240 tis. vstupních tokenů na řádek. Řídicí sezení (p
+          +říprava dávek, výběr, úpravy PLAN.md): 32 volání, vstup 3,2 mi
+          +l. tokenů (z toho 3,1 mil. z cache), výstup 36 tis. tokenů. Vý
+          +stupní tokeny agentů přepis Claude Code nezaznamenal úplně, pr
+          +oto je neuvádíme (neověřeno).                                 
+      136 +- **Cena:** neověřeno; doplní se podle ceníku platného 2026-10
+          +-11 s URL (kap. 11).                                          
+      137 +                                                              
+      138  **Přesnost** = správně / (správně + špatně); u 20 ručních řádk
+           ů platí `verdikt`, u ostatních `verdikt_ai`. „Nelze ověřit“ uv
+           ádíme zvlášť a v konzervativní variantě ho počítáme jako špatn
+           ě.
+      139  
+      140  **Metriky:**
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Hotovo, všech 166 řádků má verdikt od AI kontrolora: 156 „správně“, 10
+  „špatně“, žádné „nelze ověřit“. Tvůj sloupec verdikt zůstal nedotčený. Žádný z
+  řádků ale vyplněný neměl, ty dva vyplněné jsem v souboru nenašel.
+
+  1. Verdikty AI (sloupce verdikt_ai, zduvodneni_ai)
+
+  ┌────────┬─────────┬────────┐
+  │ Oddíl  │ správně │ špatně │
+  ├────────┼─────────┼────────┤
+  │ A (75) │ 68      │ 7      │
+  ├────────┼─────────┼────────┤
+  │ B (31) │ 30      │ 1      │
+  ├────────┼─────────┼────────┤
+  │ C (60) │ 58      │ 2      │
+  └────────┴─────────┴────────┘
+
+  Řádky označené „špatně“ mimo tvůj ruční vzorek:
+  - A005 StartupYard: investice v okně nenalezena.
+  - A023 KB SmartSolutions: strategické většinové podíly banky, ne VC.
+  - A028 NEWTON University Angels: investice v okně nenalezena.
+  - A045 Heartcore: podle webu fondu má investora v Praze, „bez týmu v ČR“ tedy
+    nesedí.
+  - A064 CVI: nabízí i equity a konvertibilní úvěry, důvod V5 neplatí.
+  - A070 Limerock: má mít stav „neaktivní (V4)“, ne „vyřazen“.
+  - C116 AgriBoom: fond přešel k PE.
+  - C127 Soulmates: převedeno jen 5 z 8 deklarovaných sektorů.
+
+  Na co se podívat:
+  - Rozpory mezi dávkami: kontrolor A005 a A028 označil za „špatně“, protože
+    investici nenašel. Jiní kontroloři ji ale v rejstříku našli u řádků B080
+    (StartupYard Batch 14 ve wopee labs, 2. 4. 2025) a B102 (NUA v
+    NerveCor, 1. 7. 2025). Kontroloři pracovali odděleně a verdikty jsem
+    neopravoval. Tyto dva řádky stojí za ruční pohled.
+  - „Správně“ s výhradou:
+    - C153 Jet Ventures: hodnota je horní mez tiketu, ne pevná částka.
+    - C156 KAYA: web investora uvádí tiket v USD, ne v EUR.
+    - A015 a B089 Flying Founders: hranice mezi VC a PE.
+
+  2. Výběr pro ruční kontrolu (rucne = ano): A007, A008, A009, A014, A017, A034,
+  A041, A048, A062, B087, B088, B091, B097, C113, C118, C122, C129, C131, C145,
+  C164.
+  - Výběr udělal nový skript src/04_vyber_rucni_kontroly.mjs (kvóty A 9, B 4, C
+    7, seed 20261011).
+  - Řádky s vyplněným verdikt výběr vždy zahrne. Až své dva řádky uložíš, spusť
+    skript znovu, výběr se ale tím změní.
+  - Ve zprávách během práce jsem prozradil verdikty AI u A034 a B097. Oba jsou
+    ve vzorku, takže u nich slepá kontrola není čistá.
+
+  3. PLAN.md: kap. 6 popisuje nový postup. Přidal jsem pravidlo, že ruční
+  kontrolu děláš bez čtení verdikt_ai. Souhlasně jsem upravil i odrážku ve
+  Shrnutí a řádek v kap. 11, které tvrdily 100% ruční kontrolu.
+
+  4. Spotřeba (zapsáno v kap. 6):
+  - Čas: 21 minut celkem; 9 agentů běželo souběžně, dohromady 63 minut, tj. asi
+    23 s na řádek.
+  - Tokeny agentů: 39,9 mil. vstupních, z toho 38,7 mil. čtení z cache.
+  - Výstupní tokeny agentů: přepis je nezaznamenal úplně, proto jsou označené
+    „neověřeno“.
+  - Cena: neověřeno, chybí ceník s URL a datem.
+
+  Kontroloři byli subagenti v tomto sezení, které je oddělené od sezení se
+  sběrem dat. Když src/03_rucni_kontrola.mjs vygeneruje CSV znovu, nové sloupce
+  zmizí. Commit nechávám na tobě.
+
+❯ 1. A034 a B097 z ručního vzorku vyřaď, slepá kontrola u nich není čistá.
+  Nahraď je
+     dvěma dalšími náhodnými řádky ze stejných oddílů. Navíc přidej A005 a A028
+  jako
+     spory mezi kontrolory (označ rucne = spor).
+  2. Vypiš mi těch 22 řádků jako přehledný seznam: id, investor, co se tvrdí,
+  URL, citace.
+     Verdikty AI nevypisuj.
+
+⏺ Upravím výběrový skript tak, aby vyloučené řádky přeskakoval a sporné označil.
+  Ostatních 18 vybraných řádků musí zůstat stejných.
+
+  Read 1 file (ctrl+o to expand)
+
+⏺ Update(src/04_vyber_rucni_kontroly.mjs)
+  ⎿  Added 8 lines, removed 1 line
+       6  // 2. Řádky s vyplněným sloupcem verdikt (už ručně zkontrolovan
+          é) jsou ve výběru vždy a
+       7  //    započítají se do kvóty svého oddílu.
+       8  // 3. Zbytek kvóty se losuje generátorem mulberry32 s pevným se
+          edem; oddíly v pořadí A, B, C,
+       9 -//    řádky v oddílu seřazené podle id, zamíchané Fisher-Yatese
+         -m.                                                             
+       9 +//    všechny řádky oddílu seřazené podle id, zamíchané Fisher-
+         +Yatesem. Bere se prvních N                                     
+      10 +//    řádků pořadí, které nejsou povinné, vyloučené ani sporné.
+         + Pořadí nezávisí na vyplněném                                  
+      11 +//    verdiktu, takže opakované spuštění během ruční kontroly v
+         +ýběr nezmění.                                                  
+      12 +// 4. Sporné řádky dostanou rucne = spor a do kvóty 20 se nepoč
+         +ítají.                                                         
+      13  //
+      14  // Spuštění: node src/04_vyber_rucni_kontroly.mjs
+      15  // Skript mění jen sloupec rucne; ostatní sloupce (verdikt, ver
+          dikt_ai, …) zachová.
+     ...
+      20  const VELIKOST_VYBERU = 20;
+      21  const SEED = 20261011;
+      22  const NOVE_SLOUPCE = ['verdikt_ai', 'zduvodneni_ai', 'rucne'];
+      23 +// Verdikt AI u těchto řádků uživatel viděl před ruční kontrolo
+         +u, slepá kontrola není čistá (2026-10-12).                     
+      24 +const VYLOUCENE = ['A034', 'B097'];                            
+      25 +// Spory mezi kontrolory: dávka A nenašla investici v okně, dáv
+         +ka B ji doložila z rejstříku (B080, B102).                     
+      26 +const SPORY = ['A005', 'A028'];                                
+      27  
+      28  function parsujCsv(text) {
+      29    const radky = [];
+
+⏺ Update(src/04_vyber_rucni_kontroly.mjs)
+  ⎿  Added 9 lines, removed 7 lines
+      74  const nahoda = mulberry32(SEED);
+      75  const vybrane = new Set();
+      76  oddily.forEach((oddil, i) => {
+      77 -  const radky = [...podleOddilu[oddil]].sort((a, b) => a.id.loc
+         -aleCompare(b.id));                                             
+      78 -  const povinne = radky.filter((z) => z.verdikt.trim() !== '');
+      79 -  const ostatni = radky.filter((z) => z.verdikt.trim() === '');
+      80 -  for (let j = ostatni.length - 1; j > 0; j--) {               
+      77 +  const poradi = [...podleOddilu[oddil]].sort((a, b) => a.id.lo
+         +caleCompare(b.id));                                            
+      78 +  for (let j = poradi.length - 1; j > 0; j--) {                
+      79      const k = Math.floor(nahoda() * (j + 1));
+      82 -    [ostatni[j], ostatni[k]] = [ostatni[k], ostatni[j]];       
+      80 +    [poradi[j], poradi[k]] = [poradi[k], poradi[j]];           
+      81    }
+      84 -  const losovane = ostatni.slice(0, Math.max(0, kvoty[i] - povi
+         -nne.length));                                                  
+      82 +  const mimoLos = (z) => VYLOUCENE.includes(z.id) || SPORY.incl
+         +udes(z.id);                                                    
+      83 +  const povinne = poradi.filter((z) => z.verdikt.trim() !== '' 
+         +&& !mimoLos(z));                                               
+      84 +  const losovane = poradi                                      
+      85 +    .filter((z) => z.verdikt.trim() === '' && !mimoLos(z))     
+      86 +    .slice(0, Math.max(0, kvoty[i] - povinne.length));         
+      87    for (const z of [...povinne, ...losovane]) vybrane.add(z.id);
+      88    console.log(`${oddil}: kvóta ${kvoty[i]}, ručně vyplněno ${po
+          vinne.length}, losováno ${losovane.length}`);
+      89  });
+      90  
+      89 -for (const z of zaznamy) z.rucne = vybrane.has(z.id) ? 'ano' : 
+         -'';                                                            
+      91 +for (const z of zaznamy) z.rucne = SPORY.includes(z.id) ? 'spor
+         +' : vybrane.has(z.id) ? 'ano' : '';                            
+      92  const vystup = [hlavicka, ...zaznamy.map((z) => hlavicka.map((s
+          ) => z[s]))]
+      93    .map((r) => r.map(csvPole).join(','))
+      94    .join('\n');
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Na kopii se změnily přesně dva řádky: A034 → A027 a B097 → B099. Ověřím ještě,
+  že se výběr nezmění, když během ruční kontroly vyplníš část verdiktů.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Výběr drží i s částečně vyplněnými verdikty. Spouštím skript na skutečném
+  souboru a doplním do kap. 6 pravidlo pro vyloučené a sporné řádky.
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Update(PLAN.md)
+  ⎿  Added 1 line, removed 1 line
+      127     - C: hodnota odpovídá textu stránky včetně převodu (číselní
+           k, měna, druh kapitálu, IČO správné entity).
+      128  
+      129     Zapíše `verdikt_ai` (správně / špatně / nelze ověřit) a `zd
+           uvodneni_ai` (jedna věta, u jiného zdroje než `url` s jeho URL
+           ). Sloupce člověka nemění. Verdikt „nelze ověřit“ dává, když s
+           e stránka nenačte (403, CAPTCHA, obsah jen přes JavaScript).
+      130 -2. **Ruční kontrola 20 řádků** (`rucne = ano`): člověk vyplní 
+          -`verdikt`, `poznamka` a `minuty`, a to bez čtení `verdikt_ai`,
+          - aby ho agent neovlivnil **[VOLBA]**. Výběr dělá `src/04_vyber
+          -_rucni_kontroly.mjs`: kvóty úměrně velikosti oddílů (A 9, B 4,
+          - C 7, metoda největšího zbytku); řádky s už vyplněným `verdikt
+          -` jsou ve výběru vždy a započítají se do kvóty; zbytek losuje 
+          -generátor mulberry32 se seedem 20261011 **[VOLBA]**.          
+      130 +2. **Ruční kontrola 20 řádků** (`rucne = ano`): člověk vyplní 
+          +`verdikt`, `poznamka` a `minuty`, a to bez čtení `verdikt_ai`,
+          + aby ho agent neovlivnil **[VOLBA]**. Výběr dělá `src/04_vyber
+          +_rucni_kontroly.mjs`: kvóty úměrně velikosti oddílů (A 9, B 4,
+          + C 7, metoda největšího zbytku); řádky s už vyplněným `verdikt
+          +` jsou ve výběru vždy a započítají se do kvóty; zbytek losuje 
+          +generátor mulberry32 se seedem 20261011 **[VOLBA]**. Řádky, je
+          +jichž `verdikt_ai` člověk viděl před kontrolou (A034, B097), s
+          +e z losu vylučují a nahradí je další řádky v losovacím pořadí.
+          + Spory mezi kontrolory (A005, A028: dávka A investici v okně n
+          +enašla, oddíl B ji doložil z rejstříku) kontroluje člověk naví
+          +c (`rucne = spor`); do shody se nepočítají, protože verdikt AI
+          + u nich není slepý.                                           
+      131  3. **Spolehlivost agenta** = shoda s ruční kontrolou na 20 řád
+           cích, tj. podíl řádků, kde `verdikt_ai` = `verdikt`. Zvlášť uv
+           ádíme nezachycené chyby (agent „správně“, člověk „špatně“), pr
+           otože nadhodnocují přesnost. Každý rozdíl rozebereme v `poznam
+           ka`. Shoda z 20 řádků je jen hrubý odhad **[VÝPOČET]** (95 %, 
+           Wilson): 20/20 → 84–100 %, 18/20 → 70–97 %.
+      132  
+      133  **Spotřeba AI kontroly (změřeno 2026-10-11, model claude-opus-
+           5-5):**
+
+⏺ Výběr je zapsaný. Vygeneruji seznam 22 řádků přímo z CSV, bez sloupců AI.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Hotovo. Ve vzorku jsou teď tyto řádky:
+
+  - Vyřazené a náhrady: místo A034 je A027 a místo B097 je B099. Náhrady jsou
+    další řádky v témže losovacím pořadí, ostatních 18 řádků se nezměnilo.
+  - Spory: A005 a A028 mají rucne = spor a do kvóty 20 se nepočítají. Investici
+    z rejstříku, kvůli které jsou sporné, najdeš u řádků B080 a B102.
+
+  V skriptu (src/04_vyber_rucni_kontroly.mjs) jsem při tom opravil chybu.
+  Losovací pořadí dřív záviselo na tom, které řádky už mají vyplněný verdikt.
+  Kdybys skript spustil uprostřed ruční kontroly, výběr by se změnil. Teď
+  zůstane stejný, ověřil jsem to na kopii. Do kap. 6 PLAN.md jsem doplnil větu o
+  vyloučených a sporných řádcích: spory se do shody nepočítají, protože verdikt
+  AI u nich není slepý.
+
+  Řádky k ruční kontrole (22)
+
+  Oddíl A
+  - A005 (spor) StartupYard
+    - Tvrzení: stav aktivní; typ VC; limit vyhledávání
+    - URL: https://startupyard.com/faq/
+    - Citace: „Do you invest in start-ups? Teams that are selected can receive,
+      if they want, a €25,000 cash investment via a convertible note. We also
+      offer follow-on funds to our best performing startups.“
+  - A007 Tensor Ventures
+    - Tvrzení: stav aktivní; typ VC; limit vyhledávání
+    - URL:
+      https://www.thesaasnews.com/news/appfactor-raises-4-million-seed-funding/
+    - Citace: „Tensor Ventures is a European venture capital firm specializing
+      in deep tech. Based in Prague and Brno, Czech Republic, the firm focuses
+      on highly technical, research-driven startups that other VCs might find
+      too complex to evaluate.“
+  - A008 Tilia Impact Ventures
+    - Tvrzení: stav aktivní; typ VC; limit vyhledávání
+    - URL: https://tiliaimpactventures.cz/en/
+    - Citace: „Tilia Impact Ventures backs Czech and CEE region founders to make
+      systemic environmental and social change, on a global scale. 0.3 - 1.2m
+      EUR initial ticket Equity / Convertible debt Early stage Sector-agnostic,
+      Impact-driven CEE+“
+  - A009 Y Soft Ventures
+    - Tvrzení: stav aktivní; typ VC; limit vyhledávání
+    - URL: https://www.ysoft.com/news/new-lead-at-ysoft-ventures
+    - Citace: „June 30, 2025, Y Soft Ventures, the venture capital arm of
+      leading enterprise office solutions provider Y Soft Corporation, will have
+      a new Managing Partner as of July 1, 2025.“
+  - A014 Fazole Ventures
+    - Tvrzení: stav aktivní; typ VC
+    - URL: http://www.fazole.vc/indexEN.html
+    - Citace: „Fazole Ventures seeks to help innovative people succeed in moving
+      the world forward. We support early-stage companies by providing them
+      with funding and wealth of other support in developing the business.“
+  - A017 Inven Capital
+    - Tvrzení: stav aktivní; typ VC
+    - URL: https://www.invencapital.cz/
+    - Citace: „As a venture capital fund we invest EUR 500m from institutional
+      investors and global corporates in the most innovative startups in the
+      world.“
+  - A027 N1 (dříve Nation 1)
+    - Tvrzení: stav aktivní; typ VC
+    - URL: https://www.n1.rocks/
+    - Citace: „N1 | Early-Stage VC Backing AI & Healthtech Founders Across
+      Europe & the US“
+  - A028 (spor) NEWTON University Angels
+    - Tvrzení: stav aktivní; typ VC
+    - URL: https://newton.university/en/newton-university-angel-fund
+    - Citace: „Our fund brings together investor capital and allocates it to
+      selected projects led by talented individuals.“
+  - A041 Enterprise Investors
+    - Tvrzení: stav mimo rozsah vzorku (PE); typ PE
+    - URL: https://cvca.cz/enterprise-investors/
+    - Citace: „Typ investic buyout (MBO & MBI), expansion capital“
+  - A048 Integral Capital Group
+    - Tvrzení: stav mimo rozsah vzorku (PE)
+    - URL: https://cvca.cz/integral-capital-group/
+    - Citace: „Objem prostředků ve správě 200 milionů EUR Typ investic Private
+      Equity Preferovaná výše jedné investice 5-15 milionů EUR“
+  - A062 CBAA
+    - Tvrzení: stav vyřazen (V9)
+    - URL: https://www.cbaa.cz/
+    - Citace: „01 Andělští investoři CBAA spojuje andělské investory působící v
+      ČR. Podporujeme investorské prostředí a jsme silným partnerem ve vztahu k
+      institucím.“
+
+  Oddíl B
+  - B087 DEPO Ventures
+    - Tvrzení: investice do ArcSpace, 2026-08-26 (doklad: média)
+    - URL: https://www.frenchweb.fr/arcspace-leve-plus-de-2-millions-deuros-pour
+      -faire-passer-les-satellites-du-jetable-au-reparable/463048
+    - Citace: „Fondée en 2022 à Paris, ARCSPACE vient de lever plus de 2
+      millions d&rsquo;euros lors d&rsquo;un tour mené par DEPO Ventures , via
+      son fonds DEPO Ventures One, avec SCE Freiraum Ventures , IRDI Capital
+      Investissement et un réseau français de business angels.“
+  - B088 Fazole Ventures
+    - Tvrzení: investice do Everbot, 2025-09-16 (doklad: média)
+    - URL: https://forbes.cz/cesky-ai-start-up-everbot-ziskal-desitky-milionu-do
+      -hry-vstupuje-miliardar-bouska/
+    - Citace: „Český startup Everbot, tvůrce největší domácí AI multiplatformy,
+      získal první významnou investici. Do firmy míří desítky milionů korun od
+      skupiny investorů v čele s fondem Fazole Ventures“
+  - B091 Inven Capital
+    - Tvrzení: investice do Wint, 2026-09-09 (doklad: TZ)
+    - URL:
+      https://www.prnewswire.com/news-releases/wint-raises-36-million-in-series-
+      d-funding-to-scale-ai-powered-water-intelligence-globally-302873443.html
+    - Citace: „Wint, the leading provider of water management solutions for the
+      built environment, today announced it has raised $36 million in Series D
+      funding co-led by LIP Ventures and Inven Capital.“
+  - B099 Look AI Ventures
+    - Tvrzení: investice do Embodied AI, 2026-09-22 (doklad: TZ)
+    - URL:
+      https://lookai.vc/look-ai-ventures-backs-embodied-ai-robots-manufacturing/
+    - Citace: „Look AI Ventures has backed Embodied AI , a Lausanne-based
+      robotics startup building robots that learn new tasks directly on factory
+      production lines. The round was led by Faber VC, with participation from
+      Techshop Capital, Kickfund, Plug and Play San Francisco, Excellis, and
+      Vento.“
+
+  Oddíl C
+  - C113 Fazole Ventures
+    - Tvrzení: typ = VC (datum zdroje neověřeno)
+    - URL: http://www.fazole.vc/indexEN.html
+    - Citace: stejná jako u A014
+  - C118 EVERITA Capital
+    - Tvrzení: IČO = 19067097
+    - URL: https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty
+      /19067097
+    - Citace: „"ico":"19067097","obchodniJmeno":"EVERITA Capital s.r.o."“
+  - C122 Look AI Ventures
+    - Tvrzení: IČO = 17604087
+    - URL: https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty
+      /17604087
+    - Citace: „"ico":"17604087","obchodniJmeno":"Look AI Ventures SICAV, a.s."“
+  - C129 Look AI Ventures
+    - Tvrzení: deklarované sektory = ai
+    - URL: https://lookai.vc/
+    - Citace: „Look AI Ventures fund (LAIV) is the first investment fund in the
+      Czech Republic that focuses exclusively on AI startups worldwide and
+      provides new investors with the opportunity to seek the high returns that
+      AI businesses promise.“
+  - C131 Tensor Ventures
+    - Tvrzení: deklarované sektory = ai; zdravi; energie; ostatni
+    - URL: https://tensor.ventures/
+    - Citace: „We embrace inevitable tectonic shifts; the rise of AI, Quantum
+      Revolution, Computational Biotech or Sustainable Tech.“
+  - C145 StartupYard
+    - Tvrzení: fáze = pre-seed; seed (datum zdroje 2026-04-27)
+    - URL: https://startupyard.com/faq/
+    - Citace: „StartupYard, based in beautiful Prague, is Central Europe’s
+      leading pre-seed and seed accelerator for technology startups.“
+  - C164 Czech Founders VC
+    - Tvrzení: celkový kapitál = 10 000 000 EUR, druh velikost fondu (datum
+      zdroje 2022-09-07)
+    - URL: https://cc.cz/uspesni-cesti-startupiste-budou-pomahat-novym-nadejim-v
+      ybrali-na-to-mezi-sebou-ctvrt-miliardy/
+    - Citace: „Protože trojice zakladatelů viděla, jak mezi úspěšnými
+      startupisty zájem o účast na podobném projektu rezonuje, rozhodli se
+      nakonec cílovou částku zdvojnásobit na deset milionů eur. A tu dovybrali
+      před měsícem.“
+
+  Citace jsou doslova z CSV. U B087 v ní zůstaly HTML entity (&rsquo;), protože
+  je tak uložil původní agent.
+
+❯ Moje ruční kontrola je hotová, trvala 10 minut. Kontroloval jsem jen, jestli
+  citaci najdu
+  na živé stránce přes Cmd+F (celou citaci). Tvrzení jsem obsahově neposuzoval.
+
+  Do sloupce verdikt zapiš "citace nalezena" nebo "citace nenalezena" a do
+  sloupce poznamka
+  uveď: "ruční kontrola: hledání celé citace přes Cmd+F na živé stránce".
+
+  A005 nenalezena
+  A007 nalezena
+  A008 nenalezena
+  A009 nalezena
+  A014 nalezena
+  A017 nalezena
+  A027 nenalezena
+  A028 nalezena
+  A041 nenalezena
+  A048 nalezena
+  A062 nenalezena
+  B087 nenalezena
+  B088 nalezena
+  B091 nalezena
+  B099 nenalezena
+  C113 nalezena
+  C118 nalezena
+  C122 nalezena
+  C129 nalezena
+  C131 nenalezena
+  C145 nalezena
+  C164 nalezena
+
+  Pak u 9 nenalezených citací zjisti proč: jestli citace na živé stránce
+  opravdu není,
+  nebo jestli ji Cmd+F jen nenašel (jiné uvozovky, zalomení, HTML entity, název
+  stránky,
+  text rozdělený do více prvků). Výsledek zapiš do
+  results/rucni-kontrola-rozbor.md.
+  Kap. 6 PLAN.md uprav tak, aby poctivě popisovala, co ruční kontrola skutečně
+  měřila.
+
+⏺ Zapíšu tvoje výsledky do CSV a pak rozeberu nenalezené citace. V seznamu
+  napočítám 8 nenalezených (A005, A008, A027, A041, A062, B087, B099, C131), ne
+  9. Rozeberu těchto 8.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Ruční verdikty jsou zapsané u všech 22 řádků a výběr zůstal stejný. Stahuji
+  živé stránky 8 nenalezených citací.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Všech 8 stránek vrátilo HTTP 200, přičemž A008 přesměrovává z
+  tiliaimpactventures.cz na tilia.vc. Teď porovnám citace s textem stránek –
+  doslovně v HTML, po dekódování entit a sjednocení mezer, s ohledem na
+  rozdělení textu do prvků.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Zatím jsou vidět tři příčiny: A005 a A041 spojují text z oddělených prvků,
+  A027 je název stránky (title), A008 rozeberu podrobněji. Pokračuji dalšími
+  čtyřmi stránkami.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Zjistil jsem další příčiny neshod: u B087 a B099 je v uložené citaci mezera
+  před čárkou (u B087 navíc &rsquo; místo apostrofu), zatímco u A062 a C131 je
+  citace poskládaná z více prvků. Ověřím to v HTML kolem hranic.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Potvrzeno: u A005, A008, A041 a A062 je citace slepená z více prvků, u C131
+  obsahuje zalomení <br>. Ověřím ještě původ mezer před čárkami u B087 a B099 a
+  zbylé dlaždice u A008.
+
+  Ran 2 shell commands (ctrl+o to expand)
+
+⏺ Rozbor je hotový. Všech 8 citací na živé stránce je, Cmd+F je nenašel kvůli
+  formě uloženého textu. Teď sepíšu results/rucni-kontrola-rozbor.md.
+
+⏺ Write(results/rucni-kontrola-rozbor.md)
+  ⎿  Wrote 48 lines to results/rucni-kontrola-rozbor.md
+       1 # Rozbor nenalezených citací z ruční kontroly
+       3 Ruční kontrola 2026-10-12 prošla 22 řádků z `results/rucni-kontr
+         ola.csv` (20 losovaných a 2 spory) za 10 minut. Kontrolovala jen
+         živé stránce z URL. Výsledek: 14× „citace nalezena“, 8× „citace
+       4
+       5 ## Postup rozboru
+       7 Živé stránky všech 8 řádků jsem stáhl 2026-10-12 v 18:33 (curl,
+         všechny HTTP 200). U každé stránky jsem ověřil, zda je citace:
+       9 1. doslova v HTML,
+         spojení prvků mezerou,
+     … +73 lines (ctrl+o to expand)
+
+⏺ Teď upravím kap. 6, aby odpovídala tomu, co ruční kontrola skutečně měřila.
+
+  Read 1 file (ctrl+o to expand)
+
+⏺ Update(PLAN.md)
+  ⎿  Added 1 line, removed 1 line
+      111  
+      112  ## 6. Měření přesnosti
+      113  
+      114 -**Referenční pravda:** ruční kontrola člověkem na náhodném vzo
+          -rku 20 řádků; ostatní řádky kontroluje nezávislý AI agent, jeh
+          -ož spolehlivost měříme shodou s ruční kontrolou. **Před kontro
+          -lou výstup sběru zmrazíme commitem** (commit dělá uživatel v G
+          -itHub Desktop). Opravy jdou do dalšího commitu; rozdíl mezi ni
+          -mi ukáže ruční zásahy (kap. 11).                              
+      114 +**Referenční pravda (plán):** ruční kontrola člověkem na náhod
+          +ném vzorku 20 řádků; ostatní řádky kontroluje nezávislý AI age
+          +nt, jehož spolehlivost měříme shodou s ruční kontrolou. **Stav
+          + k 2026-10-12:** ruční kontrola ověřila jen, zda je citace na 
+          +stránce, ne zda je tvrzení správné (bod 2). Referenční pravda 
+          +pro přesnost proto zatím chybí a spolehlivost agenta změřená n
+          +ení. **Před kontrolou výstup sběru zmrazíme commitem** (commit
+          + dělá uživatel v GitHub Desktop). Opravy jdou do dalšího commi
+          +tu; rozdíl mezi nimi ukáže ruční zásahy (kap. 11).            
+      115  
+      116  **Podklady.** `results/rucni-kontrola.csv` (166 řádků) generuj
+           e `src/03_rucni_kontrola.mjs`:
+      117  - **A – všichni kandidáti (75):** stav, důvod a hlavní doklad.
+
+⏺ Update(PLAN.md)
+  ⎿  Added 1 line, removed 1 line
+      127     - C: hodnota odpovídá textu stránky včetně převodu (číselní
+           k, měna, druh kapitálu, IČO správné entity).
+      128  
+      129     Zapíše `verdikt_ai` (správně / špatně / nelze ověřit) a `zd
+           uvodneni_ai` (jedna věta, u jiného zdroje než `url` s jeho URL
+           ). Sloupce člověka nemění. Verdikt „nelze ověřit“ dává, když s
+           e stránka nenačte (403, CAPTCHA, obsah jen přes JavaScript).
+      130 -2. **Ruční kontrola 20 řádků** (`rucne = ano`): člověk vyplní 
+          -`verdikt`, `poznamka` a `minuty`, a to bez čtení `verdikt_ai`,
+          - aby ho agent neovlivnil **[VOLBA]**. Výběr dělá `src/04_vyber
+          -_rucni_kontroly.mjs`: kvóty úměrně velikosti oddílů (A 9, B 4,
+          - C 7, metoda největšího zbytku); řádky s už vyplněným `verdikt
+          -` jsou ve výběru vždy a započítají se do kvóty; zbytek losuje 
+          -generátor mulberry32 se seedem 20261011 **[VOLBA]**. Řádky, je
+          -jichž `verdikt_ai` člověk viděl před kontrolou (A034, B097), s
+          -e z losu vylučují a nahradí je další řádky v losovacím pořadí.
+          - Spory mezi kontrolory (A005, A028: dávka A investici v okně n
+          -enašla, oddíl B ji doložil z rejstříku) kontroluje člověk naví
+          -c (`rucne = spor`); do shody se nepočítají, protože verdikt AI
+          - u nich není slepý.                                           
+      130 +2. **Ruční kontrola 20 řádků** (`rucne = ano`), plán: člověk u
+          + každého řádku posoudí totéž co agent a vyplní `verdikt` (sprá
+          +vně / špatně / nelze ověřit), `poznamka` a `minuty`, a to bez 
+          +čtení `verdikt_ai`, aby ho agent neovlivnil **[VOLBA]**. Výběr
+          + dělá `src/04_vyber_rucni_kontroly.mjs`: kvóty úměrně velikost
+          +i oddílů (A 9, B 4, C 7, metoda největšího zbytku); řádky s už
+          + vyplněným `verdikt` jsou ve výběru vždy a započítají se do kv
+          +óty; zbytek losuje generátor mulberry32 se seedem 20261011 **[
+          +VOLBA]**. Řádky, jejichž `verdikt_ai` člověk viděl před kontro
+          +lou (A034, B097), se z losu vylučují a nahradí je další řádky 
+          +v losovacím pořadí. Spory mezi kontrolory (A005, A028: dávka A
+          + investici v okně nenašla, oddíl B ji doložil z rejstříku) kon
+          +troluje člověk navíc (`rucne = spor`); do shody se nepočítají,
+          + protože verdikt AI u nich není slepý.                        
+      131  3. **Spolehlivost agenta** = shoda s ruční kontrolou na 20 řád
+           cích, tj. podíl řádků, kde `verdikt_ai` = `verdikt`. Zvlášť uv
+           ádíme nezachycené chyby (agent „správně“, člověk „špatně“), pr
+           otože nadhodnocují přesnost. Každý rozdíl rozebereme v `poznam
+           ka`. Shoda z 20 řádků je jen hrubý odhad **[VÝPOČET]** (95 %, 
+           Wilson): 20/20 → 84–100 %, 18/20 → 70–97 %.
+      132  
+      133  **Spotřeba AI kontroly (změřeno 2026-10-11, model claude-opus-
+           5-5):**
+
+⏺ Update(PLAN.md)
+  ⎿  Added 10 lines, removed 1 line
+      128  
+      129     Zapíše `verdikt_ai` (správně / špatně / nelze ověřit) a `zd
+           uvodneni_ai` (jedna věta, u jiného zdroje než `url` s jeho URL
+           ). Sloupce člověka nemění. Verdikt „nelze ověřit“ dává, když s
+           e stránka nenačte (403, CAPTCHA, obsah jen přes JavaScript).
+      130  2. **Ruční kontrola 20 řádků** (`rucne = ano`), plán: člověk u
+            každého řádku posoudí totéž co agent a vyplní `verdikt` (sprá
+           vně / špatně / nelze ověřit), `poznamka` a `minuty`, a to bez 
+           čtení `verdikt_ai`, aby ho agent neovlivnil **[VOLBA]**. Výběr
+            dělá `src/04_vyber_rucni_kontroly.mjs`: kvóty úměrně velikost
+           i oddílů (A 9, B 4, C 7, metoda největšího zbytku); řádky s už
+            vyplněným `verdikt` jsou ve výběru vždy a započítají se do kv
+           óty; zbytek losuje generátor mulberry32 se seedem 20261011 **[
+           VOLBA]**. Řádky, jejichž `verdikt_ai` člověk viděl před kontro
+           lou (A034, B097), se z losu vylučují a nahradí je další řádky 
+           v losovacím pořadí. Spory mezi kontrolory (A005, A028: dávka A
+            investici v okně nenašla, oddíl B ji doložil z rejstříku) kon
+           troluje člověk navíc (`rucne = spor`); do shody se nepočítají,
+            protože verdikt AI u nich není slepý.
+      131 -3. **Spolehlivost agenta** = shoda s ruční kontrolou na 20 řád
+          -cích, tj. podíl řádků, kde `verdikt_ai` = `verdikt`. Zvlášť uv
+          -ádíme nezachycené chyby (agent „správně“, člověk „špatně“), pr
+          -otože nadhodnocují přesnost. Každý rozdíl rozebereme v `poznam
+          -ka`. Shoda z 20 řádků je jen hrubý odhad **[VÝPOČET]** (95 %, 
+          -Wilson): 20/20 → 84–100 %, 18/20 → 70–97 %.                   
+      131  
+      132 +   **Co ruční kontrola skutečně měřila (2026-10-12):**        
+      133 +   - **Rozsah:** 22 řádků (20 losovaných a 2 spory) za 10 minu
+          +t celkem, tj. asi 27 s na řádek; minuty po řádcích zapsané nej
+          +sou.                                                          
+      134 +   - **Metoda:** u každého řádku člověk hledal celou citaci př
+          +es Cmd+F na živé stránce z URL. Tvrzení obsahově neposuzoval, 
+          +`verdikt` je proto „citace nalezena“ (14) nebo „citace nenalez
+          +ena“ (8).                                                     
+      135 +   - **Rozbor nenalezených:** text citace na stránce je u všec
+          +h osmi (`results/rucni-kontrola-rozbor.md`). Čtyři citace spoj
+          +ují více prvků stránky, jedna obsahuje zalomení řádku, dvě se 
+          +od zobrazeného textu liší (HTML entita, mezera před čárkou) a 
+          +jedna je název stránky.                                       
+      136 +   - **Co tedy změřila:** zda je uložená citace souvislým dosl
+          +ovným úsekem viditelného textu živé stránky. Jde o přísnější r
+          +uční obdobu kroku 5 v kap. 5, bez normalizace. Napoprvé to pla
+          +tilo u 14 z 22 řádků, po rozboru je text citace na stránce u 2
+          +2 z 22.                                                       
+      137 +   - **Co nezměřila:** zda z citace plyne tvrzení v řádku (sta
+          +v, typ, datum investice, převod hodnoty), tedy ani přesnost zá
+          +znamů a polí podle metrik níže.                               
+      138 +3. **Spolehlivost agenta**, plán: shoda s ruční kontrolou na 2
+          +0 řádcích, tj. podíl řádků, kde `verdikt_ai` = `verdikt`. Zvlá
+          +šť uvádíme nezachycené chyby (agent „správně“, člověk „špatně“
+          +), protože nadhodnocují přesnost. Každý rozdíl rozebereme v `p
+          +oznamka`. Shoda z 20 řádků je jen hrubý odhad **[VÝPOČET]** (9
+          +5 %, Wilson): 20/20 → 84–100 %, 18/20 → 70–97 %.              
+      139 +                                                              
+      140 +   **Stav: nezměřeno (neověřeno).** `verdikt` posuzuje přítomn
+          +ost citace, `verdikt_ai` správnost tvrzení, takže shodu nelze 
+          +spočítat. Ke změření je potřeba, aby člověk u týchž 20 řádků p
+          +osoudil tvrzení obsahově.                                     
+      141 +                                                              
+      142  **Spotřeba AI kontroly (změřeno 2026-10-11, model claude-opus-
+           5-5):**
+      143  - **Čas:** 21 min od zadání do zápisu všech 166 verdiktů (21:1
+           8–21:39). Kontrolu dělalo 9 agentů souběžně po dávkách 15–20 ř
+           ádků; jejich čas dohromady 63 min, tj. asi 23 s na řádek, nejd
+           elší dávka 18 min.
+      144  - **Tokeny agentů:** 385 volání API, vstup celkem 39,9 mil. to
+           kenů (z toho 38,7 mil. čtení z cache, 1,2 mil. zápis do cache)
+           , tj. asi 240 tis. vstupních tokenů na řádek. Řídicí sezení (p
+           říprava dávek, výběr, úpravy PLAN.md): 32 volání, vstup 3,2 mi
+           l. tokenů (z toho 3,1 mil. z cache), výstup 36 tis. tokenů. Vý
+           stupní tokeny agentů přepis Claude Code nezaznamenal úplně, pr
+           oto je neuvádíme (neověřeno).
+
+⏺ Update(PLAN.md)
+  ⎿  Added 1 line, removed 1 line
+      144  - **Tokeny agentů:** 385 volání API, vstup celkem 39,9 mil. to
+           kenů (z toho 38,7 mil. čtení z cache, 1,2 mil. zápis do cache)
+           , tj. asi 240 tis. vstupních tokenů na řádek. Řídicí sezení (p
+           říprava dávek, výběr, úpravy PLAN.md): 32 volání, vstup 3,2 mi
+           l. tokenů (z toho 3,1 mil. z cache), výstup 36 tis. tokenů. Vý
+           stupní tokeny agentů přepis Claude Code nezaznamenal úplně, pr
+           oto je neuvádíme (neověřeno).
+      145  - **Cena:** neověřeno; doplní se podle ceníku platného 2026-10
+           -11 s URL (kap. 11).
+      146  
+      147 -**Přesnost** = správně / (správně + špatně); u 20 ručních řádk
+          -ů platí `verdikt`, u ostatních `verdikt_ai`. „Nelze ověřit“ uv
+          -ádíme zvlášť a v konzervativní variantě ho počítáme jako špatn
+          -ě.                                                            
+      147 +**Přesnost** = správně / (správně + špatně); podle plánu u 20 
+          +ručních řádků platí `verdikt`, u ostatních `verdikt_ai`. Dokud
+          + člověk tvrzení obsahově neposoudí, vychází přesnost jen z `ve
+          +rdikt_ai` a je to neověřený odhad AI agenta. „Nelze ověřit“ uv
+          +ádíme zvlášť a v konzervativní variantě ho počítáme jako špatn
+          +ě.                                                            
+      148  
+      149  **Metriky:**
+      150  - **Přesnost záznamů** (A): správný stav, typ a důvod podle Z1
+           –Z5, V1–V9 a rozsahu vzorku.
+
+⏺ Update(PLAN.md)
+  ⎿  Added 1 line, removed 1 line
+       7  - **V databázi:** VC, PE, family office, angel investoři a velc
+          í soukromí investoři s aspoň jednou veřejně doloženou investicí
+           do soukromé firmy za posledních 24 měsíců (kap. 1–3).
+       8  - **Mimo databázi:** poradci a M&A boutiky, crowdfundingové pla
+          tformy, andělské kluby bez vlastního fondu, grantové agentury, 
+          čistě dluhové financování a neaktivní fondy. Fondy fondů eviduj
+          eme zvlášť.
+       9  - **Ověření:** každá hodnota má URL, datum zdroje a doslovnou c
+          itaci; skript zkontroluje citaci v uložené kopii stránky a iden
+          titu v ARES. Nedoložené zůstane prázdné s „neověřeno“ (kap. 4, 
+          5, 11).
+      10 -- **Přesnost:** všech 166 kontrolních řádků vzorku VC v ČR zkon
+         -troluje nezávislý AI agent, 20 náhodných řádků člověk; shoda ob
+         -ou měří spolehlivost agenta. Měříme přesnost záznamů a polí, vy
+         -plněnost a pokrytí (kap. 6).                                   
+      10 +- **Přesnost:** všech 166 kontrolních řádků vzorku VC v ČR zkon
+         +troloval nezávislý AI agent. Člověk zatím u 22 řádků ověřil jen
+         + přítomnost citace na stránce, takže spolehlivost agenta změřen
+         +á není. Měříme přesnost záznamů a polí, vyplněnost a pokrytí (k
+         +ap. 6).                                                        
+      11  - **Rozsah [PŘEDPOKLAD]:** VC v ČR 20–70 subjektů, všechny typy
+           v ČR 130–440, VC ve světě 5 000–21 000 (odvození v 7.4).
+      12  - **Spolehlivost [PŘEDPOKLAD]:** nejvyšší u VC, nejnižší u fami
+          ly office a velkých soukromých investorů; skutečnou přesnost zm
+          ěří vzorek.
+      13  - **Proč vlastní ověřování:** Crunchbase a Dealroom se shodují 
+          jen asi u 30 % subjektů (OECD 2026, kap. 7.3).
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Psáno pro: tebe a hodnotitele úkolu. Rozbor je výsledkový dokument v
+  repozitáři, česky.
+
+  Ruční verdikty jsou zapsané a rozbor je hotový: všech 8 nenalezených citací na
+  živé stránce je, Cmd+F je nenašel kvůli formě uloženého textu. Nenalezených
+  citací je v tvém seznamu 8, ne 9, takže jsem rozebral 8.
+
+  CSV: u 22 řádků je ve sloupci verdikt „citace nalezena“ (14) nebo „citace
+  nenalezena“ (8) a ve sloupci poznamka tvůj text. Sloupec minuty jsem nechal
+  prázdný, protože znám jen celkových 10 minut; ty jsou zapsané v PLAN.md.
+  Spuštěný výběrový skript dál vrací stejných 20 řádků.
+
+  results/rucni-kontrola-rozbor.md: proč Cmd+F citace nenašel:
+  - Text rozdělený do více prvků: A005 (nadpis a odstavec), A008 (nadpis a pět
+    dlaždic), A041 (dvě buňky tabulky), A062 (štítek „01“, nadpis a odstavec).
+  - Zalomení řádku <br>: C131.
+  - Chyba při uložení citace: B087 má doslovné &rsquo; a mezery před čárkami,
+    B099 mezeru před čárkou. Obojí vzniklo kolem odkazů.
+  - Název stránky: A027, citace je jen v <title>.
+
+  Rozbor přitom odhalil skutečné nedostatky v datech:
+  - B087 a B099 nejsou doslovné citace zobrazeného textu.
+  - U A027 je doklad jen v názvu stránky, ne ve viditelném textu.
+  - URL u A008 přesměruje na jinou doménu (tilia.vc).
+
+  PLAN.md, kap. 6 teď popisuje, co ruční kontrola skutečně měřila. Člověk
+  ověřil, zda je uložená citace souvislým doslovným úsekem textu živé stránky:
+  napoprvé 14 z 22, po rozboru 22 z 22. Neověřil, zda z citace plyne tvrzení.
+  Spolehlivost AI agenta proto změřená není a v PLAN.md je označená jako
+  „neověřeno“. Sloupec verdikt posuzuje přítomnost citace, verdikt_ai správnost
+  tvrzení, takže shodu nelze spočítat. Ke změření bys musel u stejných 20 řádků
+  posoudit tvrzení obsahově. Upravil jsem i odrážku ve Shrnutí, která tvrdila,
+  že shodu měříme.
+
+  Skripty rozboru zůstaly mimo repozitář.
+
+❯ Doplňuji obsahovou kontrolu stejných 22 řádků. U všech 22 jsem posoudil, že
+  tvrzení
+  z citace plyne, verdikt je u všech "správně". Trvalo mi to XX minut.
+  Zapiš to do nového sloupce verdikt_obsah, spočítej shodu s verdikt_ai na 20
+  náhodných
+  řádcích (spory A005 a A028 zvlášť) a podle toho uprav kap. 6 a Shrnutí v
+  PLAN.md.
+
+⏺ Zapíšu sloupec verdikt_obsah a spočítám shodu přímo z CSV. Doba kontroly je ve
+  zprávě jako „XX minut“; tu si nevymyslím a v PLAN.md ji nechám jako
+  „neuvedeno“.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Ve vzorku 20 řádků mám shodu 20/20, ale ve sporných případech jen 0/2 — než to
+  zapíšu do PLAN.md, chci tam uvést tři omezení: chybí vzorek řádků, které AI
+  označila jako špatné, u řádků A se liší kritéria člověka a AI, a spory nebyly
+  posuzovány naslepo.
+  Read 1 file (ctrl+o to expand)
+
+⏺ Update(PLAN.md)
+  ⎿  Added 1 line, removed 1 line
+      111  
+      112  ## 6. Měření přesnosti
+      113  
+      114 -**Referenční pravda (plán):** ruční kontrola člověkem na náhod
+          -ném vzorku 20 řádků; ostatní řádky kontroluje nezávislý AI age
+          -nt, jehož spolehlivost měříme shodou s ruční kontrolou. **Stav
+          - k 2026-10-12:** ruční kontrola ověřila jen, zda je citace na 
+          -stránce, ne zda je tvrzení správné (bod 2). Referenční pravda 
+          -pro přesnost proto zatím chybí a spolehlivost agenta změřená n
+          -ení. **Před kontrolou výstup sběru zmrazíme commitem** (commit
+          - dělá uživatel v GitHub Desktop). Opravy jdou do dalšího commi
+          -tu; rozdíl mezi nimi ukáže ruční zásahy (kap. 11).            
+      114 +**Referenční pravda (plán):** ruční kontrola člověkem na náhod
+          +ném vzorku 20 řádků; ostatní řádky kontroluje nezávislý AI age
+          +nt, jehož spolehlivost měříme shodou s ruční kontrolou. **Stav
+          + k 2026-10-12:** člověk prošel týchž 22 řádků dvakrát. Nejdřív
+          + ověřil, zda je citace na stránce (`verdikt`), potom obsahově 
+          +posoudil tvrzení (`verdikt_obsah`). Výsledky jsou v bodech 2 a
+          + 3 a v odstavci Přesnost. **Před kontrolou výstup sběru zmrazí
+          +me commitem** (commit dělá uživatel v GitHub Desktop). Opravy 
+          +jdou do dalšího commitu; rozdíl mezi nimi ukáže ruční zásahy (
+          +kap. 11).                                                     
+      115  
+      116  **Podklady.** `results/rucni-kontrola.csv` (166 řádků) generuj
+           e `src/03_rucni_kontrola.mjs`:
+      117  - **A – všichni kandidáti (75):** stav, důvod a hlavní doklad.
+
+⏺ Update(PLAN.md)
+  ⎿  Added 9 lines, removed 5 lines
+      129     Zapíše `verdikt_ai` (správně / špatně / nelze ověřit) a `zd
+           uvodneni_ai` (jedna věta, u jiného zdroje než `url` s jeho URL
+           ). Sloupce člověka nemění. Verdikt „nelze ověřit“ dává, když s
+           e stránka nenačte (403, CAPTCHA, obsah jen přes JavaScript).
+      130  2. **Ruční kontrola 20 řádků** (`rucne = ano`), plán: člověk u
+            každého řádku posoudí totéž co agent a vyplní `verdikt` (sprá
+           vně / špatně / nelze ověřit), `poznamka` a `minuty`, a to bez 
+           čtení `verdikt_ai`, aby ho agent neovlivnil **[VOLBA]**. Výběr
+            dělá `src/04_vyber_rucni_kontroly.mjs`: kvóty úměrně velikost
+           i oddílů (A 9, B 4, C 7, metoda největšího zbytku); řádky s už
+            vyplněným `verdikt` jsou ve výběru vždy a započítají se do kv
+           óty; zbytek losuje generátor mulberry32 se seedem 20261011 **[
+           VOLBA]**. Řádky, jejichž `verdikt_ai` člověk viděl před kontro
+           lou (A034, B097), se z losu vylučují a nahradí je další řádky 
+           v losovacím pořadí. Spory mezi kontrolory (A005, A028: dávka A
+            investici v okně nenašla, oddíl B ji doložil z rejstříku) kon
+           troluje člověk navíc (`rucne = spor`); do shody se nepočítají,
+            protože verdikt AI u nich není slepý.
+      131  
+      132 -   **Co ruční kontrola skutečně měřila (2026-10-12):**        
+      133 -   - **Rozsah:** 22 řádků (20 losovaných a 2 spory) za 10 minu
+          -t celkem, tj. asi 27 s na řádek; minuty po řádcích zapsané nej
+          -sou.                                                          
+      134 -   - **Metoda:** u každého řádku člověk hledal celou citaci př
+          -es Cmd+F na živé stránce z URL. Tvrzení obsahově neposuzoval, 
+          -`verdikt` je proto „citace nalezena“ (14) nebo „citace nenalez
+          -ena“ (8).                                                     
+      132 +   **Co ruční kontrola skutečně měřila (2026-10-12).** Dva prů
+          +chody týchž 22 řádků (20 losovaných a 2 spory); minuty po řádc
+          +ích zapsané nejsou.                                           
+      133 +                                                              
+      134 +   **Průchod 1 – přítomnost citace (`verdikt`), 10 minut celke
+          +m:**                                                          
+      135 +   - **Metoda:** člověk u každého řádku hledal celou citaci př
+          +es Cmd+F na živé stránce z URL. Výsledek: „citace nalezena“ 14
+          +×, „citace nenalezena“ 8×.                                    
+      136     - **Rozbor nenalezených:** text citace na stránce je u všec
+           h osmi (`results/rucni-kontrola-rozbor.md`). Čtyři citace spoj
+           ují více prvků stránky, jedna obsahuje zalomení řádku, dvě se 
+           od zobrazeného textu liší (HTML entita, mezera před čárkou) a 
+           jedna je název stránky.
+      136 -   - **Co tedy změřila:** zda je uložená citace souvislým dosl
+          -ovným úsekem viditelného textu živé stránky. Jde o přísnější r
+          -uční obdobu kroku 5 v kap. 5, bez normalizace. Napoprvé to pla
+          -tilo u 14 z 22 řádků, po rozboru je text citace na stránce u 2
+          -2 z 22.                                                       
+      137 -   - **Co nezměřila:** zda z citace plyne tvrzení v řádku (sta
+          -v, typ, datum investice, převod hodnoty), tedy ani přesnost zá
+          -znamů a polí podle metrik níže.                               
+      137 +   - **Co změřil:** zda je uložená citace souvislým doslovným 
+          +úsekem viditelného textu živé stránky. Jde o přísnější ruční o
+          +bdobu kroku 5 v kap. 5, bez normalizace. Napoprvé to platilo u
+          + 14 z 22 řádků, po rozboru je text citace na stránce u 22 z 22
+          +.                                                             
+      138 +                                                              
+      139 +   **Průchod 2 – obsah (`verdikt_obsah`), doba neuvedena (neov
+          +ěřeno):**                                                     
+      140 +   - **Metoda a výsledek:** člověk posoudil, zda z citace plyn
+          +e tvrzení v řádku. U všech 22 řádků je verdikt „správně“.     
+      141 +   - **Rozdíl kritérií:** u oddílu A posuzoval člověk jen to, 
+          +co plyne z citace. AI navíc mimo citaci hledala doklad Z2 a tý
+          +m v ČR (bod 1). U oddílů B a C posuzují oba totéž.            
+      142  3. **Spolehlivost agenta**, plán: shoda s ruční kontrolou na 2
+           0 řádcích, tj. podíl řádků, kde `verdikt_ai` = `verdikt`. Zvlá
+           šť uvádíme nezachycené chyby (agent „správně“, člověk „špatně“
+           ), protože nadhodnocují přesnost. Každý rozdíl rozebereme v `p
+           oznamka`. Shoda z 20 řádků je jen hrubý odhad **[VÝPOČET]** (9
+           5 %, Wilson): 20/20 → 84–100 %, 18/20 → 70–97 %.
+      143  
+      144     **Stav: nezměřeno (neověřeno).** `verdikt` posuzuje přítomn
+           ost citace, `verdikt_ai` správnost tvrzení, takže shodu nelze 
+           spočítat. Ke změření je potřeba, aby člověk u týchž 20 řádků p
+           osoudil tvrzení obsahově.
+
+⏺ Update(PLAN.md)
+  ⎿  Added 10 lines, removed 2 lines
+      139     **Průchod 2 – obsah (`verdikt_obsah`), doba neuvedena (neov
+           ěřeno):**
+      140     - **Metoda a výsledek:** člověk posoudil, zda z citace plyn
+           e tvrzení v řádku. U všech 22 řádků je verdikt „správně“.
+      141     - **Rozdíl kritérií:** u oddílu A posuzoval člověk jen to, 
+           co plyne z citace. AI navíc mimo citaci hledala doklad Z2 a tý
+           m v ČR (bod 1). U oddílů B a C posuzují oba totéž.
+      142 -3. **Spolehlivost agenta**, plán: shoda s ruční kontrolou na 2
+          -0 řádcích, tj. podíl řádků, kde `verdikt_ai` = `verdikt`. Zvlá
+          -šť uvádíme nezachycené chyby (agent „správně“, člověk „špatně“
+          -), protože nadhodnocují přesnost. Každý rozdíl rozebereme v `p
+          -oznamka`. Shoda z 20 řádků je jen hrubý odhad **[VÝPOČET]** (9
+          -5 %, Wilson): 20/20 → 84–100 %, 18/20 → 70–97 %.              
+      142 +3. **Spolehlivost agenta** = shoda s ruční kontrolou na 20 los
+          +ovaných řádcích, tj. podíl řádků, kde `verdikt_ai` = `verdikt_
+          +obsah`. Zvlášť uvádíme nezachycené chyby (agent „správně“, člo
+          +věk „špatně“), protože nadhodnocují přesnost. Shoda z 20 řádků
+          + je jen hrubý odhad.                                          
+      143  
+      144 -   **Stav: nezměřeno (neověřeno).** `verdikt` posuzuje přítomn
+          -ost citace, `verdikt_ai` správnost tvrzení, takže shodu nelze 
+          -spočítat. Ke změření je potřeba, aby člověk u týchž 20 řádků p
+          -osoudil tvrzení obsahově.                                     
+      144 +   **Výsledek (2026-10-12):**                                 
+      145 +   - **20 losovaných řádků:** shoda 20/20 = 100 %, 95% interva
+          +l 84–100 % **[VÝPOČET]** (Wilson). Nezachycené chyby 0, falešn
+          +ě nahlášené chyby 0.                                          
+      146 +     - Oba kontroloři dali u všech 20 řádků „správně“. Vzorek 
+          +tedy neobsahuje žádnou chybu a kappa nejde spočítat.          
+      147 +     - Shoda proto ukazuje jen to, že AI na náhodných řádcích 
+          +nehlásí chyby neprávem. Neukazuje, jak spolehlivě chyby zachyt
+          +í.                                                            
+      148 +     - Oba losované řádky, které AI označila „špatně“ (A034, B
+          +097), byly z výběru vyloučeny, protože kontrola u nich nebyla 
+          +slepá.                                                        
+      149 +   - **Spory A005 a A028 (mimo shodu):** AI dala „špatně“, člo
+          +věk „správně“, shoda 0/2. Člověk verdikt AI znal.             
+      150 +     - Pro verdikt člověka svědčí doklad investice v okně z re
+          +jstříku: StartupYard Batch 14 je společníkem wopee labs od 202
+          +5-04-02 (řádek B080), NEWTON University Angels s.r.o. je spole
+          +čníkem NerveCor od 2025-07-01 (řádek B102).                   
+      151 +     - AI v oddílu A tyto doklady nenašla a chybu nahlásila ne
+          +právem.                                                       
+      152 +   - **Co zůstává neověřené:** zda sedí verdikty AI „špatně“. 
+          +Mimo ruční kontrolu jich je 8 (A023, A034, A045, A064, A070, B
+          +097, C116, C127) a ve sporech AI neměla pravdu ani jednou ze d
+          +vou.                                                          
+      153  
+      154  **Spotřeba AI kontroly (změřeno 2026-10-11, model claude-opus-
+           5-5):**
+      155  - **Čas:** 21 min od zadání do zápisu všech 166 verdiktů (21:1
+           8–21:39). Kontrolu dělalo 9 agentů souběžně po dávkách 15–20 ř
+           ádků; jejich čas dohromady 63 min, tj. asi 23 s na řádek, nejd
+           elší dávka 18 min.
+
+⏺ Update(PLAN.md)
+  ⎿  Added 14 lines, removed 1 line
+      156  - **Tokeny agentů:** 385 volání API, vstup celkem 39,9 mil. to
+           kenů (z toho 38,7 mil. čtení z cache, 1,2 mil. zápis do cache)
+           , tj. asi 240 tis. vstupních tokenů na řádek. Řídicí sezení (p
+           říprava dávek, výběr, úpravy PLAN.md): 32 volání, vstup 3,2 mi
+           l. tokenů (z toho 3,1 mil. z cache), výstup 36 tis. tokenů. Vý
+           stupní tokeny agentů přepis Claude Code nezaznamenal úplně, pr
+           oto je neuvádíme (neověřeno).
+      157  - **Cena:** neověřeno; doplní se podle ceníku platného 2026-10
+           -11 s URL (kap. 11).
+      158  
+      159 -**Přesnost** = správně / (správně + špatně); podle plánu u 20 
+          -ručních řádků platí `verdikt`, u ostatních `verdikt_ai`. Dokud
+          - člověk tvrzení obsahově neposoudí, vychází přesnost jen z `ve
+          -rdikt_ai` a je to neověřený odhad AI agenta. „Nelze ověřit“ uv
+          -ádíme zvlášť a v konzervativní variantě ho počítáme jako špatn
+          -ě.                                                            
+      159 +**Přesnost** = správně / (správně + špatně). U 22 ručně kontro
+          +lovaných řádků platí `verdikt_obsah`, u ostatních `verdikt_ai`
+          +. „Nelze ověřit“ uvádíme zvlášť a v konzervativní variantě ho 
+          +počítáme jako špatně.                                         
+      160  
+      161 +**Výsledek přesnosti (2026-10-12) [VÝPOČET]**, 95% interval po
+          +dle Wilsona:                                                  
+      162 +                                                              
+      163 +| Oddíl | správně | špatně | přesnost | interval |            
+      164 +|-------|---------|--------|----------|----------|            
+      165 +| A záznamy | 70 | 5 | 93,3 % | 85,3–97,1 % |                 
+      166 +| B investice | 30 | 1 | 96,8 % | 83,8–99,4 % |               
+      167 +| C pole | 58 | 2 | 96,7 % | 88,6–99,1 % |                    
+      168 +| Celkem | 158 | 8 | 95,2 % | 90,8–97,5 % |                   
+      169 +                                                              
+      170 +- „Nelze ověřit“ nebylo ani jednou, konzervativní varianta je 
+          +proto stejná.                                                 
+      171 +- Všech 8 „špatně“ je verdikt AI, který člověk neověřil. Ve sp
+          +orech AI chybu nahlásila dvakrát neprávem, skutečná přesnost t
+          +edy může být vyšší.                                           
+      172 +- Bez ruční kontroly, jen podle `verdikt_ai`: 156 ze 166 (94,0
+          + %).                                                          
+      173 +                                                              
+      174  **Metriky:**
+      175  - **Přesnost záznamů** (A): správný stav, typ a důvod podle Z1
+           –Z5, V1–V9 a rozsahu vzorku.
+      176  - **Doložení aktivity** (B): investice je doložená a spadá do 
+           okna Z2.
+
+⏺ Update(PLAN.md)
+  ⎿  Added 4 lines, removed 1 line
+       7  - **V databázi:** VC, PE, family office, angel investoři a velc
+          í soukromí investoři s aspoň jednou veřejně doloženou investicí
+           do soukromé firmy za posledních 24 měsíců (kap. 1–3).
+       8  - **Mimo databázi:** poradci a M&A boutiky, crowdfundingové pla
+          tformy, andělské kluby bez vlastního fondu, grantové agentury, 
+          čistě dluhové financování a neaktivní fondy. Fondy fondů eviduj
+          eme zvlášť.
+       9  - **Ověření:** každá hodnota má URL, datum zdroje a doslovnou c
+          itaci; skript zkontroluje citaci v uložené kopii stránky a iden
+          titu v ARES. Nedoložené zůstane prázdné s „neověřeno“ (kap. 4, 
+          5, 11).
+      10 -- **Přesnost:** všech 166 kontrolních řádků vzorku VC v ČR zkon
+         -troloval nezávislý AI agent. Člověk zatím u 22 řádků ověřil jen
+         - přítomnost citace na stránce, takže spolehlivost agenta změřen
+         -á není. Měříme přesnost záznamů a polí, vyplněnost a pokrytí (k
+         -ap. 6).                                                        
+      10 +- **Přesnost:** všech 166 kontrolních řádků vzorku VC v ČR zkon
+         +troloval nezávislý AI agent, 22 z nich i člověk. Přesnost je 95
+         +,2 % (158 ze 166; A 93,3 %, B 96,8 %, C 96,7 %).               
+      11 +  - Na 20 náhodných řádcích se AI s člověkem shodla ve 20 přípa
+         +dech (95% interval 84–100 %). Vzorek ale neobsahoval žádnou chy
+         +bu, takže schopnost AI chyby zachytit změřená není.            
+      12 +  - Ve dvou sporech AI chybu nahlásila neprávem.               
+      13 +  - Měříme přesnost záznamů a polí, vyplněnost a pokrytí (kap. 
+         +6).                                                            
+      14  - **Rozsah [PŘEDPOKLAD]:** VC v ČR 20–70 subjektů, všechny typy
+           v ČR 130–440, VC ve světě 5 000–21 000 (odvození v 7.4).
+      15  - **Spolehlivost [PŘEDPOKLAD]:** nejvyšší u VC, nejnižší u fami
+          ly office a velkých soukromých investorů; skutečnou přesnost zm
+          ěří vzorek.
+      16  - **Proč vlastní ověřování:** Crunchbase a Dealroom se shodují 
+          jen asi u 30 % subjektů (OECD 2026, kap. 7.3).
+
+⏺ Update(PLAN.md)
+  ⎿  Added 1 line, removed 1 line
+      130     - C: hodnota odpovídá textu stránky včetně převodu (číselní
+           k, měna, druh kapitálu, IČO správné entity).
+      131  
+      132     Zapíše `verdikt_ai` (správně / špatně / nelze ověřit) a `zd
+           uvodneni_ai` (jedna věta, u jiného zdroje než `url` s jeho URL
+           ). Sloupce člověka nemění. Verdikt „nelze ověřit“ dává, když s
+           e stránka nenačte (403, CAPTCHA, obsah jen přes JavaScript).
+      133 -2. **Ruční kontrola 20 řádků** (`rucne = ano`), plán: člověk u
+          - každého řádku posoudí totéž co agent a vyplní `verdikt` (sprá
+          -vně / špatně / nelze ověřit), `poznamka` a `minuty`, a to bez 
+          -čtení `verdikt_ai`, aby ho agent neovlivnil **[VOLBA]**. Výběr
+          - dělá `src/04_vyber_rucni_kontroly.mjs`: kvóty úměrně velikost
+          -i oddílů (A 9, B 4, C 7, metoda největšího zbytku); řádky s už
+          - vyplněným `verdikt` jsou ve výběru vždy a započítají se do kv
+          -óty; zbytek losuje generátor mulberry32 se seedem 20261011 **[
+          -VOLBA]**. Řádky, jejichž `verdikt_ai` člověk viděl před kontro
+          -lou (A034, B097), se z losu vylučují a nahradí je další řádky 
+          -v losovacím pořadí. Spory mezi kontrolory (A005, A028: dávka A
+          - investici v okně nenašla, oddíl B ji doložil z rejstříku) kon
+          -troluje člověk navíc (`rucne = spor`); do shody se nepočítají,
+          - protože verdikt AI u nich není slepý.                        
+      133 +2. **Ruční kontrola 20 řádků** (`rucne = ano`), plán: člověk u
+          + každého řádku posoudí totéž co agent a vyplní verdikt (správn
+          +ě / špatně / nelze ověřit; zapsaný nakonec ve sloupci `verdikt
+          +_obsah`), `poznamka` a `minuty`, a to bez čtení `verdikt_ai`, 
+          +aby ho agent neovlivnil **[VOLBA]**. Výběr dělá `src/04_vyber_
+          +rucni_kontroly.mjs`: kvóty úměrně velikosti oddílů (A 9, B 4, 
+          +C 7, metoda největšího zbytku); řádky s už vyplněným `verdikt`
+          + jsou ve výběru vždy a započítají se do kvóty; zbytek losuje g
+          +enerátor mulberry32 se seedem 20261011 **[VOLBA]**. Řádky, jej
+          +ichž `verdikt_ai` člověk viděl před kontrolou (A034, B097), se
+          + z losu vylučují a nahradí je další řádky v losovacím pořadí. 
+          +Spory mezi kontrolory (A005, A028: dávka A investici v okně ne
+          +našla, oddíl B ji doložil z rejstříku) kontroluje člověk navíc
+          + (`rucne = spor`); do shody se nepočítají, protože verdikt AI 
+          +u nich není slepý.                                            
+      134  
+      135     **Co ruční kontrola skutečně měřila (2026-10-12).** Dva prů
+           chody týchž 22 řádků (20 losovaných a 2 spory); minuty po řádc
+           ích zapsané nejsou.
+      136  
+
+⏺ Sloupec verdikt_obsah je zapsaný („správně“ u všech 22 řádků) a kap. 6 i
+  Shrnutí v PLAN.md odpovídají výsledkům. Dobu obsahové kontroly jsem nezapsal,
+  protože ve zprávě stojí „XX minut“. V PLAN.md je zatím „doba neuvedena
+  (neověřeno)“. Pošli mi skutečný počet minut a doplním ho.
+
+  Shoda AI s tebou:
+  - 20 náhodných řádků: 20/20, 95% interval 84–100 %.
+  - Spory A005 a A028: 0/2. AI dala „špatně“, ty „správně“. Tvůj verdikt
+    podporuje doklad z rejstříku v řádcích B080 a B102, který AI v oddílu A
+    nenašla.
+
+  Přesnost (u 22 ručně kontrolovaných řádků platí tvůj verdikt, jinak verdikt
+  AI):
+
+  ┌─────────────┬──────────────────┬──────────────┐
+  │    Oddíl    │     Přesnost     │ 95% interval │
+  ├─────────────┼──────────────────┼──────────────┤
+  │ A záznamy   │ 93,3 % (70/75)   │ 85,3–97,1 %  │
+  ├─────────────┼──────────────────┼──────────────┤
+  │ B investice │ 96,8 % (30/31)   │ 83,8–99,4 %  │
+  ├─────────────┼──────────────────┼──────────────┤
+  │ C pole      │ 96,7 % (58/60)   │ 88,6–99,1 %  │
+  ├─────────────┼──────────────────┼──────────────┤
+  │ Celkem      │ 95,2 % (158/166) │ 90,8–97,5 %  │
+  └─────────────┴──────────────────┴──────────────┘
+
+  Shoda 20/20 má v PLAN.md zapsaná tato omezení:
+  - Ve vzorku není žádná chyba. Oba jste u všech 20 řádků dali „správně“, takže
+    shoda ukazuje jen, že AI na náhodných řádcích nehlásí chyby neprávem. Jestli
+    chyby spolehlivě zachytí, změřené není. Dva řádky, které AI označila za
+    chybné (A034, B097), jsme z výběru vyloučili.
+  - U oddílu A se kritéria liší. Ty jsi posuzoval, co plyne z citace. AI navíc
+    mimo citaci hledala investici za 24 měsíců a tým v ČR.
+  - Osm verdiktů AI „špatně“ nikdo neověřil: A023, A034, A045, A064, A070, B097,
+    C116, C127. Ve sporech AI chybu nahlásila neprávem v obou případech,
+    skutečná přesnost tedy může být vyšší. Kontrola těchto 8 řádků by ověřila,
+    jestli AI chyby hlásí správně.

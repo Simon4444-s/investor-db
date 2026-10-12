@@ -1,0 +1,16 @@
+{
+  "kandidat": "Startupstart.cz",
+  "znacka": "Startupstart.cz",
+  "stav": "vyrazen",
+  "duvod": "nesplňuje Z3",
+  "typ": null,
+  "fakta": [
+    {"pole": "duvod", "hodnota": "nesplňuje Z3",
+     "url": "https://czechstartups.gov.cz/?investori=startupstart-cz",
+     "citace": "Startupstart.cz je nezávislá platforma, která propojuje startupy a investory navzájem.",
+     "hodnota_v_citaci": "platforma, která propojuje startupy a investory navzájem",
+     "datum_zdroje": "2020-08-04", "datum_v_textu": "dateModified: 2020-08-04T20:57:59+00:00"}
+  ],
+  "investice": [],
+  "poznamka": "Platforma propojující startupy s investory, tj. zprostředkovatel; sama kapitál nevkládá ani o investici nerozhoduje (nesplňuje Z3, blízko V1/V2). Doména startupstart.cz je k 2026-10-11 jen zaparkovaná (Active24 „Tady už někdo parkuje“), služba zřejmě nefunguje; provozovatele se v ARES podle názvu „Startupstart“ dohledat nepodařilo. Investice nehledány."
+}

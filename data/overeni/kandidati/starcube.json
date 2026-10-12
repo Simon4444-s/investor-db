@@ -1,0 +1,20 @@
+{
+  "kandidat": "Starcube",
+  "znacka": "JIC STARCUBE",
+  "stav": "vyrazen",
+  "duvod": "V7",
+  "typ": null,
+  "fakta": [
+    {
+      "pole": "duvod",
+      "hodnota": "V7",
+      "url": "https://www.lupa.cz/clanky/brnensky-jic-ventures-zacina-investovat-ziskal-podil-v-gina-software/",
+      "citace": "Jihomoravské centrum dosud svým klientům nabízelo půjčky, ale dceřiná společnost mu umožní přejít k investicím do startupů, které prošly programem Starcube.",
+      "hodnota_v_citaci": "programem Starcube",
+      "datum_zdroje": "2015-11-19",
+      "datum_v_textu": "datePublished: 2015-11-19T14:36:17+01:00"
+    }
+  ],
+  "investice": [],
+  "poznamka": "StarCube je akcelerační program Jihomoravského inovačního centra (JIC) v Brně, ne samostatný investor ani právnická osoba; do startupů z programu investovala dceřiná společnost JIC Ventures (posuzovat jako samostatný subjekt). Rozhovor na Lupa.cz z 2015-12-08 uvádí, že si JIC ve Starcube bere dvě procenta, investice za posledních 24 měsíců jsem ale nenašel. Poslední nalezená výzva programu je z 2017-09-01 (devátý ročník, jic.cz); úvodní stránka https://www.jic.cz/cz/ výraz „starcube“ neobsahuje a https://www.jic.cz/cz/starcube/ vrací 404, program tedy zřejmě skončil. Podle kap. 3 (akcelerátor bez doložených investic) proto V7. Web neověřen."
+}

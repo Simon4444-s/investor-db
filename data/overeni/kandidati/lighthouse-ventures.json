@@ -1,0 +1,148 @@
+{
+  "kandidat": "Lighthouse Ventures",
+  "znacka": "Lighthouse Ventures",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "Lighthouse Ventures GP s.r.o.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07500912",
+      "citace": "\"ico\":\"07500912\",\"obchodniJmeno\":\"Lighthouse Ventures GP s.r.o.\"",
+      "hodnota_v_citaci": "Lighthouse Ventures GP s.r.o.",
+      "datum_zdroje": "2024-04-18",
+      "datum_v_textu": "\"datumAktualizace\":\"2024-04-18\""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "07500912",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07500912",
+      "citace": "\"ico\":\"07500912\",\"obchodniJmeno\":\"Lighthouse Ventures GP s.r.o.\"",
+      "hodnota_v_citaci": "07500912",
+      "datum_zdroje": "2024-04-18",
+      "datum_v_textu": "\"datumAktualizace\":\"2024-04-18\""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07500912",
+      "citace": "\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "2024-04-18",
+      "datum_v_textu": "\"datumAktualizace\":\"2024-04-18\""
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://lhv.vc/",
+      "citace": "Lighthouse Ventures is an early-stage venture capital, focused on technology projects with global vision",
+      "hodnota_v_citaci": "early-stage venture capital",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "software;fintech;ai",
+      "url": "https://lhv.vc/",
+      "citace": "B2B Software of various verticals, Fintech, AI Investment focus",
+      "hodnota_v_citaci": "B2B Software of various verticals, Fintech, AI",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "200000-1000000 EUR",
+      "url": "https://lhv.vc/",
+      "citace": "From €200k to €1m Investment in a single startup",
+      "hodnota_v_citaci": "From €200k to €1m",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "faze",
+      "hodnota": "pre-seed;seed",
+      "url": "https://lhv.vc/",
+      "citace": "Idea / Seed Preferred investment stage",
+      "hodnota_v_citaci": "Idea / Seed",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "Hermetiq",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-08-31",
+      "faze_kola": "pre-seed",
+      "castka_kola": {
+        "castka": 2200000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "TZ",
+      "sektor": "software",
+      "url": "https://lhv.vc/news/lighthouse-ventures-participates-in-hermetiqs-2-2m-pre-seed-round/",
+      "citace": "That is exactly why we are excited to announce our participation in Hermetiq‘s $2.2M pre-seed round.",
+      "hodnota_v_citaci": "Hermetiq",
+      "datum_zdroje": "2026-08-31",
+      "datum_v_textu": "article:published_time: 2026-08-31T07:50"
+    },
+    {
+      "cilova_firma": "Merchantee",
+      "ico_cilove_firmy": "19232527",
+      "datum_investice": "2026-06-10",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 1800000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "neuvedeno",
+      "typ_dokladu": "TZ",
+      "sektor": "ai",
+      "url": "https://lhv.vc/news/lighthouse-ventures-backs-merchantee-in-e1-8m-funding-round/",
+      "citace": "We are thrilled to announce our investment in Merchantee as part of their €1.8 million funding round. Huge congratulations to the entire team on this significant milestone. We are proud to support their vision alongside Reflex Capital and Czech Founders VC.",
+      "hodnota_v_citaci": "Merchantee",
+      "datum_zdroje": "2026-06-10",
+      "datum_v_textu": "article:published_time: 2026-06-10T11:40"
+    },
+    {
+      "cilova_firma": "BeatPulse Labs",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-06-09",
+      "faze_kola": "pre-seed",
+      "castka_kola": {
+        "castka": 1800000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "TZ",
+      "sektor": "ai",
+      "url": "https://lhv.vc/news/lighthouse-ventures-backs-beatpulse-labs-in-1-8m-pre-seed-round/",
+      "citace": "We are thrilled to announce our investment in BeatPulse Labs as part of their $1.8 million pre-seed funding round. We are proud to back the team alongside co-investors Araya Ventures, Alumni Ventures, and Avalancha Ventures.",
+      "hodnota_v_citaci": "BeatPulse Labs",
+      "datum_zdroje": "2026-06-09",
+      "datum_v_textu": "article:published_time: 2026-06-09T11:45"
+    },
+    {
+      "cilova_firma": "Ranketta",
+      "ico_cilove_firmy": "23687444",
+      "datum_investice": "2025-12-03",
+      "faze_kola": "pre-seed",
+      "castka_kola": null,
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "TZ",
+      "sektor": "ai",
+      "url": "https://lhv.vc/news/lighthouse-ventures-invests-in-ranketta-helping-brands-thrive-in-the-era-of-ai-search/",
+      "citace": "We’re excited to announce our investment in Ranketta, a fast-growing AI platform that helps e-commerce and D2C brands measure and improve how their products are represented across AI-driven search and shopping experiences. The pre-seed round was led by Lighthouse Ventures with participation from Gi21 Capital.",
+      "hodnota_v_citaci": "Ranketta",
+      "datum_zdroje": "2025-12-03",
+      "datum_v_textu": "article:published_time: 2025-12-03T21:43"
+    }
+  ],
+  "poznamka": "Správce/GP v ČR: Lighthouse Ventures GP s.r.o. (Praha 6, stejná adresa jako kancelář na webu). Fond II je podle obchodního rejstříku cílové firmy Ranketta s.r.o. lucemburský subjekt „Lighthouse Seed Fund II“ (Strassen, LU, bez českého IČO), zapsaný jako společník 2026-10-07; investiční tým sídlí v Praze. Fond I (Lighthouse Seed Fund) je podle webu podpořen z Českého fondu rizikového kapitálu (CZFoF). Fázi „Idea“ jsem zapsal jako pre-seed. U Merchantee s.r.o. obchodní rejstřík k dnešku Lighthouse mezi společníky neuvádí (zápis může chybět nebo investice proběhla jinou formou); fáze kola ve zdroji neuvedena. Hermetiq a BeatPulse Labs jsou zahraniční firmy bez IČO. Investice Edmund (duben 2026) vynechána – zpráva neuvádí, že se Lighthouse kola účastnil. kapital_celkem nedoložen (web uvádí jen, že Fund II začal v roce 2024)."
+}

@@ -1,0 +1,169 @@
+{
+  "kandidat": "Enern",
+  "znacka": "KAYA (dříve Enern)",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "ENERN Investments, investiční fond s proměnným základním kapitálem, a.s.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/01790765",
+      "citace": "\"ico\":\"01790765\",\"obchodniJmeno\":\"ENERN Investments, investiční fond s proměnným základním kapitálem, a.s.\"",
+      "hodnota_v_citaci": "ENERN Investments, investiční fond s proměnným základním kapitálem, a.s.",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "01790765",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/01790765",
+      "citace": "\"ico\":\"01790765\",\"obchodniJmeno\":\"ENERN Investments, investiční fond s proměnným základním kapitálem, a.s.\"",
+      "hodnota_v_citaci": "01790765",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/01790765",
+      "citace": "\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://enern.eu/",
+      "url": "https://enern.eu/contact/",
+      "citace": "Prague ENERN Investments SICAV Prague Gate, fl.11 Türkova 2319/5b 149 00 Prague IČO 017 90 765, vedená u Městského soudu v Praze, ve složce B 19148",
+      "hodnota_v_citaci": "IČO 017 90 765",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://www.vestbee.com/blog/articles/kaya-secures-70-m",
+      "citace": "Prague-based early-stage venture capital firm KAYA has completed the first close of its fifth fund, which is worth €70 million. The new fund plans to back 25 startups across the CEE region.",
+      "hodnota_v_citaci": "early-stage venture capital firm",
+      "datum_zdroje": "2025-06-25",
+      "datum_v_textu": "June 25, 2025"
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "generalista",
+      "url": "https://www.vestbee.com/blog/articles/kaya-secures-70-m",
+      "citace": "Established in 2010, KAYA is a generalist venture capital fund that invests globally.",
+      "hodnota_v_citaci": "generalist venture capital fund",
+      "datum_zdroje": "2025-06-25",
+      "datum_v_textu": "June 25, 2025"
+    },
+    {
+      "pole": "faze",
+      "hodnota": "pre-seed;seed;A",
+      "url": "https://www.vestbee.com/blog/articles/kaya-secures-70-m",
+      "citace": "KAYA Fund V will invest in early-stage startups — from pre-seed to Series A — across the CEE region.",
+      "hodnota_v_citaci": "from pre-seed to Series A",
+      "datum_zdroje": "2025-06-25",
+      "datum_v_textu": "June 25, 2025"
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "1000000-3000000 EUR",
+      "url": "https://www.vestbee.com/blog/articles/kaya-secures-70-m",
+      "citace": "Its initial cheques will range from €1 to €3 million, with the option to invest up to €20 million in a company over time.",
+      "hodnota_v_citaci": "initial cheques will range from €1 to €3 million",
+      "datum_zdroje": "2025-06-25",
+      "datum_v_textu": "June 25, 2025"
+    },
+    {
+      "pole": "kapital_celkem",
+      "hodnota": "500000000 USD; druh=AUM",
+      "url": "https://www.kaya.vc/",
+      "citace": "01 60+ Companies 2011 Founded $500M AUM Total $1–3M Ticket Pre+Seed Round $85M Current Fund 02 Portfolio",
+      "hodnota_v_citaci": "$500M AUM Total",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "Viktor",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-05-19",
+      "faze_kola": "A",
+      "castka_kola": {
+        "castka": 75000000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "ai",
+      "url": "https://fortune.com/2026/05/19/viktor-ai-startup-raises-75-million-for-virtual-coworker-exclusive/",
+      "citace": "Several products later, that partnership has produced Viktor, an AI agent that operates like a virtual coworker embedded inside a company’s Slack or Microsoft Teams workspace. The company has just raised a $75 million Series A, led by London-based venture capital firm Accel with participation from Bek Ventures, Kaya VC, Inovo VC, and Tenacity Capital.",
+      "hodnota_v_citaci": "Viktor",
+      "datum_zdroje": "2026-05-19",
+      "datum_v_textu": "datePublished: 2026-05-19T13:00:00-00:00"
+    },
+    {
+      "cilova_firma": "Jutro Medical",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-12-16",
+      "faze_kola": "A",
+      "castka_kola": {
+        "castka": 24000000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "zdravi",
+      "url": "https://www.vestbee.com/insights/articles/jutro-medical-extends-series-a-to-36-m",
+      "citace": "Jutro Medical raised €12 million in Series A funding, led by KAYA VC and RIO ASI, to further develop its medical AI agents and modernise traditional telemedicine workflows. Details of the deal The extended Series A was led by Warsaw Equity Group, with participation from Vinci, naturalX Health Ventures, Fluent Ventures, Aternus, KAYA VC, and Inovo VC",
+      "hodnota_v_citaci": "Jutro Medical",
+      "datum_zdroje": "2025-12-16",
+      "datum_v_textu": "December 16, 2025"
+    },
+    {
+      "cilova_firma": "TopK",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-07-01",
+      "faze_kola": "seed",
+      "castka_kola": {
+        "castka": 5500000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "ai",
+      "url": "https://www.vestbee.com/insights/articles/top-k-secures-5-5-m",
+      "citace": "Prague-based firm TopK, which builds an AI-powered search engine for better data retrieval, has secured $5.5 million in a seed funding round from Earlybird, KAYA, Irregular Expressions, and several angel investors, as Vestbee was told.",
+      "hodnota_v_citaci": "TopK",
+      "datum_zdroje": "2025-07-01",
+      "datum_v_textu": "datePublished: 2025-07-01T10:13:03.155Z"
+    },
+    {
+      "cilova_firma": "Riptides",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-04-23",
+      "faze_kola": "pre-seed",
+      "castka_kola": {
+        "castka": 3300000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "bezpecnost",
+      "url": "https://www.vestbee.com/blog/articles/riptides-secures-3-3-m",
+      "citace": "Hungarian cybersecurity startup Riptides, which offers a universal and transparent non-human identity solution, has secured $3.3 million in a pre-seed funding round led by PortfoLion Capital Partners, with support from KAYA VC.",
+      "hodnota_v_citaci": "Riptides",
+      "datum_zdroje": "2025-04-23",
+      "datum_v_textu": "April 23, 2025"
+    }
+  ],
+  "poznamka": "DUPLICITA: Enern se přejmenoval na KAYA (web kaya.vc, stejný tým a fondy ENERN TECH III a IV; v ARES je i subjekt IČO 10838821 „KAYA (fka Enern) s.r.o.“, https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10838821). Jde o stejný subjekt jako kandidát „Kaya VC“ (dávka 8, kaya-vc.json); při slučování ponechat jeden záznam. Jako nazev/ico uveden fond ENERN Investments SICAV z kontaktu na enern.eu; od 1. 6. 2025 ho podle výroční zprávy ET IV 2025 obhospodařuje AVANT investiční společnost, a.s. Investice jsou doloženy články pod značkou KAYA / Kaya VC. Kapitál: web kaya.vc uvádí $500M AUM celkem a $85M aktuální fond; Vestbee (2025-06) uvádí první uzavření fondu V na 70 mil. EUR. Sektory deklarované jako generalista podle Vestbee; starší fond ET IV měl ve statutu fintech, e-commerce, zdraví, edtech a proptech. Datum webu kaya.vc a enern.eu se nepodařilo doložit. Jutro Medical: KAYA VC v 03/2025 vedl kolo A (12 mil. EUR) a v 12/2025 se účastnil jeho rozšíření (24 mil. EUR); zapsáno rozšíření. Další kandidáti z portfolia (PrimVeterinary 2026) byli doloženi jen agregátory, proto nezapsáni."
+}

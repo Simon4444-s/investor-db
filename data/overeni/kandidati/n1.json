@@ -1,0 +1,112 @@
+{
+  "kandidat": "N1",
+  "znacka": "N1 (dříve Nation 1)",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "Nation 1 GP S.à r.l.",
+      "url": "https://n1.rocks/disclosure",
+      "citace": "As financial market participants, Nation 1 GP S.à r.l and Nation 1 GP II S.à r.l. (the “GPs”), as general partner and registered alternative investment fund manager respectively of Nation 1 and Nation 1 VC fund II which are Luxembourg based alternative investment funds (“AIFs”) make the following disclosure in accordance with SFDR.",
+      "hodnota_v_citaci": "Nation 1 GP S.à r.l",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "RCS B233967",
+      "url": "https://www.northdata.com/Nation%201%20GP%20S%C3%A0rl,%20Senningerberg/B233967",
+      "citace": "Nation 1 GP Sàrl Identification Rcsp RCS B233967 EUID LURCSL.B233967 Address 1A, Heienhaff, 1736 Senningerberg, Luxembourg",
+      "hodnota_v_citaci": "RCS B233967",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "LU",
+      "url": "https://www.northdata.com/Nation%201%20GP%20S%C3%A0rl,%20Senningerberg/B233967",
+      "citace": "Nation 1 GP Sàrl Identification Rcsp RCS B233967 EUID LURCSL.B233967 Address 1A, Heienhaff, 1736 Senningerberg, Luxembourg",
+      "hodnota_v_citaci": "Senningerberg, Luxembourg",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "tym_v_CR",
+      "hodnota": "ano",
+      "url": "https://www.n1.rocks/",
+      "citace": "Our team splits time between Prague and San Francisco, helping founders scale internationally from day zero.",
+      "hodnota_v_citaci": "Our team splits time between Prague and San Francisco",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://www.n1.rocks/",
+      "citace": "We invest early and stay for the journey. We bring capital, experience, and access across Europe and the US.",
+      "hodnota_v_citaci": "We invest early",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "ai;zdravi;ostatni",
+      "url": "https://www.n1.rocks/",
+      "citace": "Focus AI · Healthtech · Frontier Tech Geography Europe US",
+      "hodnota_v_citaci": "AI · Healthtech · Frontier Tech",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "100000-1000000 USD",
+      "url": "https://www.n1.rocks/",
+      "citace": "Typical 1st investment $100K–$1M",
+      "hodnota_v_citaci": "$100K–$1M",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "kapital_celkem",
+      "hodnota": "60000000 USD; druh=součet fondů",
+      "url": "https://www.n1.rocks/",
+      "citace": "Today, we manage $60M across two funds focused on AI and healthcare.",
+      "hodnota_v_citaci": "$60M across two funds",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "faze",
+      "hodnota": "pre-seed;seed",
+      "url": "https://czechstartups.gov.cz/?investori=nation-1",
+      "citace": "N1 se zaměřuje na pre-seed a seed investice do společností v České republice s globálním potenciálem růstu.",
+      "hodnota_v_citaci": "pre-seed a seed",
+      "datum_zdroje": "2024-12-20",
+      "datum_v_textu": "dateModified: 2024-12-20T11:42:58+00:00"
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "Myriad AI",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-09-16",
+      "faze_kola": "seed",
+      "castka_kola": {
+        "castka": 7800000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "ai",
+      "url": "https://www.lupa.cz/aktuality/cesky-startup-byvaleho-inzenyra-v-nvidii-a-googlu-ziskal-160-milionu-na-ai-pro-zvladani-byrokracie/",
+      "citace": "Česko-americký startup Myriad AI je další z množícího se množství projektů zaměřených na prvky umělé inteligence, který získal investici. Firma v rámci kola seed obdržela 7,8 milionu dolarů (160 milionů korun). Vedoucím investorem je fond Category Ventures s přispěním Long Journey Ventures, 10VC, N1 Ventures",
+      "hodnota_v_citaci": "Myriad AI",
+      "datum_zdroje": "2025-09-16",
+      "datum_v_textu": "16. 9. 2025"
+    }
+  ],
+  "poznamka": "N1 je přejmenovaný fond Nation 1 (viz data/overeni/n1-nation1.json; záznam sloučit s kandidátem Nation1 pod značkou N1). Správci jsou lucemburské společnosti Nation 1 GP S.à r.l. (RCS B233967, GP fondu Nation 1 SCSp, RCS B230471) a Nation 1 GP II S.à r.l. (RCS B272554, GP fondu Nation 1 VC Fund II); do faktů je zapsán první GP, protože ho web N1 jmenuje jako správce fondu Nation 1. RCS čísla jsou z North Data (automatická reprodukce lucemburského rejstříku RCS); oficiální rejstřík LBR nelze načíst nástrojem text.mjs. V ARES žádný český správce N1 není (hledání „Nation 1“ bez výsledku; „Nation1 Investment s.r.o.“, IČO 09172807, Praha 2, web N1 ani profil CVCA nezmiňují, proto s ním není spojen). Stálý tým v Praze (Národní 135/14), proto ve vzorku. Sektor „Frontier Tech“ zapsán jako ostatni. Investice: Myriad AI (seed, září 2025, N1 Ventures jako spoluinvestor; firma je česko-americká, IČO nedohledáno). Dalších investic od 2024-10-11 s primárním zdrojem, kde je N1 jmenován, jsem nenašel: Novoflow (seed listopad 2025) jen v newsletteru The VC Corner a citace by obsahovala jméno fyzické osoby; Liki24 (Series A, červenec 2025, „N1 Ventures“) může jít o samostatný fond U-Tech, proto nezapsáno; Paratus Health, Parachute, Superglue, Human Archive, DeepAware jsou v portfoliu na webu bez data a bez zdroje jmenujícího N1. Web N1 nemá datum stránek."
+}

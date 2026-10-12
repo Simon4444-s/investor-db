@@ -1,0 +1,188 @@
+{
+  "kandidat": "Credo Ventures",
+  "znacka": "Credo Ventures",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "Credo Ventures a.s.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/28538137",
+      "citace": "\"ico\":\"28538137\",\"obchodniJmeno\":\"Credo Ventures a.s.\"",
+      "hodnota_v_citaci": "\"obchodniJmeno\":\"Credo Ventures a.s.\"",
+      "datum_zdroje": "2026-07-04",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-07-04\""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "28538137",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/28538137",
+      "citace": "\"ico\":\"28538137\",\"obchodniJmeno\":\"Credo Ventures a.s.\"",
+      "hodnota_v_citaci": "\"ico\":\"28538137\"",
+      "datum_zdroje": "2026-07-04",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-07-04\""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/28538137",
+      "citace": "\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "2026-07-04",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-07-04\""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://www.credoventures.com/",
+      "url": "https://cvca.cz/credo-ventures/",
+      "hodnota_v_citaci": "www.credoventures.com",
+      "datum_zdroje": "2022-02-04",
+      "datum_v_textu": "dateModified: 2022-02-04T17:28:11+00:00",
+      "citace": "Credo Ventures a.s. Adresa Karlovo Náměstí 10 120 00 Praha 2 +420 211 153 211 www.credoventures.com"
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://tech.eu/2026/03/23/credo-ventures-raises-88m-fund-5-to-double-down-on-pre-seed-in-cee-and-its-global-diaspora/",
+      "hodnota_v_citaci": "venture capital firm",
+      "datum_zdroje": "2026-03-23",
+      "datum_v_textu": "datePublished: 2026-03-23T15:29:39+00:00",
+      "citace": "Credo Ventures is a Prague and Krakow-based venture capital firm founded in 2010, investing in exceptional founders from Central and Eastern Europe and their diaspora at the earliest stages."
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "generalista",
+      "url": "https://www.credoventures.com/",
+      "hodnota_v_citaci": "not thesis-driven",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "How we operate and invest: ● Backing exceptional people, not thesis-driven. ● Leading Pre-Seed rounds. ● $1M - $5M checks."
+    },
+    {
+      "pole": "faze",
+      "hodnota": "pre-seed",
+      "url": "https://www.credoventures.com/",
+      "hodnota_v_citaci": "Leading Pre-Seed rounds",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "How we operate and invest: ● Backing exceptional people, not thesis-driven. ● Leading Pre-Seed rounds. ● $1M - $5M checks."
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "1000000-5000000 USD",
+      "url": "https://www.credoventures.com/",
+      "hodnota_v_citaci": "$1M - $5M checks",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "How we operate and invest: ● Backing exceptional people, not thesis-driven. ● Leading Pre-Seed rounds. ● $1M - $5M checks."
+    },
+    {
+      "pole": "kapital_celkem",
+      "hodnota": "88000000 USD; druh=velikost fondu",
+      "url": "https://tech.eu/2026/03/23/credo-ventures-raises-88m-fund-5-to-double-down-on-pre-seed-in-cee-and-its-global-diaspora/",
+      "hodnota_v_citaci": "a $88 million fund",
+      "datum_zdroje": "2026-03-23",
+      "datum_v_textu": "datePublished: 2026-03-23T15:29:39+00:00",
+      "citace": "Today, Credo Ventures announces Credo Stage 5, a $88 million fund that continues the firm's mission to be the first backer of the most ambitious CEE founders globally, both in the CEE region and in diaspora communities."
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "SuperPlane",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-06-24",
+      "faze_kola": "pre-seed",
+      "castka_kola": {
+        "castka": 2280000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "media",
+      "sektor": "software",
+      "url": "https://thesaasnews.com/news/superplane-raises-2-28m-pre-seed",
+      "hodnota_v_citaci": "led by Credo Ventures",
+      "datum_zdroje": "2026-06-24",
+      "datum_v_textu": "Updated June 24, 2026",
+      "citace": "SuperPlane raises €2.28M in pre-seed funding led by Credo Ventures to build an open-source control plane for AI agents and production infrastructure."
+    },
+    {
+      "cilova_firma": "Picogrid",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-06-02",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 45000000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "obrana",
+      "url": "https://www.lupa.cz/aktuality/ceske-credo-ventures-investovalo-do-americkeho-startupu-ktery-vyviji-technologie-pro-pentagon/",
+      "hodnota_v_citaci": "Mezi investory se objevuje také český fond Credo Ventures",
+      "datum_zdroje": "2026-06-02",
+      "datum_v_textu": "datePublished: 2026-06-02T18:44:49+02:00",
+      "citace": "Americký startup Picogrid, který vyvíjí technologie pro propojení moderních vojenských systémů, získal od investorů 45 milionů dolarů (skoro miliardu Kč). Mezi investory se objevuje také český fond Credo Ventures, který už do Picogridu peníze dříve posílal."
+    },
+    {
+      "cilova_firma": "Modeinspect",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-01-15",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 3400000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "software",
+      "url": "https://www.lupa.cz/aktuality/cesti-vyvojari-chteji-zrusit-hranici-mezi-designem-a-kodem-veri-jim-i-andele-z-mety-a-kiwi-com/",
+      "hodnota_v_citaci": "účastní se také pražské Credo Ventures",
+      "datum_zdroje": "2026-01-15",
+      "datum_v_textu": "datePublished: 2026-01-15T13:27:43+01:00",
+      "citace": "Startup Modeinspect rozpřažený mezi Prahu a San Francisco ohlásil, že získal investici ve výši 3,4 milionu dolarů (skoro 71 milionů korun). Kolo vede pařížský fond Partech, účastní se také pražské Credo Ventures a německý fond Angelinvest"
+    },
+    {
+      "cilova_firma": "Duvo.ai",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-12-02",
+      "faze_kola": "seed",
+      "castka_kola": {
+        "castka": 15000000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "TZ",
+      "sektor": "ai",
+      "url": "https://www.retailtechnologyshow.com/exhibitor-news/duvo-ai-have-raised-15-million-seed-round-to-give-retail-teams-an-ai-workforce-that-goes-live-in-weeks",
+      "hodnota_v_citaci": "with Credo, Northzone, Puzzle and notable angels",
+      "datum_zdroje": "2025-12-02",
+      "datum_v_textu": "02 Dec 2025",
+      "citace": "Key Takeaways $15M seed round led by Index Ventures (with Credo, Northzone, Puzzle and notable angels) to scale Duvo’s AI-native automation platform for retail operations."
+    },
+    {
+      "cilova_firma": "Delta Green",
+      "ico_cilove_firmy": "02406233",
+      "datum_investice": "2025-10-17",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 2000000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "energie",
+      "url": "https://www.lupa.cz/aktuality/ceska-delta-green-ziskala-investici-50-milionu-z-domacnosti-tvori-virtualni-elektrarnu/",
+      "hodnota_v_citaci": "od fondů Credo Ventures",
+      "datum_zdroje": "2025-10-17",
+      "datum_v_textu": "datePublished: 2025-10-17T09:16:03+02:00",
+      "citace": "Pražská technologická společnost Delta Green oznámila investici dva miliony eur (téměř 50 milionů Kč) od fondů Credo Ventures, Tilia Impact Ventures a Purple Ventures."
+    }
+  ],
+  "poznamka": "Správce v ČR: Credo Ventures a.s. (pod tímto názvem je členem CVCA); v ARES existuje i Credo Ventures Management II a.s. (IČO 24396893), správcovská role jednotlivých společností nebyla ověřena. Sektory: web uvádí „not thesis-driven“, převedeno na generalista. Tiket a fáze jsou z webu bez data. Fázi kola u Picogrid, Modeinspect a Delta Green zdroj neuvádí. Duvo.ai: česká duvo.ai s.r.o. (IČO 22646141) je ze 100 % vlastněna Taskcrew Inc., proto IČO cílové firmy nevyplněno. Delta Green s.r.o.: v ARES je mezi společníky Credo Stage IV L.P. Další doložená investice v okně: Supernova (Series A, tech.eu 2025-09-30). Wabi (pre-seed 2025-11): článek TechCrunch Credo nezmiňuje, nezapsáno. Investice po 2026-06-24 jsem nenašel (hledání omezeno vyčerpaným limitem vyhledávání)."
+}

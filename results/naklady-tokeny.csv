@@ -1,0 +1,26 @@
+sezeni,zaznam,popis,modely,zprav,vstup,zapis5m,zapis1h,cteniCache,vystup_min,vystup_max,odhad_vystupu,vyhledavani,nacteni,cena_min_usd,cena_max_usd
+0a83fd0d-5141-4ec3-b9f2-d88d1a60bf39,hlavní sezení,,claude-opus-5-5,61,140,0,428804,7881605,91754,91754,z usage,0,0,6.84,6.84
+0a83fd0d-5141-4ec3-b9f2-d88d1a60bf39,agent-a204598ac2192d0c0,Kontrola dávky b2,claude-opus-5-5,21,42,88341,0,1369684,3979,10105,z obsahu,4,18,0.84,0.96
+0a83fd0d-5141-4ec3-b9f2-d88d1a60bf39,agent-a2924b50a4d689304,Kontrola dávky a2,claude-opus-5-5,60,120,192119,0,7111549,10286,26122,z obsahu,44,44,3.03,3.35
+0a83fd0d-5141-4ec3-b9f2-d88d1a60bf39,agent-a4fc70bcea1eb9898,Kontrola dávky c3,claude-opus-5-5,26,52,113978,0,1782457,5005,12711,z obsahu,13,1,1.16,1.31
+0a83fd0d-5141-4ec3-b9f2-d88d1a60bf39,agent-a66408c819b3ae8a6,Kontrola dávky a1,claude-opus-5-5,118,236,199283,0,14417868,10664,27081,z obsahu,51,51,4.60,4.93
+0a83fd0d-5141-4ec3-b9f2-d88d1a60bf39,agent-a84aa8a995386d2a5,Kontrola dávky c1,claude-opus-5-5,27,54,132949,0,2464815,5255,13346,z obsahu,18,19,1.44,1.60
+0a83fd0d-5141-4ec3-b9f2-d88d1a60bf39,agent-a8942ead159ff34d5,Kontrola dávky a3,claude-opus-5-5,51,102,151147,0,5521803,6656,16904,z obsahu,6,5,2.05,2.26
+0a83fd0d-5141-4ec3-b9f2-d88d1a60bf39,agent-aa646def74163d610,Kontrola dávky a4,claude-opus-5-5,33,66,120251,0,2530441,4983,12654,z obsahu,10,6,1.31,1.46
+0a83fd0d-5141-4ec3-b9f2-d88d1a60bf39,agent-aca8617fb1443ff6d,Kontrola dávky b1,claude-opus-5-5,21,42,89056,0,1276379,4711,11963,z obsahu,3,17,0.82,0.97
+0a83fd0d-5141-4ec3-b9f2-d88d1a60bf39,agent-ad594c86134449757,Kontrola dávky c2,claude-opus-5-5,28,56,120981,0,2200541,4522,11483,z obsahu,20,9,1.34,1.47
+3c6d7f5b-b475-4df9-8145-3bed32cc9a2e,hlavní sezení,,claude-opus-5-5,220,462,0,2276828,102796233,451085,451085,z usage,0,13,47.80,47.80
+3c6d7f5b-b475-4df9-8145-3bed32cc9a2e,agent-a00ee93b04e3fbf66,Global VC/PE firm totals,claude-opus-5-5,133,266,213062,0,15679311,19243,48869,z obsahu,43,10,5.02,5.61
+3c6d7f5b-b475-4df9-8145-3bed32cc9a2e,agent-a0c77268e82a632f9,Czech VC candidate sources,claude-opus-5-5,70,140,333352,0,7900716,37233,37233,z usage,13,77,4.12,4.12
+3c6d7f5b-b475-4df9-8145-3bed32cc9a2e,agent-a18ac01689f148c05,Verify candidates batch 4,claude-opus-5-5,151,302,432747,0,26317766,29736,75518,z obsahu,29,0,8.31,9.23
+3c6d7f5b-b475-4df9-8145-3bed32cc9a2e,agent-a8c76fb4c78f5ccb1,Asia VC/PE firm counts,claude-opus-5-5,114,228,179546,0,11134631,17644,44809,z obsahu,28,10,3.76,4.30
+3c6d7f5b-b475-4df9-8145-3bed32cc9a2e,agent-a8dcea1a36f1e67ec,Verify candidates batch 3,claude-opus-5-5,107,214,526301,0,16741680,18819,47793,z obsahu,15,0,6.51,7.09
+3c6d7f5b-b475-4df9-8145-3bed32cc9a2e,agent-a93ab75edb344fc02,Verify candidates batch 1,claude-opus-5-5,88,176,453082,0,10699872,15667,39789,z obsahu,11,0,4.83,5.31
+3c6d7f5b-b475-4df9-8145-3bed32cc9a2e,agent-a994dc221966afbc5,Verify candidates batch 7,claude-opus-5-5,122,244,369526,0,17408191,25216,64039,z obsahu,17,0,6.00,6.78
+3c6d7f5b-b475-4df9-8145-3bed32cc9a2e,agent-aa8964511a8946bac,Global investor counts research,claude-opus-5-5,103,206,198539,0,12092217,36570,36570,z usage,40,29,4.54,4.54
+3c6d7f5b-b475-4df9-8145-3bed32cc9a2e,agent-ac4f474dc70922bc6,GDPR rules for angel data,claude-opus-5-5,95,190,297706,0,11463960,30869,30869,z usage,28,19,4.68,4.68
+3c6d7f5b-b475-4df9-8145-3bed32cc9a2e,agent-acf1fa7a3e80dcd4d,Verify candidates batch 6,claude-opus-5-5,98,196,304683,0,11765534,16033,40718,z obsahu,22,0,4.42,4.91
+3c6d7f5b-b475-4df9-8145-3bed32cc9a2e,agent-ae4a559fb4d3dab47,Verify candidates batch 2,claude-opus-5-5,121,242,420961,0,18762084,26264,66701,z obsahu,37,0,6.75,7.56
+3c6d7f5b-b475-4df9-8145-3bed32cc9a2e,agent-af0ebb2d944df0c6e,Verify candidates batch 8,claude-opus-5-5,120,240,392072,0,20644697,23980,60901,z obsahu,29,0,6.86,7.60
+3c6d7f5b-b475-4df9-8145-3bed32cc9a2e,agent-af567c125ae54d240,Czech investor counts research,claude-opus-5-5,87,174,164754,0,9356690,37851,37851,z usage,36,61,3.81,3.81
+3c6d7f5b-b475-4df9-8145-3bed32cc9a2e,agent-afe5cb4506324e1de,Verify candidates batch 5,claude-opus-5-5,140,280,413444,0,23536649,24787,62948,z obsahu,46,1,7.73,8.49

@@ -1,0 +1,150 @@
+{
+  "kandidat": "Kaya VC",
+  "znacka": "Kaya VC",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "KAYA Advisory s.r.o.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/22585737",
+      "citace": "\"ico\":\"22585737\",\"obchodniJmeno\":\"KAYA Advisory s.r.o.\"",
+      "hodnota_v_citaci": "KAYA Advisory s.r.o.",
+      "datum_zdroje": "2026-06-26",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-06-26\""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "22585737",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/22585737",
+      "citace": "\"ico\":\"22585737\",\"obchodniJmeno\":\"KAYA Advisory s.r.o.\"",
+      "hodnota_v_citaci": "22585737",
+      "datum_zdroje": "2026-06-26",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-06-26\""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/22585737",
+      "citace": "\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "2026-06-26",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-06-26\""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://www.kaya.vc/",
+      "url": "https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf",
+      "citace": "Kaya 5 SCSp KAYA Advisory s.r.o. Czech Republic EIF;RCR Artificial Intelligence (AI);Defense;Energy and built- environment solutions;Life science and health;Other Digital Multi-Country Venture Capital ICT Pre-Seed/Seed Fund Fund 11/06/2030 https://www.kaya.vc/",
+      "hodnota_v_citaci": "https://www.kaya.vc/",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://tech.eu/2025/06/25/kaya-raises-eur70m-to-support-cee-region-startups/",
+      "citace": "VC firm KAYA has raised nearly €70 million for a fifth fund to continue supporting founders from the CEE region",
+      "hodnota_v_citaci": "VC firm KAYA",
+      "datum_zdroje": "2025-06-25",
+      "datum_v_textu": "25 June 2025"
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "ai;obrana;energie;nemovitosti;zdravi",
+      "url": "https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf",
+      "citace": "Kaya 5 SCSp KAYA Advisory s.r.o. Czech Republic EIF;RCR Artificial Intelligence (AI);Defense;Energy and built- environment solutions;Life science and health;Other Digital",
+      "hodnota_v_citaci": "Artificial Intelligence (AI);Defense;Energy and built- environment solutions;Life science and health",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "faze",
+      "hodnota": "pre-seed;seed",
+      "url": "https://www.kaya.vc/",
+      "citace": "$500M AUM Total $1–3M Ticket Pre+Seed Round $85M Current Fund",
+      "hodnota_v_citaci": "Pre+Seed Round",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "1000000-3000000 USD",
+      "url": "https://www.kaya.vc/",
+      "citace": "$500M AUM Total $1–3M Ticket Pre+Seed Round $85M Current Fund",
+      "hodnota_v_citaci": "$1–3M Ticket",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "kapital_celkem",
+      "hodnota": "500000000 USD; druh=AUM",
+      "url": "https://www.kaya.vc/",
+      "citace": "$500M AUM Total $1–3M Ticket Pre+Seed Round $85M Current Fund",
+      "hodnota_v_citaci": "$500M AUM Total",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "Minerva Humanoids",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-10-08",
+      "faze_kola": "pre-seed",
+      "castka_kola": {
+        "castka": 10000000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "prumysl",
+      "url": "https://www.lupa.cz/aktuality/inzenyri-z-tesly-a-boston-dynamics-v-evrope-i-diky-penezum-od-cechu-stavi-humanoidniho-robota/",
+      "citace": "Mezi další a o něco menší investory do Minervy patří třeba Hugging Face (Nvidia) a hlavně další český fond Kaya, který drží pozice v E2B, Rohlíku a dalších.",
+      "hodnota_v_citaci": "investory do Minervy",
+      "datum_zdroje": "2026-10-08",
+      "datum_v_textu": "datePublished: 2026-10-08T15:56:53+02:00"
+    },
+    {
+      "cilova_firma": "TopK",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-07-01",
+      "faze_kola": "seed",
+      "castka_kola": {
+        "castka": 5500000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "neuvedeno",
+      "typ_dokladu": "media",
+      "sektor": "ai",
+      "url": "https://www.vestbee.com/insights/articles/top-k-secures-5-5-m",
+      "citace": "Prague-based firm TopK, which builds an AI-powered search engine for better data retrieval, has secured $5.5 million in a seed funding round from Earlybird, KAYA, Irregular Expressions, and several angel investors, as Vestbee was told.",
+      "hodnota_v_citaci": "TopK",
+      "datum_zdroje": "2025-07-01",
+      "datum_v_textu": "datePublished: 2025-07-01T10:13:03.155Z"
+    },
+    {
+      "cilova_firma": "Riptides",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-04-23",
+      "faze_kola": "pre-seed",
+      "castka_kola": {
+        "castka": 3300000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "bezpecnost",
+      "url": "https://www.vestbee.com/blog/articles/riptides-secures-3-3-m",
+      "citace": "The pre-seed round was led by PortfoLion Capital Partners, a Budapest-based venture capital and private equity arm of OTP Bank, which manages €440 million in assets and invests in startups across various sectors in the CEE region. Czech KAYA VC also joined the round.",
+      "hodnota_v_citaci": "Czech KAYA VC also joined the round",
+      "datum_zdroje": "2025-04-23",
+      "datum_v_textu": "datePublished: 2025-04-23T13:22:52.998Z"
+    }
+  ],
+  "poznamka": "Sloučeno se správcem KAYA Advisory s.r.o. (seznam EIF: správce fondu Kaya 5 SCSp, tým v ČR) a s položkou „Kaya“ z RIS3. KAYA Advisory s.r.o. vznikla 2025-02-12 a sídlí na adrese pražské kanceláře uvedené na kaya.vc (Thámova 183/11); samotné fondy jsou lucemburské SCSp. Sektory převzaty z mandátu fondu Kaya 5 v seznamu EIF (web investora sektory výslovně neuvádí); položka „Other Digital“ nebyla zařazena. Údaje z webu kaya.vc (AUM $500M, tiket $1–3M, fáze Pre+Seed, aktuální fond $85M) nemají datum; tech.eu (2025-06-25) uvádí fond V téměř 70 mil. EUR, typický první tiket 1–3 mil. EUR a fáze od pre-seed po sérii A. Částka kola Minerva Humanoids podle Lupy 10 mil. EUR, jiné zdroje uvádějí 10 mil. USD. Další investice z let 2025–2026 (PrimVeterinary, Allonic, Blurry, Pencil) uvádějí jen agregátory (PitchBook, CB Insights), primární zdroj se nenašel. IČO cílových firem nedohledáno (Minerva, TopK a Riptides nejsou české s.r.o. nebo nebyly nalezeny v ARES)."
+}

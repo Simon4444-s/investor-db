@@ -1,0 +1,29 @@
+{
+  "kandidat": "Limerock Ventures",
+  "znacka": "Limerock",
+  "stav": "neaktivni",
+  "duvod": "V4",
+  "typ": null,
+  "fakta": [
+    {
+      "pole": "duvod",
+      "hodnota": "V4",
+      "url": "https://www.limerock.sk/sfdr",
+      "citace": "The AIFM has not taken any new investment decisions since 1 November 2016. The Fund does not accept new investors, does not raise additional capital and does not actively seek or execute new investments.",
+      "hodnota_v_citaci": "has not taken any new investment decisions since 1 November 2016",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "SK",
+      "url": "https://www.limerock.sk/main",
+      "citace": "Registered seat: Planét 5, 811 09 Bratislava, Slovakia",
+      "hodnota_v_citaci": "Bratislava, Slovakia",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    }
+  ],
+  "investice": [],
+  "poznamka": "Limerock Advisory, s.r.o. (Bratislava, SK) je transakční poradce (M&A, capital raising) s VC větví. Jediný doložený fond, JEREMIE Co-Investment Fund (správce Limerock Investment Holding, s.r.o., SK), podle SFDR zveřejnění nepřijal žádné nové investiční rozhodnutí od 1. 11. 2016, proto nesplňuje Z2 (zároveň sídlo na Slovensku, stálý investiční tým v ČR nedoložen, takže by byl i mimo rozsah vzorku). Web sice uvádí, že hledají příležitosti v Late Seed a Series A, doloženou investici od 2024-10-11 jsem nenašel. Spoluzakladatelé Limerock podle stránky týmu spoluzaložili i Zero Gravity Capital – samostatná slovenská značka, zde neposuzována (podle vyhledávání se později přejmenovala, neověřeno). Citace zeme_sidla obsahuje HTML entitu (&eacute;) přesně tak, jak ji vrací text.mjs."
+}

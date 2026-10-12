@@ -1,0 +1,38 @@
+{
+  "kandidat": "Lumus Investment",
+  "znacka": "Lumus Investment Collective",
+  "stav": "vyrazen",
+  "duvod": "V9",
+  "typ": null,
+  "fakta": [
+    {
+      "pole": "duvod",
+      "hodnota": "V9",
+      "url": "https://www.lumusinvestment.com/angels",
+      "hodnota_v_citaci": "For each deal, we form a Special Purpose Vehicle (SPV)",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "We are a community of investors (not a faceless syndicate) that invests in predominantly CEE-related startups on a deal-by-deal basis. For each deal, we form a Special Purpose Vehicle (SPV) that enables the group of investors to invest as a single legal entity with a clear investment thesis, as well as defined rights and obligations."
+    },
+    {
+      "pole": "nazev",
+      "hodnota": "Lumus Investment Collective s.r.o.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10664335",
+      "citace": "\"ico\":\"10664335\",\"obchodniJmeno\":\"Lumus Investment Collective s.r.o.\"",
+      "hodnota_v_citaci": "\"obchodniJmeno\":\"Lumus Investment Collective s.r.o.\"",
+      "datum_zdroje": "2026-09-12",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-09-12\""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "10664335",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10664335",
+      "citace": "\"ico\":\"10664335\",\"obchodniJmeno\":\"Lumus Investment Collective s.r.o.\"",
+      "hodnota_v_citaci": "\"ico\":\"10664335\"",
+      "datum_zdroje": "2026-09-12",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-09-12\""
+    }
+  ],
+  "investice": [],
+  "poznamka": "Komunita (převážně) ženských andělských investorek; investují členky přes SPV zakládané pro každý deal zvlášť (minimální tiket 3 000 EUR na investorku), vlastní fond na webu uveden není. Vyřazeno podle V9 (andělská síť bez vlastního fondu); jednotlivé SPV (v ARES např. Lumus II s.r.o., Lumus III s.r.o., Lumus V s.r.o., Lumus VI s.r.o.) by spadaly pod V8. Pokud by se objevil vlastní fond, posoudit zvlášť."
+}

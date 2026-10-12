@@ -1,0 +1,21 @@
+{
+  "kandidat": "Mid Europa Partners",
+  "znacka": "MidEuropa",
+  "stav": "mimo_rozsah",
+  "duvod": "PE",
+  "typ": "PE",
+  "fakta": [
+    {"pole": "typ", "hodnota": "PE",
+     "url": "https://www.mideuropa.com/",
+     "citace": "WE ARE A LEADING EUROPEAN PRIVATE EQUITY INVESTOR WITH DEEP ROOTS IN CENTRAL EUROPE",
+     "hodnota_v_citaci": "LEADING EUROPEAN PRIVATE EQUITY INVESTOR",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""},
+    {"pole": "zeme_sidla", "hodnota": "GB",
+     "url": "https://cvca.cz/mid-europa-partners/",
+     "citace": "Mid Europa Partners Adresa South West House 120 Regent Street London W1B5FE +44 20 7886 3600 www.mideuropa.com",
+     "hodnota_v_citaci": "120 Regent Street London W1B5FE",
+     "datum_zdroje": "2021-12-02", "datum_v_textu": "dateModified: 2021-12-02T13:32:39+00:00"}
+  ],
+  "investice": [],
+  "poznamka": "Private equity (equity tikety 50–300 mil. EUR do zavedených firem, akvizice a buyouty), sídlo v Londýně podle profilu CVCA → mimo rozsah vzorku (PE). Investice nehledány; web uvádí např. akvizici české firmy se stavebním softwarem (červenec 2026). Tým v ČR neověřován, pro důvod PE není potřeba."
+}

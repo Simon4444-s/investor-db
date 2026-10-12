@@ -1,0 +1,21 @@
+{
+  "kandidat": "V4C Investment Advisers Limited",
+  "znacka": "Value4Capital (V4C)",
+  "stav": "mimo_rozsah",
+  "duvod": "PE",
+  "typ": "PE",
+  "fakta": [
+    {"pole": "typ", "hodnota": "PE",
+     "url": "https://www.value4capital.com/",
+     "citace": "We invest between € 7 - 15 million in buyout and growth transactions.",
+     "hodnota_v_citaci": "buyout and growth transactions",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""},
+    {"pole": "zeme_sidla", "hodnota": "LU",
+     "url": "https://www.value4capital.com/",
+     "citace": "Luxembourg V4C General Partner II Sarl 94 rue de Grunewald, L-1912 Luxembourg",
+     "hodnota_v_citaci": "L-1912 Luxembourg",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""}
+  ],
+  "investice": [],
+  "poznamka": "Private equity pro střední Evropu (web: „Private equity for central europe“, buyout a růstové transakce 7–15 mil. EUR). Generální partner fondu sídlí v Lucembursku, poradenská společnost ve Varšavě, kancelář v Bukurešti; kancelář v ČR web neuvádí. Mimo rozsah vzorku jako PE; investice se nehledaly. Právní subjekt „V4C Investment Advisers Limited“ z CVCA jsem neověřoval (zahraniční rejstřík)."
+}

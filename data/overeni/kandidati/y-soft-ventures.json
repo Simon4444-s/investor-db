@@ -1,0 +1,107 @@
+{
+  "kandidat": "Y Soft Ventures",
+  "znacka": "Y Soft Ventures (YSV)",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "Y Soft Ventures Management, a.s.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04504593",
+      "citace": "\"ico\":\"04504593\",\"obchodniJmeno\":\"Y Soft Ventures Management, a.s.\"",
+      "hodnota_v_citaci": "Y Soft Ventures Management, a.s.",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "04504593",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04504593",
+      "citace": "\"ico\":\"04504593\",\"obchodniJmeno\":\"Y Soft Ventures Management, a.s.\"",
+      "hodnota_v_citaci": "04504593",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04504593",
+      "citace": "\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://www.ysoft.com/news/new-lead-at-ysoft-ventures",
+      "citace": "June 30, 2025, Y Soft Ventures, the venture capital arm of leading enterprise office solutions provider Y Soft Corporation, will have a new Managing Partner as of July 1, 2025.",
+      "hodnota_v_citaci": "the venture capital arm",
+      "datum_zdroje": "2025-06-30",
+      "datum_v_textu": "June 30, 2025"
+    },
+    {
+      "pole": "cvc",
+      "hodnota": "ano",
+      "url": "https://www.ysoft.com/news/new-lead-at-ysoft-ventures",
+      "citace": "June 30, 2025, Y Soft Ventures, the venture capital arm of leading enterprise office solutions provider Y Soft Corporation, will have a new Managing Partner as of July 1, 2025.",
+      "hodnota_v_citaci": "the venture capital arm of leading enterprise office solutions provider Y Soft Corporation",
+      "datum_zdroje": "2025-06-30",
+      "datum_v_textu": "June 30, 2025"
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://www.ysoft.com/ventures",
+      "url": "https://www.ysoft.com/ventures",
+      "citace": "Make Your Technology Idea a Funded Venture with Y Soft We invest in the people who build innovative B2B tech startups in Central and Eastern Europe.",
+      "hodnota_v_citaci": "We invest in the people who build innovative B2B tech startups",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "prumysl;software",
+      "url": "https://www.ysoft.com/ventures",
+      "citace": "The Internet of Things (IoT) represents the focal point of our investment strategy. We believe combining hardware and software and leveraging the value of devices connected through various networks will fundamentally change how we live, work, and run businesses.",
+      "hodnota_v_citaci": "combining hardware and software",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "RoboTwin s.r.o.",
+      "ico_cilove_firmy": "14091682",
+      "datum_investice": "2025-06-11",
+      "faze_kola": "neověřeno",
+      "castka_kola": null,
+      "castka_investora": null,
+      "role": "neuvedeno",
+      "typ_dokladu": "rejstrik",
+      "sektor": "prumysl",
+      "url": "https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1144649&typ=UPLNY",
+      "citace": "Společník: Y Soft Ventures II, a.s., IČ: 078 90 150 Technická 2948/13, Královo Pole, 616 00 Brno zapsáno 11. června 2025 Podíl: Vklad: 4 327,- Kč Splaceno: 100% Obchodní podíl: 4327/174520 Druh podílu: Preferenční podíl č. 3",
+      "hodnota_v_citaci": "Y Soft Ventures II, a.s., IČ: 078 90 150",
+      "datum_zdroje": "2025-06-11",
+      "datum_v_textu": "zapsáno 11. června 2025"
+    },
+    {
+      "cilova_firma": "Sentien HQ s.r.o.",
+      "ico_cilove_firmy": "08224048",
+      "datum_investice": "2024-12-12",
+      "faze_kola": "neověřeno",
+      "castka_kola": null,
+      "castka_investora": null,
+      "role": "neuvedeno",
+      "typ_dokladu": "rejstrik",
+      "sektor": "spotrebitel",
+      "url": "https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1052668&typ=UPLNY",
+      "citace": "Společník: Y Soft Ventures II, a.s., IČ: 078 90 150 Technická 2948/13, Královo Pole, 616 00 Brno zapsáno 24. srpna 2023 Podíl: Vklad: 8 799,- Kč Splaceno: 100% Obchodní podíl: 8799/175973 zapsáno 24. srpna 2023 vymazáno 12. prosince 2024 Podíl: Vklad: 16 843,- Kč Splaceno: 100% Obchodní podíl: 16843/277483 zapsáno 12. prosince 2024",
+      "hodnota_v_citaci": "Y Soft Ventures II, a.s., IČ: 078 90 150",
+      "datum_zdroje": "2024-12-12",
+      "datum_v_textu": "zapsáno 12. prosince 2024"
+    }
+  ],
+  "poznamka": "Korporátní VC skupiny Y Soft (příznak cvc). Správce Y Soft Ventures Management, a.s. je statutárním orgánem investičního vehiklu Y Soft Ventures II, a.s. (IČO 07890150); starší vehikl Y Soft Ventures, a.s. (IČO 29314445). Podle zprávy Y Soft z 2025-06-30 YSV přechází z investiční fáze do fáze exitů a chystá nový vehikl; jako poslední investici uvádí RoboTwin (robotika a průmyslová automatizace). Investice doloženy obchodním rejstříkem (úplné výpisy justice.cz): RoboTwin – vstup Y Soft Ventures II 11. 6. 2025; Sentien HQ – navýšení vkladu Y Soft Ventures II z 8 799 Kč na 16 843 Kč 12. 12. 2024 (follow-on nebo konverze dřívějšího úvěru, rejstřík to nerozliší). Částky ani fáze kol nezveřejněny. Fáze, tiket a velikost kapitálu web neuvádí (jen „early-stage“), neověřeno. Další deklarované oblasti (Industry 4.0, Smart Office, Retail 2.0, Smart City, kyberbezpečnost, big data, AR/VR pro B2B) do sektorů nezapsány, protože nejsou v jedné citaci. Sektor Sentien (sluchátka s hlasovou AI) = spotrebitel. NenoVision: změna podílu Y Soft Ventures II 19. 12. 2024 je jen sloučení dřívějších podílů (vklad 3 440 Kč beze změny), nezapsáno. Datum stránky ysoft.com/ventures se nepodařilo doložit."
+}

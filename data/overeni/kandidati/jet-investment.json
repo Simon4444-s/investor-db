@@ -1,0 +1,197 @@
+{
+  "kandidat": "Jet Investment",
+  "znacka": "Jet Investment (Jet Ventures)",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "Jet Investment, a.s.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03890333",
+      "citace": "\"ico\":\"03890333\",\"obchodniJmeno\":\"Jet Investment, a.s.\"",
+      "hodnota_v_citaci": "Jet Investment, a.s.",
+      "datum_zdroje": "2026-08-06",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-08-06\""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "03890333",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03890333",
+      "citace": "\"ico\":\"03890333\",\"obchodniJmeno\":\"Jet Investment, a.s.\"",
+      "hodnota_v_citaci": "03890333",
+      "datum_zdroje": "2026-08-06",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-08-06\""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03890333",
+      "citace": "\"ico\":\"03890333\",\"obchodniJmeno\":\"Jet Investment, a.s.\",\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "2026-08-06",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-08-06\""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://www.jetinvestment.eu/",
+      "url": "https://cvca.cz/jet-investment/",
+      "citace": "Jet Investment Adresa Hlinky 126 603 00 Brno – střed, Pisárky +420 543 427 011 jet@jetinvestment.cz www.jetinvestment.eu",
+      "hodnota_v_citaci": "www.jetinvestment.eu",
+      "datum_zdroje": "2021-12-02",
+      "datum_v_textu": "dateModified: 2021-12-02T13:32:32+00:00"
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://ventures.jetinvestment.cz/",
+      "citace": "Jet Ventures is more than an ordinary VC What sets us apart is our real-world portfolio of industrial SMEs, which we leverage for scaling and evaluating your start-up.",
+      "hodnota_v_citaci": "Jet Ventures is more than an ordinary VC",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "ai;prumysl;logistika;bezpecnost",
+      "url": "https://ventures.jetinvestment.cz/",
+      "citace": "We look for dynamic teams passionate about AI, big data, machine learning, advanced manufacturing, IoT, supply chain, robotics, cybersecurity, across the industrial heartland of Europe: Czechia, Germany, Austria, Slovakia, and Poland.",
+      "hodnota_v_citaci": "AI, big data, machine learning, advanced manufacturing, IoT, supply chain, robotics, cybersecurity",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "faze",
+      "hodnota": "seed;A",
+      "url": "https://ventures.jetinvestment.cz/",
+      "citace": "We support ambitious start-ups in late-seed to Series A stages in the industrial-tech/B2B to achieve their global ambitions.",
+      "hodnota_v_citaci": "late-seed to Series A stages",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "2000000 EUR",
+      "url": "https://ventures.jetinvestment.cz/",
+      "citace": "Our initial investment can reach up to 2M EUR, and we are flexible in leading the round or co-investing to fuel your growth.",
+      "hodnota_v_citaci": "up to 2M EUR",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "kapital_celkem",
+      "hodnota": "700000000 EUR; druh=AUM",
+      "url": "https://www.jetinvestment.eu/",
+      "citace": "Together, we have helped more than forty companies grow and prosper. € 700m+ AUM",
+      "hodnota_v_citaci": "€ 700m+ AUM",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "AppNava",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-09-17",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 2300000,
+        "mena": "USD"
+      },
+      "castka_investora": {
+        "castka": 1800000,
+        "mena": "USD"
+      },
+      "role": "lead",
+      "typ_dokladu": "TZ",
+      "sektor": "ai",
+      "url": "https://www.jetinvestment.cz/en/news/jet-investment-vstupuje-do-americkeho-startupu-appnava-ktery-pomoci-ai-predpovida-chovani-uzivatelu",
+      "citace": "The Jet Investment Group has made its eleventh investment through the venture capital fund Jet Venture 1 SICAV, investing $1.8 million in AppNava Inc., a technology company that has developed an AI-powered SaaS platform for predictive analytics in mobile apps.",
+      "hodnota_v_citaci": "investing $1.8 million in AppNava Inc.",
+      "datum_zdroje": "2026-09-17",
+      "datum_v_textu": "17.9.2026"
+    },
+    {
+      "cilova_firma": "Phantasma Labs",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-09-01",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 2600000,
+        "mena": "EUR"
+      },
+      "castka_investora": {
+        "castka": 2100000,
+        "mena": "EUR"
+      },
+      "role": "neuvedeno",
+      "typ_dokladu": "TZ",
+      "sektor": "prumysl",
+      "url": "https://www.jetinvestment.cz/en/news/jet-investment-announces-eu2-1-million-investment-in-berlin-ai-startup-phantasma-labs",
+      "citace": "The Jet Investment has made its tenth investment through the Jet Venture 1 SICAV venture capital fund investing €2.1 million in Phantasma Labs, a Berlin-based startup developing artificial intelligence for production planning and scheduling in manufacturing. Jet becomes the largest single investor in the round. The total volume of the round reached €2.6 million, closed together with Lighthouse Seed Fund II.",
+      "hodnota_v_citaci": "investing €2.1 million in Phantasma Labs",
+      "datum_zdroje": "2026-09-01",
+      "datum_v_textu": "1.9.2026"
+    },
+    {
+      "cilova_firma": "Hermetiq",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-08-24",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 2200000,
+        "mena": "USD"
+      },
+      "castka_investora": {
+        "castka": 750000,
+        "mena": "USD"
+      },
+      "role": "neuvedeno",
+      "typ_dokladu": "TZ",
+      "sektor": "software",
+      "url": "https://www.jetinvestment.cz/en/news/jet-investment-announces-usd-750-000-investment-in-us-ai-startup-hermetiqq",
+      "citace": "Jet Investment has completed its eight deal through the venture capital fund Jet Venture 1 SICAV. The group is investing USD 750,000 in Hermetiq, a US technology startup developing artificial intelligence for automating and repairing software builds, becoming the largest single investor in the round. As part of the USD 2.2 million investment round, Jet Investment is the round’s largest single investor.",
+      "hodnota_v_citaci": "investing USD 750,000 in Hermetiq",
+      "datum_zdroje": "2026-08-24",
+      "datum_v_textu": "24 August 2026"
+    },
+    {
+      "cilova_firma": "GigaScan Technologies AB",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-08-17",
+      "faze_kola": "neověřeno",
+      "castka_kola": null,
+      "castka_investora": {
+        "castka": 2100000,
+        "mena": "EUR"
+      },
+      "role": "neuvedeno",
+      "typ_dokladu": "TZ",
+      "sektor": "prumysl",
+      "url": "https://www.jetinvestment.cz/en/news/jet-investment-invests-eu2-1-million-in-swedish-deep-tech-company-gigascan",
+      "citace": "Jet Investment, through its Jet Venture 1 fund, is investing 2.1 million euros in the Swedish technology company GigaScan Technologies AB.",
+      "hodnota_v_citaci": "investing 2.1 million euros in the Swedish technology company GigaScan Technologies AB",
+      "datum_zdroje": "2026-08-17",
+      "datum_v_textu": "17 August 2026"
+    },
+    {
+      "cilova_firma": "DecisionRules",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-06-24",
+      "faze_kola": "neověřeno",
+      "castka_kola": null,
+      "castka_investora": {
+        "castka": 1500000,
+        "mena": "EUR"
+      },
+      "role": "neuvedeno",
+      "typ_dokladu": "TZ",
+      "sektor": "software",
+      "url": "https://www.jetinvestment.cz/en/news/jet-investment-decisionrules",
+      "citace": "Jet Investment Invests €1.5 Million in Czech Startup DecisionRules Author: Jet Investment 24.6.2026 Press releases Jet Investment Group has completed its seventh investment through its venture capital fund Jet Venture 1, backing Czech technology startup DecisionRules, the developer of a no-code/low-code platform for decision automation.",
+      "hodnota_v_citaci": "Jet Investment Invests €1.5 Million in Czech Startup DecisionRules",
+      "datum_zdroje": "2026-06-24",
+      "datum_v_textu": "24.6.2026"
+    }
+  ],
+  "poznamka": "ROZHODNUTÍ PRO ČLOVĚKA: Jet Investment, a.s. (Brno) je primárně PE (buyout, growth; profil CVCA z 2021 uvádí tikety 15–80 mil. EUR a typ investic buyout/growth/turnaround) a spravuje i realitní fondy. Od 2024 má ale samostatný VC program se značkou Jet Ventures, vlastním webem (ventures.jetinvestment.cz), týmem a fondem Jet Venture 1 SICAV (cílová velikost 50 mil. EUR, ročník 2024). Všech 5 nejnovějších doložených investic je z tohoto VC fondu, proto podle kap. 3 (samostatný investiční program) a kap. 5 krok 6 (rozhoduje portfolio) navrhuji VC. Pokud se rozhodne podle hlavní činnosti, stav = mimo_rozsah, duvod = PE. kapital_celkem (AUM 700+ mil. EUR) platí pro celý Jet Investment včetně PE a realit, ne pro VC fond; tiket je jen horní mez počáteční investice (průměrný tiket podle webu 1,5 mil. EUR, follow-on až 2,5 mil. EUR). Novější investice Jet do Náš Chléb (2026-09-11, PE, akvizice pekárny) není zahrnuta. Web jetinvestment.eu má odkazy na podstránky nefunkční (404), tiskové zprávy jsou proto citovány z jetinvestment.cz. U GigaScan a Hermetiq je datum investice i zdroje datum z hlavičky TZ (na webu zveřejněno 26.8.2026). Fáze kol v TZ neuvedeny. IČO cílových firem nevyplněno: AppNava a Hermetiq jsou z USA, Phantasma Labs z Německa, GigaScan ze Švédska; DecisionRules je a.s. (v ARES DecisionRules a.s., IČO 23453362), u a.s. rejstřík akcionáře neuvádí a TZ právní subjekt nejmenuje. Role „neuvedeno“ u kol, kde TZ uvádí jen „largest single investor“. U AppNava jsou velikost kola (2,3 mil. USD) a role lead z věty o dvě věty dál ve stejné TZ („The investment round, totaling $2.3 million, … alongside Jet Investment, which served as the lead investor.“), do citace se kvůli délce nevešly."
+}

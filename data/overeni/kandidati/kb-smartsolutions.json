@@ -1,0 +1,93 @@
+{
+  "kandidat": "KB SmartSolutions",
+  "znacka": "KB SmartSolutions",
+  "stav": "neaktivni",
+  "duvod": "V4",
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "KB SmartSolutions, s.r.o.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02021161",
+      "citace": "{\"ico\":\"02021161\",\"obchodniJmeno\":\"KB SmartSolutions, s.r.o.\"",
+      "hodnota_v_citaci": "\"obchodniJmeno\":\"KB SmartSolutions, s.r.o.\"",
+      "datum_zdroje": "2026-08-02",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-08-02\""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "02021161",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02021161",
+      "citace": "{\"ico\":\"02021161\",\"obchodniJmeno\":\"KB SmartSolutions, s.r.o.\"",
+      "hodnota_v_citaci": "\"ico\":\"02021161\"",
+      "datum_zdroje": "2026-08-02",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-08-02\""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02021161",
+      "citace": "\"obchodniJmeno\":\"KB SmartSolutions, s.r.o.\",\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "2026-08-02",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-08-02\""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://www.kbsmart.cz/",
+      "url": "https://www.kbsmart.cz/",
+      "citace": "Na webu kbsmart.cz a dalších webech provozovaných a podporovaných Komerční bankou.",
+      "hodnota_v_citaci": "kbsmart.cz",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://www.kbsmart.cz/nase-portfolio/",
+      "citace": "Jiná řešení start-upů a jejich struktura jsou pro nás strategickým rozhodnutím a jsou spojeny s majetkovým vstupem do těchto start-upů (označení „HVĚZDA“).",
+      "hodnota_v_citaci": "majetkovým vstupem do těchto start-upů",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "cvc",
+      "hodnota": "ano",
+      "url": "https://www.kbsmart.cz/",
+      "citace": "KB SmartSolutions je dcera Komerční banky. Spojujeme to nejlepší z fintechů a tradiční banky s cílem postavit finanční služby budoucnosti.",
+      "hodnota_v_citaci": "KB SmartSolutions je dcera Komerční banky",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "fintech",
+      "url": "https://www.kbsmart.cz/",
+      "citace": "Hledáme start-upy, které: Přinášejí finanční služby.",
+      "hodnota_v_citaci": "Přinášejí finanční služby",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    }
+  ],
+  "investice": [],
+  "poznamka": "Korporátní investiční program Komerční banky (samostatná společnost, tým a web) – VC s příznakem cvc. Jediná nalezená investice v okně Z2: odkup zbývajících 4 % v upvest s.r.o. (IČO 05835526) a dosažení 100% podílu; ARES VR uvádí KB SmartSolutions jako společníka s podílem 100 % od 2025-08-04, tisková zpráva advokátní kanceláře Bird & Bird (2025-08-26) transakci potvrzuje. Jde o sekundární odkup podílů zakladatelů po vestingu, ne o nové kolo – ať člověk posoudí, zda to stačí pro Z2. Upozornění pro typ: KB SmartSolutions drží v portfoliu převážně většinové podíly (Upvest 100 %, Finbricks vznikl jako interní startup banky, ENVIROS je akvizice), menšinový podíl 24,83 % v Platební instituci Roger prodává (oznámení KB 2025-01-28); činnost se tak blíží strategickým akvizicím korporace (kap. 3), rozhodne člověk. Investice Finbricks z 2025 je jen v agregátoru (Caplight), primární zdroj nenalezen, nezapsáno. Fáze a tiket web neuvádí v převoditelné podobě (hledá start-upy „s prvními spokojenými klienty“), kapitál neuveden. Web kbsmart.cz nemá datum; poslední položka v sekci Napsali o nás je z 2024-05-08. [Oprava 2026-10-12: jediný doklad Z2 (Upvest) vyřazen jako strategická akvizice; jiná investice v okně není doložena, proto neaktivní (V4). Typ VC/CVC (A023) zůstává k rozhodnutí.]",
+  "vyrazene_investice": [
+    {
+      "cilova_firma": "Upvest",
+      "ico_cilove_firmy": "05835526",
+      "datum_investice": "2025-08-21",
+      "faze_kola": "buyout",
+      "castka_kola": null,
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "media",
+      "sektor": "fintech",
+      "url": "https://cc.cz/pred-lety-komercni-banku-zaujal-ztratovy-startup-dostala-jej-do-zisku-a-ted-ho-cely-ovladla/",
+      "citace": "Komerční banka přes svou dceřinou společnost KB SmartSolutions v Upvestu držela podíl na úrovni 96 procent, teď oznámila finální odkup i zbývajících čtyř procent.",
+      "hodnota_v_citaci": "v Upvestu",
+      "datum_zdroje": "2025-08-21",
+      "datum_v_textu": "datePublished: 2025-08-21T07:25:44+02:00",
+      "duvod_vyrazeni": "B097: citace sama uvádí odkup zbývajících 4 % po držení 96 %; jde o dokončení strategické akvizice korporace, ne o VC investici (PLAN.md, kap. 3)."
+    }
+  ]
+}

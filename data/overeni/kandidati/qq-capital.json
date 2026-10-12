@@ -1,0 +1,74 @@
+{
+  "kandidat": "QQ Capital",
+  "znacka": "QQ Capital",
+  "stav": "mimo_rozsah",
+  "duvod": "FO",
+  "typ": "FO",
+  "fakta": [
+    {
+      "pole": "typ",
+      "hodnota": "FO",
+      "url": "https://www.qq.capital/",
+      "hodnota_v_citaci": "venture family office",
+      "datum_zdroje": "2026-06-10",
+      "datum_v_textu": "og:article:published_time: 2026-06-10 00:00:00",
+      "citace": "QQ Capital is a venture family office in Prague, Czech Republic, investing in early stage technological companies."
+    },
+    {
+      "pole": "vlastni_kapital",
+      "hodnota": "ano",
+      "url": "https://www.qq.capital/",
+      "hodnota_v_citaci": "we invest private resources, so we have no LPs to report to",
+      "datum_zdroje": "2026-06-10",
+      "datum_v_textu": "og:article:published_time: 2026-06-10 00:00:00",
+      "citace": "As a family office, we invest private resources, so we have no LPs to report to."
+    },
+    {
+      "pole": "nazev",
+      "hodnota": "QQ Capital SE",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08676135",
+      "citace": "\"ico\":\"08676135\",\"obchodniJmeno\":\"QQ Capital SE\"",
+      "hodnota_v_citaci": "\"obchodniJmeno\":\"QQ Capital SE\"",
+      "datum_zdroje": "2026-02-01",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-02-01\""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "08676135",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08676135",
+      "citace": "\"ico\":\"08676135\",\"obchodniJmeno\":\"QQ Capital SE\"",
+      "hodnota_v_citaci": "\"ico\":\"08676135\"",
+      "datum_zdroje": "2026-02-01",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-02-01\""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08676135",
+      "citace": "\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "2026-02-01",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-02-01\""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://www.qq.capital/",
+      "url": "https://www.qq.capital/",
+      "hodnota_v_citaci": "info@qq.capital",
+      "datum_zdroje": "2026-06-10",
+      "datum_v_textu": "og:article:published_time: 2026-06-10 00:00:00",
+      "citace": "QQ Capital SE Hvězdova 1716/2b, Nusle, Praha 4, 140 00 Praha info@qq.capital"
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "software",
+      "url": "https://www.qq.capital/",
+      "hodnota_v_citaci": "companies with software products",
+      "datum_zdroje": "2026-06-10",
+      "datum_v_textu": "og:article:published_time: 2026-06-10 00:00:00",
+      "citace": "We primarily invest in companies with software products across a wide range of industries, from early-stage to growth-stage."
+    }
+  ],
+  "investice": [],
+  "poznamka": "Sám se označuje jako „venture family office“ a investuje soukromé prostředky bez LP; podle stromu v PLAN.md kap. 5 (krok 6.1) typ FO, proto mimo rozsah vzorku VC. Pokyny pro mimo_rozsah uvádějí jen důvody PE a bez_tymu_v_CR, důvod „FO“ je proto nový a ke schválení člověkem. Hraniční případ: subjekt má vlastní značku a veřejnou investiční strategii, podle kap. 3 (investiční holdingy podnikatelů) by mohl být i VC s vlastni_kapital = ano. Pak by bylo nutné doložit investice od 2024-10-11; portfolio na webu (Staffino, Boataround, Dedoles, Eseye, Groundcom, Wiselli, Navigara, Kegg) roky investic neuvádí a investice jsem nehledal. Datum zdroje u webu je z metadat og:article:published_time."
+}

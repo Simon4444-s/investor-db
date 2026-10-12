@@ -1,0 +1,26 @@
+{
+  "kandidat": "Taiwania Capital",
+  "znacka": "Taiwania Capital",
+  "stav": "mimo_rozsah",
+  "duvod": "bez_tymu_v_CR",
+  "typ": "VC",
+  "fakta": [
+    {"pole": "typ", "hodnota": "VC",
+     "url": "https://czechstartups.gov.cz/?investori=taiwania-capital",
+     "citace": "Taiwania Capital je přední tchajwanská společnost rizikového kapitálu, kterou podporuje tchajwanský veřejný i soukromý sektor.",
+     "hodnota_v_citaci": "společnost rizikového kapitálu",
+     "datum_zdroje": "2024-02-28", "datum_v_textu": "dateModified: 2024-02-28T07:30:54+00:00"},
+    {"pole": "zeme_sidla", "hodnota": "TW",
+     "url": "https://czechstartups.gov.cz/?investori=taiwania-capital",
+     "citace": "Taiwania Capital je přední tchajwanská společnost rizikového kapitálu, kterou podporuje tchajwanský veřejný i soukromý sektor.",
+     "hodnota_v_citaci": "tchajwanská společnost rizikového kapitálu",
+     "datum_zdroje": "2024-02-28", "datum_v_textu": "dateModified: 2024-02-28T07:30:54+00:00"},
+    {"pole": "kapital_celkem", "hodnota": "865000000 USD; druh=AUM",
+     "url": "https://czechstartups.gov.cz/?investori=taiwania-capital",
+     "citace": "V současné době spravuje celkem šest fondů s celkovým objemem aktiv ve výši 865 milionů USD.",
+     "hodnota_v_citaci": "celkovým objemem aktiv ve výši 865 milionů USD",
+     "datum_zdroje": "2024-02-28", "datum_v_textu": "dateModified: 2024-02-28T07:30:54+00:00"}
+  ],
+  "investice": [],
+  "poznamka": "Tchajwanský VC (správce v Tchaj-wanu), do ČR investuje přes svůj fond CEE. Stálý investiční tým ani pobočku v ČR se nepodařilo doložit: vyhledání „Taiwania“ v ARES (2026-10-11) nevrátilo žádný subjekt; fakt tym_v_CR proto nezapsán (negativní zjištění nelze doložit citací). Web en.taiwaniacapital.com vrací HTTP 403 (Cloudflare), proto jsou fakta jen z profilu na CzechStartups.gov.cz (2024). Důvod bez_tymu_v_CR tedy není doložen citací, jen absencí subjektu v ARES. Investice se nehledaly. Pokud by se doložil stálý tým v ČR, je nutné záznam přehodnotit."
+}

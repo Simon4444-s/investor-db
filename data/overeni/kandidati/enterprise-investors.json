@@ -1,0 +1,47 @@
+{
+  "kandidat": "Enterprise Investors",
+  "znacka": "Enterprise Investors",
+  "stav": "mimo_rozsah",
+  "duvod": "PE",
+  "typ": "PE",
+  "fakta": [
+    {
+      "pole": "typ",
+      "hodnota": "PE",
+      "url": "https://cvca.cz/enterprise-investors/",
+      "hodnota_v_citaci": "buyout (MBO & MBI)",
+      "datum_zdroje": "2025-10-02",
+      "datum_v_textu": "dateModified: 2025-10-02T11:37:13+00:00",
+      "citace": "buyout (MBO & MBI), expansion capital"
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "PL",
+      "url": "https://cvca.cz/enterprise-investors/",
+      "hodnota_v_citaci": "Warsaw Poland",
+      "datum_zdroje": "2025-10-02",
+      "datum_v_textu": "dateModified: 2025-10-02T11:37:13+00:00",
+      "citace": "Enterprise Investors Adresa Varso Tower, 34th floor 69 Chmielna St., 00-801 Warsaw Poland"
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "20000000-50000000 EUR",
+      "url": "https://cvca.cz/enterprise-investors/",
+      "hodnota_v_citaci": "EUR 20-50 mio",
+      "datum_zdroje": "2025-10-02",
+      "datum_v_textu": "dateModified: 2025-10-02T11:37:13+00:00",
+      "citace": "Preferovaná výše jedné investice EUR 20-50 mio"
+    },
+    {
+      "pole": "kapital_celkem",
+      "hodnota": "2500000000 EUR; druh=AUM",
+      "url": "https://cvca.cz/enterprise-investors/",
+      "hodnota_v_citaci": "přes 2.5 miliard EUR",
+      "datum_zdroje": "2025-10-02",
+      "datum_v_textu": "dateModified: 2025-10-02T11:37:13+00:00",
+      "citace": "Objem prostředků ve správě přes 2.5 miliard EUR"
+    }
+  ],
+  "investice": [],
+  "poznamka": "Polský private equity fond (buyout a expanzní kapitál, tiket 20–50 mil. EUR), sídlo ve Varšavě; profil CVCA neuvádí kancelář v ČR. Mimo rozsah vzorku jako PE. Odkaz https://www.ei.com.pl/cz vrací HTTP 404, údaje jsou z profilu člena CVCA (stránka změněna 2025-10-02). Kapitál je uveden jako „přes 2.5 miliard EUR“ (dolní mez). IČO/zahraniční registrační číslo neověřováno (pro mimo_rozsah nepožadováno)."
+}

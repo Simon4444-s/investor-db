@@ -1,0 +1,101 @@
+{
+  "kandidat": "AgriBoom Ventures",
+  "znacka": "AgriBoom Ventures",
+  "stav": "neaktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "AGRO CS a.s.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/64829413",
+      "citace": "{\"ico\":\"64829413\",\"obchodniJmeno\":\"AGRO CS a.s.\"",
+      "hodnota_v_citaci": "AGRO CS a.s.",
+      "datum_zdroje": "2026-09-09",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-09-09\""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "64829413",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/64829413",
+      "citace": "{\"ico\":\"64829413\",\"obchodniJmeno\":\"AGRO CS a.s.\"",
+      "hodnota_v_citaci": "64829413",
+      "datum_zdroje": "2026-09-09",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-09-09\""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://agriboom.com/",
+      "citace": "Blog Říkov 265, Česko",
+      "hodnota_v_citaci": "Česko",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://agriboom.com/",
+      "url": "https://agriboom.com/",
+      "citace": "Jsme AgriBoom Ventures. Investujeme do inovací v zemědělství.",
+      "hodnota_v_citaci": "AgriBoom Ventures",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://agriboom.com/",
+      "citace": "Do čeho investujeme? Naše VC / startupová strategie",
+      "hodnota_v_citaci": "VC / startupová strategie",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "cvc",
+      "hodnota": "ano",
+      "url": "https://agriboom.com/",
+      "citace": "AgriBoom Ventures bylo založeno společností AGRO CS, největším dodavatelem půdních substrátů a hnojiv B2C ve střední Evropě.",
+      "hodnota_v_citaci": "založeno společností AGRO CS",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "agri;zdravi;prumysl;ostatni",
+      "url": "https://agriboom.com/",
+      "citace": "Primárně se zaměřujeme na zemědělství, sekundárně na zahradnictví, agrobiotechnologie, agrochemii, biotechnologie, odpadové hospodářství, strojírenství a elektrotechniku (včetně zemědělských strojů a výroby).",
+      "hodnota_v_citaci": "zemědělství, sekundárně na zahradnictví, agrobiotechnologie, agrochemii, biotechnologie, odpadové hospodářství, strojírenství a elektrotechniku",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "faze",
+      "hodnota": "pre-seed;seed;A",
+      "url": "https://agriboom.com/",
+      "citace": "Fáze: Od počátečního nápadu přes pre-seed a seed až po Series A a dál",
+      "hodnota_v_citaci": "pre-seed a seed až po Series A",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "10000-4000000 EUR",
+      "url": "https://agriboom.com/",
+      "citace": "Výše investice: Od 10 tisíc eur do 4 milionů eur s určitou flexibilitou",
+      "hodnota_v_citaci": "Od 10 tisíc eur do 4 milionů eur",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "kapital_celkem",
+      "hodnota": "60000000 EUR; druh=velikost fondu",
+      "url": "https://agriboom.com/",
+      "citace": "Velikost fondu: 60 000 000 € (všechny prostředky získány 01/2025)",
+      "hodnota_v_citaci": "Velikost fondu: 60 000 000 €",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    }
+  ],
+  "investice": [],
+  "poznamka": "Stav neaktivni (V4): doloženou investici od 2024-10-11 jsem nenašel. Hledal jsem na webu agriboom.com (bez portfolia, blog jen obecné články z 02–03/2025), ve Forbes (2024-12-02 založení fondu; komentář 2025-05-20: fondu „nedaří se mu najít projekty, do kterých by chtěl investovat“, po analýze 200+ příležitostí), CzechCrunch (2024-12-02; jediná zmíněná investice Agro CS do Plantee Innovations proběhla „před lety“, před vznikem fondu) a webovým vyhledáváním (agregátory bez konkrétních dealů). Značka AgriBoom Ventures nemá v ARES vlastní subjekt; web uvádí jako generálního partnera společnost AGRO CS a kontaktní adresu Říkov 265, což odpovídá sídlu AGRO CS a.s. (IČO 64829413) – nazev/ico proto patří AGRO CS a.s. (vazba fond–GP doložena jen webem). Fond je financován z vlastních prostředků korporace (příznak cvc). Web vedle VC strategie uvádí i PE strategii (kontrolní menšinové podíly 3–20 mil. EUR ve firmách s obratem 10–150 mil. EUR) a u týmu „změnu zaměření fondu na soukromý kapitál a interní inovace“ – typ VC podle deklarované VC strategie a profilu CzechInvest, ale může se posunout k PE; posoudí člověk. Sektory: biotechnologie → zdravi, strojírenství a elektrotechnika → prumysl, odpadové hospodářství → ostatni. Fáze: web uvádí „až po Series A a dál“, zapsáno jen pre-seed;seed;A."
+}

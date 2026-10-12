@@ -1,0 +1,574 @@
+[
+ {
+  "davka": 1,
+  "kandidati": [
+   {
+    "nazev": "3TS Capital Partners",
+    "soubor": "data/overeni/kandidati/3ts-capital-partners.json",
+    "web": "https://3tscapital.com/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=3ts-capital-partners"
+   },
+   {
+    "nazev": "Czech Private Equity and Venture Capital Association",
+    "soubor": "data/overeni/kandidati/czech-private-equity-and-venture-capital-association.json",
+    "web": "https://www.cvca.cz/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=czech-private-equity-and-venture-capital-association"
+   },
+   {
+    "nazev": "Flying Founders",
+    "soubor": "data/overeni/kandidati/flying-founders.json",
+    "web": "https://www.flyingfounders.com/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=flying-founders"
+   },
+   {
+    "nazev": "Index Ventures",
+    "soubor": "data/overeni/kandidati/index-ventures.json",
+    "web": "neověřeno",
+    "zdroj": "K4",
+    "url_zdroje": "https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf"
+   },
+   {
+    "nazev": "KB SmartSolutions",
+    "soubor": "data/overeni/kandidati/kb-smartsolutions.json",
+    "web": "https://www.kbsmart.cz/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=kb-smartsolutions"
+   },
+   {
+    "nazev": "Miton",
+    "soubor": "data/overeni/kandidati/miton.json",
+    "web": "http://www.miton.cz/",
+    "zdroj": "K1; K4",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=miton ; https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf"
+   },
+   {
+    "nazev": "Penězdroj",
+    "soubor": "data/overeni/kandidati/penezdroj.json",
+    "web": "https://penezdroj.cz/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=penezdroj"
+   },
+   {
+    "nazev": "Sandberg Capital",
+    "soubor": "data/overeni/kandidati/sandberg-capital.json",
+    "web": "http://www.sandbergcapital.com/",
+    "zdroj": "K2",
+    "url_zdroje": "https://cvca.cz/sandberg-capital-2/"
+   },
+   {
+    "nazev": "Startupstart.cz",
+    "soubor": "data/overeni/kandidati/startupstart-cz.json",
+    "web": "https://startupstart.cz/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=startupstart-cz"
+   },
+   {
+    "nazev": "UP271",
+    "soubor": "data/overeni/kandidati/up271.json",
+    "web": "https://up271.com/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=up-21"
+   }
+  ]
+ },
+ {
+  "davka": 2,
+  "kandidati": [
+   {
+    "nazev": "Abris Capital",
+    "soubor": "data/overeni/kandidati/abris-capital.json",
+    "web": "https://www.abris-capital.com/",
+    "zdroj": "K2",
+    "url_zdroje": "https://cvca.cz/abris-capital/"
+   },
+   {
+    "nazev": "DEPO Ventures",
+    "soubor": "data/overeni/kandidati/depo-ventures.json",
+    "web": "https://www.depoventures.cz/",
+    "zdroj": "K1; K4; K2",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=depo-ventures ; https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf ; https://cvca.cz/depo-ventures/"
+   },
+   {
+    "nazev": "Fundlift",
+    "soubor": "data/overeni/kandidati/fundlift.json",
+    "web": "https://www.fundlift.cz/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=fundlift"
+   },
+   {
+    "nazev": "Innova Capital",
+    "soubor": "data/overeni/kandidati/innova-capital.json",
+    "web": "https://www.innovacap.com/",
+    "zdroj": "K2",
+    "url_zdroje": "https://cvca.cz/innova-capital/"
+   },
+   {
+    "nazev": "Lighthouse Ventures",
+    "soubor": "data/overeni/kandidati/lighthouse-ventures.json",
+    "web": "https://lhv.vc/",
+    "zdroj": "K1; K4",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=lighthouse-venture ; https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf"
+   },
+   {
+    "nazev": "N1",
+    "soubor": "data/overeni/kandidati/n1.json",
+    "web": "https://www.n1.rocks/",
+    "zdroj": "K1; K4",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=nation-1 ; https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf"
+   },
+   {
+    "nazev": "Presto Ventures",
+    "soubor": "data/overeni/kandidati/presto-ventures.json",
+    "web": "https://www.prestoventures.com/",
+    "zdroj": "K1; K4",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=bohemia-venture-capital ; https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf"
+   },
+   {
+    "nazev": "Seed Starter ČS",
+    "soubor": "data/overeni/kandidati/seed-starter-cs.json",
+    "web": "https://www.seedstarter.cz/en/home",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=seed-starter"
+   },
+   {
+    "nazev": "Stratum Partners",
+    "soubor": "data/overeni/kandidati/stratum-partners.json",
+    "web": "https://www.stratum.eu/",
+    "zdroj": "K2",
+    "url_zdroje": "https://cvca.cz/stratum-partners/"
+   },
+   {
+    "nazev": "V4C Investment Advisers Limited",
+    "soubor": "data/overeni/kandidati/v4c-investment-advisers-limited.json",
+    "web": "https://www.value4capital.com/",
+    "zdroj": "K2",
+    "url_zdroje": "https://cvca.cz/v4c-investment-advisers-limited/"
+   },
+   {
+    "nazev": "Nation1",
+    "soubor": "data/overeni/kandidati/nation1.json",
+    "web": "https://www.nation1.vc/",
+    "zdroj": "K2",
+    "url_zdroje": "https://cvca.cz/nation1/"
+   }
+  ]
+ },
+ {
+  "davka": 3,
+  "kandidati": [
+   {
+    "nazev": "AgriBoom Ventures",
+    "soubor": "data/overeni/kandidati/agriboom-ventures.json",
+    "web": "https://agriboom.com/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=agriboom-ventures"
+   },
+   {
+    "nazev": "EBAN",
+    "soubor": "data/overeni/kandidati/eban.json",
+    "web": "http://www.eban.org/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=eban"
+   },
+   {
+    "nazev": "Garage Angels",
+    "soubor": "data/overeni/kandidati/garage-angels.json",
+    "web": "neověřeno",
+    "zdroj": "K1; K4",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=garage-angels ; https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf"
+   },
+   {
+    "nazev": "Integral Capital Group",
+    "soubor": "data/overeni/kandidati/integral-capital-group.json",
+    "web": "https://integralcapgroup.com/",
+    "zdroj": "K2",
+    "url_zdroje": "https://cvca.cz/integral-capital-group/"
+   },
+   {
+    "nazev": "Limerock Ventures",
+    "soubor": "data/overeni/kandidati/limerock-ventures.json",
+    "web": "http://www.limerock.sk/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=limerock-ventures"
+   },
+   {
+    "nazev": "Purple Ventures",
+    "soubor": "data/overeni/kandidati/purple-ventures.json",
+    "web": "https://www.purple-ventures.com/",
+    "zdroj": "K1; K4",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=purple-ventures ; https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf"
+   },
+   {
+    "nazev": "SkyLimit Investments",
+    "soubor": "data/overeni/kandidati/skylimit-investments.json",
+    "web": "https://www.skylimit.cz/",
+    "zdroj": "K2",
+    "url_zdroje": "https://cvca.cz/skylimit-investments/"
+   },
+   {
+    "nazev": "Tachles VC",
+    "soubor": "data/overeni/kandidati/tachles-vc.json",
+    "web": "http://www.tachlesvc.com/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=tachles-vc"
+   },
+   {
+    "nazev": "Versute Investments",
+    "soubor": "data/overeni/kandidati/versute-investments.json",
+    "web": "https://www.versute.cz/",
+    "zdroj": "K2",
+    "url_zdroje": "https://cvca.cz/versute-investments/"
+   }
+  ]
+ },
+ {
+  "davka": 4,
+  "kandidati": [
+   {
+    "nazev": "ARX Equity Partners",
+    "soubor": "data/overeni/kandidati/arx-equity-partners.json",
+    "web": "https://www.arxequity.com/",
+    "zdroj": "K2; K3",
+    "url_zdroje": "https://cvca.cz/arx-equity-partners/ ; https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf"
+   },
+   {
+    "nazev": "Enern",
+    "soubor": "data/overeni/kandidati/enern.json",
+    "web": "https://enern.eu/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=enern"
+   },
+   {
+    "nazev": "Genesis Capital",
+    "soubor": "data/overeni/kandidati/genesis-capital.json",
+    "web": "http://genesis.cz/",
+    "zdroj": "K1; K2; K3",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=genesis-capital ; https://cvca.cz/genesis-capital-equity-s-r-o/ ; https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf"
+   },
+   {
+    "nazev": "INVEN Capital",
+    "soubor": "data/overeni/kandidati/inven-capital.json",
+    "web": "https://www.invencapital.cz/",
+    "zdroj": "K1; K2",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=inven-capital ; https://cvca.cz/inven-capital/"
+   },
+   {
+    "nazev": "Look AI Ventures (LAIV)",
+    "soubor": "data/overeni/kandidati/look-ai-ventures-laiv.json",
+    "web": "https://lookai.vc/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=look-ai-ventures-laiv"
+   },
+   {
+    "nazev": "NEWTON University Angels",
+    "soubor": "data/overeni/kandidati/newton-university-angels.json",
+    "web": "http://www.nuaf.cz/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=newton-university-angel-fund-s-r-o"
+   },
+   {
+    "nazev": "PurposeTech",
+    "soubor": "data/overeni/kandidati/purposetech.json",
+    "web": "https://www.purposetech.vc/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=purposetech"
+   },
+   {
+    "nazev": "Soulmates Ventures",
+    "soubor": "data/overeni/kandidati/soulmates-ventures.json",
+    "web": "https://www.soulmatesventures.com/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=soulmates-ventures"
+   },
+   {
+    "nazev": "Taiwania Capital",
+    "soubor": "data/overeni/kandidati/taiwania-capital.json",
+    "web": "https://en.taiwaniacapital.com/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=taiwania-capital"
+   },
+   {
+    "nazev": "Y Soft Ventures",
+    "soubor": "data/overeni/kandidati/y-soft-ventures.json",
+    "web": "https://www.ysoft.com/en",
+    "zdroj": "K1; K4",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=y-soft-ventures ; https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf"
+   }
+  ]
+ },
+ {
+  "davka": 5,
+  "kandidati": [
+   {
+    "nazev": "Credo Ventures",
+    "soubor": "data/overeni/kandidati/credo-ventures.json",
+    "web": "https://www.credoventures.com/",
+    "zdroj": "K1; K4; K2",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=credo-ventures ; https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf ; https://cvca.cz/credo-ventures/"
+   },
+   {
+    "nazev": "Enterprise Investors",
+    "soubor": "data/overeni/kandidati/enterprise-investors.json",
+    "web": "https://www.ei.com.pl/cz",
+    "zdroj": "K2",
+    "url_zdroje": "https://cvca.cz/enterprise-investors/"
+   },
+   {
+    "nazev": "Heartcore Capital",
+    "soubor": "data/overeni/kandidati/heartcore-capital.json",
+    "web": "https://www.heartcore.com/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=heartcore-capital"
+   },
+   {
+    "nazev": "J&T Ventures",
+    "soubor": "data/overeni/kandidati/j-t-ventures.json",
+    "web": "https://www.jtventures.cz/",
+    "zdroj": "K1; K4",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=jt-ventures ; https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf"
+   },
+   {
+    "nazev": "Lumus Investment",
+    "soubor": "data/overeni/kandidati/lumus-investment.json",
+    "web": "https://www.lumusinvestment.com/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=lumus-investment"
+   },
+   {
+    "nazev": "Novira Capital",
+    "soubor": "data/overeni/kandidati/novira-capital.json",
+    "web": "neověřeno",
+    "zdroj": "K4",
+    "url_zdroje": "https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf"
+   },
+   {
+    "nazev": "QQ Capital",
+    "soubor": "data/overeni/kandidati/qq-capital.json",
+    "web": "https://www.qq.capital/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=qq-capital"
+   },
+   {
+    "nazev": "Springtide Ventures",
+    "soubor": "data/overeni/kandidati/springtide-ventures.json",
+    "web": "http://www.springtide.cz/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=springtide-ventures"
+   },
+   {
+    "nazev": "Tensor Ventures",
+    "soubor": "data/overeni/kandidati/tensor-ventures.json",
+    "web": "https://tensor.ventures/",
+    "zdroj": "K1; K4; K2; K3",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=tensor-ventures ; https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf ; https://cvca.cz/tensor-ventures-2/ ; https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf"
+   }
+  ]
+ },
+ {
+  "davka": 6,
+  "kandidati": [
+   {
+    "nazev": "CVI",
+    "soubor": "data/overeni/kandidati/cvi.json",
+    "web": "http://www.cvi.eu/",
+    "zdroj": "K2",
+    "url_zdroje": "https://cvca.cz/cvi/"
+   },
+   {
+    "nazev": "Espira Investments s.r.o.",
+    "soubor": "data/overeni/kandidati/espira-investments-s-r-o.json",
+    "web": "https://www.espirainvestments.com/",
+    "zdroj": "K2",
+    "url_zdroje": "https://cvca.cz/espira-investments/"
+   },
+   {
+    "nazev": "Hithit",
+    "soubor": "data/overeni/kandidati/hithit.json",
+    "web": "https://www.hithit.com/cs/home",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=hithit"
+   },
+   {
+    "nazev": "Jet Investment",
+    "soubor": "data/overeni/kandidati/jet-investment.json",
+    "web": "https://www.jetinvestment.eu/",
+    "zdroj": "K2",
+    "url_zdroje": "https://cvca.cz/jet-investment/"
+   },
+   {
+    "nazev": "mAccelerator.vc",
+    "soubor": "data/overeni/kandidati/maccelerator-vc.json",
+    "web": "https://maccelerator.vc/portfolio/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=maccelerator-vc"
+   },
+   {
+    "nazev": "Opifer Investments",
+    "soubor": "data/overeni/kandidati/opifer-investments.json",
+    "web": "https://www.opifer.ventures/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=opifer-investments"
+   },
+   {
+    "nazev": "Reflex Capital",
+    "soubor": "data/overeni/kandidati/reflex-capital.json",
+    "web": "https://www.reflexcapital.com/",
+    "zdroj": "K1; K4",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=reflex-capital ; https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf"
+   },
+   {
+    "nazev": "Starcube",
+    "soubor": "data/overeni/kandidati/starcube.json",
+    "web": "neověřeno",
+    "zdroj": "K4",
+    "url_zdroje": "https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf"
+   },
+   {
+    "nazev": "The Seeders",
+    "soubor": "data/overeni/kandidati/the-seeders.json",
+    "web": "https://www.theseeders.cz/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=the-seeders"
+   }
+  ]
+ },
+ {
+  "davka": 7,
+  "kandidati": [
+   {
+    "nazev": "Czech Business Angel Association (CBAA)",
+    "soubor": "data/overeni/kandidati/czech-business-angel-association-cbaa.json",
+    "web": "https://www.cbaa.cz/index.html",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=czech-business-angel-association-cbaa"
+   },
+   {
+    "nazev": "EVERITA Capital",
+    "soubor": "data/overeni/kandidati/everita-capital.json",
+    "web": "https://everitacap.com/",
+    "zdroj": "K2; K3",
+    "url_zdroje": "https://cvca.cz/everita-capital/ ; https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf"
+   },
+   {
+    "nazev": "i&i Biotech Investments",
+    "soubor": "data/overeni/kandidati/i-i-biotech-investments.json",
+    "web": "https://www.inibio.eu/",
+    "zdroj": "K2",
+    "url_zdroje": "https://cvca.cz/biotech-investments-2/"
+   },
+   {
+    "nazev": "JIC Ventures",
+    "soubor": "data/overeni/kandidati/jic-ventures.json",
+    "web": "neověřeno",
+    "zdroj": "K4",
+    "url_zdroje": "https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf"
+   },
+   {
+    "nazev": "MAM Private Equity Fund SICAV a.s.",
+    "soubor": "data/overeni/kandidati/mam-private-equity-fund-sicav-a-s.json",
+    "web": "http://www.mam-equity.cz/",
+    "zdroj": "K2",
+    "url_zdroje": "https://cvca.cz/mam-private-equity-fund-sicav-a-s-2/"
+   },
+   {
+    "nazev": "Orbit Capital",
+    "soubor": "data/overeni/kandidati/orbit-capital.json",
+    "web": "https://www.orbitcapital.com/",
+    "zdroj": "K2; K3",
+    "url_zdroje": "https://cvca.cz/orbit-capital/ ; https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf"
+   },
+   {
+    "nazev": "Rockaway Capital",
+    "soubor": "data/overeni/kandidati/rockaway-capital.json",
+    "web": "https://www.rockawaycapital.com/",
+    "zdroj": "K1; K4",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=rockaway-capital ; https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf"
+   },
+   {
+    "nazev": "Startovač",
+    "soubor": "data/overeni/kandidati/startovac.json",
+    "web": "https://www.startovac.cz/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=startovac"
+   },
+   {
+    "nazev": "Thein",
+    "soubor": "data/overeni/kandidati/thein.json",
+    "web": "https://www.thein.eu/",
+    "zdroj": "K2",
+    "url_zdroje": "https://cvca.cz/thein/"
+   }
+  ]
+ },
+ {
+  "davka": 8,
+  "kandidati": [
+   {
+    "nazev": "Czech Founders VC",
+    "soubor": "data/overeni/kandidati/czech-founders-vc.json",
+    "web": "https://czechfounders.vc/",
+    "zdroj": "K1; K4",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=czech-founders-vc ; https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf"
+   },
+   {
+    "nazev": "Fazole Ventures",
+    "soubor": "data/overeni/kandidati/fazole-ventures.json",
+    "web": "http://www.fazole.vc/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=fazole-ventures"
+   },
+   {
+    "nazev": "Impulse Ventures",
+    "soubor": "data/overeni/kandidati/impulse-ventures.json",
+    "web": "https://impulseventures.com/",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=impulse-ventures"
+   },
+   {
+    "nazev": "Kaya VC",
+    "soubor": "data/overeni/kandidati/kaya-vc.json",
+    "web": "https://www.kaya.vc/",
+    "zdroj": "K1; K4; K2; K3",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=kaya-vc ; https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf ; https://cvca.cz/kaya-vc/ ; https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf"
+   },
+   {
+    "nazev": "Mid Europa Partners",
+    "soubor": "data/overeni/kandidati/mid-europa-partners.json",
+    "web": "https://www.mideuropa.com/",
+    "zdroj": "K2",
+    "url_zdroje": "https://cvca.cz/mid-europa-partners/"
+   },
+   {
+    "nazev": "Palefire capital",
+    "soubor": "data/overeni/kandidati/palefire-capital.json",
+    "web": "http://palefirecapital.com/",
+    "zdroj": "K1; K4",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=palefire-capital ; https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf"
+   },
+   {
+    "nazev": "RSJ Investments",
+    "soubor": "data/overeni/kandidati/rsj-investments.json",
+    "web": "https://www.rsj.com/cz/investments/o-nas.html",
+    "zdroj": "K1",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=rsj-investments"
+   },
+   {
+    "nazev": "Startup Yard",
+    "soubor": "data/overeni/kandidati/startup-yard.json",
+    "web": "https://startupyard.com/",
+    "zdroj": "K1; K4",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=startup-yard ; https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf"
+   },
+   {
+    "nazev": "Tilia Impact Ventures",
+    "soubor": "data/overeni/kandidati/tilia-impact-ventures.json",
+    "web": "https://tiliaimpactventures.cz/ ; https://tiliaimpactventures.cz/en/",
+    "zdroj": "K1; K4; K2; K3",
+    "url_zdroje": "https://czechstartups.gov.cz/?investori=tilia-impact-ventures ; https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf ; https://cvca.cz/tilia-impact-ventures/ ; https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf"
+   }
+  ]
+ }
+]

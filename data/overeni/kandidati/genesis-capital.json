@@ -1,0 +1,26 @@
+{
+  "kandidat": "Genesis Capital",
+  "znacka": "Genesis Capital",
+  "stav": "mimo_rozsah",
+  "duvod": "PE",
+  "typ": "PE",
+  "fakta": [
+    {"pole": "typ", "hodnota": "PE",
+     "url": "https://genesis.cz/en/growth-equity",
+     "citace": "We are a team of experienced industry professionals managing a lower mid-market private equity fund, which provides capital to small and medium size high-growth companies primarily in the Czech Republic and Slovakia.",
+     "hodnota_v_citaci": "lower mid-market private equity fund",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""},
+    {"pole": "duvod", "hodnota": "PE",
+     "url": "https://genesis.cz/en/growth-equity",
+     "citace": "Deal types Growth equity investments, buyouts, or recapitalizations GGEF I investment € 1 million - € 6 million Target enterprise value Up to € 12 million",
+     "hodnota_v_citaci": "Growth equity investments, buyouts, or recapitalizations",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""},
+    {"pole": "zeme_sidla", "hodnota": "CZ",
+     "url": "https://genesis.cz/en/private-equity",
+     "citace": "Address Genesis Capital Na Šafránce 22 101 00 Prague 10 Czech Republic",
+     "hodnota_v_citaci": "Czech Republic",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""}
+  ],
+  "investice": [],
+  "poznamka": "Private equity: fond GPEF V (velikost 275 mil. EUR) kupuje většinové i významné menšinové podíly ve zralých firmách; i menší fond Genesis Growth Equity Fund I cílí na zavedené firmy generující cash flow (tržby 3–15 mil. EUR, EBITDA 0,5–2 mil. EUR) a dělá i buyouty. Proto mimo rozsah vzorku VC (duvod PE). Investice se nehledaly. Datum stránek genesis.cz se nepodařilo doložit."
+}

@@ -1,0 +1,31 @@
+{
+  "kandidat": "Integral Capital Group",
+  "znacka": "Integral Capital Group",
+  "stav": "mimo_rozsah",
+  "duvod": "PE",
+  "typ": "PE",
+  "fakta": [
+    {"pole": "typ", "hodnota": "PE",
+     "url": "https://integralcapgroup.com/",
+     "citace": "Integral Capital Group is the leading mid-market private equity platform in Central and Eastern Europe.",
+     "hodnota_v_citaci": "mid-market private equity platform",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""},
+    {"pole": "duvod", "hodnota": "PE",
+     "url": "https://cvca.cz/integral-capital-group/",
+     "citace": "Objem prostředků ve správě 200 milionů EUR Typ investic Private Equity Preferovaná výše jedné investice 5-15 milionů EUR",
+     "hodnota_v_citaci": "Typ investic Private Equity",
+     "datum_zdroje": "2026-09-02", "datum_v_textu": "dateModified: 2026-09-02T11:51:11+00:00"},
+    {"pole": "zeme_sidla", "hodnota": "HU",
+     "url": "https://cvca.cz/integral-capital-group/",
+     "citace": "Integral Capital Group Adresa 1138 Budapest Népfürdő utca 22. Hungary",
+     "hodnota_v_citaci": "Hungary",
+     "datum_zdroje": "2026-09-02", "datum_v_textu": "dateModified: 2026-09-02T11:51:11+00:00"},
+    {"pole": "web", "hodnota": "https://integralcapgroup.com/",
+     "url": "https://cvca.cz/integral-capital-group/",
+     "citace": "Népfürdő utca 22. Hungary https://integralcapgroup.com/",
+     "hodnota_v_citaci": "https://integralcapgroup.com/",
+     "datum_zdroje": "2026-09-02", "datum_v_textu": "dateModified: 2026-09-02T11:51:11+00:00"}
+  ],
+  "investice": [],
+  "poznamka": "Středoevropská mid-market PE platforma (huby Londýn, Budapešť, Bělehrad), člen CVCA s typem investic Private Equity, tiket 5–15 mil. EUR, AUM 200 mil. EUR (profil CVCA). Mimo rozsah vzorku VC (důvod PE); sídlo podle CVCA v Maďarsku, v ČR podle CVCA jedna transakce (Borcad). Investice nehledány."
+}

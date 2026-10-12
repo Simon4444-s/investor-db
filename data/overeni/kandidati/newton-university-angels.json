@@ -1,0 +1,107 @@
+{
+  "kandidat": "NEWTON University Angels",
+  "znacka": "NEWTON University Angels (NUA, dříve NEWTON University Angel Fund)",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "NEWTON University Angels s.r.o., osoba rizikového kapitálu",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10878131",
+      "citace": "\"ico\":\"10878131\",\"obchodniJmeno\":\"NEWTON University Angels s.r.o., osoba rizikového kapitálu\"",
+      "hodnota_v_citaci": "NEWTON University Angels s.r.o., osoba rizikového kapitálu",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "10878131",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10878131",
+      "citace": "\"ico\":\"10878131\",\"obchodniJmeno\":\"NEWTON University Angels s.r.o., osoba rizikového kapitálu\"",
+      "hodnota_v_citaci": "10878131",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10878131",
+      "citace": "\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://newton.university/en/newton-university-angel-fund",
+      "citace": "Our fund brings together investor capital and allocates it to selected projects led by talented individuals.",
+      "hodnota_v_citaci": "Our fund brings together investor capital",
+      "datum_zdroje": "2026-02-20",
+      "datum_v_textu": "dateModified: 2026-02-20 21:07:20+01:00"
+    },
+    {
+      "pole": "faze",
+      "hodnota": "pre-seed",
+      "url": "https://newton.university/en/newton-university-angels/",
+      "citace": "With NEWTON University Angels, we focus on the earliest stages of business where success is rare.",
+      "hodnota_v_citaci": "we focus on the earliest stages of business",
+      "datum_zdroje": "2025-09-30",
+      "datum_v_textu": "dateModified: 2025-09-30 09:10:47+01:00"
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "20000 EUR",
+      "url": "https://newton.university/en/newton-university-angel-fund",
+      "citace": "You can receive up to 20 000 EUR to kick-start your idea, plus consultations and startup support.",
+      "hodnota_v_citaci": "up to 20 000 EUR",
+      "datum_zdroje": "2026-02-20",
+      "datum_v_textu": "dateModified: 2026-02-20 21:07:20+01:00"
+    },
+    {
+      "pole": "kapital_celkem",
+      "hodnota": "2500000 CZK; druh=velikost fondu",
+      "url": "https://cc.cz/dalsi-vlastovka-mezi-ceskymi-vysokymi-skolami-soukroma-newton-university-investuje-do-mladych-startupu/",
+      "citace": "Zatímco běžná velikost fondů se i u nás pohybuje alespoň v desítkách milionů eur, tedy ve stovkách milionů až miliardách korun, první fond NUAF má velikost přibližně 2,5 milionu korun",
+      "hodnota_v_citaci": "první fond NUAF má velikost přibližně 2,5 milionu korun",
+      "datum_zdroje": "2024-02-06",
+      "datum_v_textu": "datePublished: 2024-02-06T09:36:33+01:00"
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "NerveCor s.r.o.",
+      "ico_cilove_firmy": "23453371",
+      "datum_investice": "2025-07-01",
+      "faze_kola": "pre-seed",
+      "castka_kola": null,
+      "castka_investora": null,
+      "role": "neuvedeno",
+      "typ_dokladu": "rejstrik",
+      "sektor": "ostatni",
+      "url": "https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1282002&typ=UPLNY",
+      "citace": "Společník: NEWTON University Angels s.r.o., IČ: 108 78 131 5. května 1640/65, Nusle, 140 00 Praha 4 zapsáno 1. července 2025 Podíl: Vklad: 770,- Kč Splaceno: 100% Obchodní podíl: 7,7%",
+      "hodnota_v_citaci": "NEWTON University Angels s.r.o., IČ: 108 78 131",
+      "datum_zdroje": "2025-07-01",
+      "datum_v_textu": "zapsáno 1. července 2025"
+    },
+    {
+      "cilova_firma": "Flexible Frame s.r.o.",
+      "ico_cilove_firmy": "09167919",
+      "datum_investice": "2024-12-06",
+      "faze_kola": "pre-seed",
+      "castka_kola": null,
+      "castka_investora": null,
+      "role": "neuvedeno",
+      "typ_dokladu": "rejstrik",
+      "sektor": "spotrebitel",
+      "url": "https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1085399&typ=UPLNY",
+      "citace": "Společník: NEWTON University Angel Fund s.r.o., IČ: 108 78 131 5. května 1640/65, Nusle, 140 00 Praha 4 zapsáno 6. prosince 2024 vymazáno 3. května 2025 Podíl: Vklad: 2 800,- Kč Splaceno: 100% Obchodní podíl: 14%",
+      "hodnota_v_citaci": "NEWTON University Angel Fund s.r.o., IČ: 108 78 131",
+      "datum_zdroje": "2024-12-06",
+      "datum_v_textu": "zapsáno 6. prosince 2024"
+    }
+  ],
+  "poznamka": "K ROZHODNUTÍ: PLAN.md (V9) uvádí NEWTON University Angels jako příklad andělského klubu, ale jen „pokud nemají vlastní fond“. NUA vlastní fond má: sdružuje kapitál investorů do s.r.o. (osoba rizikového kapitálu, IČO 10878131), která sama vstupuje jako společník do firem (rejstřík), proto zařazeno jako VC, i když jde o mikrofond (první fond cca 2,5 mil. Kč dle CzechCrunch 2024-02; článek uvádí, že fond „působí spíše v pozici andělského investora“). Investice doloženy jen obchodním rejstříkem (úplný výpis justice.cz): NerveCor s.r.o. – NUA zakládajícím společníkem od 1. 7. 2025 (7,7 %); Flexible Frame s.r.o. – vstup 6. 12. 2024 (14 %), 3. 5. 2025 jen změna názvu společníka. Fáze pre-seed odvozena z deklarace fondu; částky investic nezveřejněny (vklad do ZK není výše investice). Sektor NerveCor nezjištěn (ostatni; ARES uvádí CZ-NACE 49320), Flexible Frame = rámy na fotografie (spotrebitel). LOVEGUARD s.r.o. drží 10 % přes NUAF Pool3 s.r.o. od 9. 8. 2024, tj. před oknem Z2 – nezapsáno. Web z kandidátů (nuaf.cz) nemá DNS záznam; aktuální stránky fondu jsou na newton.university. Sektory deklarované web neuvádí. Tiket „up to 20 000 EUR“ je maximum (starší verze stránky uváděla až 500 000 Kč)."
+}

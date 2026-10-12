@@ -1,0 +1,47 @@
+{
+  "kandidat": "3TS Capital Partners",
+  "znacka": "3TS Capital Partners",
+  "stav": "mimo_rozsah",
+  "duvod": "bez_tymu_v_CR",
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://3tscapital.com/",
+      "citace": "With over 25 years and multiple fund generations, we know how to navigate market cycles, lead and co-lead growth rounds, execute cross-border expansion across Europe, the US and Asia, and drive value creation from entry to exit.",
+      "hodnota_v_citaci": "lead and co-lead growth rounds",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "FI",
+      "url": "https://3tscapital.com/imprint",
+      "citace": "Salomonkatu 17 A 6d 00100 Helsinki Finland",
+      "hodnota_v_citaci": "Helsinki Finland",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "tym_v_CR",
+      "hodnota": "ne",
+      "url": "https://www.profesia.sk/praca/3ts-capital-partners-k-s/C253667",
+      "citace": "3TS comprises of an international team of 15 people with eight different nationalities and offices in Vienna, Warsaw, Bucharest, Budapest, Bratislava, and the US.",
+      "hodnota_v_citaci": "offices in Vienna, Warsaw, Bucharest, Budapest, Bratislava, and the US",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://3tscapital.com/",
+      "url": "https://3tscapital.com/imprint",
+      "citace": "Website:www.3tscapital.com",
+      "hodnota_v_citaci": "www.3tscapital.com",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    }
+  ],
+  "investice": [],
+  "poznamka": "Poradce/správce růstových technologických fondů (TCEE Fund III a IV, Catalyst Romania; správci AIF v Lucembursku), poradenská společnost 3TS Capital Partners Oy sídlí v Helsinkách. Typ VC (growth): web uvádí „venture growth“ a vedení růstových kol; profil na Profesia.sk ale firmu označuje jako „advisory company for private equity funds“ – hranici VC/PE ať potvrdí člověk (na stavu mimo rozsah to nic nemění). Kanceláře: Vienna, Warsaw, Bucharest, Budapest, Bratislava, US; Praha se objevuje jen ve starších zdrojích, v ARES subjekt „3TS“ není. Text profilu na Profesia.sk je nedatovaný. Investice nehledány."
+}

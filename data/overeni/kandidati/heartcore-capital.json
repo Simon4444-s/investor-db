@@ -1,0 +1,38 @@
+{
+  "kandidat": "Heartcore Capital",
+  "znacka": "Heartcore Capital",
+  "stav": "mimo_rozsah",
+  "duvod": "bez_tymu_v_CR",
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://www.heartcore.com/",
+      "hodnota_v_citaci": "We invest in early-stage companies from inception to Series A",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "Venture: We invest in early-stage companies from inception to Series A."
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "DK",
+      "url": "https://czechstartups.gov.cz/?investori=heartcore-capital",
+      "hodnota_v_citaci": "se sídlem v Kodani",
+      "datum_zdroje": "2026-02-19",
+      "datum_v_textu": "datePublished: 2026-02-19T11:03:50+00:00",
+      "citace": "Heartcore Capital je přední evropská společnost rizikového kapitálu založená v roce 2007 se sídlem v Kodani a kancelářemi v celé Evropě."
+    },
+    {
+      "pole": "tym_v_CR",
+      "hodnota": "ne",
+      "url": "https://www.heartcore.com/team",
+      "hodnota_v_citaci": "partners in Copenhagen, London, Paris and the United States",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "We are a remote-first team with partners in Copenhagen, London, Paris and the United States."
+    }
+  ],
+  "investice": [],
+  "poznamka": "Dánský VC fond (Kodaň), ve stránce O nás uvádí kanceláře v Kodani a Paříži, tým „remote-first“ s partnery v Kodani, Londýně, Paříži a USA. Pozor: filtr lokalit na stránce Team obsahuje i „Prague“ a „Czech Republic“ a v týmu je jeden investor, který může působit v ČR; z textu stránky nelze přiřadit lokality k osobám. Česká právnická osoba Heartcore nebyla nalezena (ARES vrací jen nesouvisející Heartcore z.s.). Jeden jednotlivý investor bez české entity nepovažuji za stálý investiční tým v ČR; doporučuji ruční potvrzení. Investice nehledány (mimo rozsah)."
+}

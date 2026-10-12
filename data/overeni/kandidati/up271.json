@@ -1,0 +1,65 @@
+{
+  "kandidat": "UP271",
+  "znacka": "UP271",
+  "stav": "neaktivni",
+  "duvod": "V4",
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "UP 271 s.r.o.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06816339",
+      "citace": "{\"ico\":\"06816339\",\"obchodniJmeno\":\"UP 271 s.r.o.\"",
+      "hodnota_v_citaci": "\"obchodniJmeno\":\"UP 271 s.r.o.\"",
+      "datum_zdroje": "2026-03-05",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-03-05\""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "06816339",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06816339",
+      "citace": "{\"ico\":\"06816339\",\"obchodniJmeno\":\"UP 271 s.r.o.\"",
+      "hodnota_v_citaci": "\"ico\":\"06816339\"",
+      "datum_zdroje": "2026-03-05",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-03-05\""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06816339",
+      "citace": "\"obchodniJmeno\":\"UP 271 s.r.o.\",\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "2026-03-05",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-03-05\""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://up271.com/",
+      "url": "https://up271.com/kontakt/",
+      "citace": "Office UP271 s.r.o. Zapova 18, Praha 5, 150 00 Česká republika IČ: 06816339 DIČ: CZ06816339 IČ 06816339 DIČ CZ06816339 Napište nám info@up271.com",
+      "hodnota_v_citaci": "info@up271.com",
+      "datum_zdroje": "2022-08-01",
+      "datum_v_textu": "dateModified: 2022-08-01T12:40:49+02:00"
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://up271.com/",
+      "citace": "Investujeme do společností a start-upů z různých odvětví, které spojuje touha měnit svět k lepšímu. UP271 navazuje na historii společností UP21 a Byznys 21.",
+      "hodnota_v_citaci": "Investujeme do společností a start-upů",
+      "datum_zdroje": "2022-10-20",
+      "datum_v_textu": "dateModified: 2022-10-20T20:46:53+02:00"
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "generalista",
+      "url": "https://up271.com/",
+      "citace": "Investujeme do společností a start-upů z různých odvětví, které spojuje touha měnit svět k lepšímu.",
+      "hodnota_v_citaci": "z různých odvětví",
+      "datum_zdroje": "2022-10-20",
+      "datum_v_textu": "dateModified: 2022-10-20T20:46:53+02:00"
+    }
+  ],
+  "investice": [],
+  "poznamka": "Neaktivní (V4): veřejně oznámenou investici od 2024-10-11 jsem nenašel. Hledal jsem: web up271.com (naposledy upraven 2022-10-20, portfolio bez dat investic), webové vyhledávání (UP271, UP 271, 271 SICAV; nejnovější deal v agregátorech je z 2023), ARES VR portfoliových firem z webu (Nutritionpro, Spaceflow, EDHANCE, CB21 Pharma, Poetizer, Cafedu). Nálezy v rejstříku k posouzení člověkem: (1) Nutritionpro s.r.o. (07752971) – UP 271 s.r.o. je společníkem od 2022-07-14, 2025-08-05 přepočet podílů (nový základ 35353) a 2025-08-21 zapsán další podíl 846/35353, který předtím od 2025-08-05 držel LIGHTHOUSE SEED FUND – sekundární převod při přeskupení podílů, bez veřejného oznámení; (2) CB21 Pharma, s.r.o. (07563094) – UP 271 s.r.o. zapsána 2025-07-07 s podílem 128870/200000 ve stejný den, kdy vystoupil dosavadní většinový společník xMed21 s.r.o.; 2026-05-11 podíl převeden na 271 SICAV a.s. (IČO 17121108, obhospodařovatel AMISTA investiční společnost) – vypadá na převod v rámci skupiny, ne na nové kolo. Ani jeden nález proto nepočítám jako doklad Z2. Typ: web se prezentuje jako investor do společností a start-upů („navazuje na historii společností UP21 a Byznys 21“), agregátory (Altss, PitchBook) ho ale označují jako family office – FO, nebo VC rozhodne člověk. Web uvádí „portfolio více než 21 projektů, do kterých jsme investovali téměř 40 milionů EUR“ – investovaný kapitál neodpovídá žádnému druhu kapital_celkem, proto nevyplněno. Na kontaktní stránce je i druhé IČO 03922961 (podle ARES VR UP21 s.r.o., dřívější investiční subjekt). Fáze a tiket na webu nejsou."
+}

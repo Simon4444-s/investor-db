@@ -1,0 +1,26 @@
+{
+  "kandidat": "Thein",
+  "znacka": "Thein",
+  "stav": "mimo_rozsah",
+  "duvod": "PE",
+  "typ": "PE",
+  "fakta": [
+    {"pole": "typ", "hodnota": "PE",
+     "url": "https://cvca.cz/thein/",
+     "citace": "Typ investic LBO, Růstový kapitál Preferovaná výše jedné investice 1 – 5 milionů EUR výše vlastních prostředků Preferovaná odvětví strojírenství, průmysl, železniční průmysl, IT Infrastruktura, kyberbezpečnost",
+     "hodnota_v_citaci": "Typ investic LBO, Růstový kapitál",
+     "datum_zdroje": "2024-03-18", "datum_v_textu": "dateModified: 2024-03-18T10:08:56+00:00"},
+    {"pole": "typ", "hodnota": "PE",
+     "url": "https://forbes.cz/thein-tomase-budnika-resi-dalsi-problem-prumyslova-vetev-prisla-o-status-fondu/",
+     "citace": "Fond Thein Private Equity SICAV, který se prostřednictvím podfondu Industry zaměřoval na akvizice v průmyslu a výrobu komponentů pro železnici, přišel z rozhodnutí ČNB o status investičního fondu a jeho investoři čekají na další postup.",
+     "hodnota_v_citaci": "zaměřoval na akvizice v průmyslu",
+     "datum_zdroje": "2026-07-24", "datum_v_textu": "datePublished: 2026-07-24T08:11:57+00:00"},
+    {"pole": "zeme_sidla", "hodnota": "CZ",
+     "url": "https://cvca.cz/thein/",
+     "citace": "Thein Adresa Budova Enterprise Pikrtova 1737/1a 140 00 Praha 4 –Nusle www.thein.eu",
+     "hodnota_v_citaci": "140 00 Praha 4",
+     "datum_zdroje": "2024-03-18", "datum_v_textu": "dateModified: 2024-03-18T10:08:56+00:00"}
+  ],
+  "investice": [],
+  "poznamka": "Typ PE: profil CVCA uvádí LBO a růstový kapitál, tikety 1–5 mil. EUR a průmyslová odvětví; podfond Industry fondu Thein Private Equity SICAV (IČO 11733861) se podle Forbes (2026-07-24) zaměřoval na akvizice v průmyslu. Proto mimo rozsah vzorku (PE); investice nehledány. Upozornění: web www.thein.eu se 2026-10-11 nepodařilo načíst (doména se nepřeložila) a podle Forbes/HN fond Thein Private Equity SICAV v roce 2026 přišel rozhodnutím ČNB o status investičního fondu (ztráta depozitáře). V ARES jsou Thein Private Equity SICAV a.s. a Thein Investments a.s. (IČO 08839042) vedeny jako aktivní. Aktivita (Z2) a správcovská společnost skupiny nebyly ověřeny; před zařazením do plné databáze je nutné aktivitu znovu posoudit."
+}

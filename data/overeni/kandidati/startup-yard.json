@@ -1,0 +1,109 @@
+{
+  "kandidat": "Startup Yard",
+  "znacka": "StartupYard",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "Startup Yard Limited, odštěpný závod",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03764931",
+      "citace": "\"ico\":\"03764931\",\"obchodniJmeno\":\"Startup Yard Limited, odštěpný závod\"",
+      "hodnota_v_citaci": "Startup Yard Limited, odštěpný závod",
+      "datum_zdroje": "2024-06-19",
+      "datum_v_textu": "\"datumAktualizace\":\"2024-06-19\""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "03764931",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03764931",
+      "citace": "\"ico\":\"03764931\",\"obchodniJmeno\":\"Startup Yard Limited, odštěpný závod\"",
+      "hodnota_v_citaci": "03764931",
+      "datum_zdroje": "2024-06-19",
+      "datum_v_textu": "\"datumAktualizace\":\"2024-06-19\""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "GB",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-vr/03764931",
+      "citace": "\"nazevAngazma\":\"Zakladatel\",\"pravnickaOsoba\":{\"adresa\":{\"kodStatu\":\"GB\",\"nazevStatu\":\"Spojené království Velké Británie a Severního Irska\",\"nazevObce\":\"Londýn\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"GB\"",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "tym_v_CR",
+      "hodnota": "ano",
+      "url": "https://startupyard.com/faq/",
+      "citace": "StartupYard, based in beautiful Prague, is Central Europe’s leading pre-seed and seed accelerator for technology startups.",
+      "hodnota_v_citaci": "based in beautiful Prague",
+      "datum_zdroje": "2026-04-27",
+      "datum_v_textu": "dateModified: 2026-04-27T06:16:05+00:00"
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://startupyard.com/faq/",
+      "citace": "Teams that are selected can receive, if they want, a €25,000 cash investment via a convertible note. We also offer follow-on funds to our best performing startups.",
+      "hodnota_v_citaci": "a €25,000 cash investment via a convertible note",
+      "datum_zdroje": "2026-04-27",
+      "datum_v_textu": "dateModified: 2026-04-27T06:16:05+00:00"
+    },
+    {
+      "pole": "akcelerator",
+      "hodnota": "ano",
+      "url": "https://startupyard.com/faq/",
+      "citace": "In exchange for the program and funding, we typically target around 5% equity in your startup. The convertible note is valid for 24 months.",
+      "hodnota_v_citaci": "we typically target around 5% equity in your startup",
+      "datum_zdroje": "2026-04-27",
+      "datum_v_textu": "dateModified: 2026-04-27T06:16:05+00:00"
+    },
+    {
+      "pole": "faze",
+      "hodnota": "pre-seed;seed",
+      "url": "https://startupyard.com/faq/",
+      "citace": "StartupYard, based in beautiful Prague, is Central Europe’s leading pre-seed and seed accelerator for technology startups.",
+      "hodnota_v_citaci": "pre-seed and seed accelerator",
+      "datum_zdroje": "2026-04-27",
+      "datum_v_textu": "dateModified: 2026-04-27T06:16:05+00:00"
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "25000 EUR",
+      "url": "https://startupyard.com/faq/",
+      "citace": "Do you invest in start-ups? Teams that are selected can receive, if they want, a €25,000 cash investment via a convertible note. We also offer follow-on funds to our best performing startups.",
+      "hodnota_v_citaci": "€25,000 cash investment",
+      "datum_zdroje": "2026-04-27",
+      "datum_v_textu": "dateModified: 2026-04-27T06:16:05+00:00"
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "generalista",
+      "url": "https://startupyard.com/the-next-wave-begins-startupyard-announces-batch-15/",
+      "citace": "We’re industry-agnostic, but we look for solutions that are hard to replicate.",
+      "hodnota_v_citaci": "industry-agnostic",
+      "datum_zdroje": "2025-09-11",
+      "datum_v_textu": "datePublished: 2025-09-11T14:20:49+00:00"
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "wopee labs s.r.o. (Wopee.io)",
+      "ico_cilove_firmy": "17997224",
+      "datum_investice": "2025-04-02",
+      "faze_kola": "neověřeno",
+      "castka_kola": null,
+      "castka_investora": null,
+      "role": "neuvedeno",
+      "typ_dokladu": "rejstrik",
+      "sektor": "software",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-vr/17997224",
+      "citace": "\"ico\":\"19997272\",\"obchodniJmeno\":\"StartupYard Batch 14 s.r.o.\",\"pravniForma\":\"112\"}}}],\"typOrganu\":\"SPOLECNIK\"",
+      "hodnota_v_citaci": "StartupYard Batch 14 s.r.o.",
+      "datum_zdroje": "2025-04-02",
+      "datum_v_textu": "{\"datumZapisu\":\"2025-04-02\",\"podil\":[{\"datumZapisu\":\"2025-04-02\",\"vklad\":{\"typObnos\":\"KORUNY\",\"hodnota\":\"2449;45\"}"
+    }
+  ],
+  "poznamka": "Akcelerátor s podílem (konvertibilní úvěr 45 000 EUR in-kind + volitelně 25 000 EUR v hotovosti, cíl cca 5 % podílu; follow-on až 100 000 EUR) → VC s příznakem akcelerator. Právní subjekt je britská STARTUP YARD LIMITED (Londýn, č. 07757587) s pražskou organizační složkou Startup Yard Limited, odštěpný závod (IČO 03764931); tým sídlí v Praze. Investice se dělají přes účelové společnosti po ročnících (StartupYard Batch 14 s.r.o., IČO 19997272; Batch 15 s.r.o., IČO 22266852; StartupYard Fintech s.r.o., IČO 22399356), jejichž společníkem je Startup Yard Limited spolu s fyzickými osobami. Doložená investice: StartupYard Batch 14 s.r.o. je od 2025-04-02 zapsána jako společník wopee labs s.r.o. (podíl 244945/21632733); kontrola společníků podle IČO 03764931 proto vehikl nenajde. Částka a fáze kola nedohledány (vyčerpán limit vyhledávání). Další investice ročníku 15 (CaseLens, Teamsharq, Ydoca, Personeo.ai) bez dokladu: Ydoca s.r.o. nemá v ARES právnickou osobu mezi společníky, ostatní nejsou české s.r.o. Fakt web vynechán (adresa není v textu stránek)."
+}

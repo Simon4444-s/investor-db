@@ -1,0 +1,119 @@
+{
+  "kandidat": "Orbit Capital",
+  "znacka": "Orbit Capital",
+  "stav": "neaktivni",
+  "duvod": "V4",
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "duvod",
+      "hodnota": "V4",
+      "url": "https://cc.cz/ulovil-dva-ceske-jednorozce-a-radi-uverove-financovani-je-ctyrikrat-levnejsi-nez-redit-svuj-podil/",
+      "citace": "Pod Orbit Capitalem fungují dva fondy – menší z nich s názvem Growth Equity se zaměřuje na poskytování kapitálu „klasickým“ způsobem, tedy výměnou za podíl. Do čtyř projektů včetně jednorožců Rohlík a Mews investoval zhruba miliardu.",
+      "hodnota_v_citaci": "Do čtyř projektů včetně jednorožců Rohlík a Mews investoval zhruba miliardu",
+      "datum_zdroje": "2025-01-14",
+      "datum_v_textu": "datePublished: 2025-01-14T06:34:36+01:00"
+    },
+    {
+      "pole": "duvod",
+      "hodnota": "V5",
+      "url": "https://therecursive.com/polish-orbit-capital-closes-eur107m-growth-debt-fund-ii-to-expand-venture-debt-for-cee-scaleups/",
+      "citace": "The fund will provide non-dilutive financing to technology companies that have moved beyond Series A, targeting businesses generating at least €3 million in annual revenue and growing by more than 30% year over year.",
+      "hodnota_v_citaci": "The fund will provide non-dilutive financing",
+      "datum_zdroje": "2026-07-02",
+      "datum_v_textu": "July 2, 2026"
+    },
+    {
+      "pole": "duvod",
+      "hodnota": "V5",
+      "url": "https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf",
+      "citace": "Orbit Growth Debt II OGD Advisory s.r.o. Czech Republic 3SIIF;FTP;IEU - DDF - LP Debt and hybrid debt-equity funds Multi-Country Private Debt ICT Private Credit Fund",
+      "hodnota_v_citaci": "Private Debt ICT Private Credit Fund",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "nazev",
+      "hodnota": "ORBIT Capital GP s.r.o.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08319961",
+      "citace": "\"ico\":\"08319961\",\"obchodniJmeno\":\"ORBIT Capital GP s.r.o.\"",
+      "hodnota_v_citaci": "ORBIT Capital GP s.r.o.",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "08319961",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08319961",
+      "citace": "\"ico\":\"08319961\",\"obchodniJmeno\":\"ORBIT Capital GP s.r.o.\"",
+      "hodnota_v_citaci": "08319961",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://cvca.cz/orbit-capital/",
+      "citace": "Orbit Capital Adresa Türkova 2319/5B 149 00 Praha 4 +420 730 147 372 www.orbitcapital.com",
+      "hodnota_v_citaci": "149 00 Praha 4",
+      "datum_zdroje": "2023-01-30",
+      "datum_v_textu": "dateModified: 2023-01-30T15:34:34+00:00"
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://www.orbitcapital.com/",
+      "url": "https://cvca.cz/orbit-capital/",
+      "citace": "Orbit Capital Adresa Türkova 2319/5B 149 00 Praha 4 +420 730 147 372 www.orbitcapital.com",
+      "hodnota_v_citaci": "www.orbitcapital.com",
+      "datum_zdroje": "2023-01-30",
+      "datum_v_textu": "dateModified: 2023-01-30T15:34:34+00:00"
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://vestbee.com/blog/articles/vc-of-the-month-orbit-capital",
+      "citace": "Orbit Capital is the first Growth Equity Fund in the CEE. With the target capitalization of €200 million, it invests in emerging stars from the region, at the scale-up stage.",
+      "hodnota_v_citaci": "it invests in emerging stars from the region, at the scale-up stage",
+      "datum_zdroje": "2023-09-28",
+      "datum_v_textu": "September 28, 2023"
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://vestbee.com/blog/articles/vc-of-the-month-orbit-capital",
+      "citace": "We aspire to gradually build a strong minority position that will allow us to play an active role in a company. We aim at taking up 10% or more of the shares.",
+      "hodnota_v_citaci": "strong minority position",
+      "datum_zdroje": "2023-09-28",
+      "datum_v_textu": "September 28, 2023"
+    },
+    {
+      "pole": "faze",
+      "hodnota": "growth",
+      "url": "https://vestbee.com/blog/articles/vc-of-the-month-orbit-capital",
+      "citace": "Investment ticket: EUR 6-15m Company stage: Growth Stage Product type: Software and tech-enabled businesses",
+      "hodnota_v_citaci": "Company stage: Growth Stage",
+      "datum_zdroje": "2023-09-28",
+      "datum_v_textu": "September 28, 2023"
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "6000000-15000000 EUR",
+      "url": "https://vestbee.com/blog/articles/vc-of-the-month-orbit-capital",
+      "citace": "Investment ticket: EUR 6-15m Company stage: Growth Stage Product type: Software and tech-enabled businesses",
+      "hodnota_v_citaci": "Investment ticket: EUR 6-15m",
+      "datum_zdroje": "2023-09-28",
+      "datum_v_textu": "September 28, 2023"
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "generalista;spotrebitel;software;logistika;zdravi",
+      "url": "https://vestbee.com/blog/articles/vc-of-the-month-orbit-capital",
+      "citace": "Preferred industries: Sector-agnostic, with focus on consumer services, small-business automation & collaboration software, logistics and supply chain, healthcare",
+      "hodnota_v_citaci": "Sector-agnostic, with focus on consumer services, small-business automation & collaboration software, logistics and supply chain, healthcare",
+      "datum_zdroje": "2023-09-28",
+      "datum_v_textu": "September 28, 2023"
+    }
+  ],
+  "investice": [],
+  "poznamka": "Posouzení celé skupiny Orbit (Orbit Capital + OGD Advisory s.r.o.): skupina má dvě větve. (1) Growth Equity – menšinové podíly (cíl 10 % a více) v rychle rostoucích scale-upech, tikety 6–15 mil. EUR, fáze growth → typ VC (PLAN kap. 1: menšinové podíly v mladých rychle rostoucích firmách až po growth). Portfolio jsou stále stejné 4 firmy: Booksy, Mews, Preply, Rohlík (Vestbee 2023-09-28 i CzechCrunch 2025-01-14); novou equity investici od 2024-10-11 jsem nenašel (hledáno: web orbitcapital.com – obsah se načítá JavaScriptem a nemá data, Vestbee, CzechCrunch, Forbes, The Recursive, tech.eu, vyhledávání „Orbit Capital“ + growth equity 2025/2026). Proto stav neaktivni (V4). (2) Growth Debt – fondy Orbit Growth Debt (I) a Orbit Growth Debt II (správce OGD Advisory s.r.o., IČO 22269720; v seznamu EIF strategie Private Debt / Private Credit Fund; 2. closing 107 mil. EUR v 7/2026) poskytují podle vlastního popisu „non-dilutive financing“, tedy dluhové financování → V5, nesplňuje Z1. V rozhovoru pro CzechCrunch (2025-01-14) partner zmiňuje, že podmínky úvěru někdy kombinují s opcí; nejde ale o konvertibilní úvěr ani SAFE a u žádného konkrétního obchodu jsem kapitálovou složku nedoložil, proto dluhové obchody nepočítám jako kvazi-equity. Dluhové obchody v okně Z2 (nezapsány jako investice): Sloneek, IAG a Talkin' Things (Growth Debt Fund II, The Recursive 2026-07-02), Jutro Medical (dluhová část rozšíření Series A, 12/2025). Pokud by člověk venture debt s opcemi uznal jako kvazi-equity, skupina by byla aktivní. Název/IČO: ORBIT Capital GP s.r.o. (IČO 08319961) přiřazena podle shody názvu a stejného sídla jako OGD Advisory s.r.o. (Thámova 289/13, Praha 8); že je GP equity fondu, žádný zdroj výslovně neuvádí. Equity fond je zřejmě zahraniční vehikl (nezjištěno). Kapitál: jen cílová velikost equity fondu 200 mil. EUR (Vestbee 2023, CVCA „Scaling to EUR 200 million“), skutečná velikost nedoložena, proto nezapsáno. Deklarace na webu CVCA (2023) a Vestbee (2023) jsou starší než 24 měsíců."
+}

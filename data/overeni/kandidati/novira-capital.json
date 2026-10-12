@@ -1,0 +1,56 @@
+{
+  "kandidat": "Novira Capital",
+  "znacka": "Novira",
+  "stav": "mimo_rozsah",
+  "duvod": "FO",
+  "typ": "FO",
+  "fakta": [
+    {
+      "pole": "typ",
+      "hodnota": "FO",
+      "url": "https://novira.com/",
+      "hodnota_v_citaci": "creating heritage for our children and next generations",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "Over time we have grown stonger and our focus shifted to creating heritage for our children and next generations in Central Europe, in Czechia."
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CH",
+      "url": "https://novira.com/",
+      "hodnota_v_citaci": "headquartered in Zürich, Switzerland",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "The inception of Novira, headquartered in Zürich, Switzerland dates back to 2007. Nowadays it is a well funded agile team with offices in Czechia and Switzerland."
+    },
+    {
+      "pole": "nazev",
+      "hodnota": "Novira Capital s.r.o.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/27697436",
+      "citace": "\"ico\":\"27697436\",\"obchodniJmeno\":\"Novira Capital s.r.o.\"",
+      "hodnota_v_citaci": "\"obchodniJmeno\":\"Novira Capital s.r.o.\"",
+      "datum_zdroje": "2025-12-24",
+      "datum_v_textu": "\"datumAktualizace\":\"2025-12-24\""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "27697436",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/27697436",
+      "citace": "\"ico\":\"27697436\",\"obchodniJmeno\":\"Novira Capital s.r.o.\"",
+      "hodnota_v_citaci": "\"ico\":\"27697436\"",
+      "datum_zdroje": "2025-12-24",
+      "datum_v_textu": "\"datumAktualizace\":\"2025-12-24\""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://novira.com/",
+      "url": "https://novira.com/",
+      "hodnota_v_citaci": "hq@novira.com",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "Front desk +420 800 88 00 99 hq@novira.com"
+    }
+  ],
+  "investice": [],
+  "poznamka": "Skupina Novira (mateřská Novira Investment AG, Zug; web uvádí původ v Curychu) investuje hlavně do nemovitostí (podle webu ~70 % kapitálu), zbytek do startupů, úvěrů a dalších investic. Web výslovně uvádí „We are not a VC.“ a cíl „creating heritage for our children and next generations“, proto navrhuji typ FO a stav mimo rozsah vzorku VC; důvod „FO“ není v pokynech uveden a je ke schválení člověkem (alternativně investiční holding podnikatelů, kap. 3). Novira Capital s.r.o. (IČO 27697436, 100% vlastník Novira Investment AG) byla v ARES společníkem Smartsupp.com, Survio a Reservio (do 2024-11-01, poté přešly pod ABUGO Group SE) a je společníkem Eventee s.r.o. Investice od 2024-10-11 jsem nehledal (mimo rozsah); zeme_sidla CH podle webu skupiny, česká entita sídlí v Brně."
+}

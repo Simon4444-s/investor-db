@@ -1,0 +1,170 @@
+{
+  "kandidat": "Reflex Capital",
+  "znacka": "Reflex Capital",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "Reflex Capital SE",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24269158",
+      "citace": "\"ico\":\"24269158\",\"obchodniJmeno\":\"Reflex Capital SE\"",
+      "hodnota_v_citaci": "Reflex Capital SE",
+      "datum_zdroje": "2026-07-13",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-07-13\""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "24269158",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24269158",
+      "citace": "\"ico\":\"24269158\",\"obchodniJmeno\":\"Reflex Capital SE\"",
+      "hodnota_v_citaci": "24269158",
+      "datum_zdroje": "2026-07-13",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-07-13\""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24269158",
+      "citace": "\"ico\":\"24269158\",\"obchodniJmeno\":\"Reflex Capital SE\",\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "2026-07-13",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-07-13\""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://www.reflexcapital.com/",
+      "url": "https://www.reflexcapital.com/",
+      "citace": "info@reflexcapital.com Reflex Capital Europe Reflex Capital SE Rašínovo Nábřeží 2000/78 120 00 Praha 2 Česká republika",
+      "hodnota_v_citaci": "reflexcapital.com",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://cc.cz/nova-sila-pro-reflex-capital-ondreje-fryce-ve-tretim-fondu-ma-na-startupy-pres-pul-miliardy/",
+      "citace": "„My na velikost nehrajeme. V čem s ostatními soutěžíme, je návratnost investic pro naše investory,“ popisuje s tím, že u venture kapitálových investic první fond Reflexu dosahoval průměrného výnosu přes třicet procent ročně.",
+      "hodnota_v_citaci": "venture kapitálových investic první fond Reflexu",
+      "datum_zdroje": "2023-12-22",
+      "datum_v_textu": "datePublished: 2023-12-22T06:41:00+01:00"
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "1000000-2000000 EUR",
+      "url": "https://cc.cz/nova-sila-pro-reflex-capital-ondreje-fryce-ve-tretim-fondu-ma-na-startupy-pres-pul-miliardy/",
+      "citace": "Fond obecně investuje částky kolem jednoho milionu eur, někdy ke hranici dvou milionů, tedy přibližně pětadvacet až padesát milionů korun.",
+      "hodnota_v_citaci": "kolem jednoho milionu eur, někdy ke hranici dvou milionů",
+      "datum_zdroje": "2023-12-22",
+      "datum_v_textu": "datePublished: 2023-12-22T06:41:00+01:00"
+    },
+    {
+      "pole": "kapital_celkem",
+      "hodnota": "22000000 EUR; druh=velikost fondu",
+      "url": "https://cc.cz/nova-sila-pro-reflex-capital-ondreje-fryce-ve-tretim-fondu-ma-na-startupy-pres-pul-miliardy/",
+      "citace": "Uzavřel svůj třetí fond o velikosti dvaadvacet milionů eur, tedy bezmála 540 milionů korun.",
+      "hodnota_v_citaci": "třetí fond o velikosti dvaadvacet milionů eur",
+      "datum_zdroje": "2023-12-22",
+      "datum_v_textu": "datePublished: 2023-12-22T06:41:00+01:00"
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "grid.online",
+      "ico_cilove_firmy": "22194487",
+      "datum_investice": "2026-06-23",
+      "faze_kola": "seed",
+      "castka_kola": {
+        "castka": 4000000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "logistika",
+      "url": "https://www.vestbee.com/insights/articles/grid-online-raises-4-m",
+      "citace": "Czech Republic-based firm grid.online has raised €4 million from DFF Ventures, Movens Capital, with participation from Reflex Capital, J&T Ventures, and angel investors linked to early teams at Wolt.",
+      "hodnota_v_citaci": "with participation from Reflex Capital",
+      "datum_zdroje": "2026-06-23",
+      "datum_v_textu": "datePublished: 2026-06-23T09:37:13.760Z"
+    },
+    {
+      "cilova_firma": "Merchantee",
+      "ico_cilove_firmy": "19232527",
+      "datum_investice": "2026-06-09",
+      "faze_kola": "seed",
+      "castka_kola": {
+        "castka": 30000000,
+        "mena": "CZK"
+      },
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "media",
+      "sektor": "software",
+      "url": "https://cc.cz/resi-jeden-z-nejvetsich-problemu-evropskych-e-shopu-kvituje-investor-cesi-ziskali-dalsi-desitky-milionu/",
+      "citace": "Merchantee oznámilo rozšíření svého původního, takzvaného seed investičního kola ve výši patnáct milionů korun z roku 2024, o dalších třicet milionů. Kolo vedl fond Reflex Capital za účasti Czech Founders VC a Lighthouse Ventures.",
+      "hodnota_v_citaci": "Kolo vedl fond Reflex Capital",
+      "datum_zdroje": "2026-06-09",
+      "datum_v_textu": "datePublished: 2026-06-09T10:02:00+02:00"
+    },
+    {
+      "cilova_firma": "FaceUp",
+      "ico_cilove_firmy": "06142630",
+      "datum_investice": "2026-05-19",
+      "faze_kola": "A",
+      "castka_kola": {
+        "castka": 5000000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "TZ",
+      "sektor": "software",
+      "url": "https://www.faceup.com/en/blog/series-a",
+      "citace": "The raise also included strong participation from returning investors, Tilia Impact Ventures (supported by the InvestEU Fund) and Reflex Capital, alongside a group of angel investors and employees, demonstrating their continued confidence in FaceUp’s growth.",
+      "hodnota_v_citaci": "Reflex Capital",
+      "datum_zdroje": "2026-05-19",
+      "datum_v_textu": "Published 2026-05-19"
+    },
+    {
+      "cilova_firma": "Choice",
+      "ico_cilove_firmy": "09517600",
+      "datum_investice": "2026-03-16",
+      "faze_kola": "A",
+      "castka_kola": {
+        "castka": 7100000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "software",
+      "url": "https://tech.eu/2026/03/16/choice-secures-71m-series-a-to-expand-its-restaurant-operating-system-across-europe/",
+      "citace": "Alea Capital Partners led the funding, with participation from Reflex Capital, Smartlink, and J&T Ventures.",
+      "hodnota_v_citaci": "with participation from Reflex Capital",
+      "datum_zdroje": "2026-03-16",
+      "datum_v_textu": "16 March 2026"
+    },
+    {
+      "cilova_firma": "Supernova",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-09-30",
+      "faze_kola": "A",
+      "castka_kola": {
+        "castka": 9200000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "software",
+      "url": "https://cc.cz/potkali-se-v-cajovne-pak-rozbehli-startup-kde-automatizuji-praci-vyvojaru-ted-ziskali-200-milionu/",
+      "citace": "Další růst Supernovy teď podpořila investice tzv. Series A ve výši 9,2 milionu dolarů (190 milionů korun) vedená fondem Taiwania Capital, do kola se připojily i fondy J&T Ventures, Reflex Capital, Kaya, Credo Ventures, EQT Ventures, Wing VC a Y Combinator.",
+      "hodnota_v_citaci": "Reflex Capital",
+      "datum_zdroje": "2025-09-30",
+      "datum_v_textu": "datePublished: 2025-09-30T15:00:56+02:00"
+    }
+  ],
+  "poznamka": "Reflex investuje přes samostatné fondy (v rejstříku např. „Reflex 2, osoba rizikového kapitálu SE“, IČO 08240051, a „Reflex 3, osoba rizikového kapitálu SE“, IČO 19381263), ne přes Reflex Capital SE. Podle ARES VR (2026-10-11) je Reflex 3 společníkem grid.online s.r.o. (zápis 2025-10-08), Choice QR s.r.o. (2025-12-31; Reflex 2 od 2025-10-08) a FaceUp Technology s.r.o. (2025-10-08). U Merchantee s.r.o. fond Reflexu mezi společníky zatím zapsán není. Kontrola společníků skriptem proto může selhat na rozdílném IČO fondu. Doplňující údaje mimo citace: grid.online = seed podle The Recursive; u Merchantee jde o rozšíření seed kola o 30 mil. Kč (bridge před Series A); FaceUp Series A 5 mil. USD je v titulku TZ, cílová firma uvádí sídlo v USA (Charleston), IČO je české s.r.o. se zapsaným fondem Reflex 3; u Choice citace nejmenuje cílovou firmu, ta je v titulku a předchozím odstavci článku; Supernova: IČO nevyplněno, české s.r.o. jsem v ARES jednoznačně nenašel. Deklarované sektory a fáze investor na webu ani v profilu CzechInvest neuvádí (nevyplněno). Tiket a velikost třetího fondu jsou z rozhovoru na CzechCrunch (2023-12-22). Web: doména doložena jen e-mailovou adresou na stránce. Sídlo podle webu Praha 2, další kancelář v San Francisku."
+}

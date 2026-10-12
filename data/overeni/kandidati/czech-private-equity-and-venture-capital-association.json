@@ -1,0 +1,16 @@
+{
+  "kandidat": "Czech Private Equity and Venture Capital Association",
+  "znacka": "CVCA",
+  "stav": "vyrazen",
+  "duvod": "nesplňuje Z1",
+  "typ": null,
+  "fakta": [
+    {"pole": "duvod", "hodnota": "nesplňuje Z1",
+     "url": "https://www.cvca.cz/",
+     "citace": "CVCA je asociace, která zastupuje zájmy společností působících v oblasti private equity a venture kapitálu v ČR.",
+     "hodnota_v_citaci": "CVCA je asociace, která zastupuje zájmy společností",
+     "datum_zdroje": "2025-11-24", "datum_v_textu": "dateModified: 2025-11-24T12:38:36+00:00"}
+  ],
+  "investice": [],
+  "poznamka": "Oborová asociace PE a VC fondů (zastupuje zájmy členů, sdružuje fondy, poradce, banky a pojišťovny); sama do firem neinvestuje, proto nesplňuje Z1 (a Z3). Investice nehledány. Datum zdroje = dateModified stránky."
+}

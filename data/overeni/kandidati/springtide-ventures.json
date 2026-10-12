@@ -1,0 +1,115 @@
+{
+  "kandidat": "Springtide Ventures",
+  "znacka": "Springtide Ventures",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "Springtide Ventures s.r.o.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/01726587",
+      "citace": "\"ico\":\"01726587\",\"obchodniJmeno\":\"Springtide Ventures s.r.o.\"",
+      "hodnota_v_citaci": "\"obchodniJmeno\":\"Springtide Ventures s.r.o.\"",
+      "datum_zdroje": "2026-05-26",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-05-26\""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "01726587",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/01726587",
+      "citace": "\"ico\":\"01726587\",\"obchodniJmeno\":\"Springtide Ventures s.r.o.\"",
+      "hodnota_v_citaci": "\"ico\":\"01726587\"",
+      "datum_zdroje": "2026-05-26",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-05-26\""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/01726587",
+      "citace": "\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "2026-05-26",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-05-26\""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://www.springtide.cz/",
+      "url": "https://www.springtide.cz/contacts/",
+      "hodnota_v_citaci": "info@springtide.cz",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "SPRINGTIDE VENTURES s.r.o Evropská 866/71 Prague 6, 160 00 info@springtide.cz Member of KKCG Group"
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://www.springtide.cz/about/",
+      "hodnota_v_citaci": "accompany our portfolio companies from Seed through Series A and B up to Series C",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "FUNDING Our investments typically range between one and ten million US dollars. However, thanks to our multi-stage approach, we are ready to support successful projects by taking part in successive investment rounds well beyond this range and also accompany our portfolio companies from Seed through Series A and B up to Series C."
+    },
+    {
+      "pole": "cvc",
+      "hodnota": "ano",
+      "url": "https://www.springtide.cz/about/",
+      "hodnota_v_citaci": "100% subsidiary of KKCG Group",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "Established in 2014, Springtide Ventures is a 100% subsidiary of KKCG Group. We benefit from access to KKCG’s capital, know-how and worldwide business network."
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "software;bezpecnost;ai;web3",
+      "url": "https://www.springtide.cz/about/",
+      "hodnota_v_citaci": "SaaS companies providing products in Cyber Security, Cloud Infrastructure, Horizontal AI/ML and Blockchain",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "Over time Springtide has adopted an investment strategy focused on SaaS companies providing products in Cyber Security, Cloud Infrastructure, Horizontal AI/ML and Blockchain."
+    },
+    {
+      "pole": "faze",
+      "hodnota": "seed;A;B+",
+      "url": "https://www.springtide.cz/about/",
+      "hodnota_v_citaci": "from Seed through Series A and B up to Series C",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "FUNDING Our investments typically range between one and ten million US dollars. However, thanks to our multi-stage approach, we are ready to support successful projects by taking part in successive investment rounds well beyond this range and also accompany our portfolio companies from Seed through Series A and B up to Series C."
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "1000000-10000000 USD",
+      "url": "https://www.springtide.cz/about/",
+      "hodnota_v_citaci": "between one and ten million US dollars",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "FUNDING Our investments typically range between one and ten million US dollars."
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "ThreatMark",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-01-07",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 23000000,
+        "mena": "USD"
+      },
+      "castka_investora": {
+        "castka": 8000000,
+        "mena": "USD"
+      },
+      "role": "neuvedeno",
+      "typ_dokladu": "TZ",
+      "sektor": "bezpecnost",
+      "url": "https://www.threatmark.com/threatmark-to-advance-the-fight-against-online-fraud/",
+      "hodnota_v_citaci": "an $8 million convertible note from Springtide Ventures Fund",
+      "datum_zdroje": "2025-01-07",
+      "datum_v_textu": "January 7, 2025",
+      "citace": "The round includes $15 million from Octopus Ventures, one of the largest and most active venture capital investors in the UK and Europe, and Riverside Acceleration Capital (RAC), a US-based growth capital partner to B2B software companies, and an $8 million convertible note from Springtide Ventures Fund."
+    }
+  ],
+  "poznamka": "CVC skupiny KKCG; web uvádí, že investuje výhradně kapitál KKCG (vlastni_kapital nezapsán, nejde o peníze zakladatelů či partnerů). Jediná doložená investice v okně: konvertibilní úvěr 8 mil. USD do ThreatMark (TZ cílové firmy 2025-01-07; fázi kola TZ neuvádí). ThreatMark s.r.o. (IČO 04222091) je ze 100 % vlastněna ThreatMark, Inc., proto IČO cílové firmy nevyplněno. Novinky na webu Springtide končí v 6/2023; další investice od 2024-10-11 jsem nenašel (Cyngular, Source Defense aj. jsou starší kola). Hledání omezeno vyčerpaným limitem vyhledávání."
+}

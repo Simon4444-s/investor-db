@@ -1,0 +1,29 @@
+{
+  "kandidat": "Sandberg Capital",
+  "znacka": "Sandberg Capital",
+  "stav": "mimo_rozsah",
+  "duvod": "PE",
+  "typ": "PE",
+  "fakta": [
+    {
+      "pole": "typ",
+      "hodnota": "PE",
+      "url": "http://www.sandbergcapital.com/",
+      "citace": "Ako správcovská spoločnosť na základe povolenia udeleného Národnou bankou Slovenska vykonáva správu alternatívnych investičných fondov, ktoré sú zamerané na investovanie do private equity a určené výhradne pre profesionálnych investorov, ktorými sú najmä finančné inštitúcie.",
+      "hodnota_v_citaci": "zamerané na investovanie do private equity",
+      "datum_zdroje": "2026-08-03",
+      "datum_v_textu": "dateModified: 2026-08-03T14:41:29+00:00"
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "SK",
+      "url": "http://www.sandbergcapital.com/",
+      "citace": "Spoločnosť Sandberg Capital, správ. spol., a.s., so sídlom: Dvořákovo nábrežie 8, 811 02 Bratislava, Slovenská republika, IČO: 47 255 277, zapísaná v Obchodnom registri Mestského súdu Bratislava III, oddiel: Sa, vložka č.: 5994/B („Sandberg Capital”), je regulovanou finančnou inštitúciou.",
+      "hodnota_v_citaci": "Bratislava, Slovenská republika",
+      "datum_zdroje": "2026-08-03",
+      "datum_v_textu": "dateModified: 2026-08-03T14:41:29+00:00"
+    }
+  ],
+  "investice": [],
+  "poznamka": "Slovenský správce alternativních fondů zaměřených na private equity (Sandberg Capital, správ. spol., a.s., IČO SK 47 255 277). Cílí na „menšie a stredne veľké spoločnosti s potenciálom rastu“, portfolio tvoří zavedené firmy (Seyfor, Terno, Sanagro, Daktela, Titans) – typ PE, proto mimo rozsah vzorku. Web uvádí i kancelář v Praze (Italská 2581/67), stálý tým v ČR tedy pravděpodobně má, na stavu mimo rozsah (PE) to nic nemění. Subjekt „Sandberg Capital s.r.o.“ (IČO 08100373, Pařížská 68/9, Praha 1) v ARES s tímto správcem nijak spojen není, nepoužito. Investice nehledány."
+}

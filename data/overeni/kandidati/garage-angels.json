@@ -1,0 +1,16 @@
+{
+  "kandidat": "Garage Angels",
+  "znacka": "Garage Angels",
+  "stav": "vyrazen",
+  "duvod": "V9",
+  "typ": null,
+  "fakta": [
+    {"pole": "duvod", "hodnota": "V9",
+     "url": "https://forbes.cz/andele-z-garaze-nakopli-moravu-ted-klub-elitnich-investoru-miri-za-hranice/",
+     "citace": "Průměrná výše investic se pohybuje kolem čtyř set tisíc eur (přibližně 9,7 milionu korun) a podílí se na nich od čtyř do dvanácti investorů.",
+     "hodnota_v_citaci": "podílí se na nich od čtyř do dvanácti investorů",
+     "datum_zdroje": "2026-02-16", "datum_v_textu": "datePublished: 2026-02-16T09:00:00+00:00"}
+  ],
+  "investice": [],
+  "poznamka": "Garage Angels je brněnský klub andělských investorů (Forbes 2026-02-16: „Klub více než dvaceti andělských investorů“); na jednotlivých investicích se podílí 4–12 členů, tedy investují členové klubu (V9; PLAN.md kap. 2 ho uvádí jako příklad). Vlastní fond klubu se nepodařilo doložit: starší zprávy (businessinfo.cz, HTTP 403 pro kontrolní skript) zmiňují u první investice společnost GA Investiční I.; její povaha (fond, nebo vehikl pro jeden deal) neověřena, případně posoudit zvlášť. Web klubu nenalezen. Investice nehledány."
+}

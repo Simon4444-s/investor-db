@@ -1,0 +1,167 @@
+{
+  "kandidat": "Look AI Ventures (LAIV)",
+  "znacka": "Look AI Ventures (LAIV)",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "Look AI Ventures SICAV, a.s.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17604087",
+      "citace": "\"ico\":\"17604087\",\"obchodniJmeno\":\"Look AI Ventures SICAV, a.s.\"",
+      "hodnota_v_citaci": "Look AI Ventures SICAV, a.s.",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "17604087",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17604087",
+      "citace": "\"ico\":\"17604087\",\"obchodniJmeno\":\"Look AI Ventures SICAV, a.s.\"",
+      "hodnota_v_citaci": "17604087",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17604087",
+      "citace": "\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://lookai.vc/",
+      "url": "https://lookai.vc/investors/",
+      "citace": "Look AI Ventures SICAV, a.s. Acting on behalf of the Look AI Ventures I Subfund Node5, Radlická 180/50, Prague 5, 150 00 ID: 176 04 087",
+      "hodnota_v_citaci": "ID: 176 04 087",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://lookai.vc/",
+      "citace": "Look AI Ventures is a pre-Series A venture capital fund based in Prague, Czech Republic, investing in early-stage AI startups.",
+      "hodnota_v_citaci": "pre-Series A venture capital fund",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "ai",
+      "url": "https://lookai.vc/",
+      "citace": "Look AI Ventures fund (LAIV) is the first investment fund in the Czech Republic that focuses exclusively on AI startups worldwide and provides new investors with the opportunity to seek the high returns that AI businesses promise.",
+      "hodnota_v_citaci": "focuses exclusively on AI startups",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "faze",
+      "hodnota": "pre-seed;seed",
+      "url": "https://lookai.vc/",
+      "citace": "You are an early-stage startup (pre-Series A) You use AI techniques that are critical for your solution",
+      "hodnota_v_citaci": "early-stage startup (pre-Series A)",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "Embodied AI",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-09-22",
+      "faze_kola": "neověřeno",
+      "castka_kola": null,
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "TZ",
+      "sektor": "prumysl",
+      "url": "https://lookai.vc/look-ai-ventures-backs-embodied-ai-robots-manufacturing/",
+      "citace": "Look AI Ventures has backed Embodied AI, a Lausanne-based robotics startup building robots that learn new tasks directly on factory production lines. The round was led by Faber VC, with participation from Techshop Capital, Kickfund, Plug and Play San Francisco, Excellis, and Vento.",
+      "hodnota_v_citaci": "Embodied AI",
+      "datum_zdroje": "2026-09-22",
+      "datum_v_textu": "September 22, 2026"
+    },
+    {
+      "cilova_firma": "Sodex Innovations",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-07-23",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 4000000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "TZ",
+      "sektor": "nemovitosti",
+      "url": "https://lookai.vc/look-ai-ventures-sodex-innovations-4m-ai-construction-site-surveying/",
+      "citace": "Sodex Innovations, an Austrian construction tech startup developing AI-powered surveying technology for construction sites, mines, and infrastructure projects, has closed a funding round of €4 million. The round was led by Capmont Technology, with participation from Bloomhaus, Look AI Ventures, Superangels, SOSV, and 12 Rounds Capital.",
+      "hodnota_v_citaci": "Sodex Innovations",
+      "datum_zdroje": "2026-07-23",
+      "datum_v_textu": "July 23, 2026"
+    },
+    {
+      "cilova_firma": "Lucida AI",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-06-30",
+      "faze_kola": "seed",
+      "castka_kola": {
+        "castka": 7000000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "TZ",
+      "sektor": "vzdelavani",
+      "url": "https://lookai.vc/look-ai-ventures-backs-lucida-ai-7m-seed-round/",
+      "citace": "Look AI Ventures has backed Lucida AI's $7M seed round, led by Velocity Capital, to scale its speech-to-speech AI platform for global communication.",
+      "hodnota_v_citaci": "Lucida AI",
+      "datum_zdroje": "2026-06-30",
+      "datum_v_textu": "June 30, 2026"
+    },
+    {
+      "cilova_firma": "Checkstep",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-05-29",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 3000000,
+        "mena": "GBP"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "TZ",
+      "sektor": "software",
+      "url": "https://lookai.vc/look-ai-ventures-backs-checkstep-3m-ai-trust-safety-infrastructure/",
+      "citace": "Checkstep, the AI content moderation platform transforming Trust and Safety infrastructure for online platforms, raised £3 million in funding. The round was led by Alea Capital Partners, with participation from Slow Ventures and Look AI Ventures.",
+      "hodnota_v_citaci": "Checkstep",
+      "datum_zdroje": "2026-05-29",
+      "datum_v_textu": "May 29, 2026"
+    },
+    {
+      "cilova_firma": "Surveily",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-03-18",
+      "faze_kola": "A",
+      "castka_kola": {
+        "castka": 2500000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "TZ",
+      "sektor": "prumysl",
+      "url": "https://lookai.vc/look-ai-ventures-backs-surveily-edge-ai-industrial-safety/",
+      "citace": "Surveily, a Wrocław-based edge AI company bringing real-time computer vision into industrial safety, has raised a €2.5 million Series A round. The round was led by Swiss industrial technology investor Momenta, with participation from our Look AI Ventures fund and other investors.",
+      "hodnota_v_citaci": "Surveily",
+      "datum_zdroje": "2026-03-18",
+      "datum_v_textu": "March 18, 2026"
+    }
+  ],
+  "poznamka": "Fond Look AI Ventures SICAV, a.s. obhospodařuje AVANT investiční společnost, a.s.; operativu vede dceřiná Look AI Investments, a.s. (IČO 06385745). Všechny investice jsou doloženy zprávami na webu investora. Tiket a velikost fondu (kapital_celkem) web neuvádí, neověřeno. Fáze pre-seed;seed odvozena z kritéria „pre-Series A“; Surveily je přesto kolo A. Datum stránek lookai.vc (kromě článků) se nepodařilo doložit. U Embodied AI zdroj neuvádí výši ani fázi kola."
+}

@@ -1,0 +1,166 @@
+{
+  "kandidat": "i&i Biotech Investments",
+  "znacka": "i&i Bio",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "Biotech Investments s.r.o.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10885978",
+      "citace": "\"ico\":\"10885978\",\"obchodniJmeno\":\"Biotech Investments s.r.o.\"",
+      "hodnota_v_citaci": "Biotech Investments s.r.o.",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "10885978",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10885978",
+      "citace": "\"ico\":\"10885978\",\"obchodniJmeno\":\"Biotech Investments s.r.o.\"",
+      "hodnota_v_citaci": "10885978",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "nazev",
+      "hodnota": "Biotech Investments s.r.o.",
+      "url": "https://www.inibio.eu/",
+      "citace": "Headquarters i&i Biotech Fund I SCSp 42, rue de la Vallée, L-2661 Luxembourg BP 908 L-2019, Luxembourg Investment Adviser Biotech Investments, s. r. o. Pobřežní 394/12, 186 00 Praha 8 Czech Republic",
+      "hodnota_v_citaci": "Investment Adviser Biotech Investments, s. r. o.",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://cvca.cz/biotech-investments-2/",
+      "citace": "i&i Biotech Investments Adresa Pobřežní 394/12 186 00 Praha 8",
+      "hodnota_v_citaci": "186 00 Praha 8",
+      "datum_zdroje": "2025-02-25",
+      "datum_v_textu": "dateModified: 2025-02-25T08:15:15+00:00"
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://www.inibio.eu/",
+      "url": "https://cvca.cz/biotech-investments-2/",
+      "citace": "i&i Biotech Investments Adresa Pobřežní 394/12 186 00 Praha 8 +420 725 731 199 www.inibio.eu info@inibio.eu",
+      "hodnota_v_citaci": "www.inibio.eu",
+      "datum_zdroje": "2025-02-25",
+      "datum_v_textu": "dateModified: 2025-02-25T08:15:15+00:00"
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://www.inibio.eu/",
+      "citace": "Embedded in the innovative ecosystem around the Institute of Organic Chemistry and Biochemistry of the Czech Academy of Science, we are one of the very few VC funds in Europe focused exclusively on life science ventures.",
+      "hodnota_v_citaci": "one of the very few VC funds in Europe focused exclusively on life science ventures",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "zdravi;ai",
+      "url": "https://www.inibio.eu/",
+      "citace": "Focus As a life sciences fund, we are comfortable with drug discovery, medtech, diagnostics, and AI verticals.",
+      "hodnota_v_citaci": "we are comfortable with drug discovery, medtech, diagnostics, and AI verticals",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "150000-2000000 EUR",
+      "url": "https://www.inibio.eu/",
+      "citace": "Stage Ready to create? We can start at €150k to support business creation. Ready to grow? Our sweet spot lies between €0.5M and €2M.",
+      "hodnota_v_citaci": "We can start at €150k to support business creation. Ready to grow? Our sweet spot lies between €0.5M and €2M",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "kapital_celkem",
+      "hodnota": "45000000 EUR; druh=velikost fondu",
+      "url": "https://www.uochb.cz/en/ini-bio",
+      "citace": "Investment fund i&i Biotech Fund (i&i Bio) was established in 2021 in cooperation with the European Investment Fund (EIF) and i&i Prague. The fund commenced operation with more than 45 million EUR and specializes in investments in academic spinoffs.",
+      "hodnota_v_citaci": "more than 45 million EUR",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "Theorema",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-03-31",
+      "faze_kola": "pre-seed",
+      "castka_kola": {
+        "castka": 2850000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "ai",
+      "url": "https://vestbee.com/insights/articles/theorema-secures-2-85-m",
+      "citace": "Theorema’s €2.85 million pre-seed round was supported by Tilia Impact Ventures, InvestEU, Credo Ventures, KAYA VC, Amino Collective, NAVEC Investment Management, and i&i Biotech Fund.",
+      "hodnota_v_citaci": "i&i Biotech Fund",
+      "datum_zdroje": "2026-03-31",
+      "datum_v_textu": "March 31, 2026"
+    },
+    {
+      "cilova_firma": "T-CURX",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-12-17",
+      "faze_kola": "A",
+      "castka_kola": {
+        "castka": 20000000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "TZ",
+      "sektor": "zdravi",
+      "url": "https://www.inibio.eu/news/t-curx-announces-%2420m-series-a-first-closing-led-by-biomedvc-to-fund-pipeline-of-clinical-stage-car-t-programs-and-advance-proprietary-non-viral-in-vivo-car-t-platform",
+      "citace": "The Series A syndicate was led by BiomedVC and included Bayern Kapital, WuXi Biologics Healthcare Ventures, HighLight Capital (HLC), and i&iBio Fund, as additional investors along with existing and new individual investors.",
+      "hodnota_v_citaci": "i&iBio Fund",
+      "datum_zdroje": "2025-12-17",
+      "datum_v_textu": "17. 12. 2025"
+    },
+    {
+      "cilova_firma": "Captain T Cell",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-11-17",
+      "faze_kola": "neověřeno",
+      "castka_kola": null,
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "TZ",
+      "sektor": "zdravi",
+      "url": "https://www.inibio.eu/news/captain-t-cell-closes-financing-round-to-advance-its-proprietary%2C-next-generation-tcr-t-pipeline-into-the-clinic-",
+      "citace": "Existing investors i&i Biotech Fund I SCSp, HIL-INVENT and Brandenburg Kapital also participated in the round.",
+      "hodnota_v_citaci": "i&i Biotech Fund I SCSp",
+      "datum_zdroje": "2025-11-17",
+      "datum_v_textu": "17. 11. 2025"
+    },
+    {
+      "cilova_firma": "KyDo Therapeutics",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-09-22",
+      "faze_kola": "seed",
+      "castka_kola": {
+        "castka": 4450000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "media",
+      "sektor": "zdravi",
+      "url": "https://www.bionity.com/en/news/1187186/a-completely-new-approach-in-cancer-therapy.html",
+      "citace": "KyDo announced today the successful completion of a €4.45 million seed financing round. The financing round was successfully spearheaded by I&I Bio together with KHAN-II, and with notable participation of VORNvc, and TU capital.",
+      "hodnota_v_citaci": "spearheaded by I&I Bio",
+      "datum_zdroje": "2025-09-22",
+      "datum_v_textu": "22-Sep-2025"
+    }
+  ],
+  "poznamka": "Značka i&i Bio. Fond i&i Biotech Fund I SCSp má sídlo v Lucemburku; investičním poradcem a českým týmem je Biotech Investments s.r.o. (Praha 8), kterou jako správce v ČR uvádím ve faktech nazev/ico; správcovská společnost (AIFM/GP) lucemburského fondu nebyla ověřena. Kapitál: fond podle ÚOCHB zahájil činnost s „more than 45 million EUR“ (nejméně 45 mil. EUR; v roce 2023 do fondu dále vstoupila Česká spořitelna s 5 mil. EUR – Forbes 2023-09-20), datum stránky ÚOCHB není uvedeno. Fáze nevyplněna: web uvádí jen „early-stage“ a tiket od 150 tis. EUR na business creation, bez výslovných fází. Tiket: start 150 tis. EUR, „sweet spot“ 0,5–2 mil. EUR. Investice: T-CURX (DE) a Captain T Cell (DE) jsou tiskové zprávy cílových firem převzaté na webu investora; Captain T Cell – follow-on, fáze a velikost kola neuvedeny (EUR 20 mil. je celkový rozpočet včetně grantů). KyDo Therapeutics (DE): tisková zpráva firmy převzatá Bionity 22. 9. 2025 (transkript.de ji uvádí již 2025-09-16). Theorema: Vestbee 2026-03-31; česká Theorema CZ s.r.o. (IČO 24062804) je dceřinou společností Theorema Inc. (USA), investice tedy patrně šla do mateřské firmy, proto IČO cílové firmy nevyplněno. Další investice z portfolia (LAM-X, Antiverse, Vasa Therapeutics, Ternary Therapeutics, iQure 2024) nehledány, limit 5 investic nevyčerpán záměrně – 4 nejnovější doložené stačí."
+}

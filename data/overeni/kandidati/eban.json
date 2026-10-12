@@ -1,0 +1,16 @@
+{
+  "kandidat": "EBAN",
+  "znacka": "EBAN",
+  "stav": "vyrazen",
+  "duvod": "V9",
+  "typ": null,
+  "fakta": [
+    {"pole": "duvod", "hodnota": "V9",
+     "url": "https://www.eban.org/",
+     "citace": "EBAN – European Business Angel Network – is Europe’s largest association of business angel networks and other early stage investors. Our mission is to drive successful and responsible early stage investing by providing our members network connections, best practices and representation towards governmental stakeholders.",
+     "hodnota_v_citaci": "association of business angel networks",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""}
+  ],
+  "investice": [],
+  "poznamka": "EBAN je evropská asociace sítí business angels se sídlem v Bruselu (Avenue des Arts 56), sama nevkládá kapitál do firem; investují členové sdružených sítí (V9, nesplňuje Z1/Z3). Vlastní fond EBAN nebyl nalezen. Investice nehledány."
+}

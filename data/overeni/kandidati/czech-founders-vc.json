@@ -1,0 +1,182 @@
+{
+  "kandidat": "Czech Founders VC",
+  "znacka": "Czech Founders VC",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "Czech Founders Ventures s.r.o., osoba rizikového kapitálu",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17051835",
+      "citace": "\"ico\":\"17051835\",\"obchodniJmeno\":\"Czech Founders Ventures s.r.o., osoba rizikového kapitálu\"",
+      "hodnota_v_citaci": "Czech Founders Ventures s.r.o., osoba rizikového kapitálu",
+      "datum_zdroje": "2026-05-15",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-05-15\""
+    },
+    {
+      "pole": "ico",
+      "hodnota": "17051835",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17051835",
+      "citace": "\"ico\":\"17051835\",\"obchodniJmeno\":\"Czech Founders Ventures s.r.o., osoba rizikového kapitálu\"",
+      "hodnota_v_citaci": "17051835",
+      "datum_zdroje": "2026-05-15",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-05-15\""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17051835",
+      "citace": "\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "2026-05-15",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-05-15\""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://czechfounders.vc/",
+      "url": "https://czechfounders.vc/",
+      "citace": "Apply for investment Czech Founders VC © Czech Founders Ventures s.r.o.",
+      "hodnota_v_citaci": "Czech Founders VC © Czech Founders Ventures s.r.o.",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://czechfounders.vc/",
+      "citace": "Investing Investing in exceptional founders with global ambitions",
+      "hodnota_v_citaci": "Investing in exceptional founders",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "faze",
+      "hodnota": "pre-seed",
+      "url": "https://czechfounders.vc/",
+      "citace": "Our focus This is what we typically invest in. Pre-seed Pre-seed tickets. Typically €50-350k.",
+      "hodnota_v_citaci": "Pre-seed tickets",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "tiket_deklarovany",
+      "hodnota": "50000-350000 EUR",
+      "url": "https://czechfounders.vc/",
+      "citace": "Our focus This is what we typically invest in. Pre-seed Pre-seed tickets. Typically €50-350k.",
+      "hodnota_v_citaci": "Typically €50-350k",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "kapital_celkem",
+      "hodnota": "10000000 EUR; druh=velikost fondu",
+      "url": "https://cc.cz/uspesni-cesti-startupiste-budou-pomahat-novym-nadejim-vybrali-na-to-mezi-sebou-ctvrt-miliardy/",
+      "citace": "Protože trojice zakladatelů viděla, jak mezi úspěšnými startupisty zájem o účast na podobném projektu rezonuje, rozhodli se nakonec cílovou částku zdvojnásobit na deset milionů eur. A tu dovybrali před měsícem.",
+      "hodnota_v_citaci": "zdvojnásobit na deset milionů eur",
+      "datum_zdroje": "2022-09-07",
+      "datum_v_textu": "datePublished: 2022-09-07T07:00:21+02:00"
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "Merchantee",
+      "ico_cilove_firmy": "19232527",
+      "datum_investice": "2026-06-09",
+      "faze_kola": "seed",
+      "castka_kola": {
+        "castka": 30000000,
+        "mena": "CZK"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "software",
+      "url": "https://cc.cz/resi-jeden-z-nejvetsich-problemu-evropskych-e-shopu-kvituje-investor-cesi-ziskali-dalsi-desitky-milionu/",
+      "citace": "Merchantee oznámilo rozšíření svého původního, takzvaného seed investičního kola ve výši patnáct milionů korun z roku 2024, o dalších třicet milionů. Kolo vedl fond Reflex Capital za účasti Czech Founders VC a Lighthouse Ventures.",
+      "hodnota_v_citaci": "za účasti Czech Founders VC",
+      "datum_zdroje": "2026-06-09",
+      "datum_v_textu": "datePublished: 2026-06-09T10:02:00+02:00"
+    },
+    {
+      "cilova_firma": "Maxfusion",
+      "ico_cilove_firmy": "24091375",
+      "datum_investice": "2026-01-14",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 350000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "neuvedeno",
+      "typ_dokladu": "media",
+      "sektor": "ai",
+      "url": "https://cc.cz/umoznuji-hromadne-tvorit-videoreklamy-i-s-ai-herci-izraelci-buduji-startup-z-prahy-ziskali-investici/",
+      "citace": "Startup Maxifusion vyvíjí platformu pro automatizovanou tvorbu videoreklam a teď hlásí i získání investice 350 tisíc eur (8,4 milionu korun) od Czech Founders VC, andělského investora i samotných zakladatelů.",
+      "hodnota_v_citaci": "investice 350 tisíc eur (8,4 milionu korun) od Czech Founders VC",
+      "datum_zdroje": "2026-01-14",
+      "datum_v_textu": "datePublished: 2026-01-14T16:52:27+01:00"
+    },
+    {
+      "cilova_firma": "Every Health",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-10-23",
+      "faze_kola": "seed",
+      "castka_kola": {
+        "castka": 1100000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "media",
+      "sektor": "zdravi",
+      "url": "https://tech.eu/2025/10/23/every-health-raises-1-1m-to-build-europe-s-first-lgbtq-virtual-clinic/",
+      "citace": "Czech Founders VC led the funding, with participation from Atlantic Labs, N1 Ventures, Ultra Ventures, ZAS Ventures, and Taimi, one of the world's largest LGBTQ+ dating apps. \"Our investment in Every Health was driven by the opportunity to solve a massive, underserved healthcare need affecting tens of millions of Europeans,\"",
+      "hodnota_v_citaci": "Czech Founders VC led the funding",
+      "datum_zdroje": "2025-10-23",
+      "datum_v_textu": "23 October 2025"
+    },
+    {
+      "cilova_firma": "Lemondia",
+      "ico_cilove_firmy": "19517301",
+      "datum_investice": "2025-09-17",
+      "faze_kola": "pre-seed",
+      "castka_kola": {
+        "castka": 300000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "neuvedeno",
+      "typ_dokladu": "media",
+      "sektor": "software",
+      "url": "https://cc.cz/za-rok-pomohli-s-organizaci-eventu-300-firmam-vcetne-red-bullu-investori-jim-posilaji-dalsi-miliony/",
+      "citace": "Plánování firemních akcí patří mezi nejméně efektivní procesy, hlásí zakladatelé pražského startupu Lemondia, jenž tento problém řeší pomocí automatizované platformy. Za necelý rok od vzniku získal více než 300 firemních klientů a pomohl s organizací eventů dohromady za patnáct milionů korun. To o dalším potenciálu přesvědčilo také investory, 300 tisíc eur (přes sedm milionů korun) do projektu v rámci tzv. pre-seed kola posílají Czech Founders VC a Nextech Ventures",
+      "hodnota_v_citaci": "pre-seed kola posílají Czech Founders VC",
+      "datum_zdroje": "2025-09-17",
+      "datum_v_textu": "datePublished: 2025-09-17T08:20:26+02:00"
+    },
+    {
+      "cilova_firma": "Lignufy",
+      "ico_cilove_firmy": "19956002",
+      "datum_investice": "2025-08-18",
+      "faze_kola": "neověřeno",
+      "castka_kola": {
+        "castka": 40000,
+        "mena": "EUR"
+      },
+      "castka_investora": {
+        "castka": 40000,
+        "mena": "EUR"
+      },
+      "role": "neuvedeno",
+      "typ_dokladu": "media",
+      "sektor": "ostatni",
+      "url": "https://cc.cz/se-drevem-se-obchoduje-desitky-let-stejne-nekdy-je-problem-najit-kupce-rikaji-a-stavi-online-trziste/",
+      "citace": "Startup nyní získal investici 40 tisíc eur, přibližně jeden milion korun, od Czech Founders VC i podporu v jejich akceleračním programu Sherpa.",
+      "hodnota_v_citaci": "investici 40 tisíc eur, přibližně jeden milion korun, od Czech Founders VC",
+      "datum_zdroje": "2025-08-18",
+      "datum_v_textu": "datePublished: 2025-08-18T06:49:16+02:00"
+    }
+  ],
+  "poznamka": "Značku Czech Founders VC k firmě Czech Founders Ventures s.r.o. váže patička webu czechfounders.vc. Fond provozuje i akcelerační program Sherpa s investicí (cca 1 mil. Kč); příznak akcelerator neuveden, protože jde primárně o fond. Web uvádí spuštění navazujícího fondu United Founders (podle CzechCrunch formálně samostatný projekt) – nezahrnuto. Sektory na webu deklarovány nejsou. Kapitál 10 mil. EUR je z článku z 2022-09-07 (cílová velikost fondu, dovybraná). U Maxfusion článek píše název s překlepem „Maxifusion“; fáze kola neuvedena. Lignufy: B2B online tržiště se dřevem (sektor ostatni), investice v rámci programu Sherpa, fáze neuvedena. Every Health je německá firma (bez IČO). DecisionRules (2025-05-06, účast v kole 1,6 mil. EUR) vynechán jako starší než pět novějších. Další investice z roku 2026 (AdSpawn, Spicy Cells, VR Vitalis, Carta Genum, Float) uvádí jen PitchBook, primární zdroj nenalezen. V ARES VR není Czech Founders Ventures mezi společníky Merchantee, Maxfusion AI ani Lemondia (investice zřejmě formou konvertibilního nástroje nebo zatím nezapsána)."
+}

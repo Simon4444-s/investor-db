@@ -1,0 +1,26 @@
+{
+  "kandidat": "ARX Equity Partners",
+  "znacka": "ARX Equity Partners",
+  "stav": "mimo_rozsah",
+  "duvod": "PE",
+  "typ": "PE",
+  "fakta": [
+    {"pole": "typ", "hodnota": "PE",
+     "url": "https://www.arxequity.com/about-arx/",
+     "citace": "With more than € 300 million raised in four funds, ARX has become a leading private equity firm in its segment operating in the Central European (“CE”) region. We have a 20-year track-record investing in and supporting the growth of mid-sized CE companies.",
+     "hodnota_v_citaci": "leading private equity firm",
+     "datum_zdroje": "2026-06-11", "datum_v_textu": "dateModified: 2026-06-11T10:44:51+00:00"},
+    {"pole": "duvod", "hodnota": "PE",
+     "url": "https://www.arxequity.com/working-with-arx/",
+     "citace": "Blue-chip Institutional Pedigree. ARX has successfully raised and managed four successive private equity funds, with more than € 300 million under management.",
+     "hodnota_v_citaci": "four successive private equity funds",
+     "datum_zdroje": "2018-06-21", "datum_v_textu": "dateModified: 2018-06-21T08:44:17+00:00"},
+    {"pole": "zeme_sidla", "hodnota": "CZ",
+     "url": "https://www.arxequity.com/about-arx/",
+     "citace": "Headquartered in Prague, the firm’s activities are managed by an experienced and multinational team of investment professionals, combining a wide range of international expertise plus in-depth local knowledge.",
+     "hodnota_v_citaci": "Headquartered in Prague",
+     "datum_zdroje": "2026-06-11", "datum_v_textu": "dateModified: 2026-06-11T10:44:51+00:00"}
+  ],
+  "investice": [],
+  "poznamka": "Private equity zaměřené na zralé střední firmy (hodnota 10–50 mil. EUR, EBITDA min. 1 mil. EUR, MBO/MBI, většinové podíly), proto mimo rozsah vzorku VC (duvod PE). Investice se nehledaly."
+}

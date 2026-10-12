@@ -1,0 +1,16 @@
+{
+  "kandidat": "Hithit",
+  "znacka": "Hithit",
+  "stav": "vyrazen",
+  "duvod": "V2",
+  "typ": null,
+  "fakta": [
+    {"pole": "duvod", "hodnota": "V2",
+     "url": "https://czechstartups.gov.cz/?investori=hithit",
+     "citace": "Hithit je crowdfundingová společnost, která pomohla již 2000 projektům, na které bylo vybráno více než 160 milionů korun.",
+     "hodnota_v_citaci": "crowdfundingová společnost",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""}
+  ],
+  "investice": [],
+  "poznamka": "Crowdfundingová platforma; vlastní web (https://www.hithit.com/cs/home) mluví o „odměnovém crowdfundingu“. Vlastní investiční fond platformy jsem nenašel (na úvodní stránce se výraz „invest“ nevyskytuje), proto V2."
+}

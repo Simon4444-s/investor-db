@@ -1,0 +1,31 @@
+{
+  "kandidat": "Stratum Partners",
+  "znacka": "Stratum Partners",
+  "stav": "mimo_rozsah",
+  "duvod": "PE",
+  "typ": "PE",
+  "fakta": [
+    {"pole": "typ", "hodnota": "PE",
+     "url": "https://www.stratum.eu/",
+     "citace": "Stratum Partners is a private equity manager focused on Central Europe. We have been investing in small and medium-sized high-growth companies, primarily in the Czech Republic and Slovakia since 2019.",
+     "hodnota_v_citaci": "private equity manager",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""},
+    {"pole": "nazev", "hodnota": "Stratum Partners s.r.o.",
+     "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07607539",
+     "citace": "\"ico\":\"07607539\",\"obchodniJmeno\":\"Stratum Partners s.r.o.\"",
+     "hodnota_v_citaci": "Stratum Partners s.r.o.",
+     "datum_zdroje": "2026-09-04", "datum_v_textu": "\"datumAktualizace\":\"2026-09-04\""},
+    {"pole": "ico", "hodnota": "07607539",
+     "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07607539",
+     "citace": "\"ico\":\"07607539\",\"obchodniJmeno\":\"Stratum Partners s.r.o.\"",
+     "hodnota_v_citaci": "07607539",
+     "datum_zdroje": "2026-09-04", "datum_v_textu": "\"datumAktualizace\":\"2026-09-04\""},
+    {"pole": "zeme_sidla", "hodnota": "CZ",
+     "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07607539",
+     "citace": "\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+     "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+     "datum_zdroje": "2026-09-04", "datum_v_textu": "\"datumAktualizace\":\"2026-09-04\""}
+  ],
+  "investice": [],
+  "poznamka": "Český správce private equity (sídlo Praha). Web i CVCA popisují růstové investice, odkupy firem a rekapitalizace etablovaných malých a středních firem; z novinek na webu jsou vidět i většinové podíly (např. Poptávej.cz, prosinec 2025). Proto typ PE a mimo rozsah vzorku (duvod PE); investice se nehledaly. Identitu (IČO) jsem doplnil, protože jde o českou firmu."
+}

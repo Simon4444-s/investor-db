@@ -1,0 +1,188 @@
+{
+  "kandidat": "Tensor Ventures",
+  "znacka": "Tensor Ventures",
+  "stav": "aktivni",
+  "duvod": null,
+  "typ": "VC",
+  "fakta": [
+    {
+      "pole": "nazev",
+      "hodnota": "Tensor Advisory s.r.o.",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19987544",
+      "citace": "\"ico\":\"19987544\",\"obchodniJmeno\":\"Tensor Advisory s.r.o.\"",
+      "hodnota_v_citaci": "\"obchodniJmeno\":\"Tensor Advisory s.r.o.\"",
+      "datum_zdroje": "2026-09-25",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-09-25\""
+    },
+    {
+      "pole": "nazev",
+      "hodnota": "Tensor Advisory s.r.o.",
+      "url": "https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf",
+      "hodnota_v_citaci": "Tensor Advisory s.r.o",
+      "datum_zdroje": "2026-09-30",
+      "datum_v_textu": "as at 30 September 2026",
+      "citace": "Tensor Co-Investment Fund SCSp Tensor Advisory s.r.o Czech Republic"
+    },
+    {
+      "pole": "ico",
+      "hodnota": "19987544",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19987544",
+      "citace": "\"ico\":\"19987544\",\"obchodniJmeno\":\"Tensor Advisory s.r.o.\"",
+      "hodnota_v_citaci": "\"ico\":\"19987544\"",
+      "datum_zdroje": "2026-09-25",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-09-25\""
+    },
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "CZ",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19987544",
+      "citace": "\"sidlo\":{\"kodStatu\":\"CZ\",\"nazevStatu\":\"Česká republika\"",
+      "hodnota_v_citaci": "\"kodStatu\":\"CZ\"",
+      "datum_zdroje": "2026-09-25",
+      "datum_v_textu": "\"datumAktualizace\":\"2026-09-25\""
+    },
+    {
+      "pole": "web",
+      "hodnota": "https://tensor.ventures/",
+      "url": "https://tensor.ventures/",
+      "hodnota_v_citaci": "hello@tensor.ventures",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "Contact hello@tensor.ventures Address Tensor Ventures GP S.à r.l. & Tensor Ventures Fund I SCSp, 1A Heienhaff, 1736 Senningerberg, Luxembourg Contact in CZ Pernerova 697/35, Karlín, 186 00 Praha"
+    },
+    {
+      "pole": "typ",
+      "hodnota": "VC",
+      "url": "https://www.thesaasnews.com/news/appfactor-raises-4-million-seed-funding/",
+      "hodnota_v_citaci": "European venture capital firm",
+      "datum_zdroje": "2026-02-05",
+      "datum_v_textu": "datePublished: 2026-02-05T08:00:00.000Z",
+      "citace": "Tensor Ventures is a European venture capital firm specializing in deep tech. Based in Prague and Brno, Czech Republic, the firm focuses on highly technical, research-driven startups that other VCs might find too complex to evaluate."
+    },
+    {
+      "pole": "sektory_deklarovane",
+      "hodnota": "ai;zdravi;energie;ostatni",
+      "url": "https://tensor.ventures/",
+      "hodnota_v_citaci": "the rise of AI, Quantum Revolution, Computational Biotech or Sustainable Tech",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "We embrace inevitable tectonic shifts; the rise of AI, Quantum Revolution, Computational Biotech or Sustainable Tech."
+    },
+    {
+      "pole": "faze",
+      "hodnota": "seed;A",
+      "url": "https://tensor.ventures/",
+      "hodnota_v_citaci": "We participate in Seed and Series A rounds",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "citace": "INVESTMENT TARGET We participate in Seed and Series A rounds."
+    },
+    {
+      "pole": "kapital_celkem",
+      "hodnota": "1000000000 CZK; druh=velikost fondu",
+      "url": "https://forbes.cz/tensor-vybral-miliardu-a-miri-dal-cesti-investori-sazi-na-ai-i-kvantove-technologie/",
+      "hodnota_v_citaci": "closing fondu v hodnotě jedné miliardy korun",
+      "datum_zdroje": "2025-09-18",
+      "datum_v_textu": "datePublished: 2025-09-18T18:00:00+00:00",
+      "citace": "Český deep-tech fond Tensor Ventures má za sebou closing fondu v hodnotě jedné miliardy korun."
+    }
+  ],
+  "investice": [
+    {
+      "cilova_firma": "Pointee",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-04-15",
+      "faze_kola": "seed",
+      "castka_kola": {
+        "castka": 1400000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "media",
+      "sektor": "ai",
+      "url": "https://cc.cz/nasadit-ai-je-hracka-ale-uridit-ji-peklo-hlasi-cesky-startup-ktery-na-to-ziskal-desitky-milionu/",
+      "hodnota_v_citaci": "Investici vedl český fond Tensor Ventures",
+      "datum_zdroje": "2026-04-15",
+      "datum_v_textu": "datePublished: 2026-04-15T09:00:08+02:00",
+      "citace": "Na další rozvoj řešení nyní Pointee získalo v takzvaném seed kole 1,4 milionu dolarů (30 milionů korun). Investici vedl český fond Tensor Ventures, ke kterému se přidal Seed Starter České i Slovenské spořitelny."
+    },
+    {
+      "cilova_firma": "ValkaAI",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-02-24",
+      "faze_kola": "pre-seed",
+      "castka_kola": {
+        "castka": 12000000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "ucast",
+      "typ_dokladu": "media",
+      "sektor": "ai",
+      "url": "https://www.startbase.com/news/e12-millionen-pre-seed-fuer-valkaai/",
+      "hodnota_v_citaci": "Tensor Ventures",
+      "datum_zdroje": "2026-02-24",
+      "datum_v_textu": "datePublished: 2026-02-24T15:49:23+01:00",
+      "citace": "The AI startup ValkaAI has closed a pre-seed round of 12 million euros. The financing is led by Rockaway Ventures, with J&T Ventures, Tensor Ventures, BD Partners and Fond Naše Česko also participating."
+    },
+    {
+      "cilova_firma": "AppFactor",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2026-02-05",
+      "faze_kola": "seed",
+      "castka_kola": {
+        "castka": 4000000,
+        "mena": "USD"
+      },
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "media",
+      "sektor": "software",
+      "url": "https://www.thesaasnews.com/news/appfactor-raises-4-million-seed-funding/",
+      "hodnota_v_citaci": "The round was led by Tensor Ventures",
+      "datum_zdroje": "2026-02-05",
+      "datum_v_textu": "datePublished: 2026-02-05T08:00:00.000Z",
+      "citace": "AppFactor, a London, UK-based agentic orchestration platform, has raised $4 million in a Seed round. Investors The round was led by Tensor Ventures, with participation from Begin Capital, Adara Ventures, and Narwhal Investments."
+    },
+    {
+      "cilova_firma": "Repsense",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-12-16",
+      "faze_kola": "seed",
+      "castka_kola": {
+        "castka": 2000000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "media",
+      "sektor": "ai",
+      "url": "https://vestbee.com/insights/articles/repsense-raises-2-m",
+      "hodnota_v_citaci": "final tranche led by Tensor Ventures and Seed Starter",
+      "datum_zdroje": "2025-12-16",
+      "datum_v_textu": "datePublished: 2025-12-16T10:41:00.298Z",
+      "citace": "Vilnius-based Repsense, an AI platform for analyzing and predicting media narratives, has raised €2 million in a seed round, including a €1.1 million final tranche led by Tensor Ventures and Seed Starter, CVC of Česká spořitelna bank, as Vestbee was told."
+    },
+    {
+      "cilova_firma": "QurieGen",
+      "ico_cilove_firmy": "",
+      "datum_investice": "2025-04-09",
+      "faze_kola": "pre-seed",
+      "castka_kola": {
+        "castka": 2200000,
+        "mena": "EUR"
+      },
+      "castka_investora": null,
+      "role": "lead",
+      "typ_dokladu": "media",
+      "sektor": "zdravi",
+      "url": "https://cc.cz/funguje-jako-google-mapy-pro-bunky-a-urychluje-vyvoj-leku-v-onkologii-startup-ziskal-investici-i-od-cechu/",
+      "hodnota_v_citaci": "české fondy Tensor Ventures",
+      "datum_zdroje": "2025-04-09",
+      "datum_v_textu": "datePublished: 2025-04-09T14:23:07+02:00",
+      "citace": "To zaujalo také investory – do nizozemského startupu s polskými kořeny v rámci úvodního – tzv. pre-seed – kola vložili dohromady 2,2 milionu eur (55 milionů korun). Konkrétně jde o české fondy Tensor Ventures, Lighthouse Ventures, Moondust Ventures, 22 Hor Invest a také zahraniční BSV Ventures."
+    }
+  ],
+  "poznamka": "Sloučeno se správcem Tensor Advisory s.r.o. (IČO 19987544): EIF ho k 30. 9. 2026 uvádí jako správce fondu Tensor Co-Investment Fund SCSp s týmem v ČR; statutární orgán je v ARES shodný s vedením Tensor Ventures (jména neuvádím). Hlavní fond Tensor Ventures Fund I SCSp a jeho GP Tensor Ventures GP S.à r.l. sídlí podle webu v Lucembursku, kontakt v ČR Praha-Karlín. V ARES existuje i Tensor Ventures a.s. (IČO 06257241, v roce 2022 společník Pointee Interactive s.r.o.) a Tensor Warehouse s.r.o. (IČO 22245031); jejich role nebyla ověřena. Sektory: kvantové technologie zapsány jako ostatni. Kapitál: closing druhého fondu (Forbes 2025-09-18), cíl navýšení na 1,5 mld. Kč. Tiket na webu uveden není (TheSaaSNews uvádí 250 000–1 000 000 EUR, nezapsáno jako deklarovaný). Role lead u QurieGen je ve zdroji uvedena ve větě se jménem fyzické osoby, proto není v citaci; citace QurieGen ani neobsahuje název firmy (je v titulku a dalším textu článku). Pointee Interactive s.r.o. a Valka.AI s.r.o. vlastní zahraniční mateřské společnosti, IČO cílové firmy proto nevyplněno. Další doložená investice v okně: Wultra (seed+, 3 mil. EUR, 2025-01-15; v ARES je mezi společníky Wultra s.r.o. Tensor Co-Investment Fund, dříve Tensor Warehouse s.r.o.). Edmund (2026-04) a DYNANIC (2024-12) doloženy jen agregátory nebo mimo okno, nezapsáno."
+}

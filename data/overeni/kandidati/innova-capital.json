@@ -1,0 +1,21 @@
+{
+  "kandidat": "Innova Capital",
+  "znacka": "Innova Capital",
+  "stav": "mimo_rozsah",
+  "duvod": "PE",
+  "typ": "PE",
+  "fakta": [
+    {"pole": "typ", "hodnota": "PE",
+     "url": "https://www.innovacap.com/",
+     "citace": "We are an independent private equity firm established in 1994 in Poland with the objective of investing in controlling stakes of mid-sized companies in the CEE region.",
+     "hodnota_v_citaci": "independent private equity firm",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""},
+    {"pole": "zeme_sidla", "hodnota": "PL",
+     "url": "https://cvca.cz/innova-capital/",
+     "citace": "Innova Capital Adresa Rondo ONZ1 35th floor 00-124 Varšava Polsko",
+     "hodnota_v_citaci": "Varšava Polsko",
+     "datum_zdroje": "2026-09-02", "datum_v_textu": "dateModified: 2026-09-02T11:52:45+00:00"}
+  ],
+  "investice": [],
+  "poznamka": "Nezávislá private equity firma z Polska, investuje do kontrolních podílů ve středně velkých firmách v regionu CEE (CVCA: tiket 20–50 mil. EUR, buyout a růstový kapitál). Mimo rozsah vzorku jako PE; investice se nehledaly."
+}

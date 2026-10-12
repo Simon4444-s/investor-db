@@ -1,0 +1,16 @@
+{
+  "kandidat": "The Seeders",
+  "znacka": "The Seeders",
+  "stav": "vyrazen",
+  "duvod": "V9",
+  "typ": null,
+  "fakta": [
+    {"pole": "duvod", "hodnota": "V9",
+     "url": "https://theseeders.cz/",
+     "citace": "The Seeders je skupina andělských investorů, utvořená v roce 2024 kolem zakladatelů značky Niceboy®.",
+     "hodnota_v_citaci": "skupina andělských investorů",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""}
+  ],
+  "investice": [],
+  "poznamka": "Skupina andělských investorů bez vlastního fondu: v ARES není žádný subjekt s názvem „Seeders“ (hledání 2026-10-11). Web uvádí tiket 1–10 mil. CZK na projekt. Adresa https://www.theseeders.cz/ má neplatný certifikát (www), proto je zdrojem https://theseeders.cz/. Jednotliví členové mohou být v plné databázi andělé (do vzorku nepatří, jména neuvádím)."
+}

@@ -1,0 +1,26 @@
+{
+  "kandidat": "mAccelerator.vc",
+  "znacka": "mAccelerator",
+  "stav": "mimo_rozsah",
+  "duvod": "bez_tymu_v_CR",
+  "typ": "VC",
+  "fakta": [
+    {"pole": "typ", "hodnota": "VC",
+     "url": "https://czechstartups.gov.cz/?investori=maccelerator-vc",
+     "citace": "mAccelerator.vc je venture capital fond pod záštitou společnosti mBank.",
+     "hodnota_v_citaci": "venture capital fond",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""},
+    {"pole": "cvc", "hodnota": "ano",
+     "url": "https://czechstartups.gov.cz/?investori=maccelerator-vc",
+     "citace": "mAccelerator.vc je venture capital fond pod záštitou společnosti mBank.",
+     "hodnota_v_citaci": "pod záštitou společnosti mBank",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""},
+    {"pole": "zeme_sidla", "hodnota": "PL",
+     "url": "https://en.media.mbank.pl/36472-mbank-will-invest-eur-50-million-in-new-technologies-for-financial-institutions",
+     "citace": "mBank will set up the first fund in Central and Eastern Europe that will specialise in developing and commercialising new technologies. The Polish bank wants to become one of the leaders shaping the financial sector’s digital transformation.",
+     "hodnota_v_citaci": "The Polish bank",
+     "datum_zdroje": "2017-02-16", "datum_v_textu": "16 February 2017"}
+  ],
+  "investice": [],
+  "poznamka": "Korporátní VC fond polské mBank. Doklad země sídla je nepřímý: tisková zpráva z 2017 uvádí, že fond zakládá polská banka; varšavská adresa fondu (Future Tech FIZ, Krucza 50) je jen ve výsledcích vyhledávání, stránku mbank.pl s ní ani dokumenty PFR Ventures (HTTP 403) nástroj nenačte. Stálý tým v ČR jsem nenašel, tym_v_CR = ne ale nejde doložit citací, proto chybí. Web https://maccelerator.vc/ má prošlý certifikát a přes http ukazuje jen stránku hostingu „strona w budowie“ (2026-10-11). mAccelerator už není mezi firmami skupiny na https://www.mbank.pl/en/about-us/group/. Fond je proto možná neaktivní (Z2 neověřeno). Investice nehledány."
+}

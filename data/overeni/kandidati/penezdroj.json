@@ -1,0 +1,16 @@
+{
+  "kandidat": "Penězdroj",
+  "znacka": "Penězdroj",
+  "stav": "vyrazen",
+  "duvod": "V2",
+  "typ": null,
+  "fakta": [
+    {"pole": "duvod", "hodnota": "V2",
+     "url": "https://penezdroj.cz/",
+     "citace": "Jsme kombinovaný crowdfundingový portál Podpořte i vy některý z projektů!",
+     "hodnota_v_citaci": "kombinovaný crowdfundingový portál",
+     "datum_zdroje": "neověřeno", "datum_v_textu": ""}
+  ],
+  "investice": [],
+  "poznamka": "Crowdfundingový portál (odměnový, dárcovský i podílový crowdfunding), o investicích rozhodují jednotliví podporovatelé – V2. Web dále uvádí „Příjem nových projektů pro Penězdroj je pozastaven.“ Vlastní fond platformy nenalezen. Provozovatel (IČO) nehledán, pro vyřazení není potřeba."
+}

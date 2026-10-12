@@ -1,0 +1,50 @@
+{
+  "kandidat": "CVI",
+  "znacka": "CVI",
+  "stav": "mimo_rozsah",
+  "duvod": "PE",
+  "typ": "PE",
+  "fakta": [
+    {
+      "pole": "zeme_sidla",
+      "hodnota": "PL",
+      "url": "http://www.cvi.eu/",
+      "citace": "CVI Dom Maklerski sp. z o.o. Warsaw Spire, Plac Europejski 2, bldg. C Warsaw 00-844 Poland",
+      "hodnota_v_citaci": "Poland",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "duvod",
+      "hodnota": "PE",
+      "url": "https://cvi.pl/en/looking-for-financing/how-can-we-help/",
+      "citace": "In the case of private equity investments, we are looking for minority packages with a strong partner",
+      "hodnota_v_citaci": "private equity investments",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    },
+    {
+      "pole": "typ",
+      "hodnota": "PE",
+      "url": "https://cvi.pl/en/looking-for-financing/how-can-we-help/",
+      "citace": "Instruments offered: senior debt, subordinated / junior debt, unitranche, mezzanine, restructuring instruments, convertible debt and private equity",
+      "hodnota_v_citaci": "convertible debt and private equity",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": ""
+    }
+  ],
+  "investice": [],
+  "poznamka": "Správce privátního dluhu se sídlem ve Varšavě (CVI Dom Maklerski sp. z o.o.); web uvádí financování středních firem (dluh). Hraniční případ: profil na CVCA (https://cvca.cz/cvi/, upraveno 2023-05-12) uvádí typ investic „Direct Lending, Senior Debt, Mezzanine, Výjimečně minoritní ekvitní investice“, takže nejde o úplně čistě dluhové financování. I bez V5 by šlo nejvýše o stav mimo_rozsah (sídlo v PL, nejde o VC). Doporučuji potvrzení člověkem. Investice nehledány.",
+  "nahrazena_fakta": [
+    {
+      "pole": "duvod",
+      "hodnota": "V5",
+      "url": "http://www.cvi.eu/",
+      "citace": "CVI is a leader in the private debt market in Central Europe CVI is an independent investment company operating since 2012.",
+      "hodnota_v_citaci": "leader in the private debt market",
+      "datum_zdroje": "neověřeno",
+      "datum_v_textu": "",
+      "duvod_nahrazeni": "A064: V5 vyžaduje čistě dluhové financování, web CVI uvádí i konvertibilní úvěry a private equity."
+    }
+  ]
+}
