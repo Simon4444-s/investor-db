@@ -1,0 +1,47 @@
+url,datum_zdroje,datum_stazeni,co_jsme_overili
+https://czechstartups.gov.cz/startup-ekosystem/investori/,neověřeno,2026-10-10,Stránka obsahuje 52 karet investorů (spočítáno ručně).
+https://cvca.cz/clenstvi/radni-clenove/,neověřeno,2026-10-10,"Stránka uvádí 27 řádných členů s polem Typ investic; u 17 z nich typ odpovídá PE (spočítáno)."
+https://cvca.cz/,neověřeno,2026-10-10,Stránka obsahuje větu „CVCA zastupuje zájmy téměř všech PE&VC fondů působících v ČR.“
+https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf,2026-09-30,2026-10-10,"PDF uvádí 7 fondů s týmem v ČR, z toho 3 se strategií Venture Capital, stav „as at 30 September 2026“."
+https://ris3.gov.cz/sites/default/files/2025-09/01_Analyza%20startupoveho%20ekosystemu%20v%20Cesku.pdf,2025,2026-10-10,"Obr. 17 má 27 položek (zdroj Dealroom 2025), text cituje „300+ angel a VC investorů“, licence CC BY 4.0."
+https://www.pampam.city/funds-poland-BJpHbykKoXoBaILayYBs,neověřeno,2026-10-10,Stránka se načte (HTTP 200); obsah mapy jsme neověřili.
+https://czechinvest.gov.cz/en/Homepage/Novinky/Kveten-2026/CEE-Funding-Map-prinasi-prehled-aktivnich-investor,2026-05-22,2026-10-10,"Oznámení uvádí autory mapy, kritérium aktivity (VC aspoň 2 investice ročně) a aktualizaci každých 6 měsíců."
+https://czechia.dealroom.co/intro,neověřeno,2026-10-10,"Stránka vrací HTTP 403, obsah neověřen."
+"https://czechinvest.gov.cz/en/Homepage/Novinky/Cervenec-2026/Czechia-Dealroom-Digitalni-mapa-ceskych-inovaci,-k",2026-07-14,2026-10-10,Článek uvádí „over 650 investors“ na platformě Czechia Dealroom.
+https://cc.cz/startupovecesko/,neověřeno,2026-10-10,"Stránka má sekci „Nejaktivnější fondy roku“ za rok 2025; jména fondů jsou jen v grafu, neověřena."
+https://cc.cz/od-koho-byste-radi-penize-pro-vas-startup-podivejte-se-na-aktualizovanou-databazi-investoru/,2025-01-14,2026-10-10,Článek uvádí databázi s „téměř 150 jmen“.
+https://or.justice.cz/ias/ui/rejstrik,neověřeno,2026-10-10,Stránka se načte (HTTP 200).
+https://www.zakonyprolidi.cz/cs/2013-304,2024-07-19,2026-10-10,"Znění zákona obsahuje § 25 odst. 1 písm. e) (datum narození a adresa fyzické osoby) a § 48 odst. 1 písm. j) (společníci s.r.o.)."
+https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19987544,neověřeno,2026-10-10,API vrací pro IČO 19987544 název Tensor Advisory s.r.o.
+https://jerrs.cnb.cz/apljerrsdad/JERRS.WEB07.INTRO_PAGE?p_lang=cz,neověřeno,2026-10-10,Úvodní stránka se načte (HTTP 200); seznamy za CAPTCHA jsme neotevřeli.
+https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml,2026-10-09,2026-10-10,Soubor obsahuje kurz CZK 24.369 k 2026-10-09.
+https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.zip,neověřeno,2026-10-10,Soubor se stáhne (HTTP 200); obsah jsme neotevřeli.
+https://www.investeurope.eu/media/z3pasguu/20260623_invest-europe_cee-report-2025.pdf,2026-06,2026-10-10,"Text uvádí pro ČR v roce 2025 VC 34 mil. EUR do 14 firem a buyout a growth 241 mil. EUR do 12 firem."
+https://www.cnb.cz/export/sites/cnb/cs/dohled-financni-trh/.galleries/souhrnne_informace_fin_trhy/zpravy_o_vykonu_dohledu/download/dnft_2025_cz.pdf,neověřeno,2026-10-10,"Zpráva za rok 2025 uvádí 55 investičních společností, 360 investičních fondů s právní osobností a 412 správců podle § 15 ZISIF."
+https://www.e15.cz/byznys/superholding-amalar-prevzal-skupinu-ppf-bohate-rodiny-v-cesku-nasedly-na-trend-rodinnych-kancelari-1417807,2024-10-31,2026-10-10,Článek uvádí „nižší desítky rodinných kanceláří“ podle společnosti EMUN.
+https://www.eban.org/wp-content/uploads/2025/12/Stats-Compendium-2024.pdf,2025-12,2026-10-10,"Tabulka uvádí pro ČR 3 sítě, 340 andělů a 70 investic, pro Evropu „approximately 47,610“ andělů; datum podle cesty v URL."
+https://www.euronews.com/2026/05/07/europes-ultra-rich-club-grew-by-26-in-five-years-led-by-germany,2026-05-06,2026-10-10,Článek uvádí 2 270 osob v Česku s majetkem nad 30 mil. USD podle Knight Frank Wealth Report 2026.
+https://nvca.org/wp-content/uploads/2026/04/NVCA-2026-Yearbook-4.9.26.pdf,2026-04,2026-10-10,"Text uvádí pokles počtu VC firem v USA z 3 054 na 2 984 a že téměř polovina investorů aktivních v roce 2021 z trhu odešla; datum podle cesty v URL."
+https://www.investeurope.eu/media/2icnrmzc/20260507-invest-europe-activity-data-report-2025.pdf,2026-05,2026-10-10,"Text uvádí VC investice „by 1,249 firms“ a všechny PE investice „by 1,854 firms“ v roce 2025."
+https://www.deloitte.com/content/dam/assets-shared/docs/services/deloitte-private/2024/2024-defining-the-family-office-landscape-executive-report.pdf,2024,2026-10-10,"Text uvádí odhad 8 030 single family office ve světě, z toho 2 020 v Evropě; rok podle URL."
+https://paulcollege.unh.edu/sites/default/files/media/2025-12/FY%202024%20Analysis%20Report%20Final.pdf,neověřeno,2026-10-10,Text uvádí 445 535 aktivních andělů v USA v roce 2024; datum vydání je nejasné.
+https://www.knightfrank.com/research/article/2026/4/wealth-sizing-model-2026-results,2026-04-23,2026-10-10,Stránka uvádí růst počtu osob s majetkem nad 30 mil. USD z 551 435 (2021) na 713 626 (2026).
+https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/03/the-oecd-start-ups-database_6b7828eb/be8e5317-en.pdf,2026-03,2026-10-10,"Text uvádí cca 300 tisíc investorů v Crunchbase, přes 250 tisíc v Dealroom, překryv cca 30 % subjektů a údaj o investorech u cca 73 % dealů."
+https://web.archive.org/web/20221002215846id_/https://www.hhs.se/contentassets/dd8251e6b9f041bf83865e5a47e687c1/kaplansensoystrombergwp2002.pdf,2002-09,2026-10-10,"Pracovní verze studie uvádí, že databáze vynechávají zhruba 15 % kol a 20 % investovaného kapitálu."
+https://uodo.gov.pl/en/553/1572,2023-09-20,2026-10-10,"Tisková zpráva uvádí, že NSA zamítl kasační stížnost Bisnode a výjimku „disproportionate effort“ vykládá úzce."
+https://uoou.gov.cz/media/poskytnute-informace/412021/uoou-0212719-37.pdf,2019-11-13,2026-10-10,Protokol č. j. UOOU-02127/19-37 obsahuje větu „není možné obchodní rejstřík překlápět“.
+https://www.edpb.europa.eu/system/files/2024-10/edpb_guidelines_202401_legitimateinterest_en.pdf,2024-10-08,2026-10-10,"Text uvádí „Adopted on 8 October 2024“, tři kumulativní podmínky oprávněného zájmu a že zveřejnění údaje „does not automatically mean“ možnost zpracování."
+https://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX:32016R0679,2016-04-27,2026-10-10,"Český text GDPR obsahuje citované znění čl. 5, 6, 14 a 21."
+https://www.e15.cz/byznys/finance-a-bankovnictvi/vlada-uz-nechce-miliardovy-investicni-fond-pro-start-upy-1344277,2018-03-08,2026-10-10,Článek obsahuje větu „Národní inovační fond (NIF) nevznikne.“ (doklad k notes/ai-chyby.md).
+https://www.gornitzky.co.il/wp-content/uploads/2025/09/IVC_GNY_KPMG_INVESTORS-REPORT-H1_2025_Final.pdf,2025-09,2026-10-11,"Zpráva IVC uvádí, že v H1 2025 spravovalo 242 izraelských správcovských VC společností 468 fondů; datum podle cesty v URL."
+http://diva.kvca.or.kr/div/cmn/DivDisclsMainInq,2026-06,2026-10-11,Statistika KVCA uvádí 253 registrovaných VC společností a 59 LLC ke konci června 2026.
+https://www.fsa.go.jp/singi/vc/siryou/20260618/03.pdf,2026-06-18,2026-10-11,Materiál JVCA uvádí 176 VC členů a 139 CVC členů ke stavu 2026.4.
+https://www.bdc.ca/globalassets/digizuite/62218-bdc-canada-venture-capital-landscape.pdf,2026-05,2026-10-11,Zpráva BDC uvádí 92 aktivních VC správců v Kanadě v roce 2025.
+https://www.amac.org.cn/sjtj/tjbg/smjj/202609/P020260924626051449295.pdf,2026-09,2026-10-11,Měsíční zpráva AMAC uvádí ke konci srpna 2026 celkem 11 087 registrovaných správců PE a VC fondů; datum podle URL.
+https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=16,neověřeno,2026-10-11,"Registr SEBI uvádí 2038 záznamů registrovaných AIF (fondy, ne správci); stav k datu stažení."
+https://www.preqin.com/data/venture-capital,neověřeno,2026-10-11,"Stránka uvádí 21,254 v bloku „ACTIVE FIRM COVERAGE“."
+https://www.preqin.com/data/private-equity,neověřeno,2026-10-11,"Stránka uvádí 31,653 v bloku „Active firm coverage“."
+https://www.preqin.com/data/data-coverage-map-view,neověřeno,2026-10-11,"Data mapy uvádějí 35 626 správců PE vč. VC, z toho Asie 10 154, Čína 5 835, Indie 828."
+https://platform.claude.com/docs/en/about-claude/pricing.md,neověřeno,2026-10-11,"Ceník uvádí pro Claude Opus 5.5 vstup $4 / MTok, výstup $20 / MTok a čtení z cache $0.20 / MTok; použito pro odhad nákladů kroku 2."
+https://www.rockawaycapital.com/cs/pravni-informace,neověřeno,2026-10-11,"Stránka uvádí mezi fondy skupiny Rockaway „United Founders SCSp, ID: B300691 (LUX)“ a „Rockaway Ventures Fund SICAV a.s., ID (IČO): 142 35 781 (CZ)“."
+https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21594813,neověřeno,2026-10-11,API vrací pro IČO 21594813 název United Founders Advisors s.r.o. se sídlem v Praze.

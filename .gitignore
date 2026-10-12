@@ -1,0 +1,8 @@
+# Uložené kopie zdrojových stránek (snapshoty) do veřejného repozitáře nepatří:
+# autorská práva a osobní údaje (např. výpisy z obchodního rejstříku).
+# V repozitáři zůstává jen URL, datum stažení a hash (viz PLAN.md, kap. 4).
+data/raw/snapshoty/
+
+# Závislosti Node.js (instalují se přes npm install)
+node_modules/
+.DS_Store
