@@ -1,0 +1,17 @@
+{
+  "name": "investor-db",
+  "private": true,
+  "description": "Sběr a ověření databáze investorů (vzorek: VC fondy v ČR)",
+  "type": "module",
+  "scripts": {
+    "kandidati": "node src/01_kandidati.mjs",
+    "overeni": "node src/02_overeni.mjs",
+    "rucni-kontrola": "node src/03_rucni_kontrola.mjs",
+    "naklady": "node src/07_naklady.mjs",
+    "opravy": "node src/05_opravy.mjs",
+    "presnost": "node src/06_presnost.mjs"
+  },
+  "dependencies": {
+    "pdfjs-dist": "4.10.38"
+  }
+}

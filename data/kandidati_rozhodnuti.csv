@@ -1,0 +1,7 @@
+nazev_a,nazev_b,rozhodnuti,kdo,datum,poznamka
+Kaya VC,Kaya,stejny,uživatel,2026-10-11,
+Tensor Ventures,Tensor Advisory s.r.o,stejny,uživatel,2026-10-11,správce pod značkou Tensor Ventures
+Rockaway Capital,Rockaway,stejny,uživatel,2026-10-11,"záznam vést pod značkou té části skupiny Rockaway, která reálně investuje do startupů (určí ověření)"
+Orbit Capital,OGD Advisory s.r.o.,stejny,uživatel,2026-10-11,
+N1,Nation1,stejny,AI ověření (ke kontrole uživatelem),2026-10-11,"stejný správce Nation 1 GP S.à r.l. podle n1.rocks/disclosure, stejná pražská adresa (CVCA), nation1.vc přesměrovává na n1.rocks; doklady v data/overeni/n1-nation1.json"
+Kaya VC,Enern,stejny,uživatel,2026-10-11,rozhodnuto sloučit po ruční kontrole; provedeno 2026-10-12. ARES: IČO 10838821 „KAYA (fka Enern) s.r.o.“
